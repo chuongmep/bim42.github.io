@@ -1,0 +1,36 @@
+---
+id: 1061
+title: Room Finishes Update
+date: 2016-07-02T11:58:29+00:00
+author: Simon Moreau
+layout: post
+guid: http://bim42.com/?p=1061
+permalink: /2016/07/room-finishes-update-2/
+categories:
+  - Revit
+tags:
+  - Plugin
+  - Revit
+  - Software
+---
+I keep on working on my Revit add-ins. After Align, it is now Room Finishes who have been updated to support Revit 2017. Along with this update, I also have integrated some new features.
+
+First of all, Room Finishes now support all kind of units. You just have to type your dimension with its unit symbol, and the plugin will convert it in a floor height or a skirting board height. The plug-in will now also use the default length unit of your model.
+
+[<img class="aligncenter size-full wp-image-1062" src="http://bim42.com/wp-content/uploads/2016/07/interface.png" alt="interface" width="634" height="884" srcset="https://bim42.com/wp-content/uploads/2016/07/interface.png 634w, https://bim42.com/wp-content/uploads/2016/07/interface-215x300.png 215w" sizes="(max-width: 634px) 100vw, 634px" />](http://bim42.com/wp-content/uploads/2016/07/interface.png)
+
+I have to thanks [Brian Winterscheidt](https://www.linkedin.com/in/brianwinterscheidt) for this update, who was kind enough to contribute to my plug-in on Github, and point me to the Revit unit conversion system available in the API.
+
+The other major update is the ability to join skirting board with their supporting wall. You can now join both geometries automatically. This enable one of the most wanted feature, the ability to cut the skirting board around the door.
+
+Just select &#8220;Join geometry&#8221; before running the command, and every skirting board will be joined with its host wall.
+
+[<img class="aligncenter size-large wp-image-1063" src="http://bim42.com/wp-content/uploads/2016/07/join-1024x505.png" alt="join" width="584" height="288" srcset="https://bim42.com/wp-content/uploads/2016/07/join-1024x505.png 1024w, https://bim42.com/wp-content/uploads/2016/07/join-300x148.png 300w, https://bim42.com/wp-content/uploads/2016/07/join-768x379.png 768w, https://bim42.com/wp-content/uploads/2016/07/join-500x246.png 500w, https://bim42.com/wp-content/uploads/2016/07/join.png 1053w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/07/join.png)
+
+This feature could generate its fair share of warning, so I have remove every related error message. You will now be able to run this command without having to dismiss every warning that come up.
+
+I also add some minor UI improvements, like the ability to resize the window, or sorting wall type names by alphabetical order to be able to quickly find the specific wall type you have created for your skirting board or your floor finish.
+
+Of course, Room Finishes is still open source, the entire code can be found on [Github](https://github.com/simonmoreau/RoomFinishes).
+
+This plug-in is already available on the [Autodesk App Store](https://apps.autodesk.com/RVT/en/Detail/Index?id=5641957956279354474&appLang=en&os=Win64). If you like it, don&#8217;t hesitate to write a nice comment or add a few stars, it always means so much to me!

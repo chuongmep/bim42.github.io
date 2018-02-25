@@ -1,0 +1,59 @@
+---
+id: 1017
+title: Wall Openings (again)
+date: 2016-05-14T11:59:26+00:00
+author: Simon Moreau
+layout: post
+guid: http://bim42.com/?p=1017
+permalink: /2016/05/wall-openings-again/
+categories:
+  - Revit
+tags:
+  - BIM Manager
+  - Coordination
+  - Documentation
+  - Dynamo
+  - Revit
+---
+I am kind of obsessed with wall openings. The entire process of asking a structural engineer for holes in its beloved wall to let ducts and pipes goes through has always been a rather frustrating experience.
+
+After my first article about [a semi-automated way for placing an opening family](http://bim42.com/2015/06/wall-openings/), here is my latest attempt at creating the perfect opening family.
+
+A good opening family must have the following features:
+
+  * hosted on a wall, a slab or a beam
+  * visible in a 3D view
+  * fully parametric
+  * schedulable
+  * sharable in its own model
+  * a nice 2D representation
+
+Lets explore these features.
+
+To host them, but still keep the ability to share them in their own model, I use the Generic Model Face Base family template to create my opening family. This template allows me place my opening on any wall, slab or beam, even if they are in a linked model.
+
+In this Generic Model, I create the Opening subcategory, where I will place every element of my opening. This will allow me to fine tune the display of my openings in my model.
+
+I create a bunch of reference planes, and drive them with three shared parameters, Width, Height and Depth. These reference planes help me constrain the Void Form that will cut the host. This void form will create an actual hole in the wall or slab, and will allow me to perform accurate clash detections after integrating these openings.
+
+To be able to see my opening in a 3D view, I draw some Model Lines to outline the general shape of the opening, and place them in the &#8220;Opening&#8221; subcategory. These Model Lines are only visible in 3D.
+
+[<img class="aligncenter size-full wp-image-1018" src="http://bim42.com/wp-content/uploads/2016/05/3D-View.png" alt="3D View" width="1012" height="940" srcset="https://bim42.com/wp-content/uploads/2016/05/3D-View.png 1012w, https://bim42.com/wp-content/uploads/2016/05/3D-View-300x279.png 300w, https://bim42.com/wp-content/uploads/2016/05/3D-View-768x713.png 768w, https://bim42.com/wp-content/uploads/2016/05/3D-View-323x300.png 323w" sizes="(max-width: 1012px) 100vw, 1012px" />](http://bim42.com/wp-content/uploads/2016/05/3D-View.png)
+
+The 2D representation is a pretty complex subject, and I have yet to find the perfect solution. After some experiences with Model lines, I have switched to annotations elements. These annotations elements are drawn in two nested families, one for the projection symbol, the other for the cut symbol.
+
+These annotation families are drawn in a Generic Model, with the &#8220;Opening&#8221; subcategory, in order to follow the same graphical rules than the main family.
+
+I also use Masked Regions to draw filled patterns, and use the Generic Model Override in a plan view to fill them with black. I am not entirely satisfied with this solution, but the workaround involve Detail Items, and I don&#8217;t want to deal with two different categories.
+
+[<img class="aligncenter size-large wp-image-1020" src="http://bim42.com/wp-content/uploads/2016/05/Plan-1024x528.png" alt="Plan" width="584" height="301" srcset="https://bim42.com/wp-content/uploads/2016/05/Plan-1024x528.png 1024w, https://bim42.com/wp-content/uploads/2016/05/Plan-300x155.png 300w, https://bim42.com/wp-content/uploads/2016/05/Plan-768x396.png 768w, https://bim42.com/wp-content/uploads/2016/05/Plan-500x258.png 500w, https://bim42.com/wp-content/uploads/2016/05/Plan.png 1453w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/05/Plan.png)[<img class="aligncenter size-large wp-image-1021" src="http://bim42.com/wp-content/uploads/2016/05/Section-1-1024x487.png" alt="Section 1" width="584" height="278" srcset="https://bim42.com/wp-content/uploads/2016/05/Section-1-1024x487.png 1024w, https://bim42.com/wp-content/uploads/2016/05/Section-1-300x143.png 300w, https://bim42.com/wp-content/uploads/2016/05/Section-1-768x366.png 768w, https://bim42.com/wp-content/uploads/2016/05/Section-1-500x238.png 500w, https://bim42.com/wp-content/uploads/2016/05/Section-1.png 1397w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/05/Section-1.png)
+
+[<img class="aligncenter size-large wp-image-1022" src="http://bim42.com/wp-content/uploads/2016/05/Section-2-1024x887.png" alt="Section 2" width="584" height="506" srcset="https://bim42.com/wp-content/uploads/2016/05/Section-2-1024x887.png 1024w, https://bim42.com/wp-content/uploads/2016/05/Section-2-300x260.png 300w, https://bim42.com/wp-content/uploads/2016/05/Section-2-768x666.png 768w, https://bim42.com/wp-content/uploads/2016/05/Section-2-346x300.png 346w, https://bim42.com/wp-content/uploads/2016/05/Section-2.png 1147w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/05/Section-2.png)
+
+To display the elevation of my opening family in a tag, or a schedule, I create two shared parameter, Top Elevation and Bottom Elevation.
+
+As I was searching for a solution to calculate the elevation, I notice a feature I wasn&#8217;t aware of, the &#8220;Schedule Level&#8221;, present since at least Revit 2015, that allow us to define a reference level. Revit use it to automatically calculate the corresponding elevation. Since this elevation cannot be used directly in a schedule or a tag, I use a Dynamo definition to update elevation values in my shared parameters. This Dynamo definition perform some simple calculation to retrieve Top and Bottom elevations, and send these values in the corresponding shared parameter.
+
+[<img class="aligncenter size-large wp-image-1019" src="http://bim42.com/wp-content/uploads/2016/05/Dynamo-1024x204.png" alt="Dynamo" width="584" height="116" srcset="https://bim42.com/wp-content/uploads/2016/05/Dynamo-1024x204.png 1024w, https://bim42.com/wp-content/uploads/2016/05/Dynamo-300x60.png 300w, https://bim42.com/wp-content/uploads/2016/05/Dynamo-768x153.png 768w, https://bim42.com/wp-content/uploads/2016/05/Dynamo-500x99.png 500w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/05/Dynamo.png)
+
+My work with wall openings is far from complete, and subjects like sharing these openings, and managing their modifications are still pending. You will find [here ](https://drive.google.com/folderview?id=0B_fvbfIWQ5JJVWU5MjdvQ1dXd00&usp=sharing)the different families, models and Dynamo definition used in this article, feel free to use or improve on them.

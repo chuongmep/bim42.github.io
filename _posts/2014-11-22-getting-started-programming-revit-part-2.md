@@ -1,0 +1,121 @@
+---
+id: 710
+title: 'Getting started programming Revit &#8211; Part 2'
+date: 2014-11-22T23:05:52+00:00
+author: Simon Moreau
+layout: post
+guid: http://bim42.com/?p=710
+permalink: /2014/11/getting-started-programming-revit-part-2/
+categories:
+  - Revit
+tags:
+  - .NET
+  - Automation
+  - BIM Manager
+  - Revit
+---
+Last week, we started creating macros in Revit, we saw how to get the current Revit document, and retrieved every visible walls in the current view.
+
+We will see today how to create a tag on these walls.
+
+To tag an element in Revit, we need the Create.NewTag() function. This function is called from the current document, named here myDocument. But to work properly, this function needs a few things as inputs.
+
+It first requires a view to place our tag: we will just use the active view, named myActiveView.
+
+It also needs an element to place a tag on. To do so, we will select each one of our walls with a for each loop.
+
+<pre class="brush: csharp; title: ; notranslate" title="">foreach (Element myElement in myWalls) {
+    //Do something with myElement
+}</pre>
+
+It means that for every element contained in our list of wall myWalls, we will perform some action, written between the brackets.
+
+A few options have to be set, like the category of our tag, its orientation and its leader.
+
+Finally, it needs a location point to insert our tag. We want our tag to be placed at the center of our wall, so we will retrieve the baseline of our wall, and create a point in the middle of this baseline:
+
+<pre class="brush: csharp; title: ; notranslate" title="">//Get our wall
+Wall myWall = myElement as Wall;
+//Get its location
+LocationCurve myWallLocation = myWall.Location as LocationCurve;
+//Get starting point
+XYZ myWallStartingPoint = myWallLocation.Curve.GetEndPoint(0);
+//Get ending point
+XYZ myWallEndingPoint = myWallLocation.Curve.GetEndPoint(1);
+//Create the middle point
+XYZ myWallCenterPoint =(myWallStartingPoint + myWallEndingPoint)/2;
+</pre>
+
+Know, we have everything we need to create our tag:
+
+<pre class="brush: csharp; title: ; notranslate" title="">IndependentTag myTag = myDocument.Create.NewTag(
+                myActiveView,
+                myElement,
+                false,
+                TagMode.TM_ADDBY_CATEGORY,
+                TagOrientation.Horizontal,
+                myWallCenterPoint);
+</pre>
+
+To try this, we need to draw some walls, and load in our model a Wall. We hit F8 to build the macro before running it.
+
+But if we run it, we get the following error:
+
+[<img class="aligncenter size-full wp-image-720" src="http://bim42.com/wp-content/uploads/2014/11/ScreenClip.png" alt="Error" width="382" height="300" srcset="https://bim42.com/wp-content/uploads/2014/11/ScreenClip.png 382w, https://bim42.com/wp-content/uploads/2014/11/ScreenClip-300x235.png 300w" sizes="(max-width: 382px) 100vw, 382px" />](http://bim42.com/wp-content/uploads/2014/11/ScreenClip.png)
+
+Its means that we are trying to modifying something inside our model without starting what is called a transaction.
+
+Every modification of our model has to be done within a transaction, a group of modifications that can be discarded. If you remember the list of actions we can cancel in the Revit user interface, each one of them is a transaction that had to be started be before modifying anything in our model.
+
+[<img class="aligncenter size-full wp-image-718" src="http://bim42.com/wp-content/uploads/2014/11/ScreenClip-1.png" alt="Transactions" width="173" height="203" />](http://bim42.com/wp-content/uploads/2014/11/ScreenClip-1.png)
+
+So let create a transaction:
+
+We start by defining a scope of our transaction with the keyword using. Every piece of code between the following brackets will use the transaction named tx.
+
+<pre class="brush: csharp; title: ; notranslate" title="">using (Transaction tx = new Transaction(myDocument))
+{
+
+}
+</pre>
+
+Now our transaction is created, we can start it, execute our code, and commit these modifications in our transaction:
+
+<pre class="brush: csharp; title: ; notranslate" title="">using (Transaction tx = new Transaction(myDocument))
+{
+                tx.Start("Add Tags on walls");
+
+                foreach (Element myElement in myWalls) {
+                    //Do something with myElement
+
+                    //Get our wall
+                    Wall myWall = myElement as Wall;
+                    //Get its location
+                    LocationCurve myWallLocation =
+                             myWall.Location as LocationCurve;
+                    //Get starting point
+                    XYZ myWallStartingPoint =
+                             myWallLocation.Curve.GetEndPoint(0);
+                    //Get ending point
+                    XYZ myWallEndingPoint =
+                             myWallLocation.Curve.GetEndPoint(1);
+                    //Create the middle point
+                    XYZ myWallCenterPoint =
+                        (myWallStartingPoint + myWallEndingPoint)/2;
+
+                    IndependentTag myTag = myDocument.Create.NewTag(
+                             myActiveView,
+                             myElement,
+                             false,
+                             TagMode.TM_ADDBY_CATEGORY,
+                             TagOrientation.Horizontal,
+                             myWallCenterPoint);
+                }
+
+                tx.Commit();
+}
+</pre>
+
+We run it and every walls are tagged.
+
+[<img class="aligncenter size-full wp-image-719" src="http://bim42.com/wp-content/uploads/2014/11/ScreenClip-22.png" alt="Walls" width="783" height="298" srcset="https://bim42.com/wp-content/uploads/2014/11/ScreenClip-22.png 783w, https://bim42.com/wp-content/uploads/2014/11/ScreenClip-22-300x114.png 300w, https://bim42.com/wp-content/uploads/2014/11/ScreenClip-22-500x190.png 500w" sizes="(max-width: 783px) 100vw, 783px" />](http://bim42.com/wp-content/uploads/2014/11/ScreenClip-22.png)
