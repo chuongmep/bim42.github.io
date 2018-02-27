@@ -23,7 +23,7 @@ Inspired by this idea, I displayed over time the results of a general clash dete
 
 To do so, we have to set up a general clash matrix, something like this:
 
-[<img class="aligncenter size-full wp-image-856" src="http://bim42.com/wp-content/uploads/2015/05/matrix.jpg" alt="matrix" width="800" height="474" srcset="https://bim42.com/wp-content/uploads/2015/05/matrix.jpg 800w, https://bim42.com/wp-content/uploads/2015/05/matrix-300x178.jpg 300w, https://bim42.com/wp-content/uploads/2015/05/matrix-500x296.jpg 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/05/matrix.jpg)
+![<img class="aligncenter size-full wp-image-856" src="http://bim42.com/wp-content/uploads/2015/05/matrix.jpg" alt="matrix" width="800" height="474" srcset="https://bim42.com/wp-content/uploads/2015/05/matrix.jpg 800w, https://bim42.com/wp-content/uploads/2015/05/matrix-300x178.jpg 300w, https://bim42.com/wp-content/uploads/2015/05/matrix-500x296.jpg 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/05/matrix.jpg)
 
   * A: Architecture
   * S: Structure
@@ -47,7 +47,7 @@ To do so, we create a single table (in .csv) listing every clash reported during
 
 We use to compile them through an HTML (tabular) report from Navisworks.
 
-[<img class="aligncenter size-full wp-image-855" src="http://bim42.com/wp-content/uploads/2015/05/exportReport.jpg" alt="exportReport" width="800" height="128" srcset="https://bim42.com/wp-content/uploads/2015/05/exportReport.jpg 800w, https://bim42.com/wp-content/uploads/2015/05/exportReport-300x48.jpg 300w, https://bim42.com/wp-content/uploads/2015/05/exportReport-500x80.jpg 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/05/exportReport.jpg)
+![<img class="aligncenter size-full wp-image-855" src="http://bim42.com/wp-content/uploads/2015/05/exportReport.jpg" alt="exportReport" width="800" height="128" srcset="https://bim42.com/wp-content/uploads/2015/05/exportReport.jpg 800w, https://bim42.com/wp-content/uploads/2015/05/exportReport-300x48.jpg 300w, https://bim42.com/wp-content/uploads/2015/05/exportReport-500x80.jpg 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/05/exportReport.jpg)
 
 Using the Data -> From Web Excel function, we create a large database of every clash, with its history.
 
@@ -55,6 +55,6 @@ We now have a custom application for extracting the same information from Navisw
 
 Once we have every clash in a handy (and pretty large) .csv file, we use [Tableau](http://www.tableau.com/) to create a nice visualization out of it, and let everyone in the office follow the progress of the coordination.
 
-[<img class="aligncenter size-full wp-image-857" src="http://bim42.com/wp-content/uploads/2015/05/visualization.jpg" alt="visualization" width="800" height="451" srcset="https://bim42.com/wp-content/uploads/2015/05/visualization.jpg 800w, https://bim42.com/wp-content/uploads/2015/05/visualization-300x169.jpg 300w, https://bim42.com/wp-content/uploads/2015/05/visualization-500x282.jpg 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/05/visualization.jpg)
+![<img class="aligncenter size-full wp-image-857" src="http://bim42.com/wp-content/uploads/2015/05/visualization.jpg" alt="visualization" width="800" height="451" srcset="https://bim42.com/wp-content/uploads/2015/05/visualization.jpg 800w, https://bim42.com/wp-content/uploads/2015/05/visualization-300x169.jpg 300w, https://bim42.com/wp-content/uploads/2015/05/visualization-500x282.jpg 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/05/visualization.jpg)
 
 &#8220;What gets measured improves&#8221;, and we are now able to increase our efforts when we see the spatial coordination staggering. But with precise data about the coordination, I also hope to be able to better understand what makes a coordination process successful and how to reproduce it.

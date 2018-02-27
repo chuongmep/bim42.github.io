@@ -18,7 +18,7 @@ tags:
 ---
 Anyone who has worked in the BIM field may have eared something about Industry Foundation Classes. Yes, you know, this little logo&#8230;
 
-[<img class="aligncenter size-full wp-image-96" title="ifclogo" src="http://bim42.com/wp-content/uploads/2012/06/ifclogo.jpg" alt="" width="208" height="207" srcset="https://bim42.com/wp-content/uploads/2012/06/ifclogo.jpg 208w, https://bim42.com/wp-content/uploads/2012/06/ifclogo-150x150.jpg 150w" sizes="(max-width: 208px) 100vw, 208px" />](http://bim42.com/wp-content/uploads/2012/06/ifclogo.jpg)
+![<img class="aligncenter size-full wp-image-96" title="ifclogo" src="http://bim42.com/wp-content/uploads/2012/06/ifclogo.jpg" alt="" width="208" height="207" srcset="https://bim42.com/wp-content/uploads/2012/06/ifclogo.jpg 208w, https://bim42.com/wp-content/uploads/2012/06/ifclogo-150x150.jpg 150w" sizes="(max-width: 208px) 100vw, 208px" />](http://bim42.com/wp-content/uploads/2012/06/ifclogo.jpg)
 
 Generally, it appears when we try to export a building model from proprietary software to another. The IFC exchange format allows us to convert files and, with some luck, open them the other software.
 

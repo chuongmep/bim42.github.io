@@ -20,29 +20,29 @@ Among these plugins, my favorite is Grasshopper. It&#8217;s a graphical interfac
 
 As an illustration, here is the interface of Grasshopper, alongside with Rhino. Pretty, isn&#8217;t it? The red surface in Rhino is the visualization of what we are designing in Grasshopper by wiring these little boxes together.
 
-[<img class="aligncenter size-full wp-image-53" title="IntroGrasshopper1" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper13.jpg" alt="" width="584" height="305" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper13.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper13-300x157.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper13.jpg)
+![<img class="aligncenter size-full wp-image-53" title="IntroGrasshopper1" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper13.jpg" alt="" width="584" height="305" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper13.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper13-300x157.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper13.jpg)
 
 As an example, we can start by generating twenty points randomly:
 
-[<img class="aligncenter size-full wp-image-57" title="IntroGrasshopper2" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper2_c.jpg" alt="" width="584" height="182" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper2_c.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper2_c-300x93.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper2_c.jpg)
+![<img class="aligncenter size-full wp-image-57" title="IntroGrasshopper2" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper2_c.jpg" alt="" width="584" height="182" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper2_c.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper2_c-300x93.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper2_c.jpg)
 
 Then we use them to draw twenty circles:
 
-[<img class="aligncenter size-full wp-image-58" title="IntroGrasshopper3" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper3_c.jpg" alt="" width="584" height="182" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper3_c.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper3_c-300x93.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper3_c.jpg)
+![<img class="aligncenter size-full wp-image-58" title="IntroGrasshopper3" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper3_c.jpg" alt="" width="584" height="182" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper3_c.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper3_c-300x93.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper3_c.jpg)
 
 And finally, we extrude each circle to create cylinders:
 
-[<img class="aligncenter size-full wp-image-60" title="IntroGrasshopper4_C" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper4_c.jpg" alt="" width="584" height="182" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper4_c.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper4_c-300x93.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper4_c.jpg)
+![<img class="aligncenter size-full wp-image-60" title="IntroGrasshopper4_C" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper4_c.jpg" alt="" width="584" height="182" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper4_c.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper4_c-300x93.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper4_c.jpg)
 
 And the best part is that we can still edit anything you want.
 
 If you want fewer cylinders, just change the number of origin points:
 
-[<img class="aligncenter size-full wp-image-61" title="IntroGrasshopper5_C" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper5_c.jpg" alt="" width="584" height="182" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper5_c.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper5_c-300x93.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper5_c.jpg)
+![<img class="aligncenter size-full wp-image-61" title="IntroGrasshopper5_C" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper5_c.jpg" alt="" width="584" height="182" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper5_c.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper5_c-300x93.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper5_c.jpg)
 
 Or change the circle’s radius:
 
-[<img class="aligncenter size-full wp-image-62" title="IntroGrasshopper6_C" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper6_c.jpg" alt="" width="584" height="182" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper6_c.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper6_c-300x93.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper6_c.jpg)
+![<img class="aligncenter size-full wp-image-62" title="IntroGrasshopper6_C" src="http://bim42.com/wp-content/uploads/2012/05/intrograsshopper6_c.jpg" alt="" width="584" height="182" srcset="https://bim42.com/wp-content/uploads/2012/05/intrograsshopper6_c.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/intrograsshopper6_c-300x93.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/intrograsshopper6_c.jpg)
 
 The possibilities are almost endless, and, shame on me, I start to think that this little plugin can even be more powerful than the almighty CATIA. At least, it&#8217;s far less expensive, since it came freely with a license for Rhino.
 

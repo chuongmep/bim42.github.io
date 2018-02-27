@@ -22,7 +22,7 @@ As a regular user of Autodesk product, I am using Navisworks as my main coordina
 
 But recently, one of my client ask for BIMSight, a solution developed by Tekla for the project coordination. If I have already try it, I have never had the opportunity to implement it on project scale. I can now share my first impression on this solution.
 
-[<img class="aligncenter size-full wp-image-314" alt="Tekla_BIMsight" src="http://bim42.com/wp-content/uploads/2013/03/tekla_bimsight.jpg" width="336" height="189" srcset="https://bim42.com/wp-content/uploads/2013/03/tekla_bimsight.jpg 336w, https://bim42.com/wp-content/uploads/2013/03/tekla_bimsight-300x168.jpg 300w" sizes="(max-width: 336px) 100vw, 336px" />](http://bim42.com/wp-content/uploads/2013/03/tekla_bimsight.jpg)
+![<img class="aligncenter size-full wp-image-314" alt="Tekla_BIMsight" src="http://bim42.com/wp-content/uploads/2013/03/tekla_bimsight.jpg" width="336" height="189" srcset="https://bim42.com/wp-content/uploads/2013/03/tekla_bimsight.jpg 336w, https://bim42.com/wp-content/uploads/2013/03/tekla_bimsight-300x168.jpg 300w" sizes="(max-width: 336px) 100vw, 336px" />](http://bim42.com/wp-content/uploads/2013/03/tekla_bimsight.jpg)
 
 One of the main advantage of Tekla BIMSight is its price. Since it can be downloaded freely on the Tekla website, it can be given to anyone working on the project without bothering about licence fee. Furthermore, it is largely user-friendly, and can be used by anyone, even without a training phase.
 
@@ -36,7 +36,7 @@ The presentation of the clash result are also pretty good, but there is no funct
 
 There is set of tools for creating notes that save a viewpoint in the model. Once done, you can add comments and markups on this view or link objects to this viewpoint. BIMsight provide also the ability for different users to respond to comments and keep an history of these responses.
 
-[<img class="aligncenter size-full wp-image-326" alt="Notes" src="http://bim42.com/wp-content/uploads/2013/03/notes1.jpg" width="431" height="464" srcset="https://bim42.com/wp-content/uploads/2013/03/notes1.jpg 431w, https://bim42.com/wp-content/uploads/2013/03/notes1-278x300.jpg 278w" sizes="(max-width: 431px) 100vw, 431px" />](http://bim42.com/wp-content/uploads/2013/03/notes1.jpg)
+![<img class="aligncenter size-full wp-image-326" alt="Notes" src="http://bim42.com/wp-content/uploads/2013/03/notes1.jpg" width="431" height="464" srcset="https://bim42.com/wp-content/uploads/2013/03/notes1.jpg 431w, https://bim42.com/wp-content/uploads/2013/03/notes1-278x300.jpg 278w" sizes="(max-width: 431px) 100vw, 431px" />](http://bim42.com/wp-content/uploads/2013/03/notes1.jpg)
 
 One of the most interesting part of these notes is the possibility to export them in the BCF format, in order to be able to import them in another software. This functionnality can be really powerfull, and I will describe it more precisely in a future post.
 

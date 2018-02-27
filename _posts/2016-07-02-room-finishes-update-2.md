@@ -17,7 +17,7 @@ I keep on working on my Revit add-ins. After Align, it is now Room Finishes who 
 
 First of all, Room Finishes now support all kind of units. You just have to type your dimension with its unit symbol, and the plugin will convert it in a floor height or a skirting board height. The plug-in will now also use the default length unit of your model.
 
-[<img class="aligncenter size-full wp-image-1062" src="http://bim42.com/wp-content/uploads/2016/07/interface.png" alt="interface" width="634" height="884" srcset="https://bim42.com/wp-content/uploads/2016/07/interface.png 634w, https://bim42.com/wp-content/uploads/2016/07/interface-215x300.png 215w" sizes="(max-width: 634px) 100vw, 634px" />](http://bim42.com/wp-content/uploads/2016/07/interface.png)
+![<img class="aligncenter size-full wp-image-1062" src="http://bim42.com/wp-content/uploads/2016/07/interface.png" alt="interface" width="634" height="884" srcset="https://bim42.com/wp-content/uploads/2016/07/interface.png 634w, https://bim42.com/wp-content/uploads/2016/07/interface-215x300.png 215w" sizes="(max-width: 634px) 100vw, 634px" />](http://bim42.com/wp-content/uploads/2016/07/interface.png)
 
 I have to thanks [Brian Winterscheidt](https://www.linkedin.com/in/brianwinterscheidt) for this update, who was kind enough to contribute to my plug-in on Github, and point me to the Revit unit conversion system available in the API.
 
@@ -25,7 +25,7 @@ The other major update is the ability to join skirting board with their supporti
 
 Just select &#8220;Join geometry&#8221; before running the command, and every skirting board will be joined with its host wall.
 
-[<img class="aligncenter size-large wp-image-1063" src="http://bim42.com/wp-content/uploads/2016/07/join-1024x505.png" alt="join" width="584" height="288" srcset="https://bim42.com/wp-content/uploads/2016/07/join-1024x505.png 1024w, https://bim42.com/wp-content/uploads/2016/07/join-300x148.png 300w, https://bim42.com/wp-content/uploads/2016/07/join-768x379.png 768w, https://bim42.com/wp-content/uploads/2016/07/join-500x246.png 500w, https://bim42.com/wp-content/uploads/2016/07/join.png 1053w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/07/join.png)
+![<img class="aligncenter size-large wp-image-1063" src="http://bim42.com/wp-content/uploads/2016/07/join-1024x505.png" alt="join" width="584" height="288" srcset="https://bim42.com/wp-content/uploads/2016/07/join-1024x505.png 1024w, https://bim42.com/wp-content/uploads/2016/07/join-300x148.png 300w, https://bim42.com/wp-content/uploads/2016/07/join-768x379.png 768w, https://bim42.com/wp-content/uploads/2016/07/join-500x246.png 500w, https://bim42.com/wp-content/uploads/2016/07/join.png 1053w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/07/join.png)
 
 This feature could generate its fair share of warning, so I have remove every related error message. You will now be able to run this command without having to dismiss every warning that come up.
 

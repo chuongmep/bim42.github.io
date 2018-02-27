@@ -80,7 +80,7 @@ Here, the LogReccord class allow us to store the information retrieved in the ev
 
 It is now possible to quickly create very precise graph displaying opening time of different model, compare them and show their evolution along time
 
-[<img class="aligncenter size-full wp-image-494" src="http://bim42.com/wp-content/uploads/2014/07/Image.png" alt="Image" width="858" height="503" srcset="https://bim42.com/wp-content/uploads/2014/07/Image.png 858w, https://bim42.com/wp-content/uploads/2014/07/Image-300x175.png 300w, https://bim42.com/wp-content/uploads/2014/07/Image-500x293.png 500w" sizes="(max-width: 858px) 100vw, 858px" />](http://bim42.com/wp-content/uploads/2014/07/Image.png)
+![<img class="aligncenter size-full wp-image-494" src="http://bim42.com/wp-content/uploads/2014/07/Image.png" alt="Image" width="858" height="503" srcset="https://bim42.com/wp-content/uploads/2014/07/Image.png 858w, https://bim42.com/wp-content/uploads/2014/07/Image-300x175.png 300w, https://bim42.com/wp-content/uploads/2014/07/Image-500x293.png 500w" sizes="(max-width: 858px) 100vw, 858px" />](http://bim42.com/wp-content/uploads/2014/07/Image.png)
 
 The next step should be to send these information to a shared SQL database in order to retrive data from every users. We should have this way a company-wide tool for keeping track of Revit performance.
 

@@ -17,11 +17,11 @@ tags:
 ---
 A pretty powerful function in Revit is the ability to manage worksets in a linked Revit file.
 
-[<img class="aligncenter size-full wp-image-443" src="http://bim42.com/wp-content/uploads/2014/06/LinkedFiles.png" alt="LinkedFiles" width="773" height="610" srcset="https://bim42.com/wp-content/uploads/2014/06/LinkedFiles.png 773w, https://bim42.com/wp-content/uploads/2014/06/LinkedFiles-300x236.png 300w, https://bim42.com/wp-content/uploads/2014/06/LinkedFiles-380x300.png 380w" sizes="(max-width: 773px) 100vw, 773px" />](http://bim42.com/wp-content/uploads/2014/06/LinkedFiles.png)
+![<img class="aligncenter size-full wp-image-443" src="http://bim42.com/wp-content/uploads/2014/06/LinkedFiles.png" alt="LinkedFiles" width="773" height="610" srcset="https://bim42.com/wp-content/uploads/2014/06/LinkedFiles.png 773w, https://bim42.com/wp-content/uploads/2014/06/LinkedFiles-300x236.png 300w, https://bim42.com/wp-content/uploads/2014/06/LinkedFiles-380x300.png 380w" sizes="(max-width: 773px) 100vw, 773px" />](http://bim42.com/wp-content/uploads/2014/06/LinkedFiles.png)
 
 In the Manage Link window, selecting the Manage Worksets open a list of user worksets in the linked file. These linked worksets can be opened or closed through the same interface.
 
-[<img class="aligncenter size-full wp-image-444" src="http://bim42.com/wp-content/uploads/2014/06/LinkedWorkset.png" alt="LinkedWorkset" width="648" height="458" srcset="https://bim42.com/wp-content/uploads/2014/06/LinkedWorkset.png 648w, https://bim42.com/wp-content/uploads/2014/06/LinkedWorkset-300x212.png 300w, https://bim42.com/wp-content/uploads/2014/06/LinkedWorkset-424x300.png 424w" sizes="(max-width: 648px) 100vw, 648px" />](http://bim42.com/wp-content/uploads/2014/06/LinkedWorkset.png)
+![<img class="aligncenter size-full wp-image-444" src="http://bim42.com/wp-content/uploads/2014/06/LinkedWorkset.png" alt="LinkedWorkset" width="648" height="458" srcset="https://bim42.com/wp-content/uploads/2014/06/LinkedWorkset.png 648w, https://bim42.com/wp-content/uploads/2014/06/LinkedWorkset-300x212.png 300w, https://bim42.com/wp-content/uploads/2014/06/LinkedWorkset-424x300.png 424w" sizes="(max-width: 648px) 100vw, 648px" />](http://bim42.com/wp-content/uploads/2014/06/LinkedWorkset.png)
 
 It is a project setting, so elements in the closed workset will be hidden everywhere in our host model.
 

@@ -59,12 +59,13 @@ To create your own IFC Export setup, you can use the usual IFC Setup Dialog. Sel
     Edit IFC Export Setup
   </p>
 </div>
+![Edit IFC Export Setup](https://bim42.com/wp-content/uploads/2017/09/editSetup.gif)
 
 You can also go directly to your bimsync account from Revit by clicking on &#8220;Profile&#8221;. This is not very useful, but at least you will be a few clicks nearer to change your profile picture.
 
 Under the hood, the system is quite simple. The plugin will look at your selected IFC Setup and use them to export your Revit model in an IFC file. This file is then zipped and uploaded to bimsync.
 
-[<img class="aligncenter size-full wp-image-1218" src="https://bim42.com/wp-content/uploads/2017/09/Process.png" alt="" width="896" height="206" srcset="https://bim42.com/wp-content/uploads/2017/09/Process.png 896w, https://bim42.com/wp-content/uploads/2017/09/Process-300x69.png 300w, https://bim42.com/wp-content/uploads/2017/09/Process-768x177.png 768w, https://bim42.com/wp-content/uploads/2017/09/Process-500x115.png 500w" sizes="(max-width: 896px) 100vw, 896px" />](https://bim42.com/wp-content/uploads/2017/09/Process.png)
+![<img class="aligncenter size-full wp-image-1218" src="https://bim42.com/wp-content/uploads/2017/09/Process.png" alt="" width="896" height="206" srcset="https://bim42.com/wp-content/uploads/2017/09/Process.png 896w, https://bim42.com/wp-content/uploads/2017/09/Process-300x69.png 300w, https://bim42.com/wp-content/uploads/2017/09/Process-768x177.png 768w, https://bim42.com/wp-content/uploads/2017/09/Process-500x115.png 500w" sizes="(max-width: 896px) 100vw, 896px" />](https://bim42.com/wp-content/uploads/2017/09/Process.png)
 
 Between exporting to IFC, compressing the file and uploading it to bimsync, the entire process can be rather long. Depending on your model size, computing power and Internet bandwidth, the Upload command can take a few minutes to complete. I am thinking on using the Autodesk service Forge to convert Revit model to IFC online, freeing your computer from this tedious task.
 

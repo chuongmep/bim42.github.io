@@ -19,7 +19,7 @@ Since the IFC exporter for Revit is accessible as open source code, [a new expor
 
 The default option only export common IFC properties, but you can also export the entire set of Revit properties, or just selected ones, through user-defined property sets.
 
-[<img class="aligncenter size-full wp-image-813" src="http://bim42.com/wp-content/uploads/2015/04/IFCExportProperties.png" alt="IFCExportProperties" width="786" height="291" srcset="https://bim42.com/wp-content/uploads/2015/04/IFCExportProperties.png 786w, https://bim42.com/wp-content/uploads/2015/04/IFCExportProperties-300x111.png 300w, https://bim42.com/wp-content/uploads/2015/04/IFCExportProperties-500x185.png 500w" sizes="(max-width: 786px) 100vw, 786px" />](http://bim42.com/wp-content/uploads/2015/04/IFCExportProperties.png)
+![<img class="aligncenter size-full wp-image-813" src="http://bim42.com/wp-content/uploads/2015/04/IFCExportProperties.png" alt="IFCExportProperties" width="786" height="291" srcset="https://bim42.com/wp-content/uploads/2015/04/IFCExportProperties.png 786w, https://bim42.com/wp-content/uploads/2015/04/IFCExportProperties-300x111.png 300w, https://bim42.com/wp-content/uploads/2015/04/IFCExportProperties-500x185.png 500w" sizes="(max-width: 786px) 100vw, 786px" />](http://bim42.com/wp-content/uploads/2015/04/IFCExportProperties.png)
 
 To create one, I download [one of the example](http://sourceforge.net/p/ifcexporter/wiki/Notes%20on%20support%20for%20Extended%20FMHandOverView/) coming along with the source code of the new exporter.
 
@@ -40,10 +40,10 @@ We add this file in the IFC Export configuration, and export our IFC file. We ca
 
 Before :
 
-[<img class="aligncenter size-full wp-image-812" src="http://bim42.com/wp-content/uploads/2015/04/Before.png" alt="Before" width="1011" height="402" srcset="https://bim42.com/wp-content/uploads/2015/04/Before.png 1011w, https://bim42.com/wp-content/uploads/2015/04/Before-300x119.png 300w, https://bim42.com/wp-content/uploads/2015/04/Before-500x199.png 500w" sizes="(max-width: 1011px) 100vw, 1011px" />](http://bim42.com/wp-content/uploads/2015/04/Before.png)
+![<img class="aligncenter size-full wp-image-812" src="http://bim42.com/wp-content/uploads/2015/04/Before.png" alt="Before" width="1011" height="402" srcset="https://bim42.com/wp-content/uploads/2015/04/Before.png 1011w, https://bim42.com/wp-content/uploads/2015/04/Before-300x119.png 300w, https://bim42.com/wp-content/uploads/2015/04/Before-500x199.png 500w" sizes="(max-width: 1011px) 100vw, 1011px" />](http://bim42.com/wp-content/uploads/2015/04/Before.png)
 
 After :
 
-[<img class="aligncenter size-full wp-image-811" src="http://bim42.com/wp-content/uploads/2015/04/After.png" alt="After" width="1016" height="508" srcset="https://bim42.com/wp-content/uploads/2015/04/After.png 1016w, https://bim42.com/wp-content/uploads/2015/04/After-300x150.png 300w, https://bim42.com/wp-content/uploads/2015/04/After-500x250.png 500w" sizes="(max-width: 1016px) 100vw, 1016px" />](http://bim42.com/wp-content/uploads/2015/04/After.png)
+![<img class="aligncenter size-full wp-image-811" src="http://bim42.com/wp-content/uploads/2015/04/After.png" alt="After" width="1016" height="508" srcset="https://bim42.com/wp-content/uploads/2015/04/After.png 1016w, https://bim42.com/wp-content/uploads/2015/04/After-300x150.png 300w, https://bim42.com/wp-content/uploads/2015/04/After-500x250.png 500w" sizes="(max-width: 1016px) 100vw, 1016px" />](http://bim42.com/wp-content/uploads/2015/04/After.png)
 
 If IFC export and import is still not powerfull enought in many software solutions to enable geometrical modifications directly in the IFC file, there are plenty of opportunities to add metadata to the element, directly in IFC.

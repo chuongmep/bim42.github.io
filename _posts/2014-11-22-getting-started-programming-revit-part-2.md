@@ -61,13 +61,13 @@ To try this, we need to draw some walls, and load in our model a Wall. We hit F8
 
 But if we run it, we get the following error:
 
-[<img class="aligncenter size-full wp-image-720" src="http://bim42.com/wp-content/uploads/2014/11/ScreenClip.png" alt="Error" width="382" height="300" srcset="https://bim42.com/wp-content/uploads/2014/11/ScreenClip.png 382w, https://bim42.com/wp-content/uploads/2014/11/ScreenClip-300x235.png 300w" sizes="(max-width: 382px) 100vw, 382px" />](http://bim42.com/wp-content/uploads/2014/11/ScreenClip.png)
+![<img class="aligncenter size-full wp-image-720" src="http://bim42.com/wp-content/uploads/2014/11/ScreenClip.png" alt="Error" width="382" height="300" srcset="https://bim42.com/wp-content/uploads/2014/11/ScreenClip.png 382w, https://bim42.com/wp-content/uploads/2014/11/ScreenClip-300x235.png 300w" sizes="(max-width: 382px) 100vw, 382px" />](http://bim42.com/wp-content/uploads/2014/11/ScreenClip.png)
 
 Its means that we are trying to modifying something inside our model without starting what is called a transaction.
 
 Every modification of our model has to be done within a transaction, a group of modifications that can be discarded. If you remember the list of actions we can cancel in the Revit user interface, each one of them is a transaction that had to be started be before modifying anything in our model.
 
-[<img class="aligncenter size-full wp-image-718" src="http://bim42.com/wp-content/uploads/2014/11/ScreenClip-1.png" alt="Transactions" width="173" height="203" />](http://bim42.com/wp-content/uploads/2014/11/ScreenClip-1.png)
+![<img class="aligncenter size-full wp-image-718" src="http://bim42.com/wp-content/uploads/2014/11/ScreenClip-1.png" alt="Transactions" width="173" height="203" />](http://bim42.com/wp-content/uploads/2014/11/ScreenClip-1.png)
 
 So let create a transaction:
 
@@ -118,4 +118,4 @@ Now our transaction is created, we can start it, execute our code, and commit th
 
 We run it and every walls are tagged.
 
-[<img class="aligncenter size-full wp-image-719" src="http://bim42.com/wp-content/uploads/2014/11/ScreenClip-22.png" alt="Walls" width="783" height="298" srcset="https://bim42.com/wp-content/uploads/2014/11/ScreenClip-22.png 783w, https://bim42.com/wp-content/uploads/2014/11/ScreenClip-22-300x114.png 300w, https://bim42.com/wp-content/uploads/2014/11/ScreenClip-22-500x190.png 500w" sizes="(max-width: 783px) 100vw, 783px" />](http://bim42.com/wp-content/uploads/2014/11/ScreenClip-22.png)
+![<img class="aligncenter size-full wp-image-719" src="http://bim42.com/wp-content/uploads/2014/11/ScreenClip-22.png" alt="Walls" width="783" height="298" srcset="https://bim42.com/wp-content/uploads/2014/11/ScreenClip-22.png 783w, https://bim42.com/wp-content/uploads/2014/11/ScreenClip-22-300x114.png 300w, https://bim42.com/wp-content/uploads/2014/11/ScreenClip-22-500x190.png 500w" sizes="(max-width: 783px) 100vw, 783px" />](http://bim42.com/wp-content/uploads/2014/11/ScreenClip-22.png)

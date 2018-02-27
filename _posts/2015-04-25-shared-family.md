@@ -15,7 +15,7 @@ tags:
 ---
 The Shared checkbox in the Revit family editor allows us to use nested families just like the root one.
 
-[<img class="aligncenter size-full wp-image-827" src="http://bim42.com/wp-content/uploads/2015/04/SharedCheckBox.png" alt="SharedCheckBox" width="400" height="151" srcset="https://bim42.com/wp-content/uploads/2015/04/SharedCheckBox.png 400w, https://bim42.com/wp-content/uploads/2015/04/SharedCheckBox-300x113.png 300w" sizes="(max-width: 400px) 100vw, 400px" />](http://bim42.com/wp-content/uploads/2015/04/SharedCheckBox.png)
+![<img class="aligncenter size-full wp-image-827" src="http://bim42.com/wp-content/uploads/2015/04/SharedCheckBox.png" alt="SharedCheckBox" width="400" height="151" srcset="https://bim42.com/wp-content/uploads/2015/04/SharedCheckBox.png 400w, https://bim42.com/wp-content/uploads/2015/04/SharedCheckBox-300x113.png 300w" sizes="(max-width: 400px) 100vw, 400px" />](http://bim42.com/wp-content/uploads/2015/04/SharedCheckBox.png)
 
 Checking the Shared checkbox is only useful when this family is nested into another. When you load the root family into your project, Revit will also load the nested one. You will then be able to see it in the Project Browser and in schedules, and your shared family will behave just like any other families, except that it is nested into another.
 
@@ -23,11 +23,11 @@ This function is very useful to insert additional elements upon existing ones,
 
 As an example, I add a light switch to a door family. This light switch is wall-based, and will appear alongside of every doors in the project. As this light switch is a shared family, these instances appear on the electrical fixture schedule.
 
-[<img class="aligncenter size-full wp-image-828" src="http://bim42.com/wp-content/uploads/2015/04/Visible.png" alt="Visible" width="800" height="323" srcset="https://bim42.com/wp-content/uploads/2015/04/Visible.png 800w, https://bim42.com/wp-content/uploads/2015/04/Visible-300x121.png 300w, https://bim42.com/wp-content/uploads/2015/04/Visible-500x202.png 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/04/Visible.png)
+![<img class="aligncenter size-full wp-image-828" src="http://bim42.com/wp-content/uploads/2015/04/Visible.png" alt="Visible" width="800" height="323" srcset="https://bim42.com/wp-content/uploads/2015/04/Visible.png 800w, https://bim42.com/wp-content/uploads/2015/04/Visible-300x121.png 300w, https://bim42.com/wp-content/uploads/2015/04/Visible-500x202.png 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/04/Visible.png)
 
 Furthermore, these nested families only appear in schedules if they are visible in the project. I use this property to select on which door I want a light switch. I add a Yes/No parameter on my family to control the visibly of the switch. Once hidden in the project, the switch doesn&#8217;t appear in the schedule either.
 
-[<img class="aligncenter size-full wp-image-826" src="http://bim42.com/wp-content/uploads/2015/04/Hidden.png" alt="Hidden" width="800" height="323" srcset="https://bim42.com/wp-content/uploads/2015/04/Hidden.png 800w, https://bim42.com/wp-content/uploads/2015/04/Hidden-300x121.png 300w, https://bim42.com/wp-content/uploads/2015/04/Hidden-500x202.png 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/04/Hidden.png)
+![<img class="aligncenter size-full wp-image-826" src="http://bim42.com/wp-content/uploads/2015/04/Hidden.png" alt="Hidden" width="800" height="323" srcset="https://bim42.com/wp-content/uploads/2015/04/Hidden.png 800w, https://bim42.com/wp-content/uploads/2015/04/Hidden-300x121.png 300w, https://bim42.com/wp-content/uploads/2015/04/Hidden-500x202.png 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/04/Hidden.png)
 
 Using shared families is a very efficient way to insert elements in a model, and is a good starting point for rule-based modeling.
 
@@ -35,7 +35,7 @@ But once every light switch families have been inserted in the model through the
 
 To do so, I wrote a few lines of code to create a copy of every nested light switch directly in the model. These new light switches are no longer nested, and can be easily modified to fit the local configuration. Furthermore, these elements are now electrical fixtures families, and can be added to an electrical circuit to perform load calculations.
 
-[<img class="aligncenter size-full wp-image-825" src="http://bim42.com/wp-content/uploads/2015/04/Extracted.png" alt="Extracted" width="600" height="655" srcset="https://bim42.com/wp-content/uploads/2015/04/Extracted.png 600w, https://bim42.com/wp-content/uploads/2015/04/Extracted-275x300.png 275w" sizes="(max-width: 600px) 100vw, 600px" />](http://bim42.com/wp-content/uploads/2015/04/Extracted.png)
+![<img class="aligncenter size-full wp-image-825" src="http://bim42.com/wp-content/uploads/2015/04/Extracted.png" alt="Extracted" width="600" height="655" srcset="https://bim42.com/wp-content/uploads/2015/04/Extracted.png 600w, https://bim42.com/wp-content/uploads/2015/04/Extracted-275x300.png 275w" sizes="(max-width: 600px) 100vw, 600px" />](http://bim42.com/wp-content/uploads/2015/04/Extracted.png)
 
 &nbsp;
 

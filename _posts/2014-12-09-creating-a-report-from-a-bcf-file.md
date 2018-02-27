@@ -23,7 +23,7 @@ The BCF format is currently supported by Tekla Structures, Tekla BIMsight, Archi
 
 I am using Tekla BIMSight on a daily basis as an advanced BIM notebook. Every problem is addressed during the daily coordination meeting, and documented using notes in Tekla BIMSight.
 
-[<img class="aligncenter size-full wp-image-734" src="http://bim42.com/wp-content/uploads/2014/12/ScreenClip.png" alt="Example" width="1025" height="539" srcset="https://bim42.com/wp-content/uploads/2014/12/ScreenClip.png 1025w, https://bim42.com/wp-content/uploads/2014/12/ScreenClip-300x157.png 300w, https://bim42.com/wp-content/uploads/2014/12/ScreenClip-1024x538.png 1024w, https://bim42.com/wp-content/uploads/2014/12/ScreenClip-500x262.png 500w" sizes="(max-width: 1025px) 100vw, 1025px" />](http://bim42.com/wp-content/uploads/2014/12/ScreenClip.png)
+![<img class="aligncenter size-full wp-image-734" src="http://bim42.com/wp-content/uploads/2014/12/ScreenClip.png" alt="Example" width="1025" height="539" srcset="https://bim42.com/wp-content/uploads/2014/12/ScreenClip.png 1025w, https://bim42.com/wp-content/uploads/2014/12/ScreenClip-300x157.png 300w, https://bim42.com/wp-content/uploads/2014/12/ScreenClip-1024x538.png 1024w, https://bim42.com/wp-content/uploads/2014/12/ScreenClip-500x262.png 500w" sizes="(max-width: 1025px) 100vw, 1025px" />](http://bim42.com/wp-content/uploads/2014/12/ScreenClip.png)
 
 But for documentation purpose, I also need a paper-based report, quite old fashioned, but handy when you have to work with people without Tekla BIMSight.
 
@@ -31,7 +31,7 @@ I created a little standalone program for converting BCF files to Word reports. 
 
 A BCF file is actually a compressed file, where every note is stored in its own folder, named with the note GUID:
 
-[<img class="aligncenter size-full wp-image-733" src="http://bim42.com/wp-content/uploads/2014/12/ScreenClip-1.png" alt="Folder" width="602" height="389" srcset="https://bim42.com/wp-content/uploads/2014/12/ScreenClip-1.png 602w, https://bim42.com/wp-content/uploads/2014/12/ScreenClip-1-300x193.png 300w, https://bim42.com/wp-content/uploads/2014/12/ScreenClip-1-464x300.png 464w" sizes="(max-width: 602px) 100vw, 602px" />](http://bim42.com/wp-content/uploads/2014/12/ScreenClip-1.png)
+![<img class="aligncenter size-full wp-image-733" src="http://bim42.com/wp-content/uploads/2014/12/ScreenClip-1.png" alt="Folder" width="602" height="389" srcset="https://bim42.com/wp-content/uploads/2014/12/ScreenClip-1.png 602w, https://bim42.com/wp-content/uploads/2014/12/ScreenClip-1-300x193.png 300w, https://bim42.com/wp-content/uploads/2014/12/ScreenClip-1-464x300.png 464w" sizes="(max-width: 602px) 100vw, 602px" />](http://bim42.com/wp-content/uploads/2014/12/ScreenClip-1.png)
 
 In each of these folder, there is three files:
 
@@ -53,4 +53,4 @@ To write down this report, I use the great [DocX](http://docx.codeplex.com/) lib
 
 With this little program, I create automatically a nice Word report from my coordination notes, and can share my comments with everyone who does not have Tekla BIMSight.
 
-[<img class="aligncenter size-full wp-image-735" src="http://bim42.com/wp-content/uploads/2014/12/Presentation1.jpg" alt="Presentation1" width="1280" height="720" srcset="https://bim42.com/wp-content/uploads/2014/12/Presentation1.jpg 1280w, https://bim42.com/wp-content/uploads/2014/12/Presentation1-300x168.jpg 300w, https://bim42.com/wp-content/uploads/2014/12/Presentation1-1024x576.jpg 1024w, https://bim42.com/wp-content/uploads/2014/12/Presentation1-500x281.jpg 500w" sizes="(max-width: 1280px) 100vw, 1280px" />](http://bim42.com/wp-content/uploads/2014/12/Presentation1.jpg)
+![<img class="aligncenter size-full wp-image-735" src="http://bim42.com/wp-content/uploads/2014/12/Presentation1.jpg" alt="Presentation1" width="1280" height="720" srcset="https://bim42.com/wp-content/uploads/2014/12/Presentation1.jpg 1280w, https://bim42.com/wp-content/uploads/2014/12/Presentation1-300x168.jpg 300w, https://bim42.com/wp-content/uploads/2014/12/Presentation1-1024x576.jpg 1024w, https://bim42.com/wp-content/uploads/2014/12/Presentation1-500x281.jpg 500w" sizes="(max-width: 1280px) 100vw, 1280px" />](http://bim42.com/wp-content/uploads/2014/12/Presentation1.jpg)

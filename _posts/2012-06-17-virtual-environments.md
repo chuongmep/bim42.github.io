@@ -22,11 +22,11 @@ For the one who were fond of videos games in their youth, it’s pretty much lik
 
 I have tried two of these engines, with different results.
 
-[<img class="aligncenter size-full wp-image-124" title="studio_logo3" src="http://bim42.com/wp-content/uploads/2012/06/studio_logo3.jpg" alt="" width="300" height="70" />](http://bim42.com/wp-content/uploads/2012/06/studio_logo3.jpg)
+![<img class="aligncenter size-full wp-image-124" title="studio_logo3" src="http://bim42.com/wp-content/uploads/2012/06/studio_logo3.jpg" alt="" width="300" height="70" />](http://bim42.com/wp-content/uploads/2012/06/studio_logo3.jpg)
 
 3dVia Studio is the solution develop by Dassault System. It&#8217;s really powerful, with a lot of features and possibilities, and can run _really_ large models. But on the other hand, its price reserves it for visualization professionals, and finding some support and examples on the web can be dreadful.
 
-[<img class="aligncenter size-full wp-image-125" title="unity-logo" src="http://bim42.com/wp-content/uploads/2012/06/unity-logo.jpg" alt="" width="300" height="112" />](http://bim42.com/wp-content/uploads/2012/06/unity-logo.jpg)
+![<img class="aligncenter size-full wp-image-125" title="unity-logo" src="http://bim42.com/wp-content/uploads/2012/06/unity-logo.jpg" alt="" width="300" height="112" />](http://bim42.com/wp-content/uploads/2012/06/unity-logo.jpg)
 
 The other solution is a broadly used game engine named Unity 3D. Its basic version is free, and you can pay for a professional version and specific features, like publication on portable devices (IOS and Android), or work in a collaborative environment.
 

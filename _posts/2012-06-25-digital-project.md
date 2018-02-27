@@ -18,13 +18,13 @@ As Franck Gehry was designing is extraordinary museum in Bilbao, he had to use t
 
 Since CATIA is not made to design building, Franck Gehry had to use his own plugins, and created Gehry Technology to develop them. Integrated into CATIA, these plugins became the BIM software known as Digital Project.
 
-[<img class="aligncenter size-full wp-image-132" title="GTCDigitalProjectSplash" src="http://bim42.com/wp-content/uploads/2012/06/gtcdigitalprojectsplash.jpg" alt="" width="540" height="300" srcset="https://bim42.com/wp-content/uploads/2012/06/gtcdigitalprojectsplash.jpg 540w, https://bim42.com/wp-content/uploads/2012/06/gtcdigitalprojectsplash-300x166.jpg 300w" sizes="(max-width: 540px) 100vw, 540px" />](http://bim42.com/wp-content/uploads/2012/06/gtcdigitalprojectsplash.jpg)
+![<img class="aligncenter size-full wp-image-132" title="GTCDigitalProjectSplash" src="http://bim42.com/wp-content/uploads/2012/06/gtcdigitalprojectsplash.jpg" alt="" width="540" height="300" srcset="https://bim42.com/wp-content/uploads/2012/06/gtcdigitalprojectsplash.jpg 540w, https://bim42.com/wp-content/uploads/2012/06/gtcdigitalprojectsplash-300x166.jpg 300w" sizes="(max-width: 540px) 100vw, 540px" />](http://bim42.com/wp-content/uploads/2012/06/gtcdigitalprojectsplash.jpg)
 
 Just to make things clear, Digital Project is _the_ most powerful BIM software. When you start using it, you understand why the design of some of the most iconic buildings of our times involved Digital Project.
 
 It is able to deal with very complex shapes, _really_ large and complex models, and came with all the utilities embedded into CATIA, from PowerCopies to optimization algorithms. Buildings models can be exported in IFC, and it provides a complete set of tool to design basic architectural elements. It is not limited to buildings, but works also great with infrastructures like this footbridge:
 
-[<img class="aligncenter size-full wp-image-133" title="Screenshot" src="http://bim42.com/wp-content/uploads/2012/06/screenshot.jpg" alt="" width="584" height="263" srcset="https://bim42.com/wp-content/uploads/2012/06/screenshot.jpg 772w, https://bim42.com/wp-content/uploads/2012/06/screenshot-300x135.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/06/screenshot.jpg)
+![<img class="aligncenter size-full wp-image-133" title="Screenshot" src="http://bim42.com/wp-content/uploads/2012/06/screenshot.jpg" alt="" width="584" height="263" srcset="https://bim42.com/wp-content/uploads/2012/06/screenshot.jpg 772w, https://bim42.com/wp-content/uploads/2012/06/screenshot-300x135.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/06/screenshot.jpg)
 
 Automation can be easily done with .Net code, and open limitless possibilities for designing complex shapes and repetitive patterns.
 

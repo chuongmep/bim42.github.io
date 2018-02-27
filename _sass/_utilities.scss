@@ -39,7 +39,12 @@
 
 
 /* Theme color utilities */
-.header-background { background-color: $color-background; background: url(https://bim42.com/wp-content/uploads/2014/06/cropped-cropped-london.jpg); background-size: cover; background-position: bottom;}
+.header-background { 
+  background-color: $color-background;
+  background: $background-image;
+  background-size: cover;
+  background-position: bottom;
+}
 .header-border { border-color: $color-foreground; }
 .header-title { color: $color-title; }
 .header-text { color: $color-foreground; }

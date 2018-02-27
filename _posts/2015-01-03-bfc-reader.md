@@ -23,7 +23,7 @@ These notes are quite useful for addressing coordination problems, but cannot be
 
 After the proof of concept I presented to you on my last post, I finally took the time to build a packaged application in order to create a Microsoft Word document from a BCF report.
 
-[<img class="aligncenter size-full wp-image-747" src="http://bim42.com/wp-content/uploads/2015/01/ScreenClip3.png" alt="BCF Reader" width="300" height="400" srcset="https://bim42.com/wp-content/uploads/2015/01/ScreenClip3.png 300w, https://bim42.com/wp-content/uploads/2015/01/ScreenClip3-225x300.png 225w" sizes="(max-width: 300px) 100vw, 300px" />](http://bim42.com/wp-content/uploads/2015/01/ScreenClip3.png)
+![<img class="aligncenter size-full wp-image-747" src="http://bim42.com/wp-content/uploads/2015/01/ScreenClip3.png" alt="BCF Reader" width="300" height="400" srcset="https://bim42.com/wp-content/uploads/2015/01/ScreenClip3.png 300w, https://bim42.com/wp-content/uploads/2015/01/ScreenClip3-225x300.png 225w" sizes="(max-width: 300px) 100vw, 300px" />](http://bim42.com/wp-content/uploads/2015/01/ScreenClip3.png)
 
 Aside from minor technical problems, I was most concerned by the possibilities to edit the style of the report before creating it, and avoid the tedious task to clean it up in Word after.
 
@@ -31,7 +31,7 @@ I finally selected a solution mixing Word template and styles. All you have to d
   
 These parts are described in the picture below, where every information embedded in the BCF note is written down on the report.
 
-[<img class="aligncenter size-full wp-image-746" src="http://bim42.com/wp-content/uploads/2015/01/DocXExample2.png" alt="Report" width="800" height="828" srcset="https://bim42.com/wp-content/uploads/2015/01/DocXExample2.png 800w, https://bim42.com/wp-content/uploads/2015/01/DocXExample2-290x300.png 290w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/01/DocXExample2.png)
+![<img class="aligncenter size-full wp-image-746" src="http://bim42.com/wp-content/uploads/2015/01/DocXExample2.png" alt="Report" width="800" height="828" srcset="https://bim42.com/wp-content/uploads/2015/01/DocXExample2.png 800w, https://bim42.com/wp-content/uploads/2015/01/DocXExample2-290x300.png 290w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/01/DocXExample2.png)
 
 You can then save your report in a new word document.
 

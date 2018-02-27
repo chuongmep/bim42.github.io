@@ -21,15 +21,15 @@ This week, we will see how to create a macro and retrieve elements draw in our m
 
 Let&#8217;s start it by clicking on the Macro Manager on the Manage tab:
 
-[<img class="aligncenter size-full wp-image-695" src="http://bim42.com/wp-content/uploads/2014/11/01-MacroEditor.png" alt="Macro Manager" width="51" height="96" />](http://bim42.com/wp-content/uploads/2014/11/01-MacroEditor.png)
+![<img class="aligncenter size-full wp-image-695" src="http://bim42.com/wp-content/uploads/2014/11/01-MacroEditor.png" alt="Macro Manager" width="51" height="96" />](http://bim42.com/wp-content/uploads/2014/11/01-MacroEditor.png)
 
 This is where you create new function in Revit, called &#8220;Macro&#8221;. These macro are lines of code, conveniently stored in a &#8220;Module&#8221;.
 
-[<img class="aligncenter size-full wp-image-696" src="http://bim42.com/wp-content/uploads/2014/11/02-MacroEditor-Interface.png" alt="Macro Manager Interface" width="800" height="522" srcset="https://bim42.com/wp-content/uploads/2014/11/02-MacroEditor-Interface.png 800w, https://bim42.com/wp-content/uploads/2014/11/02-MacroEditor-Interface-300x195.png 300w, https://bim42.com/wp-content/uploads/2014/11/02-MacroEditor-Interface-459x300.png 459w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2014/11/02-MacroEditor-Interface.png)
+![<img class="aligncenter size-full wp-image-696" src="http://bim42.com/wp-content/uploads/2014/11/02-MacroEditor-Interface.png" alt="Macro Manager Interface" width="800" height="522" srcset="https://bim42.com/wp-content/uploads/2014/11/02-MacroEditor-Interface.png 800w, https://bim42.com/wp-content/uploads/2014/11/02-MacroEditor-Interface-300x195.png 300w, https://bim42.com/wp-content/uploads/2014/11/02-MacroEditor-Interface-459x300.png 459w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2014/11/02-MacroEditor-Interface.png)
 
 After creating a new module, and creating a new macro in this module, Revit starts its embedded code editor, called SharpDevelop. This is where we are going to spend most of our time developing Revit macro.
 
-[<img class="aligncenter size-full wp-image-697" src="http://bim42.com/wp-content/uploads/2014/11/03-SharpDevelop.png" alt="SharpDevelop" width="1006" height="550" srcset="https://bim42.com/wp-content/uploads/2014/11/03-SharpDevelop.png 1006w, https://bim42.com/wp-content/uploads/2014/11/03-SharpDevelop-300x164.png 300w, https://bim42.com/wp-content/uploads/2014/11/03-SharpDevelop-500x273.png 500w" sizes="(max-width: 1006px) 100vw, 1006px" />](http://bim42.com/wp-content/uploads/2014/11/03-SharpDevelop.png)
+![<img class="aligncenter size-full wp-image-697" src="http://bim42.com/wp-content/uploads/2014/11/03-SharpDevelop.png" alt="SharpDevelop" width="1006" height="550" srcset="https://bim42.com/wp-content/uploads/2014/11/03-SharpDevelop.png 1006w, https://bim42.com/wp-content/uploads/2014/11/03-SharpDevelop-300x164.png 300w, https://bim42.com/wp-content/uploads/2014/11/03-SharpDevelop-500x273.png 500w" sizes="(max-width: 1006px) 100vw, 1006px" />](http://bim42.com/wp-content/uploads/2014/11/03-SharpDevelop.png)
 
 We can see the name of our macro just after &#8220;public void&#8221; and before a pair of brackets. We will write all our code between these brackets.
 
@@ -73,11 +73,11 @@ Before going any further, we try this. Back in Revit, we draw four walls and run
 
 If we pass our cursor on &#8220;myDocument&#8221;, a hint appear, showing us than &#8220;myDocument&#8221; is actually a document.
 
-[<img class="aligncenter size-full wp-image-698" src="http://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint.png" alt="Document Hint" width="749" height="171" srcset="https://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint.png 749w, https://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint-300x68.png 300w, https://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint-500x114.png 500w" sizes="(max-width: 749px) 100vw, 749px" />](http://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint.png)
+![<img class="aligncenter size-full wp-image-698" src="http://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint.png" alt="Document Hint" width="749" height="171" srcset="https://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint.png 749w, https://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint-300x68.png 300w, https://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint-500x114.png 500w" sizes="(max-width: 749px) 100vw, 749px" />](http://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint.png)
 
 Let&#8217;s hit &#8220;F11&#8221; a few time to pass the last line. Stop right after it. If we pass our cursor on &#8220;myWalls&#8221; and click on the small &#8220;+&#8221; in the highlight, we see the list of walls retrieved by our filter. Everything works as expected, so far.
 
-[<img class="aligncenter size-full wp-image-699" src="http://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint.png" alt="Walls Hint" width="699" height="276" srcset="https://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint.png 699w, https://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint-300x118.png 300w, https://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint-500x197.png 500w" sizes="(max-width: 699px) 100vw, 699px" />](http://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint.png)
+![<img class="aligncenter size-full wp-image-699" src="http://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint.png" alt="Walls Hint" width="699" height="276" srcset="https://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint.png 699w, https://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint-300x118.png 300w, https://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint-500x197.png 500w" sizes="(max-width: 699px) 100vw, 699px" />](http://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint.png)
 
 We hit &#8220;F5&#8221; to run in a single stroke the remaining line of code and go back into SharpDevelop.
 

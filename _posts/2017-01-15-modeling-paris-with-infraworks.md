@@ -115,7 +115,7 @@ My final experiment was to use the Feature Themes tab to display construction da
 
 This function allows me to add a color scheme to my buildings to display values, here the construction date.
 
-[<img class="aligncenter size-full wp-image-1124" src="http://bim42.com/wp-content/uploads/2017/01/FeatureThemes.png" alt="FeatureThemes" width="569" height="826" srcset="https://bim42.com/wp-content/uploads/2017/01/FeatureThemes.png 569w, https://bim42.com/wp-content/uploads/2017/01/FeatureThemes-207x300.png 207w" sizes="(max-width: 569px) 100vw, 569px" />](http://bim42.com/wp-content/uploads/2017/01/FeatureThemes.png)
+![<img class="aligncenter size-full wp-image-1124" src="http://bim42.com/wp-content/uploads/2017/01/FeatureThemes.png" alt="FeatureThemes" width="569" height="826" srcset="https://bim42.com/wp-content/uploads/2017/01/FeatureThemes.png 569w, https://bim42.com/wp-content/uploads/2017/01/FeatureThemes-207x300.png 207w" sizes="(max-width: 569px) 100vw, 569px" />](http://bim42.com/wp-content/uploads/2017/01/FeatureThemes.png)
 
 The result in quite compelling, every building is displayed in color per its construction date.
 
