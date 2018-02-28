@@ -17,13 +17,13 @@ tags:
 ---
 During my researches for improving clash detection, I stumble upon [DynaWorks](http://stuffandbims.blogspot.fr/2014/10/dynaworks-is-here-navisworks-library.html), a great Dynamo package built by Adam Sheather ([@Gytaco](https://twitter.com/Gytaco)).
 
-For those who haven&#8217;t heard about Dynamo (Is there is any left?), it is a visual programming interface for Revit, pretty much like Grasshopper. Just like Grasshopper, you can improve upon the built-in features with packages from third party developers. DynaWorks is one of these packages, and provides a set of Dynamo nodes for interacting with Navisworks.[
+For those who haven't heard about Dynamo (Is there is any left?), it is a visual programming interface for Revit, pretty much like Grasshopper. Just like Grasshopper, you can improve upon the built-in features with packages from third party developers. DynaWorks is one of these packages, and provides a set of Dynamo nodes for interacting with Navisworks.[
   
 ](http://bim42.com/wp-content/uploads/2015/06/process.jpg) 
 
 After installing it through the package manager, it presents itself with a set of nodes exposing Navisworks main functions.
 
-Along with the package, some examples are provided. The NavisClashesElementUpdate.dyn contains a definition for retrieving clash results from Navisworks, I use it for my first steps with DynaWorks. If, like me, you want to use these definitions with Navisworks 2016, don&#8217;t forget to use [Adam Sheather&#8217;s trick](http://stuffandbims.blogspot.fr/2015/05/dynaworks16-release.html) for updating your Dynamo definitions
+Along with the package, some examples are provided. The NavisClashesElementUpdate.dyn contains a definition for retrieving clash results from Navisworks, I use it for my first steps with DynaWorks. If, like me, you want to use these definitions with Navisworks 2016, don't forget to use [Adam Sheather's trick](http://stuffandbims.blogspot.fr/2015/05/dynaworks16-release.html) for updating your Dynamo definitions
 
 To use DynaWorks, you first have to create a Navisworks file, and prepare your clash detections. Here, I create a basic detection between Walls (First Clash Item, in Blue) and HVAC elements (Second Clash Item, in Red), and load the resulting NWF file in my Dynaworks definition.
 

@@ -36,7 +36,7 @@ After retrieving this data in my Flux Site Project, I use the [Flux Dynamo nodes
   </p>
 </div>
 
-Building profiles and heights came from OpenStreetMap, and aren&#8217;t accurate enough to be used for site analysis. But I am using building profiles to draw on a plan view the footprint of every building retreived with Flux. This will help me futher down the road to align my buildings on the toposurface.
+Building profiles and heights came from OpenStreetMap, and aren't accurate enough to be used for site analysis. But I am using building profiles to draw on a plan view the footprint of every building retreived with Flux. This will help me futher down the road to align my buildings on the toposurface.
 
 <div id="attachment_1134" style="max-width: 594px" class="wp-caption aligncenter">
   <a href="http://bim42.com/wp-content/uploads/2017/02/03-Buildings-Footprints.png"><img class="size-large wp-image-1134" src="http://bim42.com/wp-content/uploads/2017/02/03-Buildings-Footprints-1024x567.png" alt="" width="584" height="323" srcset="https://bim42.com/wp-content/uploads/2017/02/03-Buildings-Footprints-1024x567.png 1024w, https://bim42.com/wp-content/uploads/2017/02/03-Buildings-Footprints-300x166.png 300w, https://bim42.com/wp-content/uploads/2017/02/03-Buildings-Footprints-768x425.png 768w, https://bim42.com/wp-content/uploads/2017/02/03-Buildings-Footprints-500x277.png 500w, https://bim42.com/wp-content/uploads/2017/02/03-Buildings-Footprints.png 1370w" sizes="(max-width: 584px) 100vw, 584px" /></a>
@@ -86,7 +86,7 @@ I am using the FamilyInstance.ByGeometry node from the great [Spring nodes](http
   </p>
 </div>
 
-This process still has a few issues. The buildings aren&#8217;t adjusted at the toposurface and aligning them with the toposurface created with the Flux Site Extractor involve some manipulations. I still have some work to do on this process to streamline it, and get a more accurate representation of an existing site.
+This process still has a few issues. The buildings aren't adjusted at the toposurface and aligning them with the toposurface created with the Flux Site Extractor involve some manipulations. I still have some work to do on this process to streamline it, and get a more accurate representation of an existing site.
 
 <div id="attachment_1138" style="max-width: 1010px" class="wp-caption aligncenter">
   <a href="http://bim42.com/wp-content/uploads/2017/02/06-Site-intégration.png"><img class="size-full wp-image-1138" src="http://bim42.com/wp-content/uploads/2017/02/06-Site-intégration.png" alt="" width="1000" height="601" srcset="https://bim42.com/wp-content/uploads/2017/02/06-Site-intégration.png 1000w, https://bim42.com/wp-content/uploads/2017/02/06-Site-intégration-300x180.png 300w, https://bim42.com/wp-content/uploads/2017/02/06-Site-intégration-768x462.png 768w, https://bim42.com/wp-content/uploads/2017/02/06-Site-intégration-500x300.png 500w" sizes="(max-width: 1000px) 100vw, 1000px" /></a>

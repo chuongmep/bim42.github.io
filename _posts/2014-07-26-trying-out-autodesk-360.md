@@ -46,7 +46,7 @@ Another nice feature, the 3D viewer allow us to isolate elements by categories a
 
 ![<img class="aligncenter size-full wp-image-508" src="http://bim42.com/wp-content/uploads/2014/07/displayCategories.png" alt="displayCategories" width="981" height="725" srcset="https://bim42.com/wp-content/uploads/2014/07/displayCategories.png 981w, https://bim42.com/wp-content/uploads/2014/07/displayCategories-300x221.png 300w, https://bim42.com/wp-content/uploads/2014/07/displayCategories-405x300.png 405w" sizes="(max-width: 981px) 100vw, 981px" />](http://bim42.com/wp-content/uploads/2014/07/displayCategories.png)
 
-It&#8217;s still miss the ability to create section, and most of it, to be able to download Revit sheets as pdf for an easier reviewing, but I don&#8217;t lost hope.
+It's still miss the ability to create section, and most of it, to be able to download Revit sheets as pdf for an easier reviewing, but I don't lost hope.
 
 During my whole experience, I just encounter one problem, with my model freezing in generating preview mode just after downloading it.
 

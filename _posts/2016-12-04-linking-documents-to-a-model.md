@@ -17,7 +17,7 @@ tags:
 ---
 These days, there is a lot of ideas around using a building information model for facilities management. Among these ideas, a recurring theme is to integrate documents, mostly technical sheets, directly into the model.
 
-Aside from the fact that I don&#8217;t see how a model build to design, analyse, and coordinate a building could be use directly in facilities management, there is also some non-trivial technical problems to overcome to have any documents properly linked to your model, whether you are using Revit, Navisworks, or an IFC viewer.
+Aside from the fact that I don't see how a model build to design, analyse, and coordinate a building could be use directly in facilities management, there is also some non-trivial technical problems to overcome to have any documents properly linked to your model, whether you are using Revit, Navisworks, or an IFC viewer.
   
 Below is a list of these technical problems, and some though on how to solve them.
 
@@ -101,7 +101,7 @@ However, you must keep your Navisworks model in the same location in your &#8220
 
 ## Delivering an IFC model
 
-If you export this Revit model to IFC, and open it in Solibri Model Viewer, you can display the link, but not click on it. However, by writing a &#8220;\&#8221; before the link in Revit, Solibri Model Viewer recognize it as link and you can open the technical sheet with a click. This could obviously become problematic in Revit, since when you add this &#8220;\&#8221;, Revit doesn&#8217;t recognize the link anymore.
+If you export this Revit model to IFC, and open it in Solibri Model Viewer, you can display the link, but not click on it. However, by writing a &#8220;\&#8221; before the link in Revit, Solibri Model Viewer recognize it as link and you can open the technical sheet with a click. This could obviously become problematic in Revit, since when you add this &#8220;\&#8221;, Revit doesn't recognize the link anymore.
 
 <div id="attachment_1108" style="max-width: 594px" class="wp-caption aligncenter">
   <a href="http://bim42.com/wp-content/uploads/2016/12/solibri_after.png"><img class="size-large wp-image-1108" src="http://bim42.com/wp-content/uploads/2016/12/solibri_after-1024x564.png" alt="The clickable link in Solibri" width="584" height="322" srcset="https://bim42.com/wp-content/uploads/2016/12/solibri_after-1024x564.png 1024w, https://bim42.com/wp-content/uploads/2016/12/solibri_after-300x165.png 300w, https://bim42.com/wp-content/uploads/2016/12/solibri_after-768x423.png 768w, https://bim42.com/wp-content/uploads/2016/12/solibri_after-500x275.png 500w" sizes="(max-width: 584px) 100vw, 584px" /></a>

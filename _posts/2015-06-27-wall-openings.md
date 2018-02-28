@@ -32,4 +32,4 @@ The entire process can be sum up like this:
 
 The Dynamo definition use the wall bounding box and normal to create the section view coordinate system. I fumble around with Min and Max points to set the proper crop box for the final view. I also use a few nodes from [archi-lab.net](http://archi-lab.net/) package to retrieve walls from their ids. You can find the entire Dynamo definition [here](http://bim42.com/wp-content/uploads/2015/06/viewsection.zip).
 
-&#8220;A problem well defined is a problem half solved&#8221;, and displaying a view of each problem is my first step toward the solution, even if I haven&#8217;t find yet any way to automate the entire wall opening thing.
+&#8220;A problem well defined is a problem half solved&#8221;, and displaying a view of each problem is my first step toward the solution, even if I haven't find yet any way to automate the entire wall opening thing.

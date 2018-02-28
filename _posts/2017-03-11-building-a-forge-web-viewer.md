@@ -16,7 +16,7 @@ tags:
 ---
 Web-based &#8220;BIM&#8221; solutions are the last big trend, and Autodesk is among the most advanced player in this area with their API offering called Forge.
 
-[Autodesk Forge](https://forge.autodesk.com/) is a product from Autodesk that don&#8217;t come with a user interface. Instead, it is designed to be used through other software, and especially web-based solutions. Autodesk Forge is also the technology behind most of the web-based product of Autodesk, like [BIM 360 Team](https://team.bim360.com/), [Docs](https://bim360.autodesk.com/docs) or the [A360 Online File Viewer](https://a360.autodesk.com/viewer/).
+[Autodesk Forge](https://forge.autodesk.com/) is a product from Autodesk that don't come with a user interface. Instead, it is designed to be used through other software, and especially web-based solutions. Autodesk Forge is also the technology behind most of the web-based product of Autodesk, like [BIM 360 Team](https://team.bim360.com/), [Docs](https://bim360.autodesk.com/docs) or the [A360 Online File Viewer](https://a360.autodesk.com/viewer/).
 
 The community around these products is growing, and new resources and samples are published on an almost daily basis.
 
@@ -24,7 +24,7 @@ Among them, [Augusto Gonzales](https://forge.autodesk.com/author/augusto-goncalv
 
 I start by creating an ASP.NET Core MVC Web Application with this [tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/). ASP.NET Core being a web framework developed by Microsoft, you can use your C# skills to &#8220;easily&#8221; build web application.
 
-I follow the detailed explanations from Augusto Gonzales to send my model to the Autodesk server for conversion, get an GUID back and use it to display my model in the Forge viewer. The explication on the blog are straightforward, and I won&#8217;t delve into it. I just had to made some few changes since I am using a different version of the ASP.NET Core framework.
+I follow the detailed explanations from Augusto Gonzales to send my model to the Autodesk server for conversion, get an GUID back and use it to display my model in the Forge viewer. The explication on the blog are straightforward, and I won't delve into it. I just had to made some few changes since I am using a different version of the ASP.NET Core framework.
 
 Using technologies from Microsoft, it is easy to publish my application on Azure, the Microsoft cloud hosting solution.
 

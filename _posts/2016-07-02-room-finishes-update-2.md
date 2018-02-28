@@ -33,4 +33,4 @@ I also add some minor UI improvements, like the ability to resize the window, or
 
 Of course, Room Finishes is still open source, the entire code can be found on [Github](https://github.com/simonmoreau/RoomFinishes).
 
-This plug-in is already available on the [Autodesk App Store](https://apps.autodesk.com/RVT/en/Detail/Index?id=5641957956279354474&appLang=en&os=Win64). If you like it, don&#8217;t hesitate to write a nice comment or add a few stars, it always means so much to me!
+This plug-in is already available on the [Autodesk App Store](https://apps.autodesk.com/RVT/en/Detail/Index?id=5641957956279354474&appLang=en&os=Win64). If you like it, don't hesitate to write a nice comment or add a few stars, it always means so much to me!

@@ -48,4 +48,4 @@ Under the hood, I have rewrote a large part of the code to support more types of
 
 Of course, Align Tag is still open source, the entire code can be found on [Bitbucket](https://bitbucket.org/simonmoreau/align-tag).
 
-This plug-in is already available on the [Autodesk App Store](https://apps.autodesk.com/RVT/en/Detail/Index?id=2903508825431715905&appLang=en&os=Win32_64). If you like it, don&#8217;t hesitate to write a nice comment or add a few stars, it always means so much to me!
+This plug-in is already available on the [Autodesk App Store](https://apps.autodesk.com/RVT/en/Detail/Index?id=2903508825431715905&appLang=en&os=Win32_64). If you like it, don't hesitate to write a nice comment or add a few stars, it always means so much to me!

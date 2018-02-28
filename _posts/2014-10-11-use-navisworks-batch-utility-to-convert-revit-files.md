@@ -24,7 +24,7 @@ I used the Navisworks Batch Utility, accessible through the Navisworks main menu
 
 You first have to select files to be included in your Navisworks File Set.
 
-To quickly retrieve the list of Revit files to be converted, I&#8217;m using the Windows Command Prompt. I was quite afraid of this tool not so long ago, but it is actually pretty simple.
+To quickly retrieve the list of Revit files to be converted, I'm using the Windows Command Prompt. I was quite afraid of this tool not so long ago, but it is actually pretty simple.
 
 ![<img class="aligncenter wp-image-635 size-full" src="http://bim42.com/wp-content/uploads/2014/10/ScreenClip-21.png" alt="Windows Command Prompt" width="837" height="202" srcset="https://bim42.com/wp-content/uploads/2014/10/ScreenClip-21.png 837w, https://bim42.com/wp-content/uploads/2014/10/ScreenClip-21-300x72.png 300w, https://bim42.com/wp-content/uploads/2014/10/ScreenClip-21-500x120.png 500w" sizes="(max-width: 837px) 100vw, 837px" />](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-21.png)
 

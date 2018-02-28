@@ -14,7 +14,7 @@ tags:
   - Documentation
   - Revit
 ---
-Most questions I encounter these days turn around using building information modeling for producing construction drawings, schedules or clash detection reports. These features are important, of course, but they remain centered around using a more or less complete building model. But a largely overlooked use of building information model is the ability to automatically model building elements. In fact, object-oriented modeling should allow us to simply describe our solutions and let the computer implement them in our building model, and even warn us when something doesn&#8217;t fit.
+Most questions I encounter these days turn around using building information modeling for producing construction drawings, schedules or clash detection reports. These features are important, of course, but they remain centered around using a more or less complete building model. But a largely overlooked use of building information model is the ability to automatically model building elements. In fact, object-oriented modeling should allow us to simply describe our solutions and let the computer implement them in our building model, and even warn us when something doesn't fit.
 
 Lead by this thought, and a problem raised by one of my colleague, I started looking again toward slab insulations. Before BIM, slab insulation was simply annotated on the drawing, and taken into account when creating a building section. Now, for coordination purpose, we have to spend large amount of time modeling everywhere a fairly simple element like insulation, without real added value.
 

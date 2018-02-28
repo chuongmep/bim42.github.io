@@ -14,7 +14,7 @@ tags:
   - Revit
   - Visualization
 ---
-Setting up view range regularly came with great stress, and &#8220;why I can&#8217;t see this particular element&#8221; shouts. To explain it to myself (and maybe other), I write a few lines about it.
+Setting up view range regularly came with great stress, and &#8220;why I can't see this particular element&#8221; shouts. To explain it to myself (and maybe other), I write a few lines about it.
   
 The View Range comes with four elevations, corresponding to the four planes which define a view range:
 
@@ -46,7 +46,7 @@ Most objects became entirely visible even if a small part of them is between the
   </p>
 </div>
 
-On the other hand, some families, let&#8217;s call them the &#8220;cutable&#8221; ones, change their appearance when cut by the Cut plane, and display the section display of their material. Cutable objects belongs to one of the following categories: Wall, windows, doors, railings, site, Structural column, Structural foundation, Structural Framing, Structural Stiffener, Casework, Columns, Roof, Ceilling, and Floor.
+On the other hand, some families, let's call them the &#8220;cutable&#8221; ones, change their appearance when cut by the Cut plane, and display the section display of their material. Cutable objects belongs to one of the following categories: Wall, windows, doors, railings, site, Structural column, Structural foundation, Structural Framing, Structural Stiffener, Casework, Columns, Roof, Ceilling, and Floor.
   
 In case of an editable cutable family, each geometric element composing this family can be hidden when cut by the Cut plane:
 
@@ -72,7 +72,7 @@ But when the same chair is placed below the Bottom plane, it become black:
 
 ![<img class="aligncenter size-full wp-image-406" src="http://bim42.com/wp-content/uploads/2014/06/FurnitureObjectStyle_Plan_BelowBottomPlane.png" alt="FurnitureObjectStyle_Plan_BelowBottomPlane" width="405" height="199" srcset="https://bim42.com/wp-content/uploads/2014/06/FurnitureObjectStyle_Plan_BelowBottomPlane.png 405w, https://bim42.com/wp-content/uploads/2014/06/FurnitureObjectStyle_Plan_BelowBottomPlane-300x147.png 300w" sizes="(max-width: 405px) 100vw, 405px" />](http://bim42.com/wp-content/uploads/2014/06/FurnitureObjectStyle_Plan_BelowBottomPlane.png) ![<img class="aligncenter size-full wp-image-407" src="http://bim42.com/wp-content/uploads/2014/06/FurnitureObjectStyle_Section_BelowBottomPlane.png" alt="FurnitureObjectStyle_Section_BelowBottomPlane" width="858" height="393" srcset="https://bim42.com/wp-content/uploads/2014/06/FurnitureObjectStyle_Section_BelowBottomPlane.png 858w, https://bim42.com/wp-content/uploads/2014/06/FurnitureObjectStyle_Section_BelowBottomPlane-300x137.png 300w, https://bim42.com/wp-content/uploads/2014/06/FurnitureObjectStyle_Section_BelowBottomPlane-500x229.png 500w" sizes="(max-width: 858px) 100vw, 858px" />](http://bim42.com/wp-content/uploads/2014/06/FurnitureObjectStyle_Section_BelowBottomPlane.png)
 
-Filters Override, on the contrary, stays active whenever the object is bellow or above the Bottom plane. I don&#8217;t know the reason of such behavior, maybe someone from Autodesk could be able to answer.
+Filters Override, on the contrary, stays active whenever the object is bellow or above the Bottom plane. I don't know the reason of such behavior, maybe someone from Autodesk could be able to answer.
 
 Finally, to help users with this view range issues, I create a general section of the building with two different set of dimensions, one for Top height, the other for Cut Plane Height. This section is printed and used as a handout for Revit users to set up themselves their view range on their working views.
 
@@ -80,6 +80,6 @@ Finally, to help users with this view range issues, I create a general section o
 
 &nbsp;
 
-EDIT : I have found on [Augi](http://www.augi.com/library/understanding-view-range) the solution for objects placed below the Bottom plane. These elements are displayed with the project&#8217;s Beyond> Style Line.
+EDIT : I have found on [Augi](http://www.augi.com/library/understanding-view-range) the solution for objects placed below the Bottom plane. These elements are displayed with the project's Beyond> Style Line.
 
 &nbsp;

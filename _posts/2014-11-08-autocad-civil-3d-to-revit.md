@@ -39,7 +39,7 @@ Then use the Site Designer to import it back in Revit.
 
 The resulting Revit toposurface contains ten times less points than the version created from contour lines, which can be game-changing, especially if your are dealing with large or complex surfaces.
 
-I didn&#8217;t found any free plug-in to import directly LandXML in your Revit model, but if you are of the DIY type, you can use [the example of code](http://thebuildingcoder.typepad.com/blog/2010/01/import-landxml-surface.html "Import LandXML surface") provided by Jeremy Tammik on his blog.
+I didn't found any free plug-in to import directly LandXML in your Revit model, but if you are of the DIY type, you can use [the example of code](http://thebuildingcoder.typepad.com/blog/2010/01/import-landxml-surface.html "Import LandXML surface") provided by Jeremy Tammik on his blog.
 
 You can also import AutoCAD Civil 3D points directly in Revit. To do so, you first have to change the style of your surface to display all its points.
 
@@ -53,4 +53,4 @@ Now, you can export the coordinates of these COGO point as a Comma Separated tex
 
 ![<img class="aligncenter size-full wp-image-687" src="http://bim42.com/wp-content/uploads/2014/11/ImportPoints.png" alt="ImportPoints" width="900" height="480" srcset="https://bim42.com/wp-content/uploads/2014/11/ImportPoints.png 900w, https://bim42.com/wp-content/uploads/2014/11/ImportPoints-300x160.png 300w, https://bim42.com/wp-content/uploads/2014/11/ImportPoints-500x266.png 500w" sizes="(max-width: 900px) 100vw, 900px" />](http://bim42.com/wp-content/uploads/2014/11/ImportPoints.png)
 
-This option is a nice workaround if you don&#8217;t have the possibility to import directly LandXML in your Revit model.
+This option is a nice workaround if you don't have the possibility to import directly LandXML in your Revit model.

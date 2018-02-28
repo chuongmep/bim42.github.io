@@ -26,7 +26,7 @@ But what really is this IFC file format, and why everybody talk about it ?
 
 Developed by [Building Smart](http://buildingsmart.com/), a non-profit association of architects, civil engineers and IT specialists, IFC is a data model specifically designed for building information modeling.
 
-In other terms, it&#8217;s a series of definitions, explaining how describe any building element in order to make it comprehensible by a computer. But while each BIM software relies upon its own very private data model to define a building, the IFC data model is open, and freely accessible by anyone [here](http://www.buildingsmart-tech.org/ifc/IFC2x4/rc2/html/index.htm).
+In other terms, it's a series of definitions, explaining how describe any building element in order to make it comprehensible by a computer. But while each BIM software relies upon its own very private data model to define a building, the IFC data model is open, and freely accessible by anyone [here](http://www.buildingsmart-tech.org/ifc/IFC2x4/rc2/html/index.htm).
 
 These definitions create a language readable by a computer, and written as a text file. This file is even readable by human being, and look more or less like this:
 
@@ -38,7 +38,7 @@ These definitions create a language readable by a computer, and written as a tex
 <p>#74= IFCSHAPEREPRESENTATION(#43,'Axis','Curve2D',(#72));</p>
 <p>#76= IFCCARTESIANPOINT((9430.2775637732,-100.));`
 
-It&#8217;s not very convenient, but with some pain, we can find a wall here,
+It's not very convenient, but with some pain, we can find a wall here,
 
 `#209= IFCWALLSTANDARDCASE('0EiAvIo0LBOBfvSD8E4HST',#52,'Basic Wall',$,’200 mm’ ,#181,#207,'177171');`
 
@@ -50,12 +50,12 @@ and place at the point define like this:
 
 `#76= IFCCARTESIANPOINT((9430.2775637732,-100.));`
 
-I have worked some times in order to understand this language, and if I&#8217;m still not speaking IFC fluently, I was able to improve myself a little. You will find the result of my work [here](http://www.scribd.com/doc/95909096/Industry-Foundation-Classes).
+I have worked some times in order to understand this language, and if I'm still not speaking IFC fluently, I was able to improve myself a little. You will find the result of my work [here](http://www.scribd.com/doc/95909096/Industry-Foundation-Classes).
 
-There is plenty of IFC&#8217;s approved software, but if everyone is compliant, some are more compliant than other. For example, Revit was well known for its really poor implementation, but I have heard that Autodesk have made great improvement in the 2013 version, I still have to look at it.
+There is plenty of IFC's approved software, but if everyone is compliant, some are more compliant than other. For example, Revit was well known for its really poor implementation, but I have heard that Autodesk have made great improvement in the 2013 version, I still have to look at it.
 
 For my part, the best implementation I have ever be able to test is the plugin for Grasshopper made by Jon Mirtschin called [Geometry Gym](http://geometrygym.blogspot.fr/). Fully compatible with the latest version of IFC (IFC2x Edition 4 Release Candidate 2), this plug in transform Rhino in a full scale BIM software. This plugin deserve at least a whole article, so I will came back to it.
 
 The IFC model is still in the development part, and is currently in the process of becoming the official International Standard ISO 16739.
 
-If it&#8217;s not the leading format in the BIM business, the IFC format is a really interesting attempt to create an open exchange standard, and some software like Solibri Model Checker have understood it well enough to use IFC as the only input models format.
+If it's not the leading format in the BIM business, the IFC format is a really interesting attempt to create an open exchange standard, and some software like Solibri Model Checker have understood it well enough to use IFC as the only input models format.

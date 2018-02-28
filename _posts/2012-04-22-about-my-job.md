@@ -12,7 +12,7 @@ tags:
   - BIM Manager
   - General
 ---
-As a part of the building information systems department, I&#8217;m involved in the development and implementation of BIM in our design process. This implies various tasks, from finding new software solutions to assure in-house user support.
+As a part of the building information systems department, I'm involved in the development and implementation of BIM in our design process. This implies various tasks, from finding new software solutions to assure in-house user support.
 
 The main part of the job, the so-called BIM Manager thing, is to organize the design process around chosen BIM software. Creating model templates according to the specification of the company, organizing multi-users modeling around a main model and providing users support are among the everyday tasks.
 

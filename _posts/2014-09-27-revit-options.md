@@ -16,11 +16,11 @@ tags:
 ---
 Revit options have been a mystery for me for quite a long time, so I decide to write a few lines about it in order to better understand their possibilities.
 
-To do so, let&#8217;s model a small house, nothing fancy, but enough to have some possibilities for evolution. This house is drawn in the Main Model, and will be common to all options.
+To do so, let's model a small house, nothing fancy, but enough to have some possibilities for evolution. This house is drawn in the Main Model, and will be common to all options.
 
 ![<img class="aligncenter size-full wp-image-614" src="http://bim42.com/wp-content/uploads/2014/09/DesignOption_ARC_SomeHouse1.jpg" alt="SomeHouse" width="800" height="517" srcset="https://bim42.com/wp-content/uploads/2014/09/DesignOption_ARC_SomeHouse1.jpg 800w, https://bim42.com/wp-content/uploads/2014/09/DesignOption_ARC_SomeHouse1-300x193.jpg 300w, https://bim42.com/wp-content/uploads/2014/09/DesignOption_ARC_SomeHouse1-464x300.jpg 464w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2014/09/DesignOption_ARC_SomeHouse1.jpg)
 
-Now let say I want to _try_ something. I put try on emphasis, because, it&#8217;s really what Design Options are useful for. I open the Design Options editor, and create a new option set, which is automatically populated with a first option. I rename it like this:
+Now let say I want to _try_ something. I put try on emphasis, because, it's really what Design Options are useful for. I open the Design Options editor, and create a new option set, which is automatically populated with a first option. I rename it like this:
 
 ![<img class="aligncenter size-full wp-image-604" src="http://bim42.com/wp-content/uploads/2014/09/CreateOptions.png" alt="CreateOptions" width="481" height="522" srcset="https://bim42.com/wp-content/uploads/2014/09/CreateOptions.png 481w, https://bim42.com/wp-content/uploads/2014/09/CreateOptions-276x300.png 276w" sizes="(max-width: 481px) 100vw, 481px" />](http://bim42.com/wp-content/uploads/2014/09/CreateOptions.png)
 

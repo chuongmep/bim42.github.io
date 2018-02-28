@@ -48,7 +48,7 @@ I finally calculate the headroom height, and retrieve the shortest one for each 
 
 ![<img class="aligncenter size-large wp-image-1027" src="http://bim42.com/wp-content/uploads/2016/05/CalculateHeadRoom-1024x530.png" alt="CalculateHeadRoom" width="584" height="302" srcset="https://bim42.com/wp-content/uploads/2016/05/CalculateHeadRoom-1024x530.png 1024w, https://bim42.com/wp-content/uploads/2016/05/CalculateHeadRoom-300x155.png 300w, https://bim42.com/wp-content/uploads/2016/05/CalculateHeadRoom-768x398.png 768w, https://bim42.com/wp-content/uploads/2016/05/CalculateHeadRoom-500x259.png 500w, https://bim42.com/wp-content/uploads/2016/05/CalculateHeadRoom.png 1244w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/05/CalculateHeadRoom.png)
 
-Initially, every room&#8217;s Limit Offset is 2m.
+Initially, every room's Limit Offset is 2m.
 
 ![<img class="aligncenter size-large wp-image-1026" src="http://bim42.com/wp-content/uploads/2016/05/Before-1024x398.png" alt="Before" width="584" height="227" srcset="https://bim42.com/wp-content/uploads/2016/05/Before-1024x398.png 1024w, https://bim42.com/wp-content/uploads/2016/05/Before-300x117.png 300w, https://bim42.com/wp-content/uploads/2016/05/Before-768x299.png 768w, https://bim42.com/wp-content/uploads/2016/05/Before-500x194.png 500w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/05/Before.png)
 

@@ -27,7 +27,7 @@ The picture below shows a simple hot tap water supply system, spanning across tw
 
 ![<img class="aligncenter size-full wp-image-941" src="http://bim42.com/wp-content/uploads/2015/09/LinkedSystems3.png" alt="HotTapWaterSystem" width="800" height="214" srcset="https://bim42.com/wp-content/uploads/2015/09/LinkedSystems3.png 800w, https://bim42.com/wp-content/uploads/2015/09/LinkedSystems3-300x80.png 300w, https://bim42.com/wp-content/uploads/2015/09/LinkedSystems3-500x134.png 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/09/LinkedSystems3.png)
 
-To be able to display the correct flow values on both sides of the system, I create a plumbing fixture placeholder to simulate the rest of the system that isn&#8217;t in the file. Autodesk already provides as a part of the standard Revit families four connectors for this kind of emergency. These families are face based, so I create my own, based on the original ones.
+To be able to display the correct flow values on both sides of the system, I create a plumbing fixture placeholder to simulate the rest of the system that isn't in the file. Autodesk already provides as a part of the standard Revit families four connectors for this kind of emergency. These families are face based, so I create my own, based on the original ones.
 
 This placeholder is a simple plumbing fixture family, with a cylinder shape and a single connector. This connector is set up to be able to define manually every flow and loss values going through the connection.
 

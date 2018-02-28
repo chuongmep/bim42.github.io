@@ -28,6 +28,6 @@ It is able to deal with very complex shapes, _really_ large and complex models, 
 
 Automation can be easily done with .Net code, and open limitless possibilities for designing complex shapes and repetitive patterns.
 
-But it also has its drawbacks. Compared to Revit, or other traditional building modeling software like Alplan or Archicad, it&#8217;s expensive, not user friendly for a second, and frankly, not very pretty.
+But it also has its drawbacks. Compared to Revit, or other traditional building modeling software like Alplan or Archicad, it's expensive, not user friendly for a second, and frankly, not very pretty.
 
 Dassault System had recently bought the development part of Digital Project, and I expect a new release of Digital Project based on CATIA V6 soon enough.

@@ -18,9 +18,9 @@ Most of the work we see with Dynamo involves designing complex parametric geomet
 
 A lot of tasks of the MEP engineer involves retrieving information from the architectural model and can be automated using Dynamo.
 
-The first task of the MEP engineer is to retrieve rooms from the architectural model and create MEP Spaces from it. The &#8220;Place Spaces Automatically&#8221; Revit function can be useful here, but it is far from enough in many cases. There isn&#8217;t any control on the created spaces, and properties from the room cannot be added to the newly created space.
+The first task of the MEP engineer is to retrieve rooms from the architectural model and create MEP Spaces from it. The &#8220;Place Spaces Automatically&#8221; Revit function can be useful here, but it is far from enough in many cases. There isn't any control on the created spaces, and properties from the room cannot be added to the newly created space.
 
-To improve on this function, I start exploring space creation in Dynamo. There isn&#8217;t much support for Room and Space built in Dynamo. Some package can fill this gap (Lunchbox from Nathan Miller and Clockworks from Andreas Dieckmann) but does not offer a complete solution. Furthermore, we need support for linked files, since architectural rooms are most of time in linked files.
+To improve on this function, I start exploring space creation in Dynamo. There isn't much support for Room and Space built in Dynamo. Some package can fill this gap (Lunchbox from Nathan Miller and Clockworks from Andreas Dieckmann) but does not offer a complete solution. Furthermore, we need support for linked files, since architectural rooms are most of time in linked files.
 
 So I create my own Dynamo package, called DynamoMEP. This package contains a set of nodes for creating and working with Room and MEP Space.
 
@@ -42,6 +42,6 @@ Still using the DynamoMEP package, I can retrieve basic properties from these sp
 
 My model has now a matching MEP Space for every room created in the linked model. Since we are using Dynamo, we can have a much more sophisticated workflow, and retrieve specific properties in the rooms to have them added to the newly created space.
 
-DynamoMEP is still in this infancy, and need a lot of improvement, so don&#8217;t hesitate to report any bug or missing feature. You can add an issue on [Github](https://github.com/simonmoreau/DynamoMEP), or post a comment below. I hope to add new features as I develop MEP workflows in Dynamo.
+DynamoMEP is still in this infancy, and need a lot of improvement, so don't hesitate to report any bug or missing feature. You can add an issue on [Github](https://github.com/simonmoreau/DynamoMEP), or post a comment below. I hope to add new features as I develop MEP workflows in Dynamo.
 
 &nbsp;

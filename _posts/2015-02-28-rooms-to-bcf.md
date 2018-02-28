@@ -14,11 +14,11 @@ tags:
   - Revit
   - Tekla
 ---
-I am a huge fan of Tekla BIMSight. It&#8217;s powerfull, it&#8217;s free and very user-friendly. But like with many other project review solutions, I have difficulties to locate myself in the building while spinning around the 3D model.
+I am a huge fan of Tekla BIMSight. It's powerfull, it's free and very user-friendly. But like with many other project review solutions, I have difficulties to locate myself in the building while spinning around the 3D model.
 
 It become even more tedious when you have to find a specific room in the model. There is no convenient way to retrieve its by a name or its number or zoom on it quickly.
 
-A solution is to sort the Tekla BIMSight objects browser by Level and by Name to display every room in the model. You can then select a room and start create your clipping planes around it. This is not user-friendly. Furthermore, I haven&#8217;t always the luxury of working with IFC.
+A solution is to sort the Tekla BIMSight objects browser by Level and by Name to display every room in the model. You can then select a room and start create your clipping planes around it. This is not user-friendly. Furthermore, I haven't always the luxury of working with IFC.
 
 ![<img class="aligncenter size-full wp-image-786" src="http://bim42.com/wp-content/uploads/2015/02/Object-Browser.png" alt="Object Browser" width="646" height="388" srcset="https://bim42.com/wp-content/uploads/2015/02/Object-Browser.png 646w, https://bim42.com/wp-content/uploads/2015/02/Object-Browser-300x180.png 300w, https://bim42.com/wp-content/uploads/2015/02/Object-Browser-500x300.png 500w" sizes="(max-width: 646px) 100vw, 646px" />](http://bim42.com/wp-content/uploads/2015/02/Object-Browser.png)
 

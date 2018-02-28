@@ -42,4 +42,4 @@ An interesting feature is the ability to select an element and display it in ano
 
 ![<img class="aligncenter size-full wp-image-518" src="http://bim42.com/wp-content/uploads/2014/08/find.png" alt="find" width="520" height="421" srcset="https://bim42.com/wp-content/uploads/2014/08/find.png 520w, https://bim42.com/wp-content/uploads/2014/08/find-300x242.png 300w, https://bim42.com/wp-content/uploads/2014/08/find-370x300.png 370w" sizes="(max-width: 520px) 100vw, 520px" />](http://bim42.com/wp-content/uploads/2014/08/find.png)
 
-This feature present in Revit was missing in Design Review and allows for a quick review of elements from the drawings to the 3D view. On the other hand, some markup tools present in Design Review are not available in Navisworks, and we don&#8217;t have the ability to import these markup back in Revit.
+This feature present in Revit was missing in Design Review and allows for a quick review of elements from the drawings to the 3D view. On the other hand, some markup tools present in Design Review are not available in Navisworks, and we don't have the ability to import these markup back in Revit.

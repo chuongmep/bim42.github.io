@@ -15,7 +15,7 @@ tags:
 ---
 A regular complain about Revit is its slowness. If this can be a psycological problem coming from people used to the quick reaction time of AutoCAD, it can also become a real problem when working with large models on short deadlines.
 
-I&#8217;m use to separate Revit performance in two parts, opening the model and displaying it:
+I'm use to separate Revit performance in two parts, opening the model and displaying it:
 
 # Displaying complex views
 
@@ -35,7 +35,7 @@ Another part of the problem lays in the time a model take to open, save and sync
 
 To avoid ending up spending more time watching Revit starting than actually working with it, the main rule is to keep your model tidy.
 
-Start by removing every unused view, family or group. Used wisely, the Purge Unused Element command can be useful here. Don&#8217;t use Revit family content sites. These families ae generally stuffed with heavy materials, complex geometries and parameters you don&#8217;t need. It&#8217;s also a good practice to use families provided by Autodesk with Revit.
+Start by removing every unused view, family or group. Used wisely, the Purge Unused Element command can be useful here. Don't use Revit family content sites. These families ae generally stuffed with heavy materials, complex geometries and parameters you don't need. It's also a good practice to use families provided by Autodesk with Revit.
 
 Every model should have a starting page, defined in the Manage Project tab.
 

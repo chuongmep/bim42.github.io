@@ -15,7 +15,7 @@ tags:
   - Pretty Pictures
   - Visualization
 ---
-Finding and solving issues is at the heart of the spatial coordination process. But since we don&#8217;t know in advance how many issues we will have to find and solve, it is difficult to measure the result of our efforts.
+Finding and solving issues is at the heart of the spatial coordination process. But since we don't know in advance how many issues we will have to find and solve, it is difficult to measure the result of our efforts.
 
 [Case](http://case-inc.com) recently presented a [very interesting solution](http://collectivebim.com/visualizing-aec-bim-coordination-jira-tableau/) for this problem. Using [Jira](https://www.atlassian.com/software/jira), an issue tracking product used in the software industry, they were able to keep track of every problems found during the design phase, and display them thought nice visualizations.
 
@@ -31,13 +31,13 @@ To do so, we have to set up a general clash matrix, something like this:
   * P: Plumbing
   * E: Electrical
 
-You can see that the lower-left of the matrix is left blank, we don&#8217;t need to run symmetrical tests.
+You can see that the lower-left of the matrix is left blank, we don't need to run symmetrical tests.
 
-We don&#8217;t include architectural elements in our detection, since resulting clashes are generally not relevant enough to add value to the report.
+We don't include architectural elements in our detection, since resulting clashes are generally not relevant enough to add value to the report.
 
 We test for intersections between every trades, create a report combining all clashes, and export it from Navisworks.
 
-This report is not very useful per se. In fact, there is generally too much clashes to sort them into something useful. And if by chance you haven&#8217;t that much clashes, you probably don&#8217;t need clash detection in the first place. But this clash report do nevertheless represent the state of our coordination at a given date. The less clashes we have, the better.
+This report is not very useful per se. In fact, there is generally too much clashes to sort them into something useful. And if by chance you haven't that much clashes, you probably don't need clash detection in the first place. But this clash report do nevertheless represent the state of our coordination at a given date. The less clashes we have, the better.
 
 Furthermore, once these tests are set up in Navisworks, it become easy to export a large clash report every day, a rather bulky summary of every problems we can find in our model.
 

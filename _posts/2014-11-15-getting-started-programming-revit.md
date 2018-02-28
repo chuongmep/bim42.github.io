@@ -19,7 +19,7 @@ As an example, I will create a macro for tagging all wall in a given view. Even 
 
 This week, we will see how to create a macro and retrieve elements draw in our model.
 
-Let&#8217;s start it by clicking on the Macro Manager on the Manage tab:
+Let's start it by clicking on the Macro Manager on the Manage tab:
 
 ![<img class="aligncenter size-full wp-image-695" src="http://bim42.com/wp-content/uploads/2014/11/01-MacroEditor.png" alt="Macro Manager" width="51" height="96" />](http://bim42.com/wp-content/uploads/2014/11/01-MacroEditor.png)
 
@@ -35,13 +35,13 @@ We can see the name of our macro just after &#8220;public void&#8221; and before
 
 Every action done within Revit are made within a document, generally a .rvt or .rfa file. We have to explain this in our macro by retrieving the current document
 
-Let&#8217;s write this:
+Let's write this:
 
 <pre class="brush: csharp; title: ; notranslate" title="">Document myDocument;</pre>
 
 With this line, I explain to Revit that something, a variable, called &#8220;myDocument&#8221; is a Revit Document.
 
-Don&#8217;t forget the trailing &#8220;;&#8221;, it means the end of the line and has to be placed after every instruction line in a Revit macro.
+Don't forget the trailing &#8220;;&#8221;, it means the end of the line and has to be placed after every instruction line in a Revit macro.
 
 Then, we write this:
 
@@ -55,14 +55,14 @@ To be able to annotate every walls in a view, we have to select this view. Here,
 
 Now than our Revit document and the view are selected, we have to retrieve walls to be able to annotate them. The Revit API provide us with a great function, the ability to filter element by category, type, class, &#8230; well, pretty much everything.
 
-First, let&#8217;s create our filter, with the keyword &#8220;new&#8221;:
+First, let's create our filter, with the keyword &#8220;new&#8221;:
 
 <pre class="brush: csharp; title: ; notranslate" title="">FilteredElementCollector filter 
 = new FilteredElementCollector(myDocument,myActiveView.Id);</pre>
 
 This &#8220;filter&#8221; will search for every element contained in &#8220;myDocument&#8221; and visible in the view &#8220;myActiveView&#8221;. The &#8220;.Id&#8221; after &#8220;myActiveView&#8221; mean that we use the unique identifier of the view instead of the view itself to create our filter.
 
-We can now use this filter to actually catch some walls. Let&#8217;s write that:
+We can now use this filter to actually catch some walls. Let's write that:
 
 <pre class="brush: csharp; title: ; notranslate" title="">List&lt;Element&gt;myWalls 
 = filter.OfCategory(BuiltInCategory.OST_Walls).ToList();</pre>
@@ -75,7 +75,7 @@ If we pass our cursor on &#8220;myDocument&#8221;, a hint appear, showing us tha
 
 ![<img class="aligncenter size-full wp-image-698" src="http://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint.png" alt="Document Hint" width="749" height="171" srcset="https://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint.png 749w, https://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint-300x68.png 300w, https://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint-500x114.png 500w" sizes="(max-width: 749px) 100vw, 749px" />](http://bim42.com/wp-content/uploads/2014/11/05-ocument-Hint.png)
 
-Let&#8217;s hit &#8220;F11&#8221; a few time to pass the last line. Stop right after it. If we pass our cursor on &#8220;myWalls&#8221; and click on the small &#8220;+&#8221; in the highlight, we see the list of walls retrieved by our filter. Everything works as expected, so far.
+Let's hit &#8220;F11&#8221; a few time to pass the last line. Stop right after it. If we pass our cursor on &#8220;myWalls&#8221; and click on the small &#8220;+&#8221; in the highlight, we see the list of walls retrieved by our filter. Everything works as expected, so far.
 
 ![<img class="aligncenter size-full wp-image-699" src="http://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint.png" alt="Walls Hint" width="699" height="276" srcset="https://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint.png 699w, https://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint-300x118.png 300w, https://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint-500x197.png 500w" sizes="(max-width: 699px) 100vw, 699px" />](http://bim42.com/wp-content/uploads/2014/11/06-Walls-Hint.png)
 

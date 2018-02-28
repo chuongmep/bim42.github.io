@@ -104,9 +104,9 @@ If you want to know witch version you have, you can check it by opening an IFC f
   </p>
 </div>
 
-I didn&#8217;t dig into the subtleties of the different flavors of each Revit version, like R2 and other exotic name, you get the picture.
+I didn't dig into the subtleties of the different flavors of each Revit version, like R2 and other exotic name, you get the picture.
 
-Last week, I published [a Revit add-on to send a model to bimsync](https://bim42.com/2017/09/revit-and-bimsync-just-got-a-room-together/). Under the hood, this add-on exports the Revit model to IFC before uploading it to bimsync. As I was building my add-on, I realized that I couldn&#8217;t just use the Document.Export() function with whatever IFC export settings Revit could provide me. To be useful, such an add-on must allow the user to set up his own IFC Export configuration.
+Last week, I published [a Revit add-on to send a model to bimsync](https://bim42.com/2017/09/revit-and-bimsync-just-got-a-room-together/). Under the hood, this add-on exports the Revit model to IFC before uploading it to bimsync. As I was building my add-on, I realized that I couldn't just use the Document.Export() function with whatever IFC export settings Revit could provide me. To be useful, such an add-on must allow the user to set up his own IFC Export configuration.
 
 I look into the code of the IFC Exporter UI to understand how this user interface communicate with the export engine. I found out that you need an IFCExportConfiguration class to use a specific IFC Export configuration. Below is an example of the code needed to export a Revit model to IFC:
 
@@ -152,7 +152,7 @@ But where find these IFCExportConfiguration and IFCExportConfigurationMaps class
 
 If the IFC for Revit add-on is installed, you can find these classes in the IFCExporterUIOverride.dll. This dll can be found in your ApplicationPlugins folder, in the IFC plugin install folder (C:\ProgramData\Autodesk\ApplicationPlugins\IFC 2018.bundle\Contents\2018)
 
-Running this on a Revit equipped with the add-on will work nicely, but it will fail miserably when the user doesn’t have the IFC for Revit add-on. In this case, the add-on can&#8217;t find the IFCExporterUIOverride.dll containing the IFCExportConfiguration class:
+Running this on a Revit equipped with the add-on will work nicely, but it will fail miserably when the user doesn’t have the IFC for Revit add-on. In this case, the add-on can't find the IFCExporterUIOverride.dll containing the IFCExportConfiguration class:
 
 <div id="attachment_1239" style="max-width: 666px" class="wp-caption aligncenter">
   <a href="https://bim42.com/wp-content/uploads/2017/09/fail.jpg"><img class="size-full wp-image-1239" src="https://bim42.com/wp-content/uploads/2017/09/fail.jpg" alt="" width="656" height="310" srcset="https://bim42.com/wp-content/uploads/2017/09/fail.jpg 656w, https://bim42.com/wp-content/uploads/2017/09/fail-300x142.jpg 300w, https://bim42.com/wp-content/uploads/2017/09/fail-500x236.jpg 500w" sizes="(max-width: 656px) 100vw, 656px" /></a>
@@ -164,7 +164,7 @@ Running this on a Revit equipped with the add-on will work nicely, but it will f
 
 If you have a Revit version with the IFC Exporter UI built in (Revit 2017 or 2018), the IFCExportConfiguration and IFCExportConfigurationMaps classes can be found in the IFCExportUI.dll, located in your Revit installation folder (C:\Program Files\Autodesk\Revit 2018\AddIns\IFCExporterUI). In this case, the features available are the same than our previous case, but are in a different dll.
 
-If you don&#8217;t have the IFC Exporter UI at all (Revit 2016 and earlier versions), you must fall back to the basic export options.
+If you don't have the IFC Exporter UI at all (Revit 2016 and earlier versions), you must fall back to the basic export options.
 
 In a nutshell, we have to manage these three cases:
 
@@ -254,7 +254,7 @@ IFCExportUIOverride::BIM.IFC.Export.UI.IFCExportConfiguration
                     </p>
                     
                     <p>
-                      If you plan on building your own Revit add-on to upload IFC models to a cloud service, don&#8217;t hesitate to look into the source code behind this article, the solution can be found on <a href="https://github.com/simonmoreau/bimsync4Revit">Github</a>.
+                      If you plan on building your own Revit add-on to upload IFC models to a cloud service, don't hesitate to look into the source code behind this article, the solution can be found on <a href="https://github.com/simonmoreau/bimsync4Revit">Github</a>.
                     </p>
                     
                     <p>

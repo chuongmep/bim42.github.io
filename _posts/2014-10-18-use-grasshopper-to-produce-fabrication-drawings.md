@@ -34,7 +34,7 @@ My objective here is to bake every panel boundary curve on a different layer to 
 
 ![<img class="aligncenter size-full wp-image-662" src="http://bim42.com/wp-content/uploads/2014/10/4_BakeEdges.png" alt="4_BakeEdges" width="800" height="390" srcset="https://bim42.com/wp-content/uploads/2014/10/4_BakeEdges.png 800w, https://bim42.com/wp-content/uploads/2014/10/4_BakeEdges-300x146.png 300w, https://bim42.com/wp-content/uploads/2014/10/4_BakeEdges-500x243.png 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2014/10/4_BakeEdges.png)
 
-The next step is to add dimensions. Sadly, since native grasshopper dimension does not have any output object, we cannot bake them with the &#8220;Object Bake&#8221;. So I&#8217;m using my own Linear Dimension creation component. As you can see, the code is quite straightforward. I use standard Rhino functions to create my dimensions, and have a small private function for selecting or creating the layer to place our dimension.
+The next step is to add dimensions. Sadly, since native grasshopper dimension does not have any output object, we cannot bake them with the &#8220;Object Bake&#8221;. So I'm using my own Linear Dimension creation component. As you can see, the code is quite straightforward. I use standard Rhino functions to create my dimensions, and have a small private function for selecting or creating the layer to place our dimension.
 
 <pre class="brush: csharp; title: ; notranslate" title="">private void RunScript(bool Bake, Point3d A,
                         Point3d B, Point3d C, 

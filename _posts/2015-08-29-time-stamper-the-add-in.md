@@ -46,4 +46,4 @@ You can create a linked models schedule, with date and version.
 
 To help you create filters and tags with these parameters, you will find [here](http://bim42.com/wp-content/uploads/2015/08/BIM42_SharedParameters.txt) the shared parameter text file. Please also note that the application uses a list of categories to create the four shared parameters. You will find this list [here](http://bim42.com/wp-content/uploads/2015/08/categories.txt).
 
-I hope this application will help you in your work, don&#8217;t hesitate to share your suggestions in the comments.
+I hope this application will help you in your work, don't hesitate to share your suggestions in the comments.

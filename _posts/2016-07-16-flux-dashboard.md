@@ -43,8 +43,8 @@ Using the same principle, I add a few node to my Dynamo definition, and upload t
 
 ![<img class="aligncenter size-large wp-image-1070" src="http://bim42.com/wp-content/uploads/2016/07/Image-3-1024x653.png" alt="Image [3]" width="584" height="372" srcset="https://bim42.com/wp-content/uploads/2016/07/Image-3-1024x653.png 1024w, https://bim42.com/wp-content/uploads/2016/07/Image-3-300x191.png 300w, https://bim42.com/wp-content/uploads/2016/07/Image-3-768x490.png 768w, https://bim42.com/wp-content/uploads/2016/07/Image-3-470x300.png 470w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/07/Image-3.png)
 
-I also try to display geometry in the Flux Viewport, but for some reason, I wasn&#8217;t able to see anything on the dashboard. I will have to keep trying on this one.
+I also try to display geometry in the Flux Viewport, but for some reason, I wasn't able to see anything on the dashboard. I will have to keep trying on this one.
 
 After having built this great dashboard, it is pretty easy to share it, using a Flux Data Key to store it. You just have to make sure everyone has access to all the projects linked to the dashboard.
 
-The Flux Dashboard is a great idea. As long as you use Flux as the main data repository, the Flux Dashboard can display is fair share of information to everyone without having to dig into the models. However, the Flux dashboard is not (yet) an Excel spreadsheet, and won&#8217;t regroup or sort your data directly, and you still have some work upfront to prepare this data for visualization.
+The Flux Dashboard is a great idea. As long as you use Flux as the main data repository, the Flux Dashboard can display is fair share of information to everyone without having to dig into the models. However, the Flux dashboard is not (yet) an Excel spreadsheet, and won't regroup or sort your data directly, and you still have some work upfront to prepare this data for visualization.

@@ -14,7 +14,7 @@ tags:
   - Unity3D
   - Visualization
 ---
-Virtual environments are a trending topic among our clients these days. Owners don&#8217;t want only pretty pictures of their future building anymore, but also videos, and lately, whole 3D environments.
+Virtual environments are a trending topic among our clients these days. Owners don't want only pretty pictures of their future building anymore, but also videos, and lately, whole 3D environments.
 
 They want to be able to walk through their future building and see everything just like the expected end user. This kind of easily accessible 3D model has endless applications: You can validate architectural and interior design choices, check the accessibility and the ergonomic of the building, present a show apartment on a web-based application accessible by anyone, and many more&#8230;
 
@@ -24,7 +24,7 @@ I have tried two of these engines, with different results.
 
 ![<img class="aligncenter size-full wp-image-124" title="studio_logo3" src="http://bim42.com/wp-content/uploads/2012/06/studio_logo3.jpg" alt="" width="300" height="70" />](http://bim42.com/wp-content/uploads/2012/06/studio_logo3.jpg)
 
-3dVia Studio is the solution develop by Dassault System. It&#8217;s really powerful, with a lot of features and possibilities, and can run _really_ large models. But on the other hand, its price reserves it for visualization professionals, and finding some support and examples on the web can be dreadful.
+3dVia Studio is the solution develop by Dassault System. It's really powerful, with a lot of features and possibilities, and can run _really_ large models. But on the other hand, its price reserves it for visualization professionals, and finding some support and examples on the web can be dreadful.
 
 ![<img class="aligncenter size-full wp-image-125" title="unity-logo" src="http://bim42.com/wp-content/uploads/2012/06/unity-logo.jpg" alt="" width="300" height="112" />](http://bim42.com/wp-content/uploads/2012/06/unity-logo.jpg)
 

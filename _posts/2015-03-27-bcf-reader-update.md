@@ -18,7 +18,7 @@ This post is long overdue, but I finally take the time to update my BCF Reader.
 
 ![<img class="aligncenter size-full wp-image-805" src="http://bim42.com/wp-content/uploads/2015/03/BCFReader-Logo_small.png" alt="BCFReader-Logo_small" width="800" height="322" srcset="https://bim42.com/wp-content/uploads/2015/03/BCFReader-Logo_small.png 800w, https://bim42.com/wp-content/uploads/2015/03/BCFReader-Logo_small-300x121.png 300w, https://bim42.com/wp-content/uploads/2015/03/BCFReader-Logo_small-500x201.png 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/03/BCFReader-Logo_small.png)
 
-First of all, I have tested it on a larger set of BCF files, and I hope these will make it more robust, especially if something is wrong within the BCF file. My experiences include files coming from [Tekla BIMSight](http://www.teklabimsight.com/), [Matteo Cominetti&#8217;s BCFier](http://matteocominetti.com/bcfier/) and [Kubus BIM Collab.](http://www.bimcollab.com/en/default.aspx)
+First of all, I have tested it on a larger set of BCF files, and I hope these will make it more robust, especially if something is wrong within the BCF file. My experiences include files coming from [Tekla BIMSight](http://www.teklabimsight.com/), [Matteo Cominetti's BCFier](http://matteocominetti.com/bcfier/) and [Kubus BIM Collab.](http://www.bimcollab.com/en/default.aspx)
 
 I have to remove the support for Word 97-2003 Documents (*.doc), since the library I use does not support them. I will see how I can integrate them back in a future release.
 

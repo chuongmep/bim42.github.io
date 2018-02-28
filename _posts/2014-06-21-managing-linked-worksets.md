@@ -25,7 +25,7 @@ In the Manage Link window, selecting the Manage Worksets open a list of user wor
 
 It is a project setting, so elements in the closed workset will be hidden everywhere in our host model.
 
-It allow us to load only the part of the linked project that really interesting us. For example, as a mechanical engineer, I generally don&#8217;t need to display furniture from the architectural model. Closing the related workset can save me significant loading time.
+It allow us to load only the part of the linked project that really interesting us. For example, as a mechanical engineer, I generally don't need to display furniture from the architectural model. Closing the related workset can save me significant loading time.
 
 The most common application of this feature is to hide linked grids and references planes.When new workset are created, every level and grid goes into the &#8220;Shared Levels and Grids&#8221; default workset. This behavior should not be changed, since it allows us to easily hide linked levels and grids in our current model.
 

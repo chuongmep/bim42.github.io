@@ -29,7 +29,7 @@ You can find [here](http://autode.sk/1ENYPWF) a little ScreenCast showing how it
 
 While working on it, I also found some interesting property : [Computation Height](http://help.autodesk.com/view/RVT/2016/ENU/?guid=GUID-9D33F884-4BCA-4772-B3E5-1E15A53DEE6E). This is a level property, and it allows to define the height used to define boundaries on this level.
 
-Let&#8217;s create three rooms on a given level:
+Let's create three rooms on a given level:
 
 ![<img class="aligncenter size-large wp-image-922" src="http://bim42.com/wp-content/uploads/2015/08/ThreeRooms-1024x389.png" alt="ThreeRooms" width="584" height="222" srcset="https://bim42.com/wp-content/uploads/2015/08/ThreeRooms-1024x389.png 1024w, https://bim42.com/wp-content/uploads/2015/08/ThreeRooms-300x114.png 300w, https://bim42.com/wp-content/uploads/2015/08/ThreeRooms-500x190.png 500w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2015/08/ThreeRooms.png)
 

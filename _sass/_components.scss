@@ -15,10 +15,16 @@ code {
     padding: 1px 4px;
 }
 
+article {
+  a {
+    color: $color-text-accent;
+  }
+}
+
 
 .prose {
 
-  p, ol, ul {
+  p, ol, ul, iframe {
     font-size: $prose-font-size;
     margin-bottom: 1em;
     width: 100%;

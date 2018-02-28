@@ -14,7 +14,7 @@ tags:
   - Documentation
   - Revit
 ---
-I am not very fond of duct and pipe insulations in Revit. If the concept is very useful, I find difficult to add and edit them. Furthermore, seeing the insulation on every duct and pipe can quickly clutters the view. We want to know how much insulation we have, but we don&#8217;t want to see it everywhere.
+I am not very fond of duct and pipe insulations in Revit. If the concept is very useful, I find difficult to add and edit them. Furthermore, seeing the insulation on every duct and pipe can quickly clutters the view. We want to know how much insulation we have, but we don't want to see it everywhere.
 
 In a technical drawing, we generally represent insulation only on small parts of the duct, with an annotation, and then infer that the duck is covered everywhere else.
 

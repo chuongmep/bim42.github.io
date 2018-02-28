@@ -45,7 +45,7 @@ The markup.bcf file stores all metadata about the note: Its date, its title, its
 
 snapshot.png is the first image associated with the note, and an essential part of my report too.
 
-Finally, the viewpoint.bcfv store information about the position of the camera used to capture the snapshot. Since the very point of my report is to work outside the model, I won&#8217;t use it here.
+Finally, the viewpoint.bcfv store information about the position of the camera used to capture the snapshot. Since the very point of my report is to work outside the model, I won't use it here.
 
 I use the XSD Schema provided by [Building Smart](http://www.buildingsmart-tech.org/specifications/bcf-releases) to create my C# classes and serialize the markup.bcf file.
 

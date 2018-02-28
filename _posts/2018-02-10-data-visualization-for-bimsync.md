@@ -44,7 +44,7 @@ As an example, we use it internally to manage BIM deployment across all our offi
 
 ![<img class="aligncenter size-large wp-image-1262" src="https://bim42.com/wp-content/uploads/2018/02/softwareUsed-1024x594.png" alt="" width="584" height="339" srcset="https://bim42.com/wp-content/uploads/2018/02/softwareUsed-1024x594.png 1024w, https://bim42.com/wp-content/uploads/2018/02/softwareUsed-300x174.png 300w, https://bim42.com/wp-content/uploads/2018/02/softwareUsed-768x446.png 768w, https://bim42.com/wp-content/uploads/2018/02/softwareUsed-500x290.png 500w" sizes="(max-width: 584px) 100vw, 584px" />](https://bim42.com/wp-content/uploads/2018/02/softwareUsed.png)
 
-For performance reason, you can&#8217;t use it to extract more detailed information like quantities or issues. To do so, you must use the second dashboard.
+For performance reason, you can't use it to extract more detailed information like quantities or issues. To do so, you must use the second dashboard.
 
 The [Project Dashboard](https://bimsyncmanager.firebaseapp.com/documentation#ProjectDashboard) allows you to extract all quantities for every IFC categories for every model uploaded to a specific bimsync project. A Relations table gives you all [IfcRelationship](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifckernel/lexical/ifcrelationship.htm) in your models, allowing you to retrieve relations between an element and its level, or between a space and its IfcZone.
 

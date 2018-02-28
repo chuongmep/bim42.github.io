@@ -26,7 +26,7 @@ You must first log into your bimsync account. After clicking on login, a browser
   </p>
 </div>
 
-Once connected, your credential will be safely stored on your computer so you won&#8217;t have to login the next time you open Revit.
+Once connected, your credential will be safely stored on your computer so you won't have to login the next time you open Revit.
 
 You can now upload model to your bimsync account. Select &#8220;Upload&#8221;, select your bimsync project and model, type in the associated comment, select the IFC settings and click on &#8220;Upload&#8221;. After a while, depending on your file size, your Revit model will be uploaded to bimsync.
 
@@ -40,7 +40,7 @@ You can now upload model to your bimsync account. Select &#8220;Upload&#8221;, s
 
 The Setup drop down allows you to select the IFC Export configuration. You can choose a standard &#8220;bimsync&#8221; recommended setup, an existing setup, or create a new one.
 
-After the first export, bimsync project and model ids will be saved in your Revit model, so you won&#8217;t have to select them again the next time. If you are curious, you can find these ids in your Project Information:
+After the first export, bimsync project and model ids will be saved in your Revit model, so you won't have to select them again the next time. If you are curious, you can find these ids in your Project Information:
 
 <div id="attachment_1223" style="max-width: 936px" class="wp-caption aligncenter">
   <a href="https://bim42.com/wp-content/uploads/2017/09/projectInfo.png"><img class="size-full wp-image-1223" src="https://bim42.com/wp-content/uploads/2017/09/projectInfo.png" alt="Your Project information" width="926" height="841" srcset="https://bim42.com/wp-content/uploads/2017/09/projectInfo.png 926w, https://bim42.com/wp-content/uploads/2017/09/projectInfo-300x272.png 300w, https://bim42.com/wp-content/uploads/2017/09/projectInfo-768x698.png 768w, https://bim42.com/wp-content/uploads/2017/09/projectInfo-330x300.png 330w" sizes="(max-width: 926px) 100vw, 926px" /></a>
@@ -71,4 +71,4 @@ Between exporting to IFC, compressing the file and uploading it to bimsync, the 
 
 You can already download the plugin on the [Autodesk App Store](https://apps.autodesk.com/RVT/en/Detail/Index?id=3115102317642496559&appLang=en&os=Win64).
 
-As usual, the entire source code is [available on Github](https://github.com/simonmoreau/bimsync4Revit), feel free to use it on your own project. Don&#8217;t hesitate to report on any issue you might have with this plugin, there is always a lot of room for improvement.
+As usual, the entire source code is [available on Github](https://github.com/simonmoreau/bimsync4Revit), feel free to use it on your own project. Don't hesitate to report on any issue you might have with this plugin, there is always a lot of room for improvement.

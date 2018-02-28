@@ -37,7 +37,7 @@ This massing family allow us to create a curtain system by face, by selecting ev
 
 ![<img class="aligncenter size-full wp-image-548" src="http://bim42.com/wp-content/uploads/2014/08/Command.png" alt="Command" width="177" height="175" />](http://bim42.com/wp-content/uploads/2014/08/Command.png)
 
-The first one is populated only with curtain panel to represent the finish face of our ceiling. Since every panel fit a face of our massing family, we don&#8217;t need to add any subdivision into this grid. Curtain panels are 100 mm thick, and have a 50 mm offset to place their finish face along the surface of the curtain system.
+The first one is populated only with curtain panel to represent the finish face of our ceiling. Since every panel fit a face of our massing family, we don't need to add any subdivision into this grid. Curtain panels are 100 mm thick, and have a 50 mm offset to place their finish face along the surface of the curtain system.
 
 I create another curtain system to model the structural element of our ceiling. This curtain system is populated with specifically designed mullion, and without any curtain panel. These mullions represent the supporting elements of our ceiling, and are modeled along the border line of each panel.
 

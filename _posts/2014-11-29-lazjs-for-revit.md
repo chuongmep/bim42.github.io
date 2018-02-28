@@ -42,6 +42,6 @@ LazJS also provide a set of already existing scripts for inspiration.
 
 Last but not least, LazJS provides functions for exporting and importing data to Excel. These functions are very easy to use, and can replace any plug-in dedicated to exporting and importing data from Excel.
 
-Even if I will keep my habit with C#, the LazJS plug-in seems quite powerful, and far more easy to use than the Revit macro editor, since you don&#8217;t have to handle all the tedious document retrieval and the transaction handling.
+Even if I will keep my habit with C#, the LazJS plug-in seems quite powerful, and far more easy to use than the Revit macro editor, since you don't have to handle all the tedious document retrieval and the transaction handling.
 
 The only problem I have to report is an error when I attempt to debug a Revit macro in SharpDevelop after installing LazJS. It is kind of annoying, but I am sure this problem will be addressed when they launch their final version.

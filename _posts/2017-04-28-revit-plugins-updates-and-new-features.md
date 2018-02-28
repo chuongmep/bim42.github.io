@@ -99,6 +99,6 @@ A few bugs where corrected, making the creation of the four shared parameters fa
 
 Time Stamper is now available [here](https://apps.autodesk.com/ACD/en/Detail/Index?id=232313135819866372&appLang=en&os=Win64).
 
-These new versions are now available on the [Autodesk App Store](https://apps.autodesk.com/en/Publisher/PublisherHomepage?ID=200810282052581). Don&#8217;t hesitate to report any issue you might find in them or ask for improvement.
+These new versions are now available on the [Autodesk App Store](https://apps.autodesk.com/en/Publisher/PublisherHomepage?ID=200810282052581). Don't hesitate to report any issue you might find in them or ask for improvement.
 
 These plugins are open source, you can find the source code [here](https://github.com/simonmoreau/RoomFinishes), [here](https://bitbucket.org/simonmoreau/align-tag) and [here](https://bitbucket.org/simonmoreau/timestamp). Feel free to use it on your own project or contribute to these projects.

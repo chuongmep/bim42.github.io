@@ -62,4 +62,4 @@ In this case, the selected point will be moving:
 
 ![<img class="aligncenter size-full wp-image-358" src="http://bim42.com/wp-content/uploads/2014/05/pointmoving.png" alt="PointMoving" width="210" height="155" />](http://bim42.com/wp-content/uploads/2014/05/pointmoving.png)If so, the rest of the model will be moving around the selected point:
 
-![<img class="aligncenter size-full wp-image-360" src="http://bim42.com/wp-content/uploads/2014/05/restmoving.png" alt="RestMoving" width="201" height="160" />](http://bim42.com/wp-content/uploads/2014/05/restmoving.png)The difference can be subtle, don&#8217;t hesitate to play with it in order to understand how it works.
+![<img class="aligncenter size-full wp-image-360" src="http://bim42.com/wp-content/uploads/2014/05/restmoving.png" alt="RestMoving" width="201" height="160" />](http://bim42.com/wp-content/uploads/2014/05/restmoving.png)The difference can be subtle, don't hesitate to play with it in order to understand how it works.

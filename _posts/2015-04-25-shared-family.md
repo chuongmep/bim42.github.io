@@ -25,7 +25,7 @@ As an example, I add a light switch to a door family. This light switch is wall-
 
 ![<img class="aligncenter size-full wp-image-828" src="http://bim42.com/wp-content/uploads/2015/04/Visible.png" alt="Visible" width="800" height="323" srcset="https://bim42.com/wp-content/uploads/2015/04/Visible.png 800w, https://bim42.com/wp-content/uploads/2015/04/Visible-300x121.png 300w, https://bim42.com/wp-content/uploads/2015/04/Visible-500x202.png 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/04/Visible.png)
 
-Furthermore, these nested families only appear in schedules if they are visible in the project. I use this property to select on which door I want a light switch. I add a Yes/No parameter on my family to control the visibly of the switch. Once hidden in the project, the switch doesn&#8217;t appear in the schedule either.
+Furthermore, these nested families only appear in schedules if they are visible in the project. I use this property to select on which door I want a light switch. I add a Yes/No parameter on my family to control the visibly of the switch. Once hidden in the project, the switch doesn't appear in the schedule either.
 
 ![<img class="aligncenter size-full wp-image-826" src="http://bim42.com/wp-content/uploads/2015/04/Hidden.png" alt="Hidden" width="800" height="323" srcset="https://bim42.com/wp-content/uploads/2015/04/Hidden.png 800w, https://bim42.com/wp-content/uploads/2015/04/Hidden-300x121.png 300w, https://bim42.com/wp-content/uploads/2015/04/Hidden-500x202.png 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/04/Hidden.png)
 

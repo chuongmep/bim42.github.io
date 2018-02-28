@@ -43,4 +43,4 @@ Once recorded and edited, the screencast is automatically uploaded to the Autode
 
 And the last but not the least, the video can be downloaded from the website. An URL is also provided to embed your screencast in a website.
 
-I&#8217;m usually not very fond of video tutorial, but I must admit than the Screencast application made the creation of such video too easy to miss. I will probably use it more to present my solutions.
+I'm usually not very fond of video tutorial, but I must admit than the Screencast application made the creation of such video too easy to miss. I will probably use it more to present my solutions.

@@ -29,7 +29,7 @@ The viewer is also quite powerful, I tried it with 1 Go worth of IFC files, it r
 
 bimsync does a good job at uploading, viewing and managing versions of various models, and provides a thoughtful way of managing revisions.
 
-You start by creating a &#8220;model&#8221; which on bimsync is a placeholder where you will upload the various versions of an IFC file. Once this file is processed by the platform, it will be available for review along with the other models. The processing part can be rather slow, it takes more than one hour for a 500 Mo IFC file, but happen entirely online, you don&#8217;t even have to keep your computer open.
+You start by creating a &#8220;model&#8221; which on bimsync is a placeholder where you will upload the various versions of an IFC file. Once this file is processed by the platform, it will be available for review along with the other models. The processing part can be rather slow, it takes more than one hour for a 500 Mo IFC file, but happen entirely online, you don't even have to keep your computer open.
 
 ![<img class="aligncenter size-large wp-image-1093" src="http://bim42.com/wp-content/uploads/2016/11/models-1024x463.png" alt="models" width="584" height="264" srcset="https://bim42.com/wp-content/uploads/2016/11/models-1024x463.png 1024w, https://bim42.com/wp-content/uploads/2016/11/models-300x136.png 300w, https://bim42.com/wp-content/uploads/2016/11/models-768x347.png 768w, https://bim42.com/wp-content/uploads/2016/11/models-500x226.png 500w, https://bim42.com/wp-content/uploads/2016/11/models.png 1582w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/11/models.png)
 
@@ -45,7 +45,7 @@ These issues are grouped by boards, and you can create as many board as you want
 
 ![<img class="aligncenter size-large wp-image-1096" src="http://bim42.com/wp-content/uploads/2016/11/statistics2-1024x873.png" alt="statistics2" width="584" height="498" srcset="https://bim42.com/wp-content/uploads/2016/11/statistics2-1024x873.png 1024w, https://bim42.com/wp-content/uploads/2016/11/statistics2-300x256.png 300w, https://bim42.com/wp-content/uploads/2016/11/statistics2-768x654.png 768w, https://bim42.com/wp-content/uploads/2016/11/statistics2-352x300.png 352w, https://bim42.com/wp-content/uploads/2016/11/statistics2.png 1413w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2016/11/statistics2.png)
 
-You know that I am a big fan of the BCF concept, and bimsync doesn&#8217;t disappoint me in this regard, by providing a first-class BCF 1 and 2 support. You can export your issues in BCF to display them directly in your authoring platform of choice.
+You know that I am a big fan of the BCF concept, and bimsync doesn't disappoint me in this regard, by providing a first-class BCF 1 and 2 support. You can export your issues in BCF to display them directly in your authoring platform of choice.
 
 Catenda was kind enough to provide me with an access to their [API](https://bimsync.com/developers), and after a few tests, I found them quite easy to use and powerful. I think this enable very interesting workflows, like automatically displaying key metrics in an easy to consume Power BI dashboard.
 

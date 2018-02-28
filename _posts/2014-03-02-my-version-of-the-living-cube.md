@@ -24,9 +24,9 @@ Designed by [Till Ewert Koenneker](http://www.illdesigns.ch/art/the-living-cube/
   
 After encountering the work of Till Koenneker, I decided to use it as an inspiration to draw the same one for myself.
   
-The main idea is to design a piece of furniture, producing drawings with a software usually used for steel detailing. My goal is to automatically produce shop drawings of every parts of the finished product, directly from the model. These drawings are then to be send to a joiner&#8217;s workshop for the production of parts that I can assemble myself, just like any ready-to-assemble Ikea-like funiture.
+The main idea is to design a piece of furniture, producing drawings with a software usually used for steel detailing. My goal is to automatically produce shop drawings of every parts of the finished product, directly from the model. These drawings are then to be send to a joiner's workshop for the production of parts that I can assemble myself, just like any ready-to-assemble Ikea-like funiture.
   
-I&#8217;m not using Tekla Structure on a regular basis, but I know its power for producing shop drawing for timber or steel structure, and its caracteristics fit my needs for this project. It will be a good occasion to hone my Tekla skills.
+I'm not using Tekla Structure on a regular basis, but I know its power for producing shop drawing for timber or steel structure, and its caracteristics fit my needs for this project. It will be a good occasion to hone my Tekla skills.
   
 I started with a first sketch on Tekla Structure, trying to find the best proportion for my needs. I came up with a first version, and used 3D Max to render it.
 

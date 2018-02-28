@@ -15,7 +15,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 name: BIM 42
-title: BIM42
+title: BIM 42
 email: your-email@example.com
 description: >
   The Answer to the Great Question of BIM,
