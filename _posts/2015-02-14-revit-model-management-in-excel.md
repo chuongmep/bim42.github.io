@@ -21,17 +21,17 @@ Here come the BIM Manager, who spend two tedious days sorting these views and ca
 
 To help address this problem, I create a small piece of code for exporting every view, template and filter to three CSV files.
 
-![<img class="aligncenter size-full wp-image-777" src="http://bim42.com/wp-content/uploads/2015/02/csvFiles.png" alt="CSV Files" width="218" height="64" />](http://bim42.com/wp-content/uploads/2015/02/csvFiles.png)
+![csvFiles](http://bim42.com/wp-content/uploads/2015/02/csvFiles.png)
 
 To read these files in a meaningful way, I use PowerPivot in Excel to create some kind of a small database, with two relationships :
 
-![<img class="aligncenter size-full wp-image-775" src="http://bim42.com/wp-content/uploads/2015/02/relationships.png" alt="Relationships" width="800" height="596" srcset="https://bim42.com/wp-content/uploads/2015/02/relationships.png 800w, https://bim42.com/wp-content/uploads/2015/02/relationships-300x224.png 300w, https://bim42.com/wp-content/uploads/2015/02/relationships-403x300.png 403w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/02/relationships.png)
+![relationships](http://bim42.com/wp-content/uploads/2015/02/relationships.png)
 
 We can then create tables displaying how filters and views are used, like how many filters are used, or where the templates are applied.
 
-![<img class="aligncenter size-full wp-image-774" src="http://bim42.com/wp-content/uploads/2015/02/filtersUsage.png" alt="Filters Usage" width="415" height="334" srcset="https://bim42.com/wp-content/uploads/2015/02/filtersUsage.png 415w, https://bim42.com/wp-content/uploads/2015/02/filtersUsage-300x241.png 300w, https://bim42.com/wp-content/uploads/2015/02/filtersUsage-373x300.png 373w" sizes="(max-width: 415px) 100vw, 415px" />](http://bim42.com/wp-content/uploads/2015/02/filtersUsage.png)
+![filtersUsage](http://bim42.com/wp-content/uploads/2015/02/filtersUsage.png)
 
-![<img class="aligncenter size-full wp-image-776" src="http://bim42.com/wp-content/uploads/2015/02/templateUsage.png" alt="Templates Usage" width="318" height="222" srcset="https://bim42.com/wp-content/uploads/2015/02/templateUsage.png 318w, https://bim42.com/wp-content/uploads/2015/02/templateUsage-300x209.png 300w" sizes="(max-width: 318px) 100vw, 318px" />](http://bim42.com/wp-content/uploads/2015/02/templateUsage.png)
+![templateUsage](http://bim42.com/wp-content/uploads/2015/02/templateUsage.png)
 
 Once loaded in the PowerPivot tool, this data allows us to quickly identify which template or filter are used and delete the unwanted ones.
 

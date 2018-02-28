@@ -20,17 +20,17 @@ In a technical drawing, we generally represent insulation only on small parts of
 
 To adapt this method on Revit, I create two detail components, representing the insulation on a round and on a rectangular duct.
 
-![<img class="aligncenter size-full wp-image-793" src="http://bim42.com/wp-content/uploads/2015/03/Annotations.png" alt="Annotations" width="925" height="356" srcset="https://bim42.com/wp-content/uploads/2015/03/Annotations.png 925w, https://bim42.com/wp-content/uploads/2015/03/Annotations-300x115.png 300w, https://bim42.com/wp-content/uploads/2015/03/Annotations-500x192.png 500w" sizes="(max-width: 925px) 100vw, 925px" />](http://bim42.com/wp-content/uploads/2015/03/Annotations.png)
+![Annotations](http://bim42.com/wp-content/uploads/2015/03/Annotations.png)
 
 This components have a &#8220;Width&#8221; instance parameter for setting their width regarding the thickness of the insulation.
 
-![<img class="aligncenter size-full wp-image-794" src="http://bim42.com/wp-content/uploads/2015/03/Width.png" alt="Width" width="717" height="413" srcset="https://bim42.com/wp-content/uploads/2015/03/Width.png 717w, https://bim42.com/wp-content/uploads/2015/03/Width-300x173.png 300w, https://bim42.com/wp-content/uploads/2015/03/Width-500x288.png 500w" sizes="(max-width: 717px) 100vw, 717px" />](http://bim42.com/wp-content/uploads/2015/03/Width.png)
+![Width](http://bim42.com/wp-content/uploads/2015/03/Width.png)
 
 I also create a small piece of code to instantiate these components on selected ducts and pipes.
 
 The idea is to pick a series of duct and pipe, read their insulation thickness, and add a detail component with the corresponding thickness. Like this, we can control where we want to see an insulation, and improve the overall legibility of the drawing.
 
-![<img class="aligncenter size-full wp-image-795" src="http://bim42.com/wp-content/uploads/2015/03/Animation.gif" alt="Animation" width="543" height="462" />](http://bim42.com/wp-content/uploads/2015/03/Animation.gif)
+![Animation](http://bim42.com/wp-content/uploads/2015/03/Animation.gif)
 
 This solution allow me to create quickly some annotations to represent the insulation without having to display it everywhere. However, this is more a workaround than a real solution. Nothing here is adaptive, and you have to restart the tool each time you edit or even move your duct.
 

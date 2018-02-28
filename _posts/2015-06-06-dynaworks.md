@@ -27,15 +27,15 @@ Along with the package, some examples are provided. The NavisClashesElementUpdat
 
 To use DynaWorks, you first have to create a Navisworks file, and prepare your clash detections. Here, I create a basic detection between Walls (First Clash Item, in Blue) and HVAC elements (Second Clash Item, in Red), and load the resulting NWF file in my Dynaworks definition.
 
-![<img class="aligncenter size-full wp-image-867" src="http://bim42.com/wp-content/uploads/2015/06/TestSelection.jpg" alt="TestSelection" width="500" height="308" srcset="https://bim42.com/wp-content/uploads/2015/06/TestSelection.jpg 500w, https://bim42.com/wp-content/uploads/2015/06/TestSelection-300x185.jpg 300w, https://bim42.com/wp-content/uploads/2015/06/TestSelection-487x300.jpg 487w" sizes="(max-width: 500px) 100vw, 500px" />](http://bim42.com/wp-content/uploads/2015/06/TestSelection.jpg)
+![TestSelection](http://bim42.com/wp-content/uploads/2015/06/TestSelection.jpg)
 
 Basically, this definition retrieves every clash result in every clash test, selects one side of the clash detection, gets the involved element, extracts its id and uses it to update the Comment parameter in Revit.
 
-![<img class="aligncenter size-full wp-image-865" src="http://bim42.com/wp-content/uploads/2015/06/process.jpg" alt="process" width="500" height="376" srcset="https://bim42.com/wp-content/uploads/2015/06/process.jpg 500w, https://bim42.com/wp-content/uploads/2015/06/process-300x226.jpg 300w, https://bim42.com/wp-content/uploads/2015/06/process-399x300.jpg 399w" sizes="(max-width: 500px) 100vw, 500px" />](http://bim42.com/wp-content/uploads/2015/06/process.jpg)
+![process](http://bim42.com/wp-content/uploads/2015/06/process.jpg)
 
 Simple, but the result is pretty impressive. Instead of painfully getting element Ids in the Navisworks report, DynaWorks retrieves them for us, and updates elements in Revit accordingly. When applying a filter in the Revit view, we get this:
 
-![<img class="aligncenter size-full wp-image-866" src="http://bim42.com/wp-content/uploads/2015/06/result.jpg" alt="result" width="500" height="305" srcset="https://bim42.com/wp-content/uploads/2015/06/result.jpg 500w, https://bim42.com/wp-content/uploads/2015/06/result-300x183.jpg 300w, https://bim42.com/wp-content/uploads/2015/06/result-492x300.jpg 492w" sizes="(max-width: 500px) 100vw, 500px" />](http://bim42.com/wp-content/uploads/2015/06/result.jpg)
+![result](http://bim42.com/wp-content/uploads/2015/06/result.jpg)
 
 With some tweak to this initial definition, I was able to implement some king of dynamic clash detection, with a live update of the Navisworks file as we update the Revit model, but converting an entire Revit model in NWC is way too slow to implement this solution in a production environment. Please feel free to [use it](https://bitbucket.org/simonmoreau/clashdetective/downloads/NavisClashesElementUpdateDynamicaly.dyn) if you want to try it by yourself.
 

@@ -22,15 +22,15 @@ There is nothing new with this problem, and I was already trying to find a solut
 
 But while looking for something totally different, I came across [this article in AUGI](https://www.augi.com/library/using-rooms-spaces-for-leverage-in-revit-mep) about room and spaces in Revit. So after five years working with Revit, I realized than by checking this small checkbox in the &#8220;Area and Volume Computations&#8221;, the room continues up until it fit a room bounding element, a ceiling or a floor.
 
-![<img class="aligncenter size-full wp-image-820" src="http://bim42.com/wp-content/uploads/2015/04/VolumeComputation.png" alt="VolumeComputation" width="1246" height="769" srcset="https://bim42.com/wp-content/uploads/2015/04/VolumeComputation.png 1246w, https://bim42.com/wp-content/uploads/2015/04/VolumeComputation-300x185.png 300w, https://bim42.com/wp-content/uploads/2015/04/VolumeComputation-1024x632.png 1024w, https://bim42.com/wp-content/uploads/2015/04/VolumeComputation-486x300.png 486w" sizes="(max-width: 1246px) 100vw, 1246px" />](http://bim42.com/wp-content/uploads/2015/04/VolumeComputation.png)
+![VolumeComputation](http://bim42.com/wp-content/uploads/2015/04/VolumeComputation.png)
 
 Energized by this nice discovery, I created a small application for automatically modeling insulation. This application retrieves every faces of a given room, and uses the higher ones as references for modeling floors and walls as insulations.
 
-![<img class="aligncenter size-full wp-image-819" src="http://bim42.com/wp-content/uploads/2015/04/Insulation.png" alt="Insulation" width="1200" height="419" srcset="https://bim42.com/wp-content/uploads/2015/04/Insulation.png 1200w, https://bim42.com/wp-content/uploads/2015/04/Insulation-300x105.png 300w, https://bim42.com/wp-content/uploads/2015/04/Insulation-1024x358.png 1024w, https://bim42.com/wp-content/uploads/2015/04/Insulation-500x175.png 500w" sizes="(max-width: 1200px) 100vw, 1200px" />](http://bim42.com/wp-content/uploads/2015/04/Insulation.png)
+![Insulation](http://bim42.com/wp-content/uploads/2015/04/Insulation.png)
 
 The only problem here is framing. They are not room bounding elements, and the upper face of the room does not fit the shape of the beam. I solved temporary this problem by creating a small floor under the beam.
 
-![<img class="aligncenter size-full wp-image-821" src="http://bim42.com/wp-content/uploads/2015/04/beam.png" alt="beam" width="1200" height="670" srcset="https://bim42.com/wp-content/uploads/2015/04/beam.png 1200w, https://bim42.com/wp-content/uploads/2015/04/beam-300x168.png 300w, https://bim42.com/wp-content/uploads/2015/04/beam-1024x572.png 1024w, https://bim42.com/wp-content/uploads/2015/04/beam-500x279.png 500w" sizes="(max-width: 1200px) 100vw, 1200px" />](http://bim42.com/wp-content/uploads/2015/04/beam.png)
+![beam](http://bim42.com/wp-content/uploads/2015/04/beam.png)
 
 While doing this, I realized there is a lot of tricky cases, where insulation have to be modeled as wall or slab regarding of the configuration.
 

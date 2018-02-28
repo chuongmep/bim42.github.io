@@ -28,7 +28,7 @@ Tekla comes with two plug-ins, one for exporting Revit models to Tekla, the othe
 
 I  quickly drew a few walls in Revit and exported them using the associated command.
 
-![<img class="aligncenter size-full wp-image-287" alt="RevitWalls" src="http://bim42.com/wp-content/uploads/2013/01/revitwalls.jpg" width="584" height="314" srcset="https://bim42.com/wp-content/uploads/2013/01/revitwalls.jpg 954w, https://bim42.com/wp-content/uploads/2013/01/revitwalls-300x161.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2013/01/revitwalls.jpg)
+![revitwalls](http://bim42.com/wp-content/uploads/2013/01/revitwalls.jpg)
 
 It created an .IFCZip file tailored for the Tekla IFC Import function.
 
@@ -36,7 +36,7 @@ I inserted it as a Reference Model in Tekla. The resulting geometry looks pretty
 
 In order to use this Tekla model for the production of structural drawings, native Tekla elements are needed, so I used the Tekla Macro Convert IFC element to generate them from this Reference Model.
 
-![<img class="aligncenter size-full wp-image-288" alt="TeklaNativeElements" src="http://bim42.com/wp-content/uploads/2013/01/teklanativeelements.jpg" width="584" height="255" srcset="https://bim42.com/wp-content/uploads/2013/01/teklanativeelements.jpg 1366w, https://bim42.com/wp-content/uploads/2013/01/teklanativeelements-300x131.jpg 300w, https://bim42.com/wp-content/uploads/2013/01/teklanativeelements-1024x448.jpg 1024w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2013/01/teklanativeelements.jpg)
+![teklanativeelements](http://bim42.com/wp-content/uploads/2013/01/teklanativeelements.jpg)
 
 As you can see, some dimension were lost during the conversion process.
 
@@ -44,7 +44,7 @@ These limitations made me think of another kind of link between these two softwa
 
 Here is a first overview of this plug-in with an interface for mapping Revit families to Tekla profiles.
 
-![<img class="aligncenter size-full wp-image-291" alt="PlugInUI" src="http://bim42.com/wp-content/uploads/2013/01/pluginui.jpg" width="584" height="362" srcset="https://bim42.com/wp-content/uploads/2013/01/pluginui.jpg 629w, https://bim42.com/wp-content/uploads/2013/01/pluginui-300x186.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2013/01/pluginui.jpg)
+![pluginui](http://bim42.com/wp-content/uploads/2013/01/pluginui.jpg)
 
 I was able to import a few beams and some walls with my plug-in. The whole thing is in a very early stage, and still incredibly buggy, but I hope to be able to fix it and create something both stable and useful. By now I am trying to recreate walls with an edited profile or hosted openings.
 

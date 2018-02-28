@@ -30,7 +30,7 @@ What information should be integrated in the model ?
 
 In 2008, the American Institute of Architect  after further developments on this project, released their official version, the E-202 “Building Information Modeling Protocol Exhibit”.
 
-![<img class="aligncenter size-full wp-image-280" title="AIA_E202" alt="" src="http://bim42.com/wp-content/uploads/2012/11/aia_e202.jpg" height="379" width="584" srcset="https://bim42.com/wp-content/uploads/2012/11/aia_e202.jpg 1228w, https://bim42.com/wp-content/uploads/2012/11/aia_e202-300x194.jpg 300w, https://bim42.com/wp-content/uploads/2012/11/aia_e202-1024x664.jpg 1024w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/11/aia_e202.jpg)This paper divided the Levels Of Development in five categories, each one describing the elements expected in the model, the corresponding state of development of the project and the possibilities for producing construction documents and building analysis. They are defined as follows:
+![aia_e202](http://bim42.com/wp-content/uploads/2012/11/aia_e202.jpg)This paper divided the Levels Of Development in five categories, each one describing the elements expected in the model, the corresponding state of development of the project and the possibilities for producing construction documents and building analysis. They are defined as follows:
 
 _LOD 100: Conceptual design_
   
@@ -66,7 +66,7 @@ These descriptions are indicative, and do not prevent the BIM Manager from descr
 
 (From [http://www.acec.org](http://www.acec.org/))
 
-![<img class="aligncenter size-full wp-image-281" title="ModelElementTable" alt="" src="http://bim42.com/wp-content/uploads/2012/11/modelelementtable.jpg" height="268" width="584" srcset="https://bim42.com/wp-content/uploads/2012/11/modelelementtable.jpg 886w, https://bim42.com/wp-content/uploads/2012/11/modelelementtable-300x138.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/11/modelelementtable.jpg)
+![modelelementtable](http://bim42.com/wp-content/uploads/2012/11/modelelementtable.jpg)
 
 This table defines the required level of detail for each element of a building model at each phase/LOD of the project.
 

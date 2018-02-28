@@ -19,11 +19,11 @@ There is a handful of these classifications currently in use. The [Construction 
 
 Revit provides two built-in type parameters to manage such classification systems, the Assembly Code and the Assembly Description. These parameters allow us to link any Revit type to an existing classification system.
 
-![<img class="aligncenter size-full wp-image-873" src="http://bim42.com/wp-content/uploads/2015/06/Assignement.jpg" alt="Assignement" width="800" height="423" srcset="https://bim42.com/wp-content/uploads/2015/06/Assignement.jpg 800w, https://bim42.com/wp-content/uploads/2015/06/Assignement-300x159.jpg 300w, https://bim42.com/wp-content/uploads/2015/06/Assignement-500x264.jpg 500w" sizes="(max-width: 800px) 100vw, 800px" />](http://bim42.com/wp-content/uploads/2015/06/Assignement.jpg)
+![Assignement](http://bim42.com/wp-content/uploads/2015/06/Assignement.jpg)
 
 This classification system can be loaded in Revit through the Assembly Code interface.
 
-![<img class="aligncenter size-full wp-image-872" src="http://bim42.com/wp-content/uploads/2015/06/Assemblycode.jpg" alt="Assemblycode" width="526" height="272" srcset="https://bim42.com/wp-content/uploads/2015/06/Assemblycode.jpg 526w, https://bim42.com/wp-content/uploads/2015/06/Assemblycode-300x155.jpg 300w, https://bim42.com/wp-content/uploads/2015/06/Assemblycode-500x259.jpg 500w" sizes="(max-width: 526px) 100vw, 526px" />](http://bim42.com/wp-content/uploads/2015/06/Assemblycode.jpg)
+![Assemblycode](http://bim42.com/wp-content/uploads/2015/06/Assemblycode.jpg)
 
 &nbsp;
 

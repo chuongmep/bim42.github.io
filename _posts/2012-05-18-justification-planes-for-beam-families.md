@@ -37,11 +37,11 @@ As you can see, my beam isn’t centered on the plane set as Reference: Center (
 
 As a workaround, I found out that References Planes can overwrite these geometrical References, but only if they are place outside the geometry. So, I draw two reference planes, I set their References respectively as Top and Bottom, and I place then evenly around the Center Axis of my beam.
 
-![<img class="aligncenter size-full wp-image-76" title="ReferencesPlanes" src="http://bim42.com/wp-content/uploads/2012/05/referencesplanes.jpg" alt="" width="584" height="350" srcset="https://bim42.com/wp-content/uploads/2012/05/referencesplanes.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/referencesplanes-300x180.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/referencesplanes.jpg)
+![referencesplanes](http://bim42.com/wp-content/uploads/2012/05/referencesplanes.jpg)
 
 Then, I load it back in project, and test again the z-direction justification of my beam:
 
-![<img class="aligncenter size-full wp-image-77" title="Justification2" src="http://bim42.com/wp-content/uploads/2012/05/justification2.jpg" alt="" width="584" height="328" srcset="https://bim42.com/wp-content/uploads/2012/05/justification2.jpg 1366w, https://bim42.com/wp-content/uploads/2012/05/justification2-300x168.jpg 300w, https://bim42.com/wp-content/uploads/2012/05/justification2-1024x575.jpg 1024w" sizes="(max-width: 584px) 100vw, 584px" />](http://bim42.com/wp-content/uploads/2012/05/justification2.jpg)
+![justification2](http://bim42.com/wp-content/uploads/2012/05/justification2.jpg)
 
 OK, it works!
 
