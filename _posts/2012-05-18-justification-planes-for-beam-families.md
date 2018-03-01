@@ -23,15 +23,11 @@ As an example, I design a specific beam, using the “Metric Structural Framing 
 
 I draw a little extrusion, and constrain its length. I want have my beam centered on the red dot, so I set the central plane as Reference: Center (Elevation)
 
-<p align="center">
-  <a href="http://bim42.com/wp-content/uploads/2012/05/extrusion.jpg"><img class="aligncenter size-full wp-image-74" title="Extrusion" src="http://bim42.com/wp-content/uploads/2012/05/extrusion.jpg" alt="" width="558" height="353" srcset="https://bim42.com/wp-content/uploads/2012/05/extrusion.jpg 558w, https://bim42.com/wp-content/uploads/2012/05/extrusion-300x189.jpg 300w" sizes="(max-width: 558px) 100vw, 558px" /></a>
-</p>
+![extrusion](http://bim42.com/wp-content/uploads/2012/05/extrusion.jpg)
 
 Then I load it into my project and I try different values for the z-direction justification:
 
-<p align="center">
-  <a href="http://bim42.com/wp-content/uploads/2012/05/justification.jpg"><img class="aligncenter size-full wp-image-75" title="Justification" src="http://bim42.com/wp-content/uploads/2012/05/justification.jpg" alt="" width="584" height="350" srcset="https://bim42.com/wp-content/uploads/2012/05/justification.jpg 800w, https://bim42.com/wp-content/uploads/2012/05/justification-300x180.jpg 300w" sizes="(max-width: 584px) 100vw, 584px" /></a>
-</p>
+![justification](http://bim42.com/wp-content/uploads/2012/05/justification.jpg)
 
 As you can see, my beam isn’t centered on the plane set as Reference: Center (Elevation), but keep only its _geometrical_ Top, Center and Bottom as references.
 

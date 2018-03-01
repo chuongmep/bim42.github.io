@@ -22,9 +22,7 @@ A recent request from a client make me think on the different possibilities for 
 
 In this project, each discipline is designed in its very own Revit model. These models are linked inside a coordination model for producing synthesis views and drawings. On this model, I need a specific graphical representation for the coordination team, while every team keeps their usual representation on their own model.
 
-<p style="text-align:center;">
-  <a href="http://bim42.com/wp-content/uploads/2013/02/modelorganization1.jpg"><img class="aligncenter  wp-image-303" title="Graphicals Representations" alt="" src="http://bim42.com/wp-content/uploads/2013/02/modelorganization1.jpg" width="584" height="475" srcset="https://bim42.com/wp-content/uploads/2013/02/modelorganization1.jpg 4019w, https://bim42.com/wp-content/uploads/2013/02/modelorganization1-300x244.jpg 300w, https://bim42.com/wp-content/uploads/2013/02/modelorganization1-1024x832.jpg 1024w" sizes="(max-width: 584px) 100vw, 584px" /></a>
-</p>
+![modelorganization1](http://bim42.com/wp-content/uploads/2013/02/modelorganization1.jpg)
 
 This graphical representation must also be editable directly in the compiled model, without having to open every trade model to change color settings.
 
