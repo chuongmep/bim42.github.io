@@ -1,6 +1,6 @@
 ---
 id: 994
-title: 'Using Dynamo for MEP Design &#8211; Part 1'
+title: 'Using Dynamo for MEP Design - Part 1'
 date: 2016-04-16T10:51:13+00:00
 author: Simon Moreau
 layout: post
@@ -27,11 +27,11 @@ I will assume that you are already familiar with the interface and have a genera
 
 I will also use my own package, DynamoMEP, to manipulate Rooms and Spaces. All these packages are of course freely available on the Dynamo Package Manager. If Dynamo doesn’t include a lot of functionalities around Room, Space and Mechanical Equipment, I use extensively the Package Manager to enhance these functionalities and create new workflows for mechanical engineers.
 
-A final word, try these examples on small models before running them in production, and work in &#8220;Manual&#8221; mode, a few graph I will use are quite hungry for memory.
+A final word, try these examples on small models before running them in production, and work in "Manual" mode, a few graph I will use are quite hungry for memory.
 
 ## Link between Room and Spaces
 
-Rooms and Spaces are essential for everything from room names and numbers to energy modeling. And before anything else, you have to retrieve any architectural room and convert it into an MEP Space to be able to work with it. You can of course use the &#8220;Place Spaces automatically&#8221; function of Revit, but this does not match exactly every architectural room with a MEP Space, and lack some basic functionalities. To improve on this, you can use a few Dynamo nodes to create a MEP Space for every room in a given linked file.
+Rooms and Spaces are essential for everything from room names and numbers to energy modeling. And before anything else, you have to retrieve any architectural room and convert it into an MEP Space to be able to work with it. You can of course use the "Place Spaces automatically" function of Revit, but this does not match exactly every architectural room with a MEP Space, and lack some basic functionalities. To improve on this, you can use a few Dynamo nodes to create a MEP Space for every room in a given linked file.
 
 <a href="http://bim42.com/wp-content/uploads/2016/04/figure1.png" rel="attachment wp-att-995"><img class="aligncenter size-large wp-image-995" src="http://bim42.com/wp-content/uploads/2016/04/figure1-1024x575.png" alt="figure1" width="584" height="328" srcset="https://bim42.com/wp-content/uploads/2016/04/figure1.png 1024w, https://bim42.com/wp-content/uploads/2016/04/figure1-300x168.png 300w, https://bim42.com/wp-content/uploads/2016/04/figure1-768x431.png 768w, https://bim42.com/wp-content/uploads/2016/04/figure1-500x281.png 500w" sizes="(max-width: 584px) 100vw, 584px" /></a>
   

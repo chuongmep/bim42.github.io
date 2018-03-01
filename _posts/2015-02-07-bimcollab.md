@@ -15,7 +15,7 @@ tags:
 ---
 My experiences with the BCF format lead me to discover a new solution, launch by Kubus in 2014, called BIMcollab, and imagine a new workflow for solving coordination issues within a building project.
 
-BIMCollab present itselft as a &#8220;BCF based issue management system for BIM in the cloud&#8221;. The general idea is to manage every design problem as an issue to be solved, and publish these issues on a cloud-based platform for everyone to see.
+BIMCollab present itselft as a "BCF based issue management system for BIM in the cloud". The general idea is to manage every design problem as an issue to be solved, and publish these issues on a cloud-based platform for everyone to see.
 
 BIMCollab become the central repository for every issue discovered in a model, and allow to measure the general progress of the project by counting issues opened and solved.
 

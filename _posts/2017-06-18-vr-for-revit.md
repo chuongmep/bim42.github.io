@@ -41,7 +41,7 @@ The resulting virtual visit is saved in my Prospect library. I can also save thi
 
 The visit itself is divided in two, a scale model overview and a walkthrough.
 
-In the scale model mode, you can see a small-scale view of the model that you are able to manipulate like any 3D view in your favorite design tool. You can also add sections and move them around. The feeling is close to manipulating an actual physical mockup, as we move it, turn it around and &#8220;grab&#8221; it to have a closer look.
+In the scale model mode, you can see a small-scale view of the model that you are able to manipulate like any 3D view in your favorite design tool. You can also add sections and move them around. The feeling is close to manipulating an actual physical mockup, as we move it, turn it around and "grab" it to have a closer look.
 
 <div id="attachment_1199" style="max-width: 730px" class="wp-caption aligncenter">
   <a href="https://bim42.com/wp-content/uploads/2017/06/Section-and-rotate-1.gif"><img class="size-full wp-image-1199" src="https://bim42.com/wp-content/uploads/2017/06/Section-and-rotate-1.gif" alt="" width="720" height="330" /></a>

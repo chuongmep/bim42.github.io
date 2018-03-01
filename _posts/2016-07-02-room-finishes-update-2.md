@@ -23,7 +23,7 @@ I have to thanks [Brian Winterscheidt](https://www.linkedin.com/in/brianwintersc
 
 The other major update is the ability to join skirting board with their supporting wall. You can now join both geometries automatically. This enable one of the most wanted feature, the ability to cut the skirting board around the door.
 
-Just select &#8220;Join geometry&#8221; before running the command, and every skirting board will be joined with its host wall.
+Just select "Join geometry" before running the command, and every skirting board will be joined with its host wall.
 
 ![join](http://bim42.com/wp-content/uploads/2016/07/join.png)
 

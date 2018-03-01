@@ -55,7 +55,7 @@ If we add a new group rule, say, by grid intersection, the plugin will break the
 
 You can now keep existing groups, so the Group Clashes will run only on the remaining clashes. This open more possibilities for complex workflows to group and sort clash results.
 
-For example, you can group by status, explode the &#8220;Active&#8221; group and keep this &#8220;Approved&#8221; group. After running again the grouping function by level, it will only take into account the clash result, and keep the &#8220;Approved&#8221; group intact, allowing you to focus on &#8220;Active&#8221; group
+For example, you can group by status, explode the "Active" group and keep this "Approved" group. After running again the grouping function by level, it will only take into account the clash result, and keep the "Approved" group intact, allowing you to focus on "Active" group
 
 Another example, if we create manually the following group in our previous clash test:
 

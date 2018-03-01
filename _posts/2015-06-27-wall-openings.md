@@ -22,7 +22,7 @@ Modeling opening where ducts, pipes, cable trays or conduits intersect walls or 
 
 ![Concrete-Formwork](http://bim42.com/wp-content/uploads/2015/06/Concrete-Formwork.png)
 
-There is a handful of plug-in for placing them automatically but they all need a fair amount of work to replace them properly afterward, so I decide to stick to a more &#8220;manual&#8221; solution.
+There is a handful of plug-in for placing them automatically but they all need a fair amount of work to replace them properly afterward, so I decide to stick to a more "manual" solution.
 
 First of all, I use Navisworks to find where I have to place these openings. It gives me a list of walls. Then, I use Dynamo to create an elevation in front of each of these walls. These elevations ease the process for placing the opening family in the concrete model.
 
@@ -32,4 +32,4 @@ The entire process can be sum up like this:
 
 The Dynamo definition use the wall bounding box and normal to create the section view coordinate system. I fumble around with Min and Max points to set the proper crop box for the final view. I also use a few nodes from [archi-lab.net](http://archi-lab.net/) package to retrieve walls from their ids. You can find the entire Dynamo definition [here](http://bim42.com/wp-content/uploads/2015/06/viewsection.zip).
 
-&#8220;A problem well defined is a problem half solved&#8221;, and displaying a view of each problem is my first step toward the solution, even if I haven't find yet any way to automate the entire wall opening thing.
+"A problem well defined is a problem half solved", and displaying a view of each problem is my first step toward the solution, even if I haven't find yet any way to automate the entire wall opening thing.

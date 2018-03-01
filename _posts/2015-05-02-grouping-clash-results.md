@@ -15,7 +15,7 @@ tags:
   - Coordination
   - Navisworks
 ---
-In any given building model, there is a number of issues to be addressed. A large part of these issues are what we call &#8220;hard clashes&#8221;, when a building component physically penetrate the space occupied by another building component. In these case, two or more building elements compete for the same volume.
+In any given building model, there is a number of issues to be addressed. A large part of these issues are what we call "hard clashes", when a building component physically penetrate the space occupied by another building component. In these case, two or more building elements compete for the same volume.
 
 Finding these clashes is now quite simple thanks to clash detection software that detect geometrical interferences between elements of a building model.
 

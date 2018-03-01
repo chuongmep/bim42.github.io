@@ -42,7 +42,7 @@ I am quite envious of the data used to build Google Maps, which can provide us a
 
 APUR, the Paris Urban Planning Agency provide an [Open Data platform](http://cassini.apur.opendata.arcgis.com/) with a lot of datasets about Paris and its suburbs.
 
-Their &#8220;EMPRISE BATIE PARIS&#8221; dataset contains every building in Paris in Shapefile format. Importing it in InfraWorks is quite easy, but this dataset must be configured to map its values with InfraWorks features.
+Their "EMPRISE BATIE PARIS" dataset contains every building in Paris in Shapefile format. Importing it in InfraWorks is quite easy, but this dataset must be configured to map its values with InfraWorks features.
 
 To do so, it is necessary to map the information contained in the dataset to the property of building objects in InfraWorks.
 
@@ -56,7 +56,7 @@ To do so, it is necessary to map the information contained in the dataset to the
 
 Some properties, like Roof Height, can be easily filled with data coming from the APUR dataset. However, this dataset is far richer than that, and I wanted some specific information, like construction date, to be imported in InfraWorks as custom properties.
 
-To create these custom fields, I have to edit the &#8220;im.schema.json&#8221; file located in &#8220;%USERPROFILE%\Documents\Autodesk InfraWorks Models\Autodesk 360\modelNumber\modelName.files\unver. Using the indications found [here](https://knowledge.autodesk.com/support/infraworks-360/learn-explore/caas/simplecontent/content/custom-properties-infraworks-360.html), I edit this JSON file to create five custom fields for the &#8220;Building&#8221; class in InfraWorks: Construction Date, Refurbishment Date, IHG (Hight-Rise Building), Roof Height Standard Deviation and Roof Type. These fields are then mapped to the corresponding values found in the APUR dataset, using the Table tab in &#8220;Data Source Configuration&#8221;.
+To create these custom fields, I have to edit the "im.schema.json" file located in "%USERPROFILE%\Documents\Autodesk InfraWorks Models\Autodesk 360\modelNumber\modelName.files\unver. Using the indications found [here](https://knowledge.autodesk.com/support/infraworks-360/learn-explore/caas/simplecontent/content/custom-properties-infraworks-360.html), I edit this JSON file to create five custom fields for the "Building" class in InfraWorks: Construction Date, Refurbishment Date, IHG (Hight-Rise Building), Roof Height Standard Deviation and Roof Type. These fields are then mapped to the corresponding values found in the APUR dataset, using the Table tab in "Data Source Configuration".
 
 <div id="attachment_1123" style="max-width: 594px" class="wp-caption aligncenter">
   <a href="http://bim42.com/wp-content/uploads/2017/01/DataSourceConfigurationTable.png"><img class="size-large wp-image-1123" src="http://bim42.com/wp-content/uploads/2017/01/DataSourceConfigurationTable-902x1024.png" alt="Mapping custom fileds" width="584" height="663" srcset="https://bim42.com/wp-content/uploads/2017/01/DataSourceConfigurationTable-902x1024.png 902w, https://bim42.com/wp-content/uploads/2017/01/DataSourceConfigurationTable-264x300.png 264w, https://bim42.com/wp-content/uploads/2017/01/DataSourceConfigurationTable-768x871.png 768w, https://bim42.com/wp-content/uploads/2017/01/DataSourceConfigurationTable.png 906w" sizes="(max-width: 584px) 100vw, 584px" /></a>
@@ -107,7 +107,7 @@ Using the style palette, I create my own zinc material from a picture and a few 
   <a href="http://bim42.com/wp-content/uploads/2017/01/ZincMaterial.png"><img class="size-large wp-image-1127" src="http://bim42.com/wp-content/uploads/2017/01/ZincMaterial-1024x735.png" alt="Creating a custom &quot;Zinc&quot; material" width="584" height="419" srcset="https://bim42.com/wp-content/uploads/2017/01/ZincMaterial-1024x735.png 1024w, https://bim42.com/wp-content/uploads/2017/01/ZincMaterial-300x215.png 300w, https://bim42.com/wp-content/uploads/2017/01/ZincMaterial-768x551.png 768w, https://bim42.com/wp-content/uploads/2017/01/ZincMaterial-418x300.png 418w, https://bim42.com/wp-content/uploads/2017/01/ZincMaterial.png 1135w" sizes="(max-width: 584px) 100vw, 584px" /></a>
   
   <p class="wp-caption-text">
-    Creating a custom &#8220;Zinc&#8221; material
+    Creating a custom "Zinc" material
   </p>
 </div>
 

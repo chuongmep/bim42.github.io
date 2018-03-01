@@ -20,7 +20,7 @@ Lead by this thought, and a problem raised by one of my colleague, I started loo
 
 There is nothing new with this problem, and I was already trying to find a solution for modeling insulation layers on the upper face of a series of spaces with [my latest version of RoomFinishes](http://bim42.com/2014/08/room-finishes-update/), without finding a decent solution.
 
-But while looking for something totally different, I came across [this article in AUGI](https://www.augi.com/library/using-rooms-spaces-for-leverage-in-revit-mep) about room and spaces in Revit. So after five years working with Revit, I realized than by checking this small checkbox in the &#8220;Area and Volume Computations&#8221;, the room continues up until it fit a room bounding element, a ceiling or a floor.
+But while looking for something totally different, I came across [this article in AUGI](https://www.augi.com/library/using-rooms-spaces-for-leverage-in-revit-mep) about room and spaces in Revit. So after five years working with Revit, I realized than by checking this small checkbox in the "Area and Volume Computations", the room continues up until it fit a room bounding element, a ceiling or a floor.
 
 ![VolumeComputation](http://bim42.com/wp-content/uploads/2015/04/VolumeComputation.png)
 

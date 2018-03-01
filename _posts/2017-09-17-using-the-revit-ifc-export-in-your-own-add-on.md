@@ -14,7 +14,7 @@ tags:
   - Plugin
   - Revit
 ---
-In September 2011, Autodesk make accessible the Industry Foundation Classes (IFC) exporter for Revit as [open source code](http://thebuildingcoder.typepad.com/blog/2011/09/revit-ifc-exporter-released-as-open-source.html), licensed through a LGPL v. 2.1 licensing agreement. In 2014, this project evolved to [include IFC import](http://thebuildingcoder.typepad.com/blog/2014/05/ifc-exporter-open-source-wiki.html) as well, and was named &#8220;IFC for Revit&#8221;.
+In September 2011, Autodesk make accessible the Industry Foundation Classes (IFC) exporter for Revit as [open source code](http://thebuildingcoder.typepad.com/blog/2011/09/revit-ifc-exporter-released-as-open-source.html), licensed through a LGPL v. 2.1 licensing agreement. In 2014, this project evolved to [include IFC import](http://thebuildingcoder.typepad.com/blog/2014/05/ifc-exporter-open-source-wiki.html) as well, and was named "IFC for Revit".
 
 This source code is available on [Source Forge](https://sourceforge.net/projects/ifcexporter/), and everyone can contribute to the part of Revit that deal with IFC.
 
@@ -57,11 +57,11 @@ At the time of writing, the landscape looks like this:
     </td>
     
     <td width="203">
-      Exporter 16.0.490.0 &#8211; Default UI
+      Exporter 16.0.490.0 - Default UI
     </td>
     
     <td width="203">
-      Exporter 16.6.0.0 &#8211; Alternate UI 16.6.0.0
+      Exporter 16.6.0.0 - Alternate UI 16.6.0.0
     </td>
   </tr>
   
@@ -71,11 +71,11 @@ At the time of writing, the landscape looks like this:
     </td>
     
     <td width="203">
-      Exporter 17.0.1081.0 &#8211; Alternate UI 17.14.0.0
+      Exporter 17.0.1081.0 - Alternate UI 17.14.0.0
     </td>
     
     <td width="203">
-      Exporter 17.4.0.0 &#8211; Alternate UI 17.4.0.0
+      Exporter 17.4.0.0 - Alternate UI 17.4.0.0
     </td>
   </tr>
   
@@ -85,11 +85,11 @@ At the time of writing, the landscape looks like this:
     </td>
     
     <td width="203">
-      Exporter 18.0.0.420 &#8211; Alternate UI 18.0.0.420
+      Exporter 18.0.0.420 - Alternate UI 18.0.0.420
     </td>
     
     <td width="203">
-      Exporter 18.2.0.0 &#8211; Alternate UI 18.2.0.0
+      Exporter 18.2.0.0 - Alternate UI 18.2.0.0
     </td>
   </tr>
 </table>

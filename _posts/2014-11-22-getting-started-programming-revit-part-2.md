@@ -1,6 +1,6 @@
 ---
 id: 710
-title: 'Getting started programming Revit &#8211; Part 2'
+title: 'Getting started programming Revit - Part 2'
 date: 2014-11-22T23:05:52+00:00
 author: Simon Moreau
 layout: post

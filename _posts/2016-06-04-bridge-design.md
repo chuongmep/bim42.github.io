@@ -16,7 +16,7 @@ tags:
   - Grasshopper
   - Revit
 ---
-One of my colleague is currently working on bridge design with Revit. I have to admit, my first reaction was more like &#8220;Revit is not fit for bridge modeling, period&#8221;. But after some thought, I found Revit to be a pretty interesting solution to design these kind of infrastructures.
+One of my colleague is currently working on bridge design with Revit. I have to admit, my first reaction was more like "Revit is not fit for bridge modeling, period". But after some thought, I found Revit to be a pretty interesting solution to design these kind of infrastructures.
 
 The main issue is that even a simple bridge has a rather complex geometry, with a double-curved alignment and potentially a variable cross section. There is various possibilities to create this kind of geometry in Revit, I will present only one of them here.
 
@@ -38,9 +38,9 @@ I also make sure that units in my Revit mass family are consistent with the unit
 
 To create the cross section shape of my bridge, I use an adaptive family with a single adaptive point, which will be placed on our alignment.
 
-The keep our cross section properly aligned with our bridge axe, I use the &#8220;Orient to&#8221; parameter of the adaptive point. By setting it to &#8220;Global (z) the Host (xy)&#8221;, I make sure than the X and Y axes (Red and Green) will follow my alignment, while the Z axe will stay vertical.
+The keep our cross section properly aligned with our bridge axe, I use the "Orient to" parameter of the adaptive point. By setting it to "Global (z) the Host (xy)", I make sure than the X and Y axes (Red and Green) will follow my alignment, while the Z axe will stay vertical.
 
-![axes](http://bim42.com/wp-content/uploads/2016/06/axes.png)I make a few try before getting it right, but I was finally able to properly align my adaptive component with the divided path. Since the X (Red) axis will be tangent to the alignment, I had to draw my cross section in the &#8220;Center (Left/Right)&#8221; plane of the adaptive family.
+![axes](http://bim42.com/wp-content/uploads/2016/06/axes.png)I make a few try before getting it right, but I was finally able to properly align my adaptive component with the divided path. Since the X (Red) axis will be tangent to the alignment, I had to draw my cross section in the "Center (Left/Right)" plane of the adaptive family.
 
 ![adaptiveFamily](http://bim42.com/wp-content/uploads/2016/06/adaptiveFamily.png)
 

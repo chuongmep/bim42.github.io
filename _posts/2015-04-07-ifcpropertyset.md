@@ -13,7 +13,7 @@ tags:
   - Open BIM
   - Revit
 ---
-A very interesting feature of the IFC model is the IfcPropertySet . According to the official IFC specification, the IfcPropertySet is &#8220;a container class that holds properties within a property tree&#8221;. This allow to add user-defined properties to IFC elements or types. To make an analogy with Revit, it is pretty much like creating shared parameter.
+A very interesting feature of the IFC model is the IfcPropertySet . According to the official IFC specification, the IfcPropertySet is "a container class that holds properties within a property tree". This allow to add user-defined properties to IFC elements or types. To make an analogy with Revit, it is pretty much like creating shared parameter.
 
 Since the IFC exporter for Revit is accessible as open source code, [a new exporter](https://apps.exchange.autodesk.com/RVT/en/Detail/Index?id=appstore.exchange.autodesk.com%3Aifc2015_windows32and64%3Aen) have been developed, and offer far more control over the creation of IFC files from Revit. One of the improvement is the ability to select Revit properties to be exported as IfcPropertySet.
 

@@ -19,7 +19,7 @@ I am still baffled in front of some functionality in Revit families.
 
 One of these is the possibility to create our own justification axis for positioning a beam.
 
-As an example, I design a specific beam, using the “Metric Structural Framing &#8211; Beams and Braces” family template.
+As an example, I design a specific beam, using the “Metric Structural Framing - Beams and Braces” family template.
 
 I draw a little extrusion, and constrain its length. I want have my beam centered on the red dot, so I set the central plane as Reference: Center (Elevation)
 

@@ -24,11 +24,11 @@ After installing it, I click on the ParamJS button to start their embedded edito
 
 As an example, I concatenate various parameters of a sheet in the sheet name in order to have them when I print or export it.
 
-I start by selecting a category in the Categories list. Here, you can select multiple categories, but I will only select &#8220;Sheets&#8221; here. When I click on &#8220;Customize&#8221;, LazJS displays every editable parameters of our sheets in the &#8220;Parameters&#8221; list. Since I want to edit the name of my sheet, I select &#8220;Sheet Name&#8221; and save.
+I start by selecting a category in the Categories list. Here, you can select multiple categories, but I will only select "Sheets" here. When I click on "Customize", LazJS displays every editable parameters of our sheets in the "Parameters" list. Since I want to edit the name of my sheet, I select "Sheet Name" and save.
 
 ![ScreenClip-3](http://bim42.com/wp-content/uploads/2014/11/ScreenClip-3.png)
 
-I can now drag and drop parameters from the &#8220;Formulas&#8221; list to the &#8220;Editor&#8221; panel. This creates automatically the correct line of code for calling this parameter. I drag some of my sheet parameters, add some &#8220;+&#8221; to concatenate them, and hit Run. We can see the result of my concatenation just below. I hit save, and my modification are added to my model.
+I can now drag and drop parameters from the "Formulas" list to the "Editor" panel. This creates automatically the correct line of code for calling this parameter. I drag some of my sheet parameters, add some "+" to concatenate them, and hit Run. We can see the result of my concatenation just below. I hit save, and my modification are added to my model.
 
 ![ScreenClip-23](http://bim42.com/wp-content/uploads/2014/11/ScreenClip-23.png)
 

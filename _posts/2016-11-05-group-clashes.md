@@ -22,7 +22,7 @@ Furthermore, finding clashes is not really useful in itself. The purpose of clas
 
 To do so, I tend to focus on specific subjects. Instead of running useless clash detections between entire model, I rather focus on specific issues and know beforehand what I am looking for.
 
-For example, instead of running a clash detection between an architectural and a structural model, and end up with thousand of clashes, we can run a clash detection only between architectural rooms and structural concrete beams. As we know which type of element are involved in the clash detection, we can understand what a &#8220;clash&#8221; mean. Here, it means that there is a beam below the ceiling height. Furthermore, we can also group these clashes by room, and immediately highlight the problematic area where we can focus our efforts.
+For example, instead of running a clash detection between an architectural and a structural model, and end up with thousand of clashes, we can run a clash detection only between architectural rooms and structural concrete beams. As we know which type of element are involved in the clash detection, we can understand what a "clash" mean. Here, it means that there is a beam below the ceiling height. Furthermore, we can also group these clashes by room, and immediately highlight the problematic area where we can focus our efforts.
 
 ![clearHeadroom](http://bim42.com/wp-content/uploads/2016/11/clearHeadroom.png)
 

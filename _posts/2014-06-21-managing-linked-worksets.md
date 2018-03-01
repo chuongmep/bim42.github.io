@@ -27,13 +27,13 @@ It is a project setting, so elements in the closed workset will be hidden everyw
 
 It allow us to load only the part of the linked project that really interesting us. For example, as a mechanical engineer, I generally don't need to display furniture from the architectural model. Closing the related workset can save me significant loading time.
 
-The most common application of this feature is to hide linked grids and references planes.When new workset are created, every level and grid goes into the &#8220;Shared Levels and Grids&#8221; default workset. This behavior should not be changed, since it allows us to easily hide linked levels and grids in our current model.
+The most common application of this feature is to hide linked grids and references planes.When new workset are created, every level and grid goes into the "Shared Levels and Grids" default workset. This behavior should not be changed, since it allows us to easily hide linked levels and grids in our current model.
 
 <div id="attachment_442" style="max-width: 783px" class="wp-caption aligncenter">
   <a href="http://bim42.com/wp-content/uploads/2014/06/before.png"><img class="size-full wp-image-442" src="http://bim42.com/wp-content/uploads/2014/06/before.png" alt="Before closing linked &quot;Shared Levels and Grids&quot; workset " width="773" height="478" srcset="https://bim42.com/wp-content/uploads/2014/06/before.png 773w, https://bim42.com/wp-content/uploads/2014/06/before-300x185.png 300w, https://bim42.com/wp-content/uploads/2014/06/before-485x300.png 485w" sizes="(max-width: 773px) 100vw, 773px" /></a>
   
   <p class="wp-caption-text">
-    Before closing linked &#8220;Shared Levels and Grids&#8221; workset
+    Before closing linked "Shared Levels and Grids" workset
   </p>
 </div>
 
@@ -41,7 +41,7 @@ The most common application of this feature is to hide linked grids and referenc
   <a href="http://bim42.com/wp-content/uploads/2014/06/After.png"><img class="size-full wp-image-441" src="http://bim42.com/wp-content/uploads/2014/06/After.png" alt="Before closing linked &quot;Shared Levels and Grids&quot; workset" width="645" height="418" srcset="https://bim42.com/wp-content/uploads/2014/06/After.png 645w, https://bim42.com/wp-content/uploads/2014/06/After-300x194.png 300w, https://bim42.com/wp-content/uploads/2014/06/After-462x300.png 462w" sizes="(max-width: 645px) 100vw, 645px" /></a>
   
   <p class="wp-caption-text">
-    After closing linked &#8220;Shared Levels and Grids&#8221; workset
+    After closing linked "Shared Levels and Grids" workset
   </p>
 </div>
 

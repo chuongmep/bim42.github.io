@@ -30,11 +30,11 @@ Then I extract every panel edge and orient it horizontally on the base XY plane.
 
 ![3_PanelEdges](http://bim42.com/wp-content/uploads/2014/10/3_PanelEdges.png)
 
-My objective here is to bake every panel boundary curve on a different layer to be able to sort them separately in AutoCAD. To do so, I use the &#8220;Object Bake&#8221; component from LunchBox. I also use a &#8220;Series&#8221; to create a layer names for each panel. Here the names are only numbers formatted as text.
+My objective here is to bake every panel boundary curve on a different layer to be able to sort them separately in AutoCAD. To do so, I use the "Object Bake" component from LunchBox. I also use a "Series" to create a layer names for each panel. Here the names are only numbers formatted as text.
 
 ![4_BakeEdges](http://bim42.com/wp-content/uploads/2014/10/4_BakeEdges.png)
 
-The next step is to add dimensions. Sadly, since native grasshopper dimension does not have any output object, we cannot bake them with the &#8220;Object Bake&#8221;. So I'm using my own Linear Dimension creation component. As you can see, the code is quite straightforward. I use standard Rhino functions to create my dimensions, and have a small private function for selecting or creating the layer to place our dimension.
+The next step is to add dimensions. Sadly, since native grasshopper dimension does not have any output object, we cannot bake them with the "Object Bake". So I'm using my own Linear Dimension creation component. As you can see, the code is quite straightforward. I use standard Rhino functions to create my dimensions, and have a small private function for selecting or creating the layer to place our dimension.
 
 <pre class="brush: csharp; title: ; notranslate" title="">private void RunScript(bool Bake, Point3d A,
                         Point3d B, Point3d C, 
@@ -91,7 +91,7 @@ Objects.AddLinearDimension(dimension, dimAtt) != Guid.Empty)
   }
 </pre>
 
-With the &#8220;Disc&#8221; component, I retrieve every summit of my panel boundary, and place a dimension between two of these points. I also use an offset of my panel boundary to set up the position of the dimension line.
+With the "Disc" component, I retrieve every summit of my panel boundary, and place a dimension between two of these points. I also use an offset of my panel boundary to set up the position of the dimension line.
 
 ![5_LinearDimension](http://bim42.com/wp-content/uploads/2014/10/5_LinearDimension.png)
 

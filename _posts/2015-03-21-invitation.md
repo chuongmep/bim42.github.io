@@ -22,7 +22,7 @@ I will be representing my company [Ingérop](http://www.ingerop.com/) here, and 
 
 ![ingerop](http://bim42.com/wp-content/uploads/2015/03/ingerop.bmp)
 
-I will also give a short speech [&#8220;Développer les compétences du BIM&#8221;](http://www.bim-w.com/program26) about implementing Building Information Modeling in an engineering consultancy firm, and the consequences of this paradigm shift.
+I will also give a short speech ["Développer les compétences du BIM"](http://www.bim-w.com/program26) about implementing Building Information Modeling in an engineering consultancy firm, and the consequences of this paradigm shift.
 
 I would be happy to meet you there and exchange with you, so if you happen to be in Paris next week, the exhibition will be held on Wednesday and Thursday at the CNIT Center in La Défence.
 

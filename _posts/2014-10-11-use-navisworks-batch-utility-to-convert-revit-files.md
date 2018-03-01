@@ -55,13 +55,13 @@ Back on the Navisworks Batch Utility, we open this text file to import file path
 
 ![ScreenClip-31](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-31.png)
 
-As we want to create a single Navisworks File Set (.nwf), we select the &#8220;As Single File&#8221; Tab, and set the path to our future Navisworks File.
+As we want to create a single Navisworks File Set (.nwf), we select the "As Single File" Tab, and set the path to our future Navisworks File.
 
 ![ScreenClip-4](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-4.png)
 
-I also select &#8220;View file on output&#8221; to automatically start Navisworks when conversions are done.
+I also select "View file on output" to automatically start Navisworks when conversions are done.
 
-We add a path to a log file in order to know what may happen, and hit &#8220;Run Command&#8221;.
+We add a path to a log file in order to know what may happen, and hit "Run Command".
 
 Here, I was confused by the fact that nothing seems to happen, but after checking my computer processes, I was able to see that the Navisworks Scene Convert Server was up and running.
 
@@ -73,7 +73,7 @@ After a while, Navisworks starts automatically and appends every previously crea
 
 I am also using this feature to create a NWD file for a set of Revit file.
 
-To do so, you just have to select the &#8220;Multiple file&#8221; tab and define a target folder for the export.
+To do so, you just have to select the "Multiple file" tab and define a target folder for the export.
 
 ![ScreenClip-61](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-61.png)
 

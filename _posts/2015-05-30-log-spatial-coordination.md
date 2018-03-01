@@ -57,4 +57,4 @@ Once we have every clash in a handy (and pretty large) .csv file, we use [Tablea
 
 ![visualization](http://bim42.com/wp-content/uploads/2015/05/visualization.jpg)
 
-&#8220;What gets measured improves&#8221;, and we are now able to increase our efforts when we see the spatial coordination staggering. But with precise data about the coordination, I also hope to be able to better understand what makes a coordination process successful and how to reproduce it.
+"What gets measured improves", and we are now able to increase our efforts when we see the spatial coordination staggering. But with precise data about the coordination, I also hope to be able to better understand what makes a coordination process successful and how to reproduce it.

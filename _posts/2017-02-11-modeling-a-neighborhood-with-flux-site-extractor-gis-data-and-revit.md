@@ -48,7 +48,7 @@ Building profiles and heights came from OpenStreetMap, and aren't accurate enoug
 
 I found more accurate data on the parisian buildings on the [APUR Open Data plateform](http://cassini-apur.opendata.arcgis.com/). I download this data as a shapefile containing every building in Paris.
 
-Obviously, this dataset is too large to be imported as it in Revit. I am using [QGIS](http://www.qgis.org/en/site/), an open source GIS application, to extract a subset of this file. To do so, I draw a polygon encompassing the few city blocks I want to retrieve and use the &#8220;Clip&#8221; function to create a new shapefile containing only the selected buildings.
+Obviously, this dataset is too large to be imported as it in Revit. I am using [QGIS](http://www.qgis.org/en/site/), an open source GIS application, to extract a subset of this file. To do so, I draw a polygon encompassing the few city blocks I want to retrieve and use the "Clip" function to create a new shapefile containing only the selected buildings.
 
 <div id="attachment_1135" style="max-width: 594px" class="wp-caption aligncenter">
   <a href="http://bim42.com/wp-content/uploads/2017/02/03-Isolate-Buildings-Blocks.png"><img class="size-large wp-image-1135" src="http://bim42.com/wp-content/uploads/2017/02/03-Isolate-Buildings-Blocks-1024x511.png" alt="" width="584" height="291" srcset="https://bim42.com/wp-content/uploads/2017/02/03-Isolate-Buildings-Blocks-1024x511.png 1024w, https://bim42.com/wp-content/uploads/2017/02/03-Isolate-Buildings-Blocks-300x150.png 300w, https://bim42.com/wp-content/uploads/2017/02/03-Isolate-Buildings-Blocks-768x383.png 768w, https://bim42.com/wp-content/uploads/2017/02/03-Isolate-Buildings-Blocks-500x249.png 500w" sizes="(max-width: 584px) 100vw, 584px" /></a>

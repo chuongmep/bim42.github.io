@@ -22,7 +22,7 @@ I was drove back to Navisworks while working on specific coordination problems. 
 
 Solving one problem at a time is of course the solution for an efficient clash detection.
 
-Checking required headroom is a good example of a useful clash detection. The idea here is to highlight every room where a structural framing end up below the vertical clearance set up by the architect. This example suppose than the &#8220;Limit Offset&#8221; property of the room is set to the required value by the architect.
+Checking required headroom is a good example of a useful clash detection. The idea here is to highlight every room where a structural framing end up below the vertical clearance set up by the architect. This example suppose than the "Limit Offset" property of the room is set to the required value by the architect.
 
 ![clearHeadroom](http://bim42.com/wp-content/uploads/2015/05/clearHeadroom.png)
 

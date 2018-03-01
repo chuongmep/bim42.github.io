@@ -26,7 +26,7 @@ But recently, one of my client ask for BIMSight, a solution developed by Tekla f
 
 One of the main advantage of Tekla BIMSight is its price. Since it can be downloaded freely on the Tekla website, it can be given to anyone working on the project without bothering about licence fee. Furthermore, it is largely user-friendly, and can be used by anyone, even without a training phase.
 
-It provide all main functionalities of a good project review software, like models compilation, project review and annotation, clash detection... 
+It provide all main functionalities of a good project review software, like models compilation, project review and annotation, clash detection...
 
 Possibilities for input format are pretty limited, since it can only import DWG and IFC files, but these formats are enough for most situations.
 
@@ -40,4 +40,4 @@ There is set of tools for creating notes that save a viewpoint in the model. Onc
 
 One of the most interesting part of these notes is the possibility to export them in the BCF format, in order to be able to import them in another software. This functionnality can be really powerfull, and I will describe it more precisely in a future post.
 
-<span style="font-style:inherit;line-height:1.625;">Finally, I am quite impress by BIMSight. Tekla manage to provide a fully functional model review solution without even make us pay for it, which is pretty remarkable is this market.</span>
+Finally, I am quite impress by BIMSight. Tekla manage to provide a fully functional model review solution without even make us pay for it, which is pretty remarkable is this market.</span>

@@ -23,13 +23,13 @@ What immediately caught my attention is the web viewer, which is the best I have
 
 ![SectionnningWithDiff](http://bim42.com/wp-content/uploads/2016/11/SectionnningWithDiff.png)
 
-The viewer is also quite powerful, I tried it with 1 Go worth of IFC files, it run &#8220;almost&#8221; smoothly on my iPad.
+The viewer is also quite powerful, I tried it with 1 Go worth of IFC files, it run "almost" smoothly on my iPad.
 
 ![OniPad2](http://bim42.com/wp-content/uploads/2016/11/OniPad2.png)
 
 bimsync does a good job at uploading, viewing and managing versions of various models, and provides a thoughtful way of managing revisions.
 
-You start by creating a &#8220;model&#8221; which on bimsync is a placeholder where you will upload the various versions of an IFC file. Once this file is processed by the platform, it will be available for review along with the other models. The processing part can be rather slow, it takes more than one hour for a 500 Mo IFC file, but happen entirely online, you don't even have to keep your computer open.
+You start by creating a "model" which on bimsync is a placeholder where you will upload the various versions of an IFC file. Once this file is processed by the platform, it will be available for review along with the other models. The processing part can be rather slow, it takes more than one hour for a 500 Mo IFC file, but happen entirely online, you don't even have to keep your computer open.
 
 ![models](http://bim42.com/wp-content/uploads/2016/11/models.png)
 

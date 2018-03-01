@@ -22,7 +22,7 @@ To adapt this method on Revit, I create two detail components, representing the 
 
 ![Annotations](http://bim42.com/wp-content/uploads/2015/03/Annotations.png)
 
-This components have a &#8220;Width&#8221; instance parameter for setting their width regarding the thickness of the insulation.
+This components have a "Width" instance parameter for setting their width regarding the thickness of the insulation.
 
 ![Width](http://bim42.com/wp-content/uploads/2015/03/Width.png)
 

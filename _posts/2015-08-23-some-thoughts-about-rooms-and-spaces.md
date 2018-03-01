@@ -37,7 +37,7 @@ But if we add some variation on the floor level, the room disappears with the fo
 
 ![ARoomDisappear-](http://bim42.com/wp-content/uploads/2015/08/ARoomDisappear-.png)
 
-By default, these rooms are calculated at the level elevation. Every wall at &#8220;0 m&#8221; above the level will be used as a room boundary.
+By default, these rooms are calculated at the level elevation. Every wall at "0 m" above the level will be used as a room boundary.
 
 The Computation Height properties allows us to change the elevation where we calculate the room. In our example, we change the Computation Height of the Level 1 to 1 meter, and the room fit nicely between its boundaries.
 

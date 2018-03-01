@@ -56,7 +56,7 @@ These two dashboards are only starting points, you can use them to create your o
 
 ## How it works?
 
-Each Power BI file comes with all necessary queries to retrieve data from bimsync through its public API. Power BI send a request and retrieve all the elements of a given IFC category in Json. A second function parse these elements to fill a table. Columns are dynamically created based on the property sets available in the elements. These functions are written in M Query, the Power BI request language. They can be easily edited by clicking on &#8220;Edit Queries&#8221; in Power BI Desktop.
+Each Power BI file comes with all necessary queries to retrieve data from bimsync through its public API. Power BI send a request and retrieve all the elements of a given IFC category in Json. A second function parse these elements to fill a table. Columns are dynamically created based on the property sets available in the elements. These functions are written in M Query, the Power BI request language. They can be easily edited by clicking on "Edit Queries" in Power BI Desktop.
 
 ![working1](https://bim42.com/wp-content/uploads/2018/02/working1.png)
 

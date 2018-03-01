@@ -16,7 +16,7 @@ tags:
 ---
 Virtual environments are a trending topic among our clients these days. Owners don't want only pretty pictures of their future building anymore, but also videos, and lately, whole 3D environments.
 
-They want to be able to walk through their future building and see everything just like the expected end user. This kind of easily accessible 3D model has endless applications: You can validate architectural and interior design choices, check the accessibility and the ergonomic of the building, present a show apartment on a web-based application accessible by anyone, and many more... 
+They want to be able to walk through their future building and see everything just like the expected end user. This kind of easily accessible 3D model has endless applications: You can validate architectural and interior design choices, check the accessibility and the ergonomic of the building, present a show apartment on a web-based application accessible by anyone, and many more...
 
 For the one who were fond of videos games in their youth, it’s pretty much like creating a level of an average first person shooter game. You create the geometry (in our case, an already existing aggregated design model), you add some textures to make it pretty and you run the whole thing in an engine for interactive 3D content, a professional name for a game engine.
 
