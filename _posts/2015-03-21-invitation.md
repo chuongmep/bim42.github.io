@@ -26,4 +26,4 @@ I will also give a short speech [&#8220;Développer les compétences du BIM&#822
 
 I would be happy to meet you there and exchange with you, so if you happen to be in Paris next week, the exhibition will be held on Wednesday and Thursday at the CNIT Center in La Défence.
 
-See you there &#8230;.
+See you there ... .

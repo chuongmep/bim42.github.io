@@ -53,7 +53,7 @@ To be able to annotate every walls in a view, we have to select this view. Here,
 
 <pre class="brush: csharp; title: ; notranslate" title="">View myActiveView = myDocument.ActiveView;</pre>
 
-Now than our Revit document and the view are selected, we have to retrieve walls to be able to annotate them. The Revit API provide us with a great function, the ability to filter element by category, type, class, &#8230; well, pretty much everything.
+Now than our Revit document and the view are selected, we have to retrieve walls to be able to annotate them. The Revit API provide us with a great function, the ability to filter element by category, type, class, ...  well, pretty much everything.
 
 First, let's create our filter, with the keyword &#8220;new&#8221;:
 

@@ -24,7 +24,7 @@ But still, even with the most carefully designed model, you will probably still 
 
 ![you-have-677-new-clashes](http://bim42.com/wp-content/uploads/2012/07/you-have-677-new-clashes.jpg)
 
-This is when a good workflow for the whole team is important. Some plug-ins, like the Navisworks Keyboard Shortcuts found on[ BIM Manager](http://bimmanager.blogspot.fr/2011/12/navisworks-keyboard-shortcuts-for.html "BIM Manager"), can be very useful at this point. For our part, we used to make a first sort by ourselves, eliminating obviously irrelevant clashes and roughly grouping other ones by location, then transfer to the coordination team for review.
+This is when a good workflow for the whole team is important. Some plug-ins, like the Navisworks Keyboard Shortcuts found on [BIM Manager](http://bimmanager.blogspot.fr/2011/12/navisworks-keyboard-shortcuts-for.html), can be very useful at this point. For our part, we used to make a first sort by ourselves, eliminating obviously irrelevant clashes and roughly grouping other ones by location, then transfer to the coordination team for review.
 
 This is when a good clash report is needed, along with the model. The standard html report extract from Navisworks was missing some information, mostly about plan location, and we were asking for an Excel format, so we developed a VB.Net application to exploit results from Navisworks.
 

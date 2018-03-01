@@ -15,7 +15,7 @@ tags:
   - Rhino
   - Visualization
 ---
-My previous post was describing how I use Grasshopper to modify a complex ceiling surface in Rhino. Once this surface is correctly modeled by taking into account constrains set by the actual construction of the ceiling (space taken by structural framing, planarity, maximal angle &#8230;), I have to create construction documentation from it.
+My previous post was describing how I use Grasshopper to modify a complex ceiling surface in Rhino. Once this surface is correctly modeled by taking into account constrains set by the actual construction of the ceiling (space taken by structural framing, planarity, maximal angle ... ), I have to create construction documentation from it.
 
 I need to produce drawings from the 3D models of the ceiling to make it understandable by someone who will built it.
 

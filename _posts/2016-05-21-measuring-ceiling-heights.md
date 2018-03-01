@@ -40,7 +40,7 @@ Along with the intersection point, the Raybounce.ByOriginDirection return the or
 
 ![Points](http://bim42.com/wp-content/uploads/2016/05/Points.png)
 
-I also make use of the List.Map node to perform any kind of operation (Flatten, Sort &#8230;) on the sublist containing the points while keeping them grouped by lists corresponding to the original rooms.
+I also make use of the List.Map node to perform any kind of operation (Flatten, Sort ... ) on the sublist containing the points while keeping them grouped by lists corresponding to the original rooms.
 
 ![ListMap](http://bim42.com/wp-content/uploads/2016/05/ListMap.png)
 

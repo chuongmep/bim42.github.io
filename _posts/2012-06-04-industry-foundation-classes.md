@@ -16,7 +16,7 @@ tags:
   - IFC
   - industry foundation classes
 ---
-Anyone who has worked in the BIM field may have eared something about Industry Foundation Classes. Yes, you know, this little logo&#8230;
+Anyone who has worked in the BIM field may have eared something about Industry Foundation Classes. Yes, you know, this little logo... 
 
 ![ifclogo](http://bim42.com/wp-content/uploads/2012/06/ifclogo.jpg)
 

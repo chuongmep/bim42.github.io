@@ -26,7 +26,7 @@ But recently, one of my client ask for BIMSight, a solution developed by Tekla f
 
 One of the main advantage of Tekla BIMSight is its price. Since it can be downloaded freely on the Tekla website, it can be given to anyone working on the project without bothering about licence fee. Furthermore, it is largely user-friendly, and can be used by anyone, even without a training phase.
 
-It provide all main functionalities of a good project review software, like models compilation, project review and annotation, clash detection&#8230;
+It provide all main functionalities of a good project review software, like models compilation, project review and annotation, clash detection... 
 
 Possibilities for input format are pretty limited, since it can only import DWG and IFC files, but these formats are enough for most situations.
 

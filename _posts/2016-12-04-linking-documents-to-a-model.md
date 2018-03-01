@@ -43,7 +43,7 @@ As you can see, I type in a relative path to my technical documentation, this al
   </p>
 </div>
 
-If you click on the small &#8220;&#8230;&#8221; button in Revit, your linked technical document will immediately open in the associate viewer, here, Acrobat Reader.
+If you click on the small &#8220;... &#8221; button in Revit, your linked technical document will immediately open in the associate viewer, here, Acrobat Reader.
 
 <div id="attachment_1107" style="max-width: 594px" class="wp-caption aligncenter">
   <a href="http://bim42.com/wp-content/uploads/2016/12/openTechnicalSheet.png"><img class="size-large wp-image-1107" src="http://bim42.com/wp-content/uploads/2016/12/openTechnicalSheet-1024x452.png" alt="How to open the linked technical sheet" width="584" height="258" srcset="https://bim42.com/wp-content/uploads/2016/12/openTechnicalSheet.png 1024w, https://bim42.com/wp-content/uploads/2016/12/openTechnicalSheet-300x132.png 300w, https://bim42.com/wp-content/uploads/2016/12/openTechnicalSheet-768x339.png 768w, https://bim42.com/wp-content/uploads/2016/12/openTechnicalSheet-500x221.png 500w" sizes="(max-width: 584px) 100vw, 584px" /></a>

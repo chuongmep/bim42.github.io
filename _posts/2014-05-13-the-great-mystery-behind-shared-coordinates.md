@@ -30,7 +30,7 @@ Drawing something too far from this origin will display the following message:
 
 ![error](http://bim42.com/wp-content/uploads/2014/05/error.png)
 
-&#8211; A Survey Point (the triangle): This is the position of our project in the real world (yes, you know, the one outside Revit &#8230;).
+&#8211; A Survey Point (the triangle): This is the position of our project in the real world (yes, you know, the one outside Revit ... ).
   
 The angle between these two systems of coordinate is called &#8220;Angle to True North&#8221;.
 
