@@ -35,13 +35,13 @@ The most common application of this feature is to hide linked grids and referenc
 
 I also place reference planes and scope boxes in this workset, to be able to hide them as easily. But selecting all reference planes and scope boxes of a model to place them in the correct workset can a tedious business. To change this, I wrote a few line of code for set up every Scope Box, and Reference plane to the correct workset :
 
-{% highlight csharp %}
+{% highlight c# %}
 public void SetGridWorkset()
 {
   Document doc = this.ActiveUIDocument.Document;
 
   //Select the shared grid workset
-  IList&lt;Workset&gt; worksetList =
+  IList<Workset> worksetList =
     new FilteredWorksetCollector(doc)
       .OfKind(WorksetKind.UserWorkset)
         .ToWorksets();
@@ -57,12 +57,12 @@ public void SetGridWorkset()
   if( sharedGridWorksetId == 0 ) return;
 
   //Reference planes
-  List&lt;Element&gt; elements =
+  List<Element> elements =
     new FilteredElementCollector(doc)
       .OfCategory(BuiltInCategory.OST_CLines)
         .ToElements().ToList();
   //Scope box
-  List&lt;Element&gt; scopeBoxes =
+  List<Element> scopeBoxes =
     new FilteredElementCollector(doc)
       .OfCategory(BuiltInCategory.OST_VolumeOfInterest)
         .ToElements().ToList();

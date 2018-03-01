@@ -64,7 +64,7 @@ This "filter" will search for every element contained in "myDocument" and visibl
 
 We can now use this filter to actually catch some walls. Let's write that:
 
-<pre class="brush: csharp; title: ; notranslate" title="">List&lt;Element&gt;myWalls 
+<pre class="brush: csharp; title: ; notranslate" title="">List<Element>myWalls 
 = filter.OfCategory(BuiltInCategory.OST_Walls).ToList();</pre>
 
 We create a list of Revit element named myWalls and retrieve every element of the category Wall ("BuiltInCategory.OST_Walls"). The trailing ".ToList()" convert our filter into an actual list of elements.

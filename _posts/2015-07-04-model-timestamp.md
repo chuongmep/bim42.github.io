@@ -56,7 +56,7 @@ You will find below a piece of code I use to write values on every elements of t
 
 		//Retrive all model elements
 		FilteredElementCollector collector = new FilteredElementCollector(doc);
-		IList&lt;ElementFilter&gt; categoryFilters = new List&lt;ElementFilter&gt;();
+		IList<ElementFilter> categoryFilters = new List<ElementFilter>();
 
 		foreach (Category category in myCategories)
 		{
@@ -65,10 +65,10 @@ You will find below a piece of code I use to write values on every elements of t
 
 		ElementFilter filter = new LogicalOrFilter(categoryFilters);
 
-		IList&lt;Element&gt; elementList = collector.WherePasses(filter).WhereElementIsNotElementType().ToElements();
+		IList<Element> elementList = collector.WherePasses(filter).WhereElementIsNotElementType().ToElements();
 
 		//Add the value to all element
-		if (elementList.Count &gt; 0)
+		if (elementList.Count > 0)
 		{
 			foreach (Element e in elementList)
 			{
@@ -86,7 +86,7 @@ You will find below a piece of code I use to write values on every elements of t
 
 private void WriteOnParam(string paramName, Element e, string value)
 {
-	IList&lt;Parameter&gt; parameters = e.GetParameters(paramName);
+	IList<Parameter> parameters = e.GetParameters(paramName);
 	if (parameters.Count != 0)
 	{
 		Parameter p = parameters.FirstOrDefault();

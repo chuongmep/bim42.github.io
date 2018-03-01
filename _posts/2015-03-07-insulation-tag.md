@@ -44,7 +44,7 @@ This solution allow me to create quickly some annotations to represent the insul
 			//Retrive the two symbols
 			FamilySymbol rectangularSymbol = null;
 			FamilySymbol roundSymbol = null;
-			ICollection&lt;Element&gt; collection = new FilteredElementCollector(doc).OfClass(typeof(FamilySymbol)).OfCategory(BuiltInCategory.OST_DetailComponents).ToElements();
+			ICollection<Element> collection = new FilteredElementCollector(doc).OfClass(typeof(FamilySymbol)).OfCategory(BuiltInCategory.OST_DetailComponents).ToElements();
 			foreach (Element element in collection)
 			{
 				FamilySymbol current = element as FamilySymbol;
@@ -83,7 +83,7 @@ This solution allow me to create quickly some annotations to represent the insul
 							double angle = new XYZ(1,0,0).AngleTo(vector);
 							
 							//Get the insulation
-							ICollection&lt;ElementId&gt; insulationIds = InsulationLiningBase.GetInsulationIds(doc,r.ElementId);
+							ICollection<ElementId> insulationIds = InsulationLiningBase.GetInsulationIds(doc,r.ElementId);
 							
 							if (insulationIds.Count !=0)
 							{

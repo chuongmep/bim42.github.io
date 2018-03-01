@@ -52,7 +52,7 @@ To do so, I wrote a few lines of code to create a copy of every nested light swi
 		as FamilyInstance;
 	
 	// Create a filter to retrive all instance of this family
-	List&lt;ElementFilter&gt; filters = new List&lt;ElementFilter&gt;();
+	List<ElementFilter> filters = new List<ElementFilter>();
 	foreach (ElementId symbolId in 
 			 fi.Symbol.Family.GetFamilySymbolIds()) 
 	{
@@ -63,7 +63,7 @@ To do so, I wrote a few lines of code to create a copy of every nested light swi
 	// Apply the filter to the elements in the active document
 	FilteredElementCollector collector = 
 		new FilteredElementCollector(doc);
-	ICollection&lt;Element&gt; familyInstances = 
+	ICollection<Element> familyInstances = 
 		collector.WherePasses(filter).ToElements();
 	
 	using (Transaction tx = new Transaction(doc)) {
@@ -75,7 +75,7 @@ To do so, I wrote a few lines of code to create a copy of every nested light swi
 			
 			FamilyInstance instance = element as FamilyInstance;
 			
-			ICollection&lt;ElementId&gt; subElementsIds = 
+			ICollection<ElementId> subElementsIds = 
 				instance.GetSubComponentIds();
 			
 			//Loop on all nested family

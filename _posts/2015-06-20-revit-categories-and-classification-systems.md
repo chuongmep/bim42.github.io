@@ -49,7 +49,7 @@ You can find [here](http://bim42.com/wp-content/uploads/2015/06/categories.csv) 
 	Document doc = this.ActiveUIDocument.Document;
 	Categories categories = doc.Settings.Categories;
 	
-	List&lt;string&gt; categoriesList = new List&lt;string&gt;();
+	List<string> categoriesList = new List<string>();
 	categoriesList.Add(
 	"Rank;
 	CategoryType;

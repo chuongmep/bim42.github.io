@@ -80,11 +80,11 @@ Objects.AddLinearDimension(dimension, dimAtt) != Guid.Empty)
 
   }
 
-  // &lt;Custom additional code&gt; 
+  // <Custom additional code> 
   private int ensureLayer(string lay)
   {
     int i = doc.Layers.Find(lay, true);
-    if(i &lt; 0)
+    if(i < 0)
       return doc.Layers.Add(lay, Color.Black);
     else
       return i;

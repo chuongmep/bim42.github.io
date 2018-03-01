@@ -51,11 +51,11 @@ Of course, this is also true for Spaces.
 	
 	//Get All linked instance
 	FilteredElementCollector collector = new FilteredElementCollector(activeDocument);
-	List&lt;RevitLinkInstance&gt; linkInstances = collector.OfCategory(BuiltInCategory.OST_RvtLinks).WhereElementIsNotElementType().ToElements().Cast&lt;RevitLinkInstance&gt;().ToList();
+	List<RevitLinkInstance> linkInstances = collector.OfCategory(BuiltInCategory.OST_RvtLinks).WhereElementIsNotElementType().ToElements().Cast<RevitLinkInstance>().ToList();
 	
 	//Get all levels
 	collector = new FilteredElementCollector(activeDocument);
-	List&lt;Level&gt; levels = collector.OfCategory(BuiltInCategory.OST_Levels).WhereElementIsNotElementType().ToElements().Cast&lt;Level&gt;().ToList();
+	List<Level> levels = collector.OfCategory(BuiltInCategory.OST_Levels).WhereElementIsNotElementType().ToElements().Cast<Level>().ToList();
 	
 	using (Transaction tx = new Transaction(activeDocument)) {
 tx.Start("Create Spaces");
@@ -71,7 +71,7 @@ foreach (RevitLinkInstance linkInstance in linkInstances) {
 	
 	//Get rooms in the linkedDocument
 	collector = new FilteredElementCollector(linkedDocument);
-	List&lt;Room&gt; linkedRooms = collector.OfCategory(BuiltInCategory.OST_Rooms).ToElements().Cast&lt;Room&gt;().ToList();
+	List<Room> linkedRooms = collector.OfCategory(BuiltInCategory.OST_Rooms).ToElements().Cast<Room>().ToList();
 	
 	//Create a space for each room
 	foreach (Room room in linkedRooms) {
@@ -100,13 +100,13 @@ tx.Commit();
 	
 }
 
-private Level GetNearestLevel(XYZ point,List&lt;Level&gt; levels)
+private Level GetNearestLevel(XYZ point,List<Level> levels)
 {
 	Level nearestLevel = levels.FirstOrDefault();
 	double delta = Math.Abs(nearestLevel.ProjectElevation - point.Z);
 	
 	foreach (Level currentLevel in levels) {
-if (Math.Abs(currentLevel.ProjectElevation - point.Z) &lt; delta) {
+if (Math.Abs(currentLevel.ProjectElevation - point.Z) < delta) {
 	nearestLevel = currentLevel;
 	delta = Math.Abs(currentLevel.ProjectElevation - point.Z);
 }

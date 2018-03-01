@@ -42,13 +42,13 @@ The entire source code is available below, please feel free to use it for your o
 	Document doc = this.ActiveUIDocument.Document;
 			
 	//find all view
-	IEnumerable&lt;View&gt; views = 
+	IEnumerable<View> views = 
 from elem in new FilteredElementCollector(doc).OfClass(typeof(View))
 let view = elem as View
 select view;
 			
 	//Create a text file for exporting
-	List&lt;string&gt; lines = new List&lt;string&gt;();
+	List<string> lines = new List<string>();
 	//Add the first line
 	lines.Add("TemplateName");
 			
@@ -69,14 +69,14 @@ public void ExportFiltersList()
 	Document doc = this.ActiveUIDocument.Document;
 			
 	//find all filters
-	IEnumerable&lt;ParameterFilterElement&gt; filters = 
+	IEnumerable<ParameterFilterElement> filters = 
 from elem in new FilteredElementCollector(doc)
 .OfClass(typeof(ParameterFilterElement))
 let filter = elem as ParameterFilterElement
 select filter;
 			
 	//Create a text file for exporting
-	List&lt;string&gt; lines = new List&lt;string&gt;();
+	List<string> lines = new List<string>();
 	//Add the first line
 	lines.Add("FilterName");
 			
@@ -95,13 +95,13 @@ public void ExportViewsList()
 	Document doc = this.ActiveUIDocument.Document;
 			
 	//find all view
-	IEnumerable&lt;View&gt; views = 
+	IEnumerable<View> views = 
 from elem in new FilteredElementCollector(doc).OfClass(typeof(View))
 let view = elem as View
 select view;
 			
 	//Create a text file for exporting
-	List&lt;string&gt; lines = new List&lt;string&gt;();
+	List<string> lines = new List<string>();
 	//Add the first line
 	lines.Add("ViewName;ViewType;IsTemplate;"
 		+"TemplateName;LevelName;FilterName");
@@ -116,11 +116,11 @@ select view;
 		}
 		
 		//Get view filters
-		ICollection&lt;ElementId&gt; filterIds;
+		ICollection<ElementId> filterIds;
 		try {
 			filterIds = v.GetFilters();
 		} catch (Autodesk.Revit.Exceptions.InvalidOperationException) {
-			filterIds = new List&lt;ElementId&gt;() ;
+			filterIds = new List<ElementId>() ;
 		}
 				
 		string templateName = "";
