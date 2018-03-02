@@ -24,9 +24,6 @@ Revit provides two built-in type parameters to manage such classification system
 This classification system can be loaded in Revit through the Assembly Code interface.
 
 ![Assemblycode](http://bim42.com/wp-content/uploads/2015/06/Assemblycode.jpg)
-
-
-
 Autodesk provides us with the Uniformat classification, through the UniformatClassifications.txt. This tab-separated values text file define the classification structure with four columns:
 
 <pre>Classification Code - Description - Rank - Revit category Id</pre>

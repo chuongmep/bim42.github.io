@@ -40,9 +40,6 @@ I also find some very interesting side effects. For example, I create a linked m
 My only concern is the performance of such an application. I run it on the Revit MEP example file, and it take 31 seconds, regeneration included. It could easily handle a larger model, but the user will then need some patience as the application run.
 
 You will find below a piece of code I use to write values on every elements of the model. This code does not include any interface, but I hope to be able to publish a packaged version anytime soon.
-
-
-
 <pre class="brush: csharp; title: ; notranslate" title="">public void ModelTimeStamp()
 {
 	Document doc = this.ActiveUIDocument.Document;

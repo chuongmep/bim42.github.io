@@ -20,17 +20,11 @@ This source code is available on [Source Forge](https://sourceforge.net/projects
 
 This source code is now the built-in IFC engine for Revit, and I was told that this engine is also behind the conversion service available through Forge.
 
-When the user clicks on Export to IFC, an even is triggered, and Revit catch this even to run the IFC exporter. This also works when the event is triggered by the Document.Export() used through the Revit API by a third-party add-on, like the one I built last week. This IFC Export engine will then read the Revit model, convert every element into its IFC counterpart, and write the resulting IFC file.
-
-
-  <a href="https://bim42.com/wp-content/uploads/2017/09/exportPrinciple.png"><img class="size-full wp-image-1235" src="https://bim42.com/wp-content/uploads/2017/09/exportPrinciple.png" alt="" width="1024" height="529" srcset="https://bim42.com/wp-content/uploads/2017/09/exportPrinciple.png 1024w, https://bim42.com/wp-content/uploads/2017/09/exportPrinciple-300x155.png 300w, https://bim42.com/wp-content/uploads/2017/09/exportPrinciple-768x397.png 768w, https://bim42.com/wp-content/uploads/2017/09/exportPrinciple-500x258.png 500w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+When the user clicks on Export to IFC, an even is triggered, and Revit catch this even to run the IFC exporter. This also works when the event is triggered by the Document.Export() used through the Revit API by a third-party add-on, like the one I built last week. This IFC Export engine will then read the Revit model, convert every element into its IFC counterpart, and write the resulting IFC file.  <a href="https://bim42.com/wp-content/uploads/2017/09/exportPrinciple.png"><img class="size-full wp-image-1235" src="https://bim42.com/wp-content/uploads/2017/09/exportPrinciple.png" alt="" width="1024" height="529" srcset="https://bim42.com/wp-content/uploads/2017/09/exportPrinciple.png 1024w, https://bim42.com/wp-content/uploads/2017/09/exportPrinciple-300x155.png 300w, https://bim42.com/wp-content/uploads/2017/09/exportPrinciple-768x397.png 768w, https://bim42.com/wp-content/uploads/2017/09/exportPrinciple-500x258.png 500w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
   
   <p class="wp-caption-text">
     How Revit export to IFC
-  </p>
-
-
-This IFC engine comes with a special UI, the IFCExporterUI, designed to tap into the capabilities of the open-source IFC exporter to give you more control over the configuration of your export.
+  </p>This IFC engine comes with a special UI, the IFCExporterUI, designed to tap into the capabilities of the open-source IFC exporter to give you more control over the configuration of your export.
 
 There are different add-ons for each Revit version, and each new release of Revit is shipped with the most up-to-date IFC engine available at the time. However, the code for this engine evolve quickly, and you can always download the latest version as an add-on on the Autodesk App Store.
 
@@ -94,17 +88,11 @@ At the time of writing, the landscape looks like this:
   </tr>
 </table>
 
-If you want to know witch version you have, you can check it by opening an IFC file with a text editor and look among the first lines, the FILE_NAME one:
-
-
-  <a href="https://bim42.com/wp-content/uploads/2017/09/IFC-version.png"><img class="size-full wp-image-1236" src="https://bim42.com/wp-content/uploads/2017/09/IFC-version.png" alt="" width="2104" height="293" srcset="https://bim42.com/wp-content/uploads/2017/09/IFC-version.png 2104w, https://bim42.com/wp-content/uploads/2017/09/IFC-version-300x42.png 300w, https://bim42.com/wp-content/uploads/2017/09/IFC-version-768x107.png 768w, https://bim42.com/wp-content/uploads/2017/09/IFC-version-1024x143.png 1024w, https://bim42.com/wp-content/uploads/2017/09/IFC-version-500x70.png 500w" sizes="(max-width: 2104px) 100vw, 2104px" /></a>
+If you want to know witch version you have, you can check it by opening an IFC file with a text editor and look among the first lines, the FILE_NAME one:  <a href="https://bim42.com/wp-content/uploads/2017/09/IFC-version.png"><img class="size-full wp-image-1236" src="https://bim42.com/wp-content/uploads/2017/09/IFC-version.png" alt="" width="2104" height="293" srcset="https://bim42.com/wp-content/uploads/2017/09/IFC-version.png 2104w, https://bim42.com/wp-content/uploads/2017/09/IFC-version-300x42.png 300w, https://bim42.com/wp-content/uploads/2017/09/IFC-version-768x107.png 768w, https://bim42.com/wp-content/uploads/2017/09/IFC-version-1024x143.png 1024w, https://bim42.com/wp-content/uploads/2017/09/IFC-version-500x70.png 500w" sizes="(max-width: 2104px) 100vw, 2104px" /></a>
   
   <p class="wp-caption-text">
     Check you exporter version
-  </p>
-
-
-I didn't dig into the subtleties of the different flavors of each Revit version, like R2 and other exotic name, you get the picture.
+  </p>I didn't dig into the subtleties of the different flavors of each Revit version, like R2 and other exotic name, you get the picture.
 
 Last week, I published [a Revit add-on to send a model to bimsync](https://bim42.com/2017/09/revit-and-bimsync-just-got-a-room-together/). Under the hood, this add-on exports the Revit model to IFC before uploading it to bimsync. As I was building my add-on, I realized that I couldn't just use the Document.Export() function with whatever IFC export settings Revit could provide me. To be useful, such an add-on must allow the user to set up his own IFC Export configuration.
 
@@ -138,31 +126,19 @@ Then, you retrieve or create an instance of the IFCExportConfiguration class. Th
 
 You get the Id of the active view and use the UpdateOptions method of IFCExportConfiguration to pass it along with all other properties to the IFCExportOptions.
 
-The IFC Export add-on also provide an IFCExportConfigurationsMap class to get the built-in configurations and store the new ones.
-
-
-  <a href="https://bim42.com/wp-content/uploads/2017/09/exportsetup.png"><img class="size-full wp-image-1238" src="https://bim42.com/wp-content/uploads/2017/09/exportsetup.png" alt="" width="1068" height="441" srcset="https://bim42.com/wp-content/uploads/2017/09/exportsetup.png 1068w, https://bim42.com/wp-content/uploads/2017/09/exportsetup-300x124.png 300w, https://bim42.com/wp-content/uploads/2017/09/exportsetup-768x317.png 768w, https://bim42.com/wp-content/uploads/2017/09/exportsetup-1024x423.png 1024w, https://bim42.com/wp-content/uploads/2017/09/exportsetup-500x206.png 500w" sizes="(max-width: 1068px) 100vw, 1068px" /></a>
+The IFC Export add-on also provide an IFCExportConfigurationsMap class to get the built-in configurations and store the new ones.  <a href="https://bim42.com/wp-content/uploads/2017/09/exportsetup.png"><img class="size-full wp-image-1238" src="https://bim42.com/wp-content/uploads/2017/09/exportsetup.png" alt="" width="1068" height="441" srcset="https://bim42.com/wp-content/uploads/2017/09/exportsetup.png 1068w, https://bim42.com/wp-content/uploads/2017/09/exportsetup-300x124.png 300w, https://bim42.com/wp-content/uploads/2017/09/exportsetup-768x317.png 768w, https://bim42.com/wp-content/uploads/2017/09/exportsetup-1024x423.png 1024w, https://bim42.com/wp-content/uploads/2017/09/exportsetup-500x206.png 500w" sizes="(max-width: 1068px) 100vw, 1068px" /></a>
   
   <p class="wp-caption-text">
     The existing export setups
-  </p>
-
-
-But where find these IFCExportConfiguration and IFCExportConfigurationMaps classes ?
+  </p>But where find these IFCExportConfiguration and IFCExportConfigurationMaps classes ?
 
 If the IFC for Revit add-on is installed, you can find these classes in the IFCExporterUIOverride.dll. This dll can be found in your ApplicationPlugins folder, in the IFC plugin install folder (C:\ProgramData\Autodesk\ApplicationPlugins\IFC 2018.bundle\Contents\2018)
 
-Running this on a Revit equipped with the add-on will work nicely, but it will fail miserably when the user doesn’t have the IFC for Revit add-on. In this case, the add-on can't find the IFCExporterUIOverride.dll containing the IFCExportConfiguration class:
-
-
-  <a href="https://bim42.com/wp-content/uploads/2017/09/fail.jpg"><img class="size-full wp-image-1239" src="https://bim42.com/wp-content/uploads/2017/09/fail.jpg" alt="" width="656" height="310" srcset="https://bim42.com/wp-content/uploads/2017/09/fail.jpg 656w, https://bim42.com/wp-content/uploads/2017/09/fail-300x142.jpg 300w, https://bim42.com/wp-content/uploads/2017/09/fail-500x236.jpg 500w" sizes="(max-width: 656px) 100vw, 656px" /></a>
+Running this on a Revit equipped with the add-on will work nicely, but it will fail miserably when the user doesn’t have the IFC for Revit add-on. In this case, the add-on can't find the IFCExporterUIOverride.dll containing the IFCExportConfiguration class:  <a href="https://bim42.com/wp-content/uploads/2017/09/fail.jpg"><img class="size-full wp-image-1239" src="https://bim42.com/wp-content/uploads/2017/09/fail.jpg" alt="" width="656" height="310" srcset="https://bim42.com/wp-content/uploads/2017/09/fail.jpg 656w, https://bim42.com/wp-content/uploads/2017/09/fail-300x142.jpg 300w, https://bim42.com/wp-content/uploads/2017/09/fail-500x236.jpg 500w" sizes="(max-width: 656px) 100vw, 656px" /></a>
   
   <p class="wp-caption-text">
     Using IFCExportConfiguration without the add-on
-  </p>
-
-
-If you have a Revit version with the IFC Exporter UI built in (Revit 2017 or 2018), the IFCExportConfiguration and IFCExportConfigurationMaps classes can be found in the IFCExportUI.dll, located in your Revit installation folder (C:\Program Files\Autodesk\Revit 2018\AddIns\IFCExporterUI). In this case, the features available are the same than our previous case, but are in a different dll.
+  </p>If you have a Revit version with the IFC Exporter UI built in (Revit 2017 or 2018), the IFCExportConfiguration and IFCExportConfigurationMaps classes can be found in the IFCExportUI.dll, located in your Revit installation folder (C:\Program Files\Autodesk\Revit 2018\AddIns\IFCExporterUI). In this case, the features available are the same than our previous case, but are in a different dll.
 
 If you don't have the IFC Exporter UI at all (Revit 2016 and earlier versions), you must fall back to the basic export options.
 

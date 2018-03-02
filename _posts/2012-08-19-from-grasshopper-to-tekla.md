@@ -31,9 +31,6 @@ The plate component is also quite simple, with a polyline as input and more or l
 To link two parts together, and so create a Tekla assembly, you have to create a group of bolts (or a weld), then assign it to the main part with the specific input, and add to the assembly all secondary parts you need. I am not sure if it is realistic to create assembly for a whole project directly in Grasshopper, but maybe I am missing some point here. My current project involves a lot of connexions, so I will keep on exploring these features.
 
 ![assembly1](http://bim42.com/wp-content/uploads/2012/08/assembly1.jpg)
-
-
-
 To exploit a model imported in Rhino, Jon Mirchtin has developed two specific components call Reverse Engineer. You can use it to retrieve beams or plates properties from geometry. Here is an example of a plate recreated from a standard Rhino Closed PolySurface.
 
 ![reverseengineering](http://bim42.com/wp-content/uploads/2012/08/reverseengineering.jpg)

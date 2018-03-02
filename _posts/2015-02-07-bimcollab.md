@@ -36,9 +36,6 @@ Here, you can sort and dispatch these issues directly in BIMCollab. You can grou
 Once every issues are assigned, someone responsible for solving can see them directly in his modeling software.
 
 ![02-Modeling](http://bim42.com/wp-content/uploads/2015/02/02-Modeling.png)
-
-
-
 I have only try the Revit plug-in, but I believe the others will look more or less the same. After connecting the plug-in to your BIMCollab account, it display every issue listed in the project, directly in the Revit interface.
 
 ![ScreenClip-2](http://bim42.com/wp-content/uploads/2015/02/ScreenClip-2.png)
@@ -50,7 +47,4 @@ You can filter these issues to display only these assigned to you, and work to s
 This validation is send back to BIMCollab for everyone to see. A nice addition is the dashboard displaying the number of issue opened and solved, which create a overview of the work done and to be done.
 
 ![ScreenClip-5](http://bim42.com/wp-content/uploads/2015/02/ScreenClip-5.png)
-
-
-
 I see this platform as a great solution for a quantified online issue management workflow, like what we can find in software development for some time now, and a new step toward a more collaborative building design.

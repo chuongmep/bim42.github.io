@@ -36,9 +36,6 @@ But once every light switch families have been inserted in the model through the
 To do so, I wrote a few lines of code to create a copy of every nested light switch directly in the model. These new light switches are no longer nested, and can be easily modified to fit the local configuration. Furthermore, these elements are now electrical fixtures families, and can be added to an electrical circuit to perform load calculations.
 
 ![Extracted](http://bim42.com/wp-content/uploads/2015/04/Extracted.png)
-
-
-
 <pre class="brush: csharp; title: ; notranslate" title="">public void ExtractNestedFamillies()
 {
 	
