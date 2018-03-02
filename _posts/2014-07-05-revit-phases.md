@@ -60,4 +60,3 @@ Since elements are displayed only if they are actually present during the curren
 
 If an element is not fitting in any of the four Phase Status, it is not displayed at all, meaning that we cannot display an element that appear in a future phase.
 
-&nbsp;

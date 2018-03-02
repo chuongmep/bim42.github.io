@@ -48,8 +48,6 @@ I generally use the massing tool to create walls in Geometry Gym. I create a sim
 
 ![6](http://bim42.com/wp-content/uploads/2012/10/6.png)
 
-&nbsp;
-
 ![7](http://bim42.com/wp-content/uploads/2012/10/7.png)
 
 I can now use this mass to create my curved walls in Revit, along with the floors slabs. This method need an additional step (creating the wall from the Revit mass faces), but create native Revit walls.

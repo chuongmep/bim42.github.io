@@ -30,8 +30,14 @@ I'm not using Tekla Structure on a regular basis, but I know its power for produ
 
 I started with a first sketch on Tekla Structure, trying to find the best proportion for my needs. I came up with a first version, and used 3D Max to render it.
 
-![finam](http://bim42.com/wp-content/uploads/2014/03/finam.png)I then used the Tekla model to produce general drawings of my project, and submitted this first version to someone who is used to design and build pieces of wooden furniture to get some feedback. His very precious advice helped me to draw a second, more constructible version of my loft bed. These drawings are also available [here](http://www.scribd.com/doc/210099736/Living-Cube-Drawings).
+![finam](http://bim42.com/wp-content/uploads/2014/03/finam.png)
 
-![version](http://bim42.com/wp-content/uploads/2014/03/version.png)I was then able to create a detailed shop drawing for each part of my assembly.
+I then used the Tekla model to produce general drawings of my project, and submitted this first version to someone who is used to design and build pieces of wooden furniture to get some feedback. His very precious advice helped me to draw a second, more constructible version of my loft bed. These drawings are also available [here](http://www.scribd.com/doc/210099736/Living-Cube-Drawings).
 
-![part](http://bim42.com/wp-content/uploads/2014/03/part.png)Sadly, this project is still in its development phase, mostly due to my lack of knowledge in furniture design and joinery work. I hope to be able to restart it someday, when I will have time to draw some new version.
+![version](http://bim42.com/wp-content/uploads/2014/03/version.png)
+
+I was then able to create a detailed shop drawing for each part of my assembly.
+
+![part](http://bim42.com/wp-content/uploads/2014/03/part.png)
+
+Sadly, this project is still in its development phase, mostly due to my lack of knowledge in furniture design and joinery work. I hope to be able to restart it someday, when I will have time to draw some new version.

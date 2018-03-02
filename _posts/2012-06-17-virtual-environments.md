@@ -24,7 +24,7 @@ I have tried two of these engines, with different results.
 
 ![studio_logo3](http://bim42.com/wp-content/uploads/2012/06/studio_logo3.jpg)
 
-3dVia Studio is the solution develop by Dassault System. It's really powerful, with a lot of features and possibilities, and can run _really_ large models. But on the other hand, its price reserves it for visualization professionals, and finding some support and examples on the web can be dreadful.
+3dVia Studio is the solution developped by Dassault System. It's really powerful, with a lot of features and possibilities, and can run _really_ large models. But on the other hand, its price reserves it for visualization professionals, and finding some support and examples on the web can be dreadful.
 
 ![unity-logo](http://bim42.com/wp-content/uploads/2012/06/unity-logo.jpg)
 

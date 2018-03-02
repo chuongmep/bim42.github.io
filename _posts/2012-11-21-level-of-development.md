@@ -22,44 +22,42 @@ One of my current project made me think of talking about the so-called LOD of a 
 
 The LOD (Level Of Development or Level Of Detail) was first described on the Model Progression Specification (MPS) development by Vico Software in 2004. This document aimed to create a framework in order to define standards for any building model delivery. It answers, for each phase of a project, the following questions :
 
-How accurately the model should be detailed ?
-  
-Who is responsible for modeling a particular element ?
-  
-What information should be integrated in the model ?
+* How accurately the model should be detailed ?
+* Who is responsible for modeling a particular element ?
+* What information should be integrated in the model ?
 
 In 2008, the American Institute of Architect  after further developments on this project, released their official version, the E-202 “Building Information Modeling Protocol Exhibit”.
 
 ![aia_e202](http://bim42.com/wp-content/uploads/2012/11/aia_e202.jpg)This paper divided the Levels Of Development in five categories, each one describing the elements expected in the model, the corresponding state of development of the project and the possibilities for producing construction documents and building analysis. They are defined as follows:
 
-_LOD 100: Conceptual design_
-  
+### LOD 100: Conceptual design
+
 The model represent the general massing of the building, with area, volume, orientation and so on.
-  
+
 This model can be used for solar and early energy analysis.
 
-_LOD 200: Design development_
-  
+### LOD 200: Design development
+
 All systems are modeled with their general size, location, orientation and approximate quantities.
-  
+
 It can be used for general performance analysis and early calculations.
 
-_LOD 300: General construction documents_
-  
+### LOD 300: General construction documents
+
 In this model, elements are accurately integrated, with their actual size and location. It is suitable for producing general assembly and construction drawings.
-  
+
 This model allow precise analysis and simulations on every element and system. It can also be used for coordination and clash detection.
 
-_LOD 400: Fabrication information_
-  
+### LOD 400: Fabrication information
+
 Every element is modeled for fabrication purpose.
-  
+
 The model is suitable for shop drawings
-  
+
 It can be used for direct production and construction scheduling.
 
-_LOD 500: As-Built model_
-  
+### LOD 500: As-Built model
+
 The BIM equivalent of As-Built drawings. In these models, elements are represented with all technical information needed for maintenance and procurement.
 
 These descriptions are indicative, and do not prevent the BIM Manager from describing model deliverables more exhaustively. They are more like guidelines for creating an accurate BIM Implementation Plan, with precise indication for each actor about his responsibilities in the development of the model. To do so, these guidelines come with a Model Element Table like this one :

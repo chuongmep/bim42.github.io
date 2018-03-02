@@ -76,8 +76,4 @@ Finally, to help users with this view range issues, I create a general section o
 
 ![GeneralSection](http://bim42.com/wp-content/uploads/2014/06/GeneralSection.png)
 
-&nbsp;
-
 EDIT : I have found on [Augi](http://www.augi.com/library/understanding-view-range) the solution for objects placed below the Bottom plane. These elements are displayed with the project's <Beyond> Style Line.
-
-&nbsp;

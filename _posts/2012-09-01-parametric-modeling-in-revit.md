@@ -25,18 +25,28 @@ This tool is a graphical user interface (GUI) for parametring design directly in
 
 WhiteFeet is also a Revit Plugin, which allow creating native Revit elements from an Excel datasheet. It can be used alone, but I rather use it with Hummingbird, a Grasshopper extension used to generate these Excel datasheets. There is a Grasshopper component for each major Revit command.
 
-![commands1](http://bim42.com/wp-content/uploads/2012/09/commands1.jpg)Designing these element in Grasshopper follow pretty much the same logic than in Revit, with family name and type, points and parameters, except of course for the possibilities offered by natives Grasshopper components.
+![commands1](http://bim42.com/wp-content/uploads/2012/09/commands1.jpg)
+
+Designing these element in Grasshopper follow pretty much the same logic than in Revit, with family name and type, points and parameters, except of course for the possibilities offered by natives Grasshopper components.
 
 Here is a little example for generating beams on a double-curved surface from LunchBox.
 
-![caneva1](http://bim42.com/wp-content/uploads/2012/09/caneva1.jpg)Make sure you have the correct Excel 2010 worksheet opened; I struggled for a while before realizing that my Excel version was outdated.
+![caneva1](http://bim42.com/wp-content/uploads/2012/09/caneva1.jpg)
+
+Make sure you have the correct Excel 2010 worksheet opened; I struggled for a while before realizing that my Excel version was outdated.
 
 The Hummingbird component writes a few lines in our Excel file, something like that:
 
-![excel](http://bim42.com/wp-content/uploads/2012/09/excel.jpg)Then we go the Add-Ins panel of Revit and start the WhiteFeet Model Builder to import our datasheet. There are a few options to set, with everything quite self-explanatory.
+![excel](http://bim42.com/wp-content/uploads/2012/09/excel.jpg)
 
-![whitefeetmodelbuilder](http://bim42.com/wp-content/uploads/2012/09/whitefeetmodelbuilder.jpg)The plugin generated smoothly these beams in Revit, with all the requested parameters:
+Then we go the Add-Ins panel of Revit and start the WhiteFeet Model Builder to import our datasheet. There are a few options to set, with everything quite self-explanatory.
 
-![revitbeams](http://bim42.com/wp-content/uploads/2012/09/revitbeams.jpg)Among Grasshopper plugins, Chameleon allows to create Revit adaptative components directly from Grasshopper. It also includes components to edit Revit parameters directly on the model.
+![whitefeetmodelbuilder](http://bim42.com/wp-content/uploads/2012/09/whitefeetmodelbuilder.jpg)
+
+The plugin generated smoothly these beams in Revit, with all the requested parameters:
+
+![revitbeams](http://bim42.com/wp-content/uploads/2012/09/revitbeams.jpg)
+
+Among Grasshopper plugins, Chameleon allows to create Revit adaptative components directly from Grasshopper. It also includes components to edit Revit parameters directly on the model.
 
 All these plugins, among others, became a very interesting alternative to the average modeling in Revit, and fill the gap between parametric modeling and a more average BIM modelisation.

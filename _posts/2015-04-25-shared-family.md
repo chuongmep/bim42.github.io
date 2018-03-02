@@ -37,7 +37,7 @@ To do so, I wrote a few lines of code to create a copy of every nested light swi
 
 ![Extracted](http://bim42.com/wp-content/uploads/2015/04/Extracted.png)
 
-&nbsp;
+
 
 <pre class="brush: csharp; title: ; notranslate" title="">public void ExtractNestedFamillies()
 {

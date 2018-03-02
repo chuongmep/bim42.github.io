@@ -79,4 +79,3 @@ To do so, you just have to select the "Multiple file" tab and define a target fo
 
 The Navisworks Batch Utility will convert every Revit file to a NWC cache file, and made it a NWD on the run.
 
-&nbsp;

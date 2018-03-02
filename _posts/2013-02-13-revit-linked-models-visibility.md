@@ -32,7 +32,9 @@ I firstly set custom Display Settings on each linked model, using an override fo
 
 If this method works well for most element, it doesn’t change the color of various HVAC and plumbing systems. This is due to the Graphic Overrides set up for each system in the linked model. I didn’t want to remove these overrides which are pretty convenient for setting up visibility settings in trade models.
 
-![intheplbmodel](http://bim42.com/wp-content/uploads/2013/02/intheplbmodel.jpg)So I decide to use a workaround to define graphical representation in my coordination model.
+![intheplbmodel](http://bim42.com/wp-content/uploads/2013/02/intheplbmodel.jpg)
+
+So I decide to use a workaround to define graphical representation in my coordination model.
 
 Each trade model contain a limited amount of worksets, each draftsman working on his own linked model, so I was able to create the same worksets in my compiled model.
 

@@ -40,4 +40,4 @@ There is set of tools for creating notes that save a viewpoint in the model. Onc
 
 One of the most interesting part of these notes is the possibility to export them in the BCF format, in order to be able to import them in another software. This functionnality can be really powerfull, and I will describe it more precisely in a future post.
 
-Finally, I am quite impress by BIMSight. Tekla manage to provide a fully functional model review solution without even make us pay for it, which is pretty remarkable is this market.</span>
+Finally, I am quite impress by BIMSight. Tekla manage to provide a fully functional model review solution without even make us pay for it, which is pretty remarkable is this market.

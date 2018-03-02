@@ -37,7 +37,7 @@ Once every issues are assigned, someone responsible for solving can see them dir
 
 ![02-Modeling](http://bim42.com/wp-content/uploads/2015/02/02-Modeling.png)
 
-&nbsp;
+
 
 I have only try the Revit plug-in, but I believe the others will look more or less the same. After connecting the plug-in to your BIMCollab account, it display every issue listed in the project, directly in the Revit interface.
 
@@ -51,6 +51,6 @@ This validation is send back to BIMCollab for everyone to see. A nice addition i
 
 ![ScreenClip-5](http://bim42.com/wp-content/uploads/2015/02/ScreenClip-5.png)
 
-&nbsp;
+
 
 I see this platform as a great solution for a quantified online issue management workflow, like what we can find in software development for some time now, and a new step toward a more collaborative building design.

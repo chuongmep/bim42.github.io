@@ -41,7 +41,7 @@ My only concern is the performance of such an application. I run it on the Revit
 
 You will find below a piece of code I use to write values on every elements of the model. This code does not include any interface, but I hope to be able to publish a packaged version anytime soon.
 
-&nbsp;
+
 
 <pre class="brush: csharp; title: ; notranslate" title="">public void ModelTimeStamp()
 {

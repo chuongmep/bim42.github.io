@@ -83,5 +83,3 @@ It is now possible to quickly create very precise graph displaying opening time 
 ![Image](http://bim42.com/wp-content/uploads/2014/07/Image.png)
 
 The next step should be to send these information to a shared SQL database in order to retrive data from every users. We should have this way a company-wide tool for keeping track of Revit performance.
-
-&nbsp;

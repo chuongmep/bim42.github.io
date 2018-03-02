@@ -96,4 +96,3 @@ This process still has a few issues. The buildings aren't adjusted at the toposu
   </p>
 </div>
 
-&nbsp;

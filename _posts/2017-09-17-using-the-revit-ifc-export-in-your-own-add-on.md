@@ -262,5 +262,5 @@ IFCExportUIOverride::BIM.IFC.Export.UI.IFCExportConfiguration
                     </p>
                     
                     <p>
-                      &nbsp;
+                      
                     </p>

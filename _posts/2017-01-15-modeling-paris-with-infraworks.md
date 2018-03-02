@@ -89,7 +89,7 @@ break;
 default: BUILDINGS.ROOF_MATERIAL = "Material/Roofing/Spanish Tile Brown";
 }</pre>
 
-&nbsp;
+
 
 Most of Paris buildings have a very characteristic zinc roof, a material that is not available by default in InfraWorks.
 

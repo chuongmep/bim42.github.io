@@ -32,7 +32,7 @@ To link two parts together, and so create a Tekla assembly, you have to create a
 
 ![assembly1](http://bim42.com/wp-content/uploads/2012/08/assembly1.jpg)
 
-&nbsp;
+
 
 To exploit a model imported in Rhino, Jon Mirchtin has developed two specific components call Reverse Engineer. You can use it to retrieve beams or plates properties from geometry. Here is an example of a plate recreated from a standard Rhino Closed PolySurface.
 

@@ -44,4 +44,3 @@ My model has now a matching MEP Space for every room created in the linked model
 
 DynamoMEP is still in this infancy, and need a lot of improvement, so don't hesitate to report any bug or missing feature. You can add an issue on [Github](https://github.com/simonmoreau/DynamoMEP), or post a comment below. I hope to add new features as I develop MEP workflows in Dynamo.
 
-&nbsp;

@@ -19,7 +19,7 @@ tags:
 ---
 I previously dealt with some issues regarding the use of Digital Project. These problems arrose mostly because CATIA is not suitable for the AEC industry. Even if Digital Project is adapted to the building construction techniques, the main core, CATIA, is still a product aimed at industrial products.
 
-Furthermore, Digital Project needs large resources both in time and money for designing anything. It can be perfectly acceptable for mass-produced objects or very complex building, but when it comes to more average construction projects, we have to find another solution.
+Furthermore, Digital Project needs large resources both in time and money for designing anything. It can be perfectly acceptable for mass-produced objects or very complex buildings, but when it comes to more average construction projects, we have to find another solution.
 
 I was wondering if I would be able to create all the precast pieces of a stone-like facade on Revit, and see what differences we can find.
 
@@ -37,7 +37,9 @@ Furthermore, there is at least one piece I was not able to draw properly a doub
 
 I insert my Revit family in a new project, and add a few dimensions and a section line.
 
-![elevation](http://bim42.com/wp-content/uploads/2012/11/elevation.png)A main problem appears when I am trying to extract a section of the curved part. If I get the section, I cannot add dimensions to it.
+![elevation](http://bim42.com/wp-content/uploads/2012/11/elevation.png)
+
+A main problem appears when I am trying to extract a section of the curved part. If I get the section, I cannot add dimensions to it.
 
 ![section2](http://bim42.com/wp-content/uploads/2012/11/section2.png)
 
