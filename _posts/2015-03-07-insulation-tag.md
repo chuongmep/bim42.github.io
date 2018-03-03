@@ -65,7 +65,6 @@ public void InsulationTag()
     }
 
 
-
     try
     {
         while (true)

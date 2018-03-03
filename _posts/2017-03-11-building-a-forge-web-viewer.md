@@ -28,17 +28,20 @@ I follow the detailed explanations from Augusto Gonzales to send my model to the
 
 Using technologies from Microsoft, it is easy to publish my application on Azure, the Microsoft cloud hosting solution.
 
-I called the end-result Termite, and it is available [here](http://termiteviewer.azurewebsites.net/).  <a href="http://bim42.com/wp-content/uploads/2017/03/The-Termite-Web-Viewer.png"><img class="size-large wp-image-1149" src="http://bim42.com/wp-content/uploads/2017/03/The-Termite-Web-Viewer-1024x537.png" alt="" width="584" height="306" srcset="https://bim42.com/wp-content/uploads/2017/03/The-Termite-Web-Viewer-1024x537.png 1024w, https://bim42.com/wp-content/uploads/2017/03/The-Termite-Web-Viewer-300x157.png 300w, https://bim42.com/wp-content/uploads/2017/03/The-Termite-Web-Viewer-768x403.png 768w, https://bim42.com/wp-content/uploads/2017/03/The-Termite-Web-Viewer-500x262.png 500w" sizes="(max-width: 584px) 100vw, 584px" /></a>
-  
-  <p class="wp-caption-text">
-    The Termite Web Viewer
-  </p>By default, you see a model of my neighborhood from [my last post](http://bim42.com/2017/02/modeling-a-neighborhood-with-flux-site-extractor-gis-data-and-revit/), but you can also upload your own files. A word of caution, uploading and translating a large model can take quite some time, do not close the windows until your model is displayed on the screen.
+I called the end-result Termite, and it is available [here](http://termiteviewer.azurewebsites.net/).
 
-I also add some features to the viewer. You can lock the rotation of the view by clicking on the lock icon. I also put in place a very basic section tool. To use the section, click on "Add a section" and select a face in the model to create your section.  <a href="http://bim42.com/wp-content/uploads/2017/03/Viewer-Extensions.png"><img class="wp-image-1150 size-thumbnail" src="http://bim42.com/wp-content/uploads/2017/03/Viewer-Extensions-150x150.png" alt="" width="150" height="150" /></a>
-  
-  <p class="wp-caption-text">
-    Viewer Extensions
-  </p>These features are built as extension of the Autodesk Forge Viewer, are written in JavaScript and run in the browser of the end user.
+![The-Termite-Web-Viewer](http://bim42.com/wp-content/uploads/2017/03/The-Termite-Web-Viewer.png)
+The Termite Web Viewer
+
+By default, you see a model of my neighborhood from [my last post](http://bim42.com/2017/02/modeling-a-neighborhood-with-flux-site-extractor-gis-data-and-revit/), but you can also upload your own files. A word of caution, uploading and translating a large model can take quite some time, do not close the windows until your model is displayed on the screen.
+
+I also add some features to the viewer. You can lock the rotation of the view by clicking on the lock icon. I also put in place a very basic section tool. To use the section, click on "Add a section" and select a face in the model to create your section.
+
+![Viewer-Extensions](http://bim42.com/wp-content/uploads/2017/03/Viewer-Extensions.png)
+
+Viewer Extensions
+
+These features are built as extension of the Autodesk Forge Viewer, are written in JavaScript and run in the browser of the end user.
 
 The source code is available on [GitHub](https://github.com/simonmoreau/Termite). Seasoned web developer will probably find a lot to correct in my application, but I hope to improve with practice
 

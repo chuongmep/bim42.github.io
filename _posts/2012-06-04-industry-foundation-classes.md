@@ -30,25 +30,33 @@ In other terms, it's a series of definitions, explaining how describe any buildi
 
 These definitions create a language readable by a computer, and written as a text file. This file is even readable by human being, and look more or less like this:
 
-`#66= IFCCARTESIANPOINT((-17261.0669833266,3274.73863321424,0.));</p>
-<p>#68= IFCAXIS2PLACEMENT3D(#66,$,$);</p>
-<p>#69= IFCLOCALPLACEMENT(#59,#68);</p>
-<p>#70= IFCCARTESIANPOINT((9430.2775637732,0.));</p>
-<p>#72= IFCPOLYLINE((#5,#70));</p>
-<p>#74= IFCSHAPEREPRESENTATION(#43,'Axis','Curve2D',(#72));</p>
-<p>#76= IFCCARTESIANPOINT((9430.2775637732,-100.));`
+{% highlight text %}
+#66= IFCCARTESIANPOINT((-17261.0669833266,3274.73863321424,0.));
+#68= IFCAXIS2PLACEMENT3D(#66,$,$);
+#69= IFCLOCALPLACEMENT(#59,#68);
+#70= IFCCARTESIANPOINT((9430.2775637732,0.));
+#72= IFCPOLYLINE((#5,#70));
+#74= IFCSHAPEREPRESENTATION(#43,'Axis','Curve2D',(#72));
+#76= IFCCARTESIANPOINT((9430.2775637732,-100.));
+{% endhighlight %}
 
 It's not very convenient, but with some pain, we can find a wall here,
 
-`#209= IFCWALLSTANDARDCASE('0EiAvIo0LBOBfvSD8E4HST',#52,'Basic Wall',$,’200 mm’ ,#181,#207,'177171');`
+{% highlight text %}
+#209= IFCWALLSTANDARDCASE('0EiAvIo0LBOBfvSD8E4HST',#52,'Basic Wall',$,’200 mm’ ,#181,#207,'177171');
+{% endhighlight %}
 
 create by an extrusion like that,
 
-`#92= IFCEXTRUDEDAREASOLID(#90,#91,#15,8000.);`
+{% highlight text %}
+#92= IFCEXTRUDEDAREASOLID(#90,#91,#15,8000.);
+{% endhighlight %}
 
 and place at the point define like this:
 
-`#76= IFCCARTESIANPOINT((9430.2775637732,-100.));`
+{% highlight text %}
+#76= IFCCARTESIANPOINT((9430.2775637732,-100.));
+{% endhighlight %}
 
 I have worked some times in order to understand this language, and if I'm still not speaking IFC fluently, I was able to improve myself a little. You will find the result of my work [here](http://www.scribd.com/doc/95909096/Industry-Foundation-Classes).
 

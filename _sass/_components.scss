@@ -5,7 +5,7 @@ pre {
     border-left: $spacer-1 solid $color-border;
     margin: $spacer-3 0;
     padding-left: 16px;
-    width: (9 / 12 * 100%); // matches col-9
+    width: (100%); // matches col-9
     overflow-x: auto;
 }
 
@@ -104,7 +104,7 @@ article {
   table {
     border-collapse: collapse;
     display: block;
-    width: 100%;
+    width: 83.333333%;
     margin-bottom: 1.5em;
     overflow: auto;
     // For Firefox to horizontally scroll wider tables.
@@ -137,6 +137,7 @@ article {
 }
 
 pre.highlight,
+.highlight {width: 83.3333333333%}
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */

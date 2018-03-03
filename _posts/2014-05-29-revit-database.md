@@ -29,7 +29,7 @@ This time, I decide to use the SQL Server, along with its SQL Server Management 
 
 During my first research for exporting the Revit database, I came across the Revit DB Link, a plug-in available at the [Autodesk Subscription](https://subscription.autodesk.com) website. This add-in allows to export the Revit database, but also to edit this database and import it back into Revit.
 
-Using it is pretty easy when you have all the correct software installed.</p># Exporting  First, you have to configure a new connection. After starting the Revit DB Link add-in, select [Select a new connection] in the ODBC panel, and click Export:
+Using it is pretty easy when you have all the correct software installed. First, you have to configure a new connection. After starting the Revit DB Link add-in, select [Select a new connection] in the ODBC panel, and click Export:
 
 ![Linking interface](http://bim42.com/wp-content/uploads/2014/05/linkinterface.png)
 
