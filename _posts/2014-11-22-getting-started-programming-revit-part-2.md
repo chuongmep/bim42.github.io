@@ -24,9 +24,12 @@ It first requires a view to place our tag: we will just use the active view, nam
 
 It also needs an element to place a tag on. To do so, we will select each one of our walls with a for each loop.
 
-{% highlight c# %}foreach (Element myElement in myWalls) {
+{% highlight c# %}
+foreach (Element myElement in myWalls)
+{
     //Do something with myElement
-}{% endhighlight %}
+}
+{% endhighlight %}
 
 It means that for every element contained in our list of wall myWalls, we will perform some action, written between the brackets.
 
@@ -34,7 +37,8 @@ A few options have to be set, like the category of our tag, its orientation and 
 
 Finally, it needs a location point to insert our tag. We want our tag to be placed at the center of our wall, so we will retrieve the baseline of our wall, and create a point in the middle of this baseline:
 
-{% highlight c# %}//Get our wall
+{% highlight c# %}
+//Get our wall
 Wall myWall = myElement as Wall;
 //Get its location
 LocationCurve myWallLocation = myWall.Location as LocationCurve;
@@ -48,7 +52,8 @@ XYZ myWallCenterPoint =(myWallStartingPoint + myWallEndingPoint)/2;
 
 Know, we have everything we need to create our tag:
 
-{% highlight c# %}IndependentTag myTag = myDocument.Create.NewTag(
+{% highlight c# %}
+IndependentTag myTag = myDocument.Create.NewTag(
                 myActiveView,
                 myElement,
                 false,

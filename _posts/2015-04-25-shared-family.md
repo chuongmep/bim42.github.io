@@ -36,96 +36,97 @@ But once every light switch families have been inserted in the model through the
 To do so, I wrote a few lines of code to create a copy of every nested light switch directly in the model. These new light switches are no longer nested, and can be easily modified to fit the local configuration. Furthermore, these elements are now electrical fixtures families, and can be added to an electrical circuit to perform load calculations.
 
 ![Extracted](http://bim42.com/wp-content/uploads/2015/04/Extracted.png)
-{% highlight c# %}public void ExtractNestedFamillies()
+
+{% highlight c# %}
+public void ExtractNestedFamillies()
 {
-	
-	UIDocument uidoc = this.ActiveUIDocument;
-	Autodesk.Revit.DB.Document doc = uidoc.Document;
-	
-	//Select a family instance
-	FamilyInstance fi = doc.GetElement(
-		uidoc.Selection.PickObject(
-			ObjectType.Element ).ElementId )
-		as FamilyInstance;
-	
-	// Create a filter to retrive all instance of this family
-	List<ElementFilter> filters = new List<ElementFilter>();
-	foreach (ElementId symbolId in 
-			 fi.Symbol.Family.GetFamilySymbolIds()) 
-	{
-		filters.Add(new FamilyInstanceFilter(doc,symbolId));
-	}
-	ElementFilter filter = new LogicalOrFilter(filters);
+    UIDocument uidoc = this.ActiveUIDocument;
+    Autodesk.Revit.DB.Document doc = uidoc.Document;
 
-	// Apply the filter to the elements in the active document
-	FilteredElementCollector collector = 
-		new FilteredElementCollector(doc);
-	ICollection<Element> familyInstances = 
-		collector.WherePasses(filter).ToElements();
-	
-	using (Transaction tx = new Transaction(doc)) {
-		
-		tx.Start("Extract Nested Familes");
-		
-		//Loop on all family instances in the project
-		foreach (Element element in familyInstances) {
-			
-			FamilyInstance instance = element as FamilyInstance;
-			
-			ICollection<ElementId> subElementsIds = 
-				instance.GetSubComponentIds();
-			
-			//Loop on all nested family
-			foreach (ElementId id in subElementsIds) {
+    //Select a family instance
+    FamilyInstance fi = doc.GetElement(
+        uidoc.Selection.PickObject(
+            ObjectType.Element).ElementId)
+        as FamilyInstance;
 
-				Element ee = doc.GetElement(id);
-				FamilyInstance f = ee as FamilyInstance;
-				
-				//The fammily is face based
-				if (f.HostFace != null)
-				{
-					Element host = f.Host;
-					Face face = host.GetGeometryObjectFromReference(
-						f.HostFace) as Face;
-					LocationPoint locPoint = f.Location as LocationPoint;
-					doc.Create.NewFamilyInstance(
-						face,locPoint.Point,f.HandOrientation,f.Symbol);
-				}
-				//The fammily is host based
-				else if (f.Host !=null)
-				{
-					LocationPoint locPoint = f.Location as LocationPoint;
-					Level level = doc.GetElement( f.LevelId) as Level;
-					
-					FamilyInstance fam = doc.Create.NewFamilyInstance(
-						locPoint.Point,f.Symbol,f.Host,
-						level,StructuralType.NonStructural);
-					
-					//Flip the family if necessary
-					if (instance.CanFlipFacing)
-					{
-						if (instance.FacingFlipped) {fam.flipFacing();}
-					}
-					if (instance.CanFlipHand)
-					{
-						if (instance.HandFlipped) {fam.flipHand();}
-					}
-				}
-				//The family is point based
-				else
-				{
-					LocationPoint locPoint = f.Location as LocationPoint;
-					Level level = doc.GetElement( f.LevelId) as Level;
-					doc.Create.NewFamilyInstance(
-						locPoint.Point,f.Symbol,level,
-						StructuralType.NonStructural);
-				}
-			}
+    // Create a filter to retrive all instance of this family
+    List<ElementFilter> filters = new List<ElementFilter>();
+    foreach (ElementId symbolId in
+             fi.Symbol.Family.GetFamilySymbolIds())
+    {
+        filters.Add(new FamilyInstanceFilter(doc, symbolId));
+    }
+    ElementFilter filter = new LogicalOrFilter(filters);
 
-		}
-		
-		tx.Commit();
-	}
+    // Apply the filter to the elements in the active document
+    FilteredElementCollector collector =
+        new FilteredElementCollector(doc);
+    ICollection<Element> familyInstances =
+        collector.WherePasses(filter).ToElements();
 
+    using (Transaction tx = new Transaction(doc))
+    {
+
+        tx.Start("Extract Nested Familes");
+
+        //Loop on all family instances in the project
+        foreach (Element element in familyInstances)
+        {
+
+            FamilyInstance instance = element as FamilyInstance;
+
+            ICollection<ElementId> subElementsIds =
+                instance.GetSubComponentIds();
+
+            //Loop on all nested family
+            foreach (ElementId id in subElementsIds)
+            {
+
+                Element ee = doc.GetElement(id);
+                FamilyInstance f = ee as FamilyInstance;
+
+                //The fammily is face based
+                if (f.HostFace != null)
+                {
+                    Element host = f.Host;
+                    Face face = host.GetGeometryObjectFromReference(
+                        f.HostFace) as Face;
+                    LocationPoint locPoint = f.Location as LocationPoint;
+                    doc.Create.NewFamilyInstance(
+                        face, locPoint.Point, f.HandOrientation, f.Symbol);
+                }
+                //The fammily is host based
+                else if (f.Host != null)
+                {
+                    LocationPoint locPoint = f.Location as LocationPoint;
+                    Level level = doc.GetElement(f.LevelId) as Level;
+
+                    FamilyInstance fam = doc.Create.NewFamilyInstance(
+                        locPoint.Point, f.Symbol, f.Host,
+                        level, StructuralType.NonStructural);
+
+                    //Flip the family if necessary
+                    if (instance.CanFlipFacing)
+                    {
+                        if (instance.FacingFlipped) { fam.flipFacing(); }
+                    }
+                    if (instance.CanFlipHand)
+                    {
+                        if (instance.HandFlipped) { fam.flipHand(); }
+                    }
+                }
+                //The family is point based
+                else
+                {
+                    LocationPoint locPoint = f.Location as LocationPoint;
+                    Level level = doc.GetElement(f.LevelId) as Level;
+                    doc.Create.NewFamilyInstance(
+                        locPoint.Point, f.Symbol, level,
+                        StructuralType.NonStructural);
+                }
+            }
+        }
+        tx.Commit();
+    }
 }
 {% endhighlight %}

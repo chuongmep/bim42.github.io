@@ -16,9 +16,7 @@ tags:
 ---
 A few days ago, I had to convert a large set of Revit files to NWC in order to create a general Navisworks File Set.
 
-I used the Navisworks Batch Utility, accessible through the Navisworks main menu :
-
-![ScreenClip1](http://bim42.com/wp-content/uploads/2014/10/ScreenClip1.png)
+I used the Navisworks Batch Utility ![ScreenClip1](http://bim42.com/wp-content/uploads/2014/10/ScreenClip1.png), accessible through the Navisworks main menu:
 
 ![ScreenClip-12](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-12.png)
 
@@ -30,23 +28,28 @@ To quickly retrieve the list of Revit files to be converted, I'm using the Windo
 
 First, go to the root folder of your project:
 
-{% highlight c# %}cd C:\Projects\myRevitProject{% endhighlight %}
+{% highlight posh %}
+cd C:\Projects\myRevitProject
+{% endhighlight %}
 
 and type :
 
-{% highlight c# %}dir /s /b *.rvt &amp;amp;amp;amp;amp;gt;ListRevitFiles.txt{% endhighlight %}
+{% highlight posh %}
+dir /s /b *.rvt >ListRevitFiles.txt
+{% endhighlight %}
 
 This line requires a bit of an explanation:
 
-  * _dir_ : command for searching and displaying file in the current directory
-  * _/s_ : search in the current directory and all its subdirectories
-  * _/b_ (or bare) : remove for each file its metadata to display only the file path
-  * _*.rvt_ : search specifically for Revit files
-  * _>ListRevitFiles.txt_ : the ‘>’ character allows us to output the result of our research to a text file (here ListRevitFiles.txt) instead of displaying it.
+* _dir_ : command for searching and displaying file in the current directory
+* _/s_ : search in the current directory and all its subdirectories
+* _/b_ (or bare) : remove for each file its metadata to display only the file path
+* _*.rvt_ : search specifically for Revit files
+* _>ListRevitFiles.txt_ : the ‘>’ character allows us to output the result of our research to a text file (here ListRevitFiles.txt) instead of displaying it.
 
 We get the results of our research as text file listing paths to every Revit model contained in our project folder:
 
-{% highlight c# %}C:\Projects\myRevitProject\CENTRALS\ARC.rvt
+{% highlight posh %}
+C:\Projects\myRevitProject\CENTRALS\ARC.rvt
 C:\Projects\myRevitProject\CENTRALS\MEP.rvt
 C:\Projects\myRevitProject\CENTRALS\STR.rvt
 {% endhighlight %}
@@ -78,4 +81,3 @@ To do so, you just have to select the "Multiple file" tab and define a target fo
 ![ScreenClip-61](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-61.png)
 
 The Navisworks Batch Utility will convert every Revit file to a NWC cache file, and made it a NWD on the run.
-

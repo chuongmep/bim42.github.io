@@ -25,11 +25,11 @@ To do so, we have to set up a general clash matrix, something like this:
 
 ![matrix](http://bim42.com/wp-content/uploads/2015/05/matrix.jpg)
 
-  * A: Architecture
-  * S: Structure
-  * H: HVAC
-  * P: Plumbing
-  * E: Electrical
+* A: Architecture
+* S: Structure
+* H: HVAC
+* P: Plumbing
+* E: Electrical
 
 You can see that the lower-left of the matrix is left blank, we don't need to run symmetrical tests.
 

@@ -46,6 +46,4 @@ With some PivotTables, I get the Revit ID of every problematic room, and paste t
 
 ![RoomHightLight](http://bim42.com/wp-content/uploads/2015/05/RoomHightLight.png)
 
-From thousands of meaningless clash point to a nice plan highlighting problematic area for a specific problem, I finally find some improvement over my traditional clash detection process. I'm still working on it, and hope to share my progress, as long as there is any to share.[
-  
-](http://bim42.com/wp-content/uploads/2015/05/clearHeadroom.png)
+From thousands of meaningless clash point to a nice plan highlighting problematic area for a specific problem, I finally find some improvement over my traditional clash detection process. I'm still working on it, and hope to share my progress, as long as there is any to share.

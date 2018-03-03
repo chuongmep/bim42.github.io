@@ -28,7 +28,7 @@ After the proof of concept I presented to you on my last post, I finally took th
 Aside from minor technical problems, I was most concerned by the possibilities to edit the style of the report before creating it, and avoid the tedious task to clean it up in Word after.
 
 I finally selected a solution mixing Word template and styles. All you have to do after selecting you BCF report is to load a Word template. The application will automatically retrieve all styles in it, and you will be able to select them for each part of your report.
-  
+
 These parts are described in the picture below, where every information embedded in the BCF note is written down on the report.
 
 ![DocXExample2](http://bim42.com/wp-content/uploads/2015/01/DocXExample2.png)

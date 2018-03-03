@@ -27,13 +27,14 @@ In this example, we can see the global syntax for creating user defined property
 
 I use it to create my own PropertySet Definition File, and use it to export Creation Phase and Demolition Phase to a new PropertySet called Phases.
 
- `PropertySet:     Phases     I     IfcElement<br />
-Creation Phase     Text     Phase Created<br />
-Demolition Phase     Text     Phase Demolished<br />
-` 
+{% highlight text %}
+PropertySet:  Phases  I IfcElement
+Creation Phase  Text  Phase Created
+Demolition Phase  Text  Phase Demolished
+{% endhighlight %}
 
 In this definition file, we set up the name of the PropertySet, its use (on instances or on types) and the list of elements were we want to apply our properties.
-  
+
 Then we add the mapping between IFC (left member) and Revit properties (right member), along with its data type (Text, Real, Integer or Boolean)
 
 We add this file in the IFC Export configuration, and export our IFC file. We can now see these properties appearing under the Phases set :

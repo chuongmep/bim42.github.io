@@ -35,11 +35,9 @@ A BCF file is actually a compressed file, where every note is stored in its own 
 
 In each of these folder, there is three files:
 
-markup.bcf
-  
-snapshot.png
-  
-viewpoint.bcfv
+* markup.bcf
+* snapshot.png
+* viewpoint.bcfv
 
 The markup.bcf file stores all metadata about the note: Its date, its title, its author, its various comment along with their dates, and so on. This is the main source of information for my daily coordination report.
 

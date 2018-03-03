@@ -25,28 +25,23 @@ To be more accurate and systematic with these measures, I create a small piece o
 
 On startup, the application subscribe to the events triggered on opening, synchronizing or closing a model.
 
-{% highlight c# %}public RevitLogger( UIControlledApplication a)
-        {
-            ControlledApplication app = a.ControlledApplication;
+{% highlight c# %}
+public RevitLogger( UIControlledApplication a)
+{
+    ControlledApplication app = a.ControlledApplication;
 
-            //Subscribe to the opening event
-            app.DocumentOpening += 
-                 DocumentOpeningEventHandler;
-            app.DocumentOpened += 
-                 DocumentOpenedEventHandler;
+    //Subscribe to the opening event
+    app.DocumentOpening += DocumentOpeningEventHandler;
+    app.DocumentOpened += DocumentOpenedEventHandler;
 
-            //Subscribe to the synchronizing event
-            app.DocumentSynchronizingWithCentral += 
-                 DocumentSynchronizingEventHandler;
-            app.DocumentSynchronizedWithCentral += 
-                 DocumentSynchronizedEventHandler;
+    //Subscribe to the synchronizing event
+    app.DocumentSynchronizingWithCentral += DocumentSynchronizingEventHandler;
+    app.DocumentSynchronizedWithCentral += DocumentSynchronizedEventHandler;
 
-            //Subscribe to the closing event
-            app.DocumentClosing += 
-                 DocumentClosingEventHandler;
-            app.DocumentClosed += 
-                 DocumentClosedEventHandler;
-        }
+    //Subscribe to the closing event
+    app.DocumentClosing += DocumentClosingEventHandler;
+    app.DocumentClosed += DocumentClosedEventHandler;
+}
 
 {% endhighlight %}
 
@@ -56,23 +51,24 @@ Afterward, each event handler measure the time taken to perform the task, along 
 
 For example, to log the opening of a model:
 
-{% highlight c# %}private void DocumentOpeningEventHandler(
+{% highlight c# %}
+private void DocumentOpeningEventHandler(
                  object sender,
                  Autodesk.Revit.DB.Events.DocumentOpeningEventArgs args)
-        {
-            //Retrive info about the file
-            BasicFileInfo FileInfo = BasicFileInfo .Extract(args.PathName);
+{
+    //Retrive info about the file
+    BasicFileInfo FileInfo = BasicFileInfo .Extract(args.PathName);
 
-            _logReccord = new LogReccord(ReccordType .Open);
-            _logReccord.ReccordStarting = DateTime.Now;
-        }
+    _logReccord = new LogReccord(ReccordType .Open);
+    _logReccord.ReccordStarting = DateTime.Now;
+}
 
-         private void DocumentOpenedEventHandler(
+private void DocumentOpenedEventHandler(
                  object sender,
                  Autodesk.Revit.DB.Events.DocumentOpenedEventArgs args)
-        {
-            _logReccord.ReccordEnding = DateTime.Now;
-        }
+{
+    _logReccord.ReccordEnding = DateTime.Now;
+}
 
 {% endhighlight %}
 

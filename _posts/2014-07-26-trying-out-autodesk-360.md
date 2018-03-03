@@ -16,17 +16,19 @@ tags:
 ---
 I was recently searching for a web-based collaboration platform to quickly exchange models between people from different organizations, and since Autodesk had just release its new flavor of Autodesk 360 website, I gave it a try.
 
-The first impression when logging to the new Autodesk 360 Hub is the integration of social capabilities. Every modification is displayed in a handy timeline for everyone to see. I had some prior experience with the project management tool Basecamp (https://basecamp.com/), and I see in this new version of Autodesk 360 some of the features that made Basecamp so successful.
+The first impression when logging to the new Autodesk 360 Hub is the integration of social capabilities. Every modification is displayed in a handy timeline for everyone to see. I had some prior experience with the project management tool [Basecamp](https://basecamp.com/), and I see in this new version of Autodesk 360 some of the features that made Basecamp so successful.
 
 These features, along with the new domain name (autodesk360.com), show the effort of Autodesk for producing a complete web-based solution for reviewing BIM content.
-  
+
 Everything in Autodesk 360 is organized around projects, which come with their own calendars and wikis. To work with Autodesk 360, you first have to create a new project and invite members to this project:
 
 ![createProject](http://bim42.com/wp-content/uploads/2014/07/createProject.png)
 
 After adding a nice logo to your project, you can create folders and start uploading Revit models:
 
-![uploadFiles](http://bim42.com/wp-content/uploads/2014/07/uploadFiles.png)The upload is pretty quick, but the file has to be processed to be visible through your browser.
+![uploadFiles](http://bim42.com/wp-content/uploads/2014/07/uploadFiles.png)
+
+The upload is pretty quick, but the file has to be processed to be visible through your browser.
 
 ![uploading](http://bim42.com/wp-content/uploads/2014/07/uploading.png)
 
