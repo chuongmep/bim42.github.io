@@ -34,7 +34,7 @@ The idea is to pick a series of duct and pipe, read their insulation thickness, 
 
 This solution allow me to create quickly some annotations to represent the insulation without having to display it everywhere. However, this is more a workaround than a real solution. Nothing here is adaptive, and you have to restart the tool each time you edit or even move your duct.
 
-<pre class="brush: csharp; title: ; notranslate" title="">public void InsulationTag()
+{% highlight c# %}public void InsulationTag()
 		{
 			UIDocument uidoc = this.ActiveUIDocument;
 			Document doc = uidoc.Document;
@@ -159,4 +159,4 @@ public class SelectionFilter : ISelectionFilter
 
 		#endregion
 	}
-</pre>
+{% endhighlight %}

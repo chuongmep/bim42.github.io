@@ -45,7 +45,7 @@ The Computation Height properties allows us to change the elevation where we cal
 
 Of course, this is also true for Spaces.
 
-<pre class="brush: csharp; title: ; notranslate" title="">public void RoomToSpace()
+{% highlight c# %}public void RoomToSpace()
 {
 	Document activeDocument = this.ActiveUIDocument.Document;
 	
@@ -114,4 +114,4 @@ if (Math.Abs(currentLevel.ProjectElevation - point.Z) < delta) {
 	
 	return nearestLevel;
 }
-</pre>
+{% endhighlight %}

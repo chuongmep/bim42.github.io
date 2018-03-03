@@ -23,10 +23,10 @@ Once these phases are created, a lifespan can be defined for every object in our
 
 To illustrate this, we create a few object and place them on a timeline:
 
-  * Four walls, "created" during the Existing phase and never demolished.
-  * A small kitchen, created in Phase 1 and demolished in the same phase.
-  * Two columns, "created" during the Existing phase and demolished in Demo phase.
-  * Three partitions walls, created in Phase 2 and never demolished.
+* Four walls, "created" during the Existing phase and never demolished.
+* A small kitchen, created in Phase 1 and demolished in the same phase.
+* Two columns, "created" during the Existing phase and demolished in Demo phase.
+* Three partitions walls, created in Phase 2 and never demolished.
 
 ![Timeline](http://bim42.com/wp-content/uploads/2014/07/Timeline.png)
 
@@ -59,4 +59,3 @@ Since elements are displayed only if they are actually present during the curren
 ![Example4_complete](http://bim42.com/wp-content/uploads/2014/07/Example4_complete.png)
 
 If an element is not fitting in any of the four Phase Status, it is not displayed at all, meaning that we cannot display an element that appear in a future phase.
-

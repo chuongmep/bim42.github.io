@@ -26,7 +26,7 @@ This classification system can be loaded in Revit through the Assembly Code inte
 ![Assemblycode](http://bim42.com/wp-content/uploads/2015/06/Assemblycode.jpg)
 Autodesk provides us with the Uniformat classification, through the UniformatClassifications.txt. This tab-separated values text file define the classification structure with four columns:
 
-<pre>Classification Code - Description - Rank - Revit category Id</pre>
+{% highlight c# %}Classification Code - Description - Rank - Revit category Id{% endhighlight %}
 
   * The Classification Code is the number associated with each item in a given classification. It is linked to the Assembly Code in Revit.
   * The Description is the text associated with each item of the classification. Once we add an Assembly Code to a Revit type, this description appears in the Assembly Desciption.
@@ -41,7 +41,7 @@ These relations allows us to filter by category while assigning Assembly Codes.
 
 You can find [here](http://bim42.com/wp-content/uploads/2015/06/categories.csv) the .csv file with all Revit categories, along with the code used to create it.
 
-<pre class="brush: csharp; title: ; notranslate" title="">public void Categories()
+{% highlight c# %}public void Categories()
 {
 	Document doc = this.ActiveUIDocument.Document;
 	Categories categories = doc.Settings.Categories;
@@ -76,4 +76,4 @@ You can find [here](http://bim42.com/wp-content/uploads/2015/06/categories.csv) 
 	string path = @"C:\categories.csv";
 	File.WriteAllLines(path,categoriesList.ToArray());
 }
-</pre>
+{% endhighlight %}

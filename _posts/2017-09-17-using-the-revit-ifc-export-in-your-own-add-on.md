@@ -98,7 +98,7 @@ Last week, I published [a Revit add-on to send a model to bimsync](https://bim42
 
 I look into the code of the IFC Exporter UI to understand how this user interface communicate with the export engine. I found out that you need an IFCExportConfiguration class to use a specific IFC Export configuration. Below is an example of the code needed to export a Revit model to IFC:
 
-<pre class="brush: csharp; title: ; notranslate" title="">//Create an instance of IFCExportOptions
+{% highlight c# %}//Create an instance of IFCExportOptions
 IFCExportOptions IFCOptions = new IFCExportOptions();
 
 //Get an instance of IFCExportConfiguration
@@ -118,7 +118,7 @@ string name = "the name of your IFC file";
 //Export the model to IFC
 doc.Export(folder, name, IFCOptions);
 
-</pre>
+{% endhighlight %}
 
 You start by creating an instance of the IFCExportOptions found in the Autodesk.Revit.DB namespace. This is standard in all Revit flavors.
 
@@ -212,10 +212,10 @@ In a nutshell, we have to manage these three cases:
                       I load in my Visual Studio solution the two dll containing the IFCExportConfiguration class, and using alias, I call a different version of it depending on the installation of the user:
                     </p>
                     
-                    <pre class="brush: csharp; title: ; notranslate" title="">
+                    {% highlight c# %}
 IFCExportUI::BIM.IFC.Export.UI.IFCExportConfiguration
 IFCExportUIOverride::BIM.IFC.Export.UI.IFCExportConfiguration
-</pre>
+{% endhighlight %}
                     
                     <p>
                       I also handle the vanilla Revit 2016 in my IFCExportConfigurationCustom class, without using any version of the IFCExportConfiguration (which is not available in this version of Revit), using instead the plain old IFCExportOptions built-in into Revit.

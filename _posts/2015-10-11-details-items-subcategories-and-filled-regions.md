@@ -44,7 +44,7 @@ After running this function, I end up with nicely matching wood pattern, all set
 
 As usual, you will find the source code for this solution below, I hope it will help you solve your filled region issues.
 
-<pre class="brush: csharp; title: ; notranslate" title="">public partial class ThisApplication
+{% highlight c# %}public partial class ThisApplication
 {
 	public void MatchFilledRegion()
 	{
@@ -148,4 +148,4 @@ public class FamilyOption : IFamilyLoadOptions
 		return true;
 	}
 }
-</pre>
+{% endhighlight %}

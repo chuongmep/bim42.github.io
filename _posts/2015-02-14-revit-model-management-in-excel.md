@@ -37,7 +37,7 @@ Once loaded in the PowerPivot tool, this data allows us to quickly identify whic
 
 The entire source code is available below, please feel free to use it for your own projects.
 
-<pre class="brush: csharp; title: ; notranslate" title="">public void ExportViewTemplatesList()
+{% highlight c# %}public void ExportViewTemplatesList()
 {
 	Document doc = this.ActiveUIDocument.Document;
 			
@@ -155,4 +155,4 @@ select view;
 	string exportpath = @"views.csv";
 	File.WriteAllLines(exportpath,lines.ToArray(),Encoding.UTF8);
 }
-</pre>
+{% endhighlight %}

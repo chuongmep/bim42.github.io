@@ -25,7 +25,7 @@ To be more accurate and systematic with these measures, I create a small piece o
 
 On startup, the application subscribe to the events triggered on opening, synchronizing or closing a model.
 
-<pre class="brush: csharp; title: ; notranslate" title="">public RevitLogger( UIControlledApplication a)
+{% highlight c# %}public RevitLogger( UIControlledApplication a)
         {
             ControlledApplication app = a.ControlledApplication;
 
@@ -48,7 +48,7 @@ On startup, the application subscribe to the events triggered on opening, synchr
                  DocumentClosedEventHandler;
         }
 
-</pre>
+{% endhighlight %}
 
 Subscribing to the starting event and the ending event allow me to track down the time taken by each task.
 
@@ -56,7 +56,7 @@ Afterward, each event handler measure the time taken to perform the task, along 
 
 For example, to log the opening of a model:
 
-<pre class="brush: csharp; title: ; notranslate" title="">private void DocumentOpeningEventHandler(
+{% highlight c# %}private void DocumentOpeningEventHandler(
                  object sender,
                  Autodesk.Revit.DB.Events.DocumentOpeningEventArgs args)
         {
@@ -74,7 +74,7 @@ For example, to log the opening of a model:
             _logReccord.ReccordEnding = DateTime.Now;
         }
 
-</pre>
+{% endhighlight %}
 
 Here, the LogReccord class allow us to store the information retrieved in the event handler. Once these information are stored, it is pretty easy to collect them and write them down to a csv file.
 

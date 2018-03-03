@@ -36,7 +36,7 @@ My objective here is to bake every panel boundary curve on a different layer to 
 
 The next step is to add dimensions. Sadly, since native grasshopper dimension does not have any output object, we cannot bake them with the "Object Bake". So I'm using my own Linear Dimension creation component. As you can see, the code is quite straightforward. I use standard Rhino functions to create my dimensions, and have a small private function for selecting or creating the layer to place our dimension.
 
-<pre class="brush: csharp; title: ; notranslate" title="">private void RunScript(bool Bake, Point3d A,
+{% highlight c# %}private void RunScript(bool Bake, Point3d A,
                         Point3d B, Point3d C, 
                         string Layer, ref object O)
   {
@@ -89,7 +89,7 @@ Objects.AddLinearDimension(dimension, dimAtt) != Guid.Empty)
     else
       return i;
   }
-</pre>
+{% endhighlight %}
 
 With the "Disc" component, I retrieve every summit of my panel boundary, and place a dimension between two of these points. I also use an offset of my panel boundary to set up the position of the dimension line.
 

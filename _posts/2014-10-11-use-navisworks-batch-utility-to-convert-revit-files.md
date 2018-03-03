@@ -30,11 +30,11 @@ To quickly retrieve the list of Revit files to be converted, I'm using the Windo
 
 First, go to the root folder of your project:
 
-<pre class="brush: bash; title: ; notranslate" title="">cd C:\Projects\myRevitProject</pre>
+{% highlight c# %}cd C:\Projects\myRevitProject{% endhighlight %}
 
 and type :
 
-<pre class="brush: bash; title: ; notranslate" title="">dir /s /b *.rvt &amp;amp;amp;amp;amp;gt;ListRevitFiles.txt</pre>
+{% highlight c# %}dir /s /b *.rvt &amp;amp;amp;amp;amp;gt;ListRevitFiles.txt{% endhighlight %}
 
 This line requires a bit of an explanation:
 
@@ -46,10 +46,10 @@ This line requires a bit of an explanation:
 
 We get the results of our research as text file listing paths to every Revit model contained in our project folder:
 
-<pre class="brush: plain; title: ; notranslate" title="">C:\Projects\myRevitProject\CENTRALS\ARC.rvt
+{% highlight c# %}C:\Projects\myRevitProject\CENTRALS\ARC.rvt
 C:\Projects\myRevitProject\CENTRALS\MEP.rvt
 C:\Projects\myRevitProject\CENTRALS\STR.rvt
-</pre>
+{% endhighlight %}
 
 Back on the Navisworks Batch Utility, we open this text file to import file paths: File -> Open -> Select ListRevitFiles.txt
 

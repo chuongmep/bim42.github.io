@@ -37,7 +37,7 @@ Every action done within Revit are made within a document, generally a .rvt or .
 
 Let's write this:
 
-<pre class="brush: csharp; title: ; notranslate" title="">Document myDocument;</pre>
+{% highlight c# %}Document myDocument;{% endhighlight %}
 
 With this line, I explain to Revit that something, a variable, called "myDocument" is a Revit Document.
 
@@ -45,27 +45,27 @@ Don't forget the trailing ";", it means the end of the line and has to be placed
 
 Then, we write this:
 
-<pre class="brush: csharp; title: ; notranslate" title="">myDocument = this.ActiveUIDocument.Document;</pre>
+{% highlight c# %}myDocument = this.ActiveUIDocument.Document;{% endhighlight %}
 
 With this line, we explain than myDocument is actually the active document, the Revit document I am currently working with. "this" mean here "this Revit application".
 
 To be able to annotate every walls in a view, we have to select this view. Here, we call our view myActiveView and set it to the currently active view, the one you are looking at right now.
 
-<pre class="brush: csharp; title: ; notranslate" title="">View myActiveView = myDocument.ActiveView;</pre>
+{% highlight c# %}View myActiveView = myDocument.ActiveView;{% endhighlight %}
 
 Now than our Revit document and the view are selected, we have to retrieve walls to be able to annotate them. The Revit API provide us with a great function, the ability to filter element by category, type, class, ...  well, pretty much everything.
 
 First, let's create our filter, with the keyword "new":
 
-<pre class="brush: csharp; title: ; notranslate" title="">FilteredElementCollector filter 
-= new FilteredElementCollector(myDocument,myActiveView.Id);</pre>
+{% highlight c# %}FilteredElementCollector filter 
+= new FilteredElementCollector(myDocument,myActiveView.Id);{% endhighlight %}
 
 This "filter" will search for every element contained in "myDocument" and visible in the view "myActiveView". The ".Id" after "myActiveView" mean that we use the unique identifier of the view instead of the view itself to create our filter.
 
 We can now use this filter to actually catch some walls. Let's write that:
 
-<pre class="brush: csharp; title: ; notranslate" title="">List<Element>myWalls 
-= filter.OfCategory(BuiltInCategory.OST_Walls).ToList();</pre>
+{% highlight c# %}List<Element>myWalls 
+= filter.OfCategory(BuiltInCategory.OST_Walls).ToList();{% endhighlight %}
 
 We create a list of Revit element named myWalls and retrieve every element of the category Wall ("BuiltInCategory.OST_Walls"). The trailing ".ToList()" convert our filter into an actual list of elements.
 
