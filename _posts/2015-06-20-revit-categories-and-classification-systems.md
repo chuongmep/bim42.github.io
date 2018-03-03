@@ -24,14 +24,17 @@ Revit provides two built-in type parameters to manage such classification system
 This classification system can be loaded in Revit through the Assembly Code interface.
 
 ![Assemblycode](http://bim42.com/wp-content/uploads/2015/06/Assemblycode.jpg)
+
 Autodesk provides us with the Uniformat classification, through the UniformatClassifications.txt. This tab-separated values text file define the classification structure with four columns:
 
-{% highlight c# %}Classification Code - Description - Rank - Revit category Id{% endhighlight %}
+{% highlight text %}
+Classification Code - Description - Rank - Revit category Id
+{% endhighlight %}
 
-  * The Classification Code is the number associated with each item in a given classification. It is linked to the Assembly Code in Revit.
-  * The Description is the text associated with each item of the classification. Once we add an Assembly Code to a Revit type, this description appears in the Assembly Desciption.
-  * The Rank define the hierarchy of the item in the classification. This allows Revit to display any linked classification in a tree view.
-  * Finally, the Revit category Id allows us to create a first mapping between classification items and Revit categories. This allow us to filter by Revit category while assigning Assembly Code.
+* The Classification Code is the number associated with each item in a given classification. It is linked to the Assembly Code in Revit.
+* The Description is the text associated with each item of the classification. Once we add an Assembly Code to a Revit type, this description appears in the Assembly Desciption.
+* The Rank define the hierarchy of the item in the classification. This allows Revit to display any linked classification in a tree view.
+* Finally, the Revit category Id allows us to create a first mapping between classification items and Revit categories. This allow us to filter by Revit category while assigning Assembly Code.
 
 To create such a mapping, we need the list of Revit categories. To extract this, I run a small routine to write every built-in Revit category to a .csv file. Along the way, I find some interesting properties of these categories. For example, the IsCuttable property list cuttable categories, something I was talking about in a [previous post](http://bim42.com/2014/06/understanding-view-range/).
 
@@ -41,7 +44,8 @@ These relations allows us to filter by category while assigning Assembly Codes.
 
 You can find [here](http://bim42.com/wp-content/uploads/2015/06/categories.csv) the .csv file with all Revit categories, along with the code used to create it.
 
-{% highlight c# %}public void Categories()
+{% highlight c# %}
+public void Categories()
 {
 	Document doc = this.ActiveUIDocument.Document;
 	Categories categories = doc.Settings.Categories;

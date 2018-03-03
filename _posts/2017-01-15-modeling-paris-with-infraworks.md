@@ -46,8 +46,8 @@ To create these custom fields, I have to edit the "im.schema.json" file located 
 
 Using great explanations from [here](http://atlandsend.typepad.com/at-lands-end/2011/12/randomizing-data-in-infrastructure-modeler-for-demos-and-show.html), I create a small script to map these values to a roofing material in InfraWorks, with a switch command on the type of roof described in the dataset.
 
-{% highlight c# %}//Added by me
-
+{% highlight c# %}
+//Added by me
 switch (SOURCE["C_TOITDOM"])
 {
 case 0: BUILDINGS.ROOF_MATERIAL = "Material/Roofing/Spanish Tile Brown";
@@ -63,7 +63,8 @@ break;
 case 5: BUILDINGS.ROOF_MATERIAL = "Material/Roofing/Grass Augustine";
 break;
 default: BUILDINGS.ROOF_MATERIAL = "Material/Roofing/Spanish Tile Brown";
-}{% endhighlight %}
+}
+{% endhighlight %}
 Most of Paris buildings have a very characteristic zinc roof, a material that is not available by default in InfraWorks.  <a href="http://bim42.com/wp-content/uploads/2017/01/ParisRoofs.png"><img class="size-large wp-image-1128" src="http://bim42.com/wp-content/uploads/2017/01/ParisRoofs-1024x768.png" alt="Typical Parisian roofs" width="584" height="438" srcset="https://bim42.com/wp-content/uploads/2017/01/ParisRoofs-1024x768.png 1024w, https://bim42.com/wp-content/uploads/2017/01/ParisRoofs-300x225.png 300w, https://bim42.com/wp-content/uploads/2017/01/ParisRoofs-768x576.png 768w, https://bim42.com/wp-content/uploads/2017/01/ParisRoofs-400x300.png 400w" sizes="(max-width: 584px) 100vw, 584px" /></a>
   
   <p class="wp-caption-text">

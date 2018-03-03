@@ -44,108 +44,125 @@ After running this function, I end up with nicely matching wood pattern, all set
 
 As usual, you will find the source code for this solution below, I hope it will help you solve your filled region issues.
 
-{% highlight c# %}public partial class ThisApplication
+{% highlight c# %}
+public partial class ThisApplication
 {
-	public void MatchFilledRegion()
-	{
-		Document doc = this.ActiveUIDocument.Document;
-		
-		//Find all Filled Region Type, and create a dictonary with it
-		Dictionary<string,FilledRegionType> modelFilledRegionTypes =
-			new FilteredElementCollector(doc).OfClass(typeof(FilledRegionType)).ToElements().Cast<FilledRegionType>().ToDictionary(e => e.Name);
-		
-		//Find all loaded families
-		IList<Element> elements = new FilteredElementCollector(doc).OfClass(typeof(Family)).ToElements();
-		
-		//Get Detail Item category id.
-		ElementId detailItemCategoryId = doc.Settings.Categories.get_Item(BuiltInCategory.OST_DetailComponents).Id;
-		
+    public void MatchFilledRegion()
+    {
+        Document doc = this.ActiveUIDocument.Document;
 
-		
-		//Loop on all loaded families
-		foreach (Element familyElement in elements) {
-			
-			Family family = familyElement as Family;
-			
-			//Exit the families loop if it isn't a Detail Item Familly
-			if (family.FamilyCategory.Id != detailItemCategoryId) continue;
+        //Find all Filled Region Type, and create a dictonary with it
+        Dictionary<string, FilledRegionType> modelFilledRegionTypes =
+            new FilteredElementCollector(doc)
+            .OfClass(typeof(FilledRegionType))
+            .ToElements()
+            .Cast<FilledRegionType>()
+            .ToDictionary(e => e.Name);
 
-			//Open the family
-			Document familyDoc = doc.EditFamily(family);
-			string familyPath = Path.Combine(Path.GetTempPath(),family.Name+".rfa");
-			
-			bool familyEdited = false;
-			
-			//Find all Filled Region Type in the family
-			IList<Element> filledRegionTypes = new FilteredElementCollector(familyDoc).OfClass(typeof(FilledRegionType)).ToElements();
-			
-			using (Transaction famTx = new Transaction(familyDoc))
-			{
-				famTx.Start("Edit Filled Region Type");
-				
-				//Loop on all Filled Region types in the family
-				foreach (Element filledRegionTypeElement in filledRegionTypes)
-				{
-					FilledRegionType filledRegionType = filledRegionTypeElement as FilledRegionType;
-					if (modelFilledRegionTypes.ContainsKey(filledRegionType.Name))
-					{
-						FilledRegionType refFilledRegion = modelFilledRegionTypes[filledRegionType.Name];
-						//Change the color
-						if (filledRegionType.Color.Red != refFilledRegion.Color.Red
-						    || filledRegionType.Color.Blue != refFilledRegion.Color.Blue
-						    || filledRegionType.Color.Green != refFilledRegion.Color.Green)
-						{
-							filledRegionType.Color = refFilledRegion.Color;
-							familyEdited = true;
-						}
-						
-						//Change the Background
-						if (filledRegionType.Background != refFilledRegion.Background)
-						{
-							filledRegionType.Background = refFilledRegion.Background;
-							familyEdited = true;
-						}
-						
-						//Change line weight
-						if (filledRegionType.LineWeight != refFilledRegion.LineWeight)
-						{
-							filledRegionType.LineWeight = refFilledRegion.LineWeight;
-							familyEdited = true;
-						}
-						
-					}
-					
-				}
-				
-				famTx.Commit();
-			}
-			
-			if (familyEdited)
-			{
-				familyDoc.LoadFamily(doc, new FamilyOption());
-				familyDoc.Close( false );
-			}
-			else
-			{
-				familyDoc.Close( false );
-			}
-		}
-	}
+        //Find all loaded families
+        IList<Element> elements = 
+            new FilteredElementCollector(doc)
+            .OfClass(typeof(Family)).ToElements();
+
+        //Get Detail Item category id.
+        ElementId detailItemCategoryId = 
+            doc.Settings.Categories
+            .get_Item(BuiltInCategory.OST_DetailComponents).Id;
+
+        //Loop on all loaded families
+        foreach (Element familyElement in elements)
+        {
+
+            Family family = familyElement as Family;
+
+            //Exit the families loop if it isn't a Detail Item Familly
+            if (family.FamilyCategory.Id != detailItemCategoryId) continue;
+
+            //Open the family
+            Document familyDoc = doc.EditFamily(family);
+            string familyPath = Path.Combine(Path.GetTempPath(), family.Name + ".rfa");
+
+            bool familyEdited = false;
+
+            //Find all Filled Region Type in the family
+            IList<Element> filledRegionTypes = 
+                new FilteredElementCollector(familyDoc)
+                    .OfClass(typeof(FilledRegionType))
+                    .ToElements();
+
+            using (Transaction famTx = new Transaction(familyDoc))
+            {
+                famTx.Start("Edit Filled Region Type");
+
+                //Loop on all Filled Region types in the family
+                foreach (Element filledRegionTypeElement in filledRegionTypes)
+                {
+                    FilledRegionType filledRegionType = filledRegionTypeElement as FilledRegionType;
+                    if (modelFilledRegionTypes.ContainsKey(filledRegionType.Name))
+                    {
+                        FilledRegionType refFilledRegion = modelFilledRegionTypes[filledRegionType.Name];
+                        //Change the color
+                        if (filledRegionType.Color.Red != refFilledRegion.Color.Red
+                            || filledRegionType.Color.Blue != refFilledRegion.Color.Blue
+                            || filledRegionType.Color.Green != refFilledRegion.Color.Green)
+                        {
+                            filledRegionType.Color = refFilledRegion.Color;
+                            familyEdited = true;
+                        }
+
+                        //Change the Background
+                        if (filledRegionType.Background != refFilledRegion.Background)
+                        {
+                            filledRegionType.Background = refFilledRegion.Background;
+                            familyEdited = true;
+                        }
+
+                        //Change line weight
+                        if (filledRegionType.LineWeight != refFilledRegion.LineWeight)
+                        {
+                            filledRegionType.LineWeight = refFilledRegion.LineWeight;
+                            familyEdited = true;
+                        }
+
+                    }
+
+                }
+
+                famTx.Commit();
+            }
+
+            if (familyEdited)
+            {
+                familyDoc.LoadFamily(doc, new FamilyOption());
+                familyDoc.Close(false);
+            }
+            else
+            {
+                familyDoc.Close(false);
+            }
+        }
+    }
 }
 
 public class FamilyOption : IFamilyLoadOptions
 {
-	public bool OnFamilyFound(bool familyInUse,out bool overwriteParameterValues)
-	{
-		overwriteParameterValues = true;
-		return true;
-	}
-	
-	public bool OnSharedFamilyFound(Family sharedFamily,bool familyInUse, out FamilySource source,out bool overwriteParameterValues )
-	{
-		source = FamilySource.Family;
-		overwriteParameterValues = true;
-		return true;
-	}
+    public bool OnFamilyFound(
+        bool familyInUse, 
+        out bool overwriteParameterValues)
+    {
+        overwriteParameterValues = true;
+        return true;
+    }
+
+    public bool OnSharedFamilyFound(
+        Family sharedFamily, 
+        bool familyInUse, 
+        out FamilySource source, 
+        out bool overwriteParameterValues)
+    {
+        source = FamilySource.Family;
+        overwriteParameterValues = true;
+        return true;
+    }
 }
 {% endhighlight %}

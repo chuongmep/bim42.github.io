@@ -17,9 +17,7 @@ tags:
 ---
 During my researches for improving clash detection, I stumble upon [DynaWorks](http://stuffandbims.blogspot.fr/2014/10/dynaworks-is-here-navisworks-library.html), a great Dynamo package built by Adam Sheather ([@Gytaco](https://twitter.com/Gytaco)).
 
-For those who haven't heard about Dynamo (Is there is any left?), it is a visual programming interface for Revit, pretty much like Grasshopper. Just like Grasshopper, you can improve upon the built-in features with packages from third party developers. DynaWorks is one of these packages, and provides a set of Dynamo nodes for interacting with Navisworks.[
-  
-](http://bim42.com/wp-content/uploads/2015/06/process.jpg) 
+For those who haven't heard about Dynamo (Is there is any left?), it is a visual programming interface for Revit, pretty much like Grasshopper. Just like Grasshopper, you can improve upon the built-in features with packages from third party developers. DynaWorks is one of these packages, and provides a set of Dynamo nodes for interacting with Navisworks.
 
 After installing it through the package manager, it presents itself with a set of nodes exposing Navisworks main functions.
 

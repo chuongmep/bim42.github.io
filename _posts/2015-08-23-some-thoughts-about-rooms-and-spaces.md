@@ -45,73 +45,89 @@ The Computation Height properties allows us to change the elevation where we cal
 
 Of course, this is also true for Spaces.
 
-{% highlight c# %}public void RoomToSpace()
+{% highlight c# %}
+public void RoomToSpace()
 {
-	Document activeDocument = this.ActiveUIDocument.Document;
-	
-	//Get All linked instance
-	FilteredElementCollector collector = new FilteredElementCollector(activeDocument);
-	List<RevitLinkInstance> linkInstances = collector.OfCategory(BuiltInCategory.OST_RvtLinks).WhereElementIsNotElementType().ToElements().Cast<RevitLinkInstance>().ToList();
-	
-	//Get all levels
-	collector = new FilteredElementCollector(activeDocument);
-	List<Level> levels = collector.OfCategory(BuiltInCategory.OST_Levels).WhereElementIsNotElementType().ToElements().Cast<Level>().ToList();
-	
-	using (Transaction tx = new Transaction(activeDocument)) {
-tx.Start("Create Spaces");
+    Document activeDocument = this.ActiveUIDocument.Document;
 
-//Loop on all linked instance
-foreach (RevitLinkInstance linkInstance in linkInstances) {
-	
-	//Get linked document
-	Document linkedDocument = linkInstance.GetLinkDocument();
-	
-	//Get linked instance position
-	Transform t = linkInstance.GetTotalTransform();
-	
-	//Get rooms in the linkedDocument
-	collector = new FilteredElementCollector(linkedDocument);
-	List<Room> linkedRooms = collector.OfCategory(BuiltInCategory.OST_Rooms).ToElements().Cast<Room>().ToList();
-	
-	//Create a space for each room
-	foreach (Room room in linkedRooms) {
-LocationPoint locationPoint = room.Location as LocationPoint;
-XYZ roomLocationPoint = locationPoint.Point;
-roomLocationPoint = t.OfPoint(roomLocationPoint);
+    //Get All linked instance
+    FilteredElementCollector collector = 
+        new FilteredElementCollector(activeDocument);
+    List<RevitLinkInstance> linkInstances = collector
+        .OfCategory(BuiltInCategory.OST_RvtLinks)
+        .WhereElementIsNotElementType()
+        .ToElements().Cast<RevitLinkInstance>().ToList();
 
-if (roomLocationPoint != null)
+    //Get all levels
+    collector = new FilteredElementCollector(activeDocument);
+    List<Level> levels = collector.
+    OfCategory(BuiltInCategory.OST_Levels)
+        .WhereElementIsNotElementType()
+        .ToElements().Cast<Level>().ToList();
+
+    using (Transaction tx = new Transaction(activeDocument))
+    {
+        tx.Start("Create Spaces");
+
+        //Loop on all linked instance
+        foreach (RevitLinkInstance linkInstance in linkInstances)
+        {
+
+            //Get linked document
+            Document linkedDocument = linkInstance.GetLinkDocument();
+
+            //Get linked instance position
+            Transform t = linkInstance.GetTotalTransform();
+
+            //Get rooms in the linkedDocument
+            collector = new FilteredElementCollector(linkedDocument);
+            List<Room> linkedRooms = collector
+            .OfCategory(BuiltInCategory.OST_Rooms)
+            .ToElements().Cast<Room>().ToList();
+
+            //Create a space for each room
+            foreach (Room room in linkedRooms)
+            {
+                LocationPoint locationPoint = room.Location as LocationPoint;
+                XYZ roomLocationPoint = locationPoint.Point;
+                roomLocationPoint = t.OfPoint(roomLocationPoint);
+
+                if (roomLocationPoint != null)
+                {
+                    Level level = GetNearestLevel(roomLocationPoint, levels);
+                    UV uv = new UV(roomLocationPoint.X, roomLocationPoint.Y);
+
+                    Space space = activeDocument.Create.NewSpace(level, uv);
+
+                    space.Number = room.Number;
+                    space.Name = room.Name;
+
+                    Parameter limitOffset = 
+                        space.get_Parameter(BuiltInParameter.ROOM_UPPER_OFFSET);
+                    limitOffset
+                    .Set(room.get_Parameter(BuiltInParameter.ROOM_UPPER_OFFSET)
+                    .AsDouble());
+                }
+            }
+        }
+        tx.Commit();
+    }
+}
+
+private Level GetNearestLevel(XYZ point, List<Level> levels)
 {
-	Level level = GetNearestLevel(roomLocationPoint,levels);
-	UV uv = new UV(roomLocationPoint.X, roomLocationPoint.Y);
-	
-	Space space = activeDocument.Create.NewSpace(level,uv);
-	
-	space.Number = room.Number;
-	space.Name = room.Name;
+    Level nearestLevel = levels.FirstOrDefault();
+    double delta = Math.Abs(nearestLevel.ProjectElevation - point.Z);
 
-	Parameter limitOffset = space.get_Parameter(BuiltInParameter.ROOM_UPPER_OFFSET);
-	limitOffset.Set(room.get_Parameter(BuiltInParameter.ROOM_UPPER_OFFSET).AsDouble());
-}
-	}
-}
+    foreach (Level currentLevel in levels)
+    {
+        if (Math.Abs(currentLevel.ProjectElevation - point.Z) < delta)
+        {
+            nearestLevel = currentLevel;
+            delta = Math.Abs(currentLevel.ProjectElevation - point.Z);
+        }
+    }
 
-tx.Commit();
-	}
-	
-}
-
-private Level GetNearestLevel(XYZ point,List<Level> levels)
-{
-	Level nearestLevel = levels.FirstOrDefault();
-	double delta = Math.Abs(nearestLevel.ProjectElevation - point.Z);
-	
-	foreach (Level currentLevel in levels) {
-if (Math.Abs(currentLevel.ProjectElevation - point.Z) < delta) {
-	nearestLevel = currentLevel;
-	delta = Math.Abs(currentLevel.ProjectElevation - point.Z);
-}
-	}
-	
-	return nearestLevel;
+    return nearestLevel;
 }
 {% endhighlight %}

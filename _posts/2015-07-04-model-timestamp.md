@@ -40,73 +40,81 @@ I also find some very interesting side effects. For example, I create a linked m
 My only concern is the performance of such an application. I run it on the Revit MEP example file, and it take 31 seconds, regeneration included. It could easily handle a larger model, but the user will then need some patience as the application run.
 
 You will find below a piece of code I use to write values on every elements of the model. This code does not include any interface, but I hope to be able to publish a packaged version anytime soon.
-{% highlight c# %}public void ModelTimeStamp()
+
+{% highlight c# %}
+public void ModelTimeStamp()
 {
-	Document doc = this.ActiveUIDocument.Document;
-	
-	using (Transaction tx = new Transaction(doc)) {
+    Document doc = this.ActiveUIDocument.Document;
 
-		tx.Start("Model TimeStamp");
+    using (Transaction tx = new Transaction(doc))
+    {
 
-		//Create a list of category
-		CategorySet myCategories = CreateCategoryList(doc, this.Application);
+        tx.Start("Model TimeStamp");
 
-		//Retrive all model elements
-		FilteredElementCollector collector = new FilteredElementCollector(doc);
-		IList<ElementFilter> categoryFilters = new List<ElementFilter>();
+        //Create a list of category
+        CategorySet myCategories = CreateCategoryList(doc, this.Application);
 
-		foreach (Category category in myCategories)
-		{
-			categoryFilters.Add(new ElementCategoryFilter(category.Id));
-		}
+        //Retrive all model elements
+        FilteredElementCollector collector = new FilteredElementCollector(doc);
+        IList<ElementFilter> categoryFilters = new List<ElementFilter>();
 
-		ElementFilter filter = new LogicalOrFilter(categoryFilters);
+        foreach (Category category in myCategories)
+        {
+            categoryFilters.Add(new ElementCategoryFilter(category.Id));
+        }
 
-		IList<Element> elementList = collector.WherePasses(filter).WhereElementIsNotElementType().ToElements();
+        ElementFilter filter = new LogicalOrFilter(categoryFilters);
 
-		//Add the value to all element
-		if (elementList.Count > 0)
-		{
-			foreach (Element e in elementList)
-			{
-				WriteOnParam("Date", e, DateTime.Now.ToShortDateString());
-				WriteOnParam("Version", e, "First Release");
-				WriteOnParam("FileName", e, "SubContractors Model");
-				WriteOnParam("Trade", e, "HVAC");
-			}
-		}
+        IList<Element> elementList = collector
+        .WherePasses(filter)
+        .WhereElementIsNotElementType().ToElements();
 
-		tx.Commit();
-	}
+        //Add the value to all element
+        if (elementList.Count > 0)
+        {
+            foreach (Element e in elementList)
+            {
+                WriteOnParam("Date", e, DateTime.Now.ToShortDateString());
+                WriteOnParam("Version", e, "First Release");
+                WriteOnParam("FileName", e, "SubContractors Model");
+                WriteOnParam("Trade", e, "HVAC");
+            }
+        }
+
+        tx.Commit();
+    }
 
 }
 
 private void WriteOnParam(string paramName, Element e, string value)
 {
-	IList<Parameter> parameters = e.GetParameters(paramName);
-	if (parameters.Count != 0)
-	{
-		Parameter p = parameters.FirstOrDefault();
-		if (!p.IsReadOnly)
-		{
-			p.Set(value);
-		}
-	}
+    IList<Parameter> parameters = e.GetParameters(paramName);
+    if (parameters.Count != 0)
+    {
+        Parameter p = parameters.FirstOrDefault();
+        if (!p.IsReadOnly)
+        {
+            p.Set(value);
+        }
+    }
 }
 
-private CategorySet CreateCategoryList(Document doc, Autodesk.Revit.ApplicationServices.Application app)
+private CategorySet CreateCategoryList(
+    Document doc, 
+    Autodesk.Revit.ApplicationServices.Application app)
 {
-	CategorySet myCategorySet = app.Create.NewCategorySet();
-	Categories categories = doc.Settings.Categories;
+    CategorySet myCategorySet = app.Create.NewCategorySet();
+    Categories categories = doc.Settings.Categories;
 
-	foreach (Category c in categories)
-	{
-		if (c.AllowsBoundParameters && c.CategoryType == CategoryType.Model)
-		{
-			myCategorySet.Insert(c);
-		}
-	}
+    foreach (Category c in categories)
+    {
+        if (c.AllowsBoundParameters 
+        && c.CategoryType == CategoryType.Model)
+        {
+            myCategorySet.Insert(c);
+        }
+    }
 
-	return myCategorySet;
+    return myCategorySet;
 }
 {% endhighlight %}

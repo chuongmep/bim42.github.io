@@ -39,6 +39,4 @@ By typing in flow and static pressure values directly in the plumbing fixture pl
 
 ![connector](http://bim42.com/wp-content/uploads/2015/09/connector.png)
 
-This little workaround allows us to keep accurate system calculation, even with systems split between files.[
-  
-](http://bim42.com/wp-content/uploads/2015/09/models.png)
+This little workaround allows us to keep accurate system calculation, even with systems split between files.
