@@ -21,7 +21,7 @@ description: >
   The Answer to the Great Question of BIM,
   the Universe and Everything
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://bim42.com
+url: https://bim42.github.io
 social_username: bim42
 github_username:  simonmoreau
 
