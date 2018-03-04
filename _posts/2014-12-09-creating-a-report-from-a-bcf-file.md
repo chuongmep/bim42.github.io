@@ -23,7 +23,7 @@ The BCF format is currently supported by Tekla Structures, Tekla BIMsight, Archi
 
 I am using Tekla BIMSight on a daily basis as an advanced BIM notebook. Every problem is addressed during the daily coordination meeting, and documented using notes in Tekla BIMSight.
 
-![ScreenClip](http://bim42.com/wp-content/uploads/2014/12/ScreenClip.png)
+![ScreenClip](/assets/2014/12/ScreenClip.png)
 
 But for documentation purpose, I also need a paper-based report, quite old fashioned, but handy when you have to work with people without Tekla BIMSight.
 
@@ -31,7 +31,7 @@ I created a little standalone program for converting BCF files to Word reports. 
 
 A BCF file is actually a compressed file, where every note is stored in its own folder, named with the note GUID:
 
-![ScreenClip-1](http://bim42.com/wp-content/uploads/2014/12/ScreenClip-1.png)
+![ScreenClip-1](/assets/2014/12/ScreenClip-1.png)
 
 In each of these folder, there is three files:
 
@@ -51,4 +51,4 @@ To write down this report, I use the great [DocX](http://docx.codeplex.com/) lib
 
 With this little program, I create automatically a nice Word report from my coordination notes, and can share my comments with everyone who does not have Tekla BIMSight.
 
-![Presentation1](http://bim42.com/wp-content/uploads/2014/12/Presentation1.jpg)
+![Presentation1](/assets/2014/12/Presentation1.jpg)

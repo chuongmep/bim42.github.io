@@ -32,4 +32,4 @@ Possibilities for this kind of devices are almost endless, especially in any 3D 
 
 These kind of devices may be the next step for integrating BIM in the AEC industry, when modeling a building will become as easy and intuitive as a few pen strokes on a drawing table. And make me dream of a new desktop.
 
-![tonystark](http://bim42.com/wp-content/uploads/2012/09/tonystark.jpg)
+![tonystark](/assets/2012/09/tonystark.jpg)

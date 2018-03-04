@@ -16,11 +16,11 @@ Today, it will not be a blog post but an invitation.
 
 Next week, the [BIM World event](http://www.bim-w.com/?lang=en) will be held in Paris. This event will gather a large panel of architects, engineers, contractors, manufacturers, and software developers, all interested in Building Information Modeling and related technologies.
 
-![bimworld](http://bim42.com/wp-content/uploads/2015/03/bimworld.png)
+![bimworld](/assets/2015/03/bimworld.png)
 
 I will be representing my company [Ingérop](http://www.ingerop.com/) here, and will present our last projects using BIM.
 
-![ingerop](http://bim42.com/wp-content/uploads/2015/03/ingerop.bmp)
+![ingerop](/assets/2015/03/ingerop.bmp)
 
 I will also give a short speech ["Développer les compétences du BIM"](http://www.bim-w.com/program26) about implementing Building Information Modeling in an engineering consultancy firm, and the consequences of this paradigm shift.
 

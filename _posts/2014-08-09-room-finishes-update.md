@@ -20,25 +20,25 @@ This major update integrate a new feature for creating floor finishes. The main 
 
 The first application is to model quickly floor finishes inside every selected room. Just select a floor type, a height offset and the plug-in will model a finish floor on every selected room.
 
-![CreateInterface](http://bim42.com/wp-content/uploads/2014/08/CreateInterface.png)
+![CreateInterface](/assets/2014/08/CreateInterface.png)
 
 We can see here the floor created with the previous parameters:
 
-![ResultDetail](http://bim42.com/wp-content/uploads/2014/08/ResultDetail.png)
+![ResultDetail](/assets/2014/08/ResultDetail.png)
 
 The whole idea came when I have to model an insulation just under the slab for more than a thousand of rooms. Luckily, these rooms where correctly modeled, with their upper limit set just below the upper slab.
 
-![RoomHeight](http://bim42.com/wp-content/uploads/2014/08/RoomHeight.png)
+![RoomHeight](/assets/2014/08/RoomHeight.png)
 
 So I wrote a small piece of code for creating a floor with the same boundaries than the selected rooms. Just like my previous plug-in for creating skirting board, you just have to select a type of floor to create, enter the desired height and the application will create the floor in the selected rooms.
 
 In my problem, the distance between the room level and the upper slab could change, so I introduce an additional feature, the ability to select one of the parameter of the room to define the height of the floor.
 
-![ParamSelector](http://bim42.com/wp-content/uploads/2014/08/ParamSelector.png)
+![ParamSelector](/assets/2014/08/ParamSelector.png)
 
 Since my rooms are modeled from slab to slab, I just have to select the Unbounded Height room parameter to create insulation at the correct elevation.
 
-![InsultationResult](http://bim42.com/wp-content/uploads/2014/08/InsultationResult.png)
+![InsultationResult](/assets/2014/08/InsultationResult.png)
 
 I am also using it to draw a temporary floor at the ceilling height in every room of a project. This temporary floor is used to run a clash detection to check if every HVAC objects are correctly placed above the drop-ceiling height.
 

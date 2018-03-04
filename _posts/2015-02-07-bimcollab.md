@@ -23,28 +23,28 @@ A typical workflow with such a tool can be organized like this:
 
 Check you model in your favorite project review software. Clash detection and annotations come here in handy for creating a complete coordination report, as here in Tekla BIMSight
 
-![ScreenClip-1](http://bim42.com/wp-content/uploads/2015/02/ScreenClip-1.png)
+![ScreenClip-1](/assets/2015/02/ScreenClip-1.png)
 
 One you have a nice list of issue in your design, save them as a BCF file and upload them on BIMCollab.
 
-![01-Project-Review](http://bim42.com/wp-content/uploads/2015/02/01-Project-Review.png)
+![01-Project-Review](/assets/2015/02/01-Project-Review.png)
 
 Here, you can sort and dispatch these issues directly in BIMCollab. You can group them by area, assigned them to a specific user, add a priority and a deadline for solving it.
 
-![ScreenClip](http://bim42.com/wp-content/uploads/2015/02/ScreenClip.png)
+![ScreenClip](/assets/2015/02/ScreenClip.png)
 
 Once every issues are assigned, someone responsible for solving can see them directly in his modeling software.
 
-![02-Modeling](http://bim42.com/wp-content/uploads/2015/02/02-Modeling.png)
+![02-Modeling](/assets/2015/02/02-Modeling.png)
 I have only try the Revit plug-in, but I believe the others will look more or less the same. After connecting the plug-in to your BIMCollab account, it display every issue listed in the project, directly in the Revit interface.
 
-![ScreenClip-2](http://bim42.com/wp-content/uploads/2015/02/ScreenClip-2.png)
+![ScreenClip-2](/assets/2015/02/ScreenClip-2.png)
 
 You can filter these issues to display only these assigned to you, and work to solve them. Once done, you can change the status of the issue directly within Revit, add a nice picture of your work and a comment for the record.
 
-![ScreenClip-4](http://bim42.com/wp-content/uploads/2015/02/ScreenClip-4.png)
+![ScreenClip-4](/assets/2015/02/ScreenClip-4.png)
 
 This validation is send back to BIMCollab for everyone to see. A nice addition is the dashboard displaying the number of issue opened and solved, which create a overview of the work done and to be done.
 
-![ScreenClip-5](http://bim42.com/wp-content/uploads/2015/02/ScreenClip-5.png)
+![ScreenClip-5](/assets/2015/02/ScreenClip-5.png)
 I see this platform as a great solution for a quantified online issue management workflow, like what we can find in software development for some time now, and a new step toward a more collaborative building design.

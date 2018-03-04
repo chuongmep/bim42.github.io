@@ -20,7 +20,7 @@ His point of view give me some ideas to feed my current obsession, wall openings
 
 Modeling opening where ducts, pipes, cable trays or conduits intersect walls or floors can be a tedious business. Anyway, it always relies on the same underlining principle: we place a face-base opening family on the wall at the intersection with the duct, the pipe or the cable tray. We also respect a few rules of thumb when placing these openings to keep a structurally sound wall.
 
-![Concrete-Formwork](http://bim42.com/wp-content/uploads/2015/06/Concrete-Formwork.png)
+![Concrete-Formwork](/assets/2015/06/Concrete-Formwork.png)
 
 There is a handful of plug-in for placing them automatically but they all need a fair amount of work to replace them properly afterward, so I decide to stick to a more "manual" solution.
 
@@ -28,7 +28,7 @@ First of all, I use Navisworks to find where I have to place these openings. It 
 
 The entire process can be sum up like this:
 
-![processComplete](http://bim42.com/wp-content/uploads/2015/06/processComplete.jpg)
+![processComplete](/assets/2015/06/processComplete.jpg)
 
 The Dynamo definition use the wall bounding box and normal to create the section view coordinate system. I fumble around with Min and Max points to set the proper crop box for the final view. I also use a few nodes from [archi-lab.net](http://archi-lab.net/) package to retrieve walls from their ids. You can find the entire Dynamo definition [here](http://bim42.com/wp-content/uploads/2015/06/viewsection.zip).
 

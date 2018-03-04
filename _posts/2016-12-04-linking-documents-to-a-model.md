@@ -25,17 +25,17 @@ Below is a list of these technical problems, and some though on how to solve the
 
 Adding a link in Revit is fairly straightforward, you just have to use a "URL" parameter (shared or built in), and type in your link. Since a technical sheet is generally the same for every building element of a given type, it makes more sense to me to add it in a type parameter.
 
-![Door](http://bim42.com/wp-content/uploads/2016/12/door.png)
+![Door](/assets/2016/12/door.png)
 Door Type URL parameter
 
 As you can see, I type in a relative path to my technical documentation, this allows me to move around the entire "As-built documentation" folder (models and technical sheets in PDF) without breaking the links. I end up with a pretty simple folder structure, with a model at its root, and the technical sheets nicely ordered in one folder per category.
 
-![Folder Structure](http://bim42.com/wp-content/uploads/2016/12/folderstructure.png)
+![Folder Structure](/assets/2016/12/folderstructure.png)
 The folder structure
 
 If you click on the small "... " button in Revit, your linked technical document will immediately open in the associate viewer, here, Acrobat Reader.
 
-![Open in Revit](http://bim42.com/wp-content/uploads/2016/12/openTechnicalSheet.png)
+![Open in Revit](/assets/2016/12/openTechnicalSheet.png)
 How to open the linked technical sheet
 
 ## Adding a link without Revit
@@ -44,31 +44,31 @@ Selecting equipment and material is generally done through spreadsheets or build
 
 The new Flux Scheduler is an application based on Flux, which allows us to create online schedules from data uploaded through the Revit Flux plugin.
 
-![Flux Scheduler](http://bim42.com/wp-content/uploads/2016/12/fluxScheduler.png)
+![Flux Scheduler](/assets/2016/12/fluxScheduler.png)
 The Flux Scheduler
 
 By using this Flux Scheduler, I could upload my doors on Flux, create a door schedule directly on Flux, use Excel to add the URL link, and upload back these values in Revit:
 
-![In Excel](http://bim42.com/wp-content/uploads/2016/12/InExcel.png)
+![In Excel](/assets/2016/12/InExcel.png)
 Type the URL in Excel before uploading them in Revit
 
 ## Delivering a Navisworks model
 
 Once exported to Navisworks, the "Link" button will display a small link button on every linked object, which open the linked technical sheet.
 
-![Navisworks](http://bim42.com/wp-content/uploads/2016/12/linkInNavis.png)
+![Navisworks](/assets/2016/12/linkInNavis.png)
 The link in Navisworks
 
 However, you must keep your Navisworks model in the same location in your "As-Build Documentation" folder structure as your initial Revit model to keep the relative links functional. In our case, we end up with the following folder structure:
 
-![Folders in Navis](http://bim42.com/wp-content/uploads/2016/12/folderstructureNavis.png)
+![Folders in Navis](/assets/2016/12/folderstructureNavis.png)
 The folder structure with a Navisworks model
 
 ## Delivering an IFC model
 
 If you export this Revit model to IFC, and open it in Solibri Model Viewer, you can display the link, but not click on it. However, by writing a "\" before the link in Revit, Solibri Model Viewer recognize it as link and you can open the technical sheet with a click. This could obviously become problematic in Revit, since when you add this "\", Revit doesn't recognize the link anymore.
 
-![Solibri](http://bim42.com/wp-content/uploads/2016/12/solibri_after.png)
+![Solibri](/assets/2016/12/solibri_after.png)
 The clickable link in Solibri
 
 Tekla BIMSight, on the other hand, couldn’t recognized any of those links as a clickable item.

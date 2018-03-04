@@ -23,7 +23,7 @@ These notes are quite useful for addressing coordination problems, but cannot be
 
 After the proof of concept I presented to you on my last post, I finally took the time to build a packaged application in order to create a Microsoft Word document from a BCF report.
 
-![ScreenClip3](http://bim42.com/wp-content/uploads/2015/01/ScreenClip3.png)
+![ScreenClip3](/assets/2015/01/ScreenClip3.png)
 
 Aside from minor technical problems, I was most concerned by the possibilities to edit the style of the report before creating it, and avoid the tedious task to clean it up in Word after.
 
@@ -31,7 +31,7 @@ I finally selected a solution mixing Word template and styles. All you have to d
 
 These parts are described in the picture below, where every information embedded in the BCF note is written down on the report.
 
-![DocXExample2](http://bim42.com/wp-content/uploads/2015/01/DocXExample2.png)
+![DocXExample2](/assets/2015/01/DocXExample2.png)
 
 You can then save your report in a new word document.
 

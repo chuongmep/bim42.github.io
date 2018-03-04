@@ -19,27 +19,27 @@ Hi everyone, I am a BIM Manager in a large infrastructure engineering company in
 
 I recently worked on a preliminary design for a bridge in the Middle East. When starting looking at conceptual design drawings I came with the impression that we would have to make a lot of hypothesis.
 
-![Bridge](http://bim42.com/wp-content/uploads/2015/01/Bridge.png)
+![Bridge](/assets/2015/01/Bridge.png)
 
 For example the height above ground at bridge ends is not dimensioned . The idea was to produce any kind of BIM model of this bridge therefore I first thought of using Rhinoceros and Grasshopper.
 
 So I listed all of my hypothesis:
 
-![GH](http://bim42.com/wp-content/uploads/2015/01/GH.png)
+![GH](/assets/2015/01/GH.png)
 
 And I started building the wireframe model:
 
-![Rhino](http://bim42.com/wp-content/uploads/2015/01/Rhino.png)
+![Rhino](/assets/2015/01/Rhino.png)
 
 And the final model:
 
-![FinalModel](http://bim42.com/wp-content/uploads/2015/01/FinalModel.png)
+![FinalModel](/assets/2015/01/FinalModel.png)
 
 Then I had to produce cross sections, longitudinal sections and plan views. I tried to do it within Rhinoceros but the result wasn’t good enough. Additionally some cross beam had a different shape, and using Grasshopper it is difficult to customize some elements.
 
 My next idea was to be able to transfer this model to Revit. After a quick tour on Google, I found the grasshopper plugin Hummingbird. Using Hummingbird plugin for Grasshopper you export geometry from Grasshopper to an Excel Spreadsheet and using Hummingbird plugin for Revit you import that Excel Spreadsheet.
 
-![BrideFinal](http://bim42.com/wp-content/uploads/2015/01/BrideFinal.png)
+![BrideFinal](/assets/2015/01/BrideFinal.png)
 
 At the end the process became quite complicated. When changing in input value in Grasshopper it took more 30 minutes to populate that changes to Revit.
 

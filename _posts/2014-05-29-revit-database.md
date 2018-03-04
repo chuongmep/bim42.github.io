@@ -31,13 +31,13 @@ During my first research for exporting the Revit database, I came across the Rev
 
 Using it is pretty easy when you have all the correct software installed. First, you have to configure a new connection. After starting the Revit DB Link add-in, select [Select a new connection] in the ODBC panel, and click Export:
 
-![Linking interface](http://bim42.com/wp-content/uploads/2014/05/linkinterface.png)
+![Linking interface](/assets/2014/05/linkinterface.png)
 
 Type a name for your export configuration, and select New. Select the SQL Server database, and follow the indication for creating the link file toward your database.
 
 At this windows, fill in the description of your database, and select the SQL server you want to connect. Here, I am working with an SQL server named SQLEXPRESS:
 
-![Select Database](http://bim42.com/wp-content/uploads/2014/05/dbselection.png)
+![Select Database](/assets/2014/05/dbselection.png)
 
 Select a specific database for this export. I have created mine through SQL Management Studio before starting my export. After a summary page, the connection is established.
 
@@ -47,15 +47,15 @@ One of the most obvious application is to create multi-model schedules. Creati
 
 Most parameters editable in Revit can also be changed in the database and imported back in Revit model. As an example, you can edit duct width in the database, and import back values to modify the Revit duct sizes:
 
-![Edit SQL](http://bim42.com/wp-content/uploads/2014/05/sqledit.png)
+![Edit SQL](/assets/2014/05/sqledit.png)
 
 Before:
 
-![Before](http://bim42.com/wp-content/uploads/2014/05/before.png)
+![Before](/assets/2014/05/before.png)
 
 After:
 
-![After](http://bim42.com/wp-content/uploads/2014/05/after.png)
+![After](/assets/2014/05/after.png)
 
 There is also some specific tables to access relations between Revit objects. For example, the DoorWall table links each door with its hosting wall. The RoomAssociations table allows us to retrieve every elements inserted into a specific room, to create furniture schedules for example.
 

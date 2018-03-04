@@ -17,7 +17,7 @@ tags:
 ---
 Navisworks is the 3D design review software included in the Autodesk BIM solution. I'm working with it for some times now, and I have finally found it pretty useful, especially while working with synthesis teams.
 
-![navisworks](http://bim42.com/wp-content/uploads/2012/06/navisworks.jpg)
+![navisworks](/assets/2012/06/navisworks.jpg)
 
 I'm using it mainly for models presentation and clash detection, but it had also a integrated 4D planning function (the TimeLiner) and some model review and annotation features.
 

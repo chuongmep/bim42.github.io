@@ -27,7 +27,7 @@ Some visual styles need more power to run, keeping everything in Wireframe or Hi
 
 Link CAD only on a specific view (Current view only), and limit these insertions to the minimum. Having a bunch of DWG files displayed in every view of your model is bad for Revit performance and your spirit.
 
-![InserDWG](http://bim42.com/wp-content/uploads/2014/07/InserDWG.png)
+![InserDWG](/assets/2014/07/InserDWG.png)
 
 # Loading large models
 
@@ -39,10 +39,10 @@ Start by removing every unused view, family or group. Used wisely, the Purge Unu
 
 Every model should have a starting page, defined in the Manage Project tab.
 
-![ManageStartingView](http://bim42.com/wp-content/uploads/2014/07/ManageStartingView.png)
+![ManageStartingView](/assets/2014/07/ManageStartingView.png)
 
 I generally use a Drafting View to display a handful of information about the opened model.
 
-![StartingView](http://bim42.com/wp-content/uploads/2014/07/StartingView.png)
+![StartingView](/assets/2014/07/StartingView.png)
 
 If someone complains about a model becoming slower to open each time, ask every user to actually count how much time it take to open it. Having quantified feedback about Revit performance while opening large model can be really useful to prevent model for become unusable.

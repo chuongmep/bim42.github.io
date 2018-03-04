@@ -23,13 +23,13 @@ To fully exploit Duct sizing capabilities in Revit, we generally need a fully co
 
 A possibility is to use Dynamo to virtually link every terminal to a placeholder family that will collect and sum Airflows in a given area and send the sum to a placeholder family used to perform duct sizing calculations on the main branch.
 
-![figure7](http://bim42.com/wp-content/uploads/2016/04/figure7.png)
+![figure7](/assets/2016/04/figure7.png)
 
 Revit provide us the Connect the main duct to "M_Rectangular Duct Connector - Supply Air - Air Terminal". This is a generic terminal that will simulate the rest of the terminals. We connect this generic terminal to our main branch, and use it to simulate the rest of the duct networks.
 
 The following Dynamo definition sums airflows of the selected Air Terminal and pass the value in the Airflow parameter of the placeholder family. This placeholder family now simulate the airflow of all selected air terminals. Since this family is connected to the main duct networks, we can now perform duct sizing for the main branch, without having to model the entire duct layout.
 
-![figure8](http://bim42.com/wp-content/uploads/2016/04/figure8.png)
+![figure8](/assets/2016/04/figure8.png)
 
 A word of warning anyway, since this placeholder family is integrated into the system, flow sum for the duct system is multiplied by two, since Revit count both the airflow of every air terminal and the airflow coming from the placeholder family.
 
@@ -41,11 +41,11 @@ Another example of the power of Dynamo come when linking Air terminal to their e
 
 We start by finding all MEP Space, and retrieving their "Specified Supply Airflow". We also get all Air terminals, and use the Space.IsInSpace node to find if a given terminal is in the space. We make sure to set up the lacing of this node to "Cross Product" in order to test every Air Terminal with every MEP Space. This give us multiple lists of true or false indicating whether a given Air Terminal is in the space. With the usual combination of List.AllIndiceOf and GetItemAtIndex, we find our air terminals grouped by their enclosing space. We count the number of these terminals in each group, and use this count and a division to get the specified airflow on each terminal. The List.OfRepetedItem give us an instance of this specified airflow by terminal. We finally apply these value to these terminals with the Element.SetParameterByValue.
 
-![figure9](http://bim42.com/wp-content/uploads/2016/04/figure9.png)
+![figure9](/assets/2016/04/figure9.png)
 
 As we update the Specified Airflow of each MEP Spaces, this value will be divided by the number of terminal in the space, and applied to the said terminals.
 
-![figure10](http://bim42.com/wp-content/uploads/2016/04/figure10.png)
+![figure10](/assets/2016/04/figure10.png)
 
 [Dynamo File](https://drive.google.com/open?id=0B_fvbfIWQ5JJVDY3WFdxSTJGcVk)
 
@@ -57,11 +57,11 @@ We start by finding all air terminal unit in Revit with the "All Elements Of Cat
 
 We can now compare this two values, and use the List.FilterByBooleanMask to find all terminals where Airflow is above the Max Airflow.
 
-![figure11](http://bim42.com/wp-content/uploads/2016/04/figure11.png)
+![figure11](/assets/2016/04/figure11.png)
 
 The last step is to override the color of these terminals to override by color to highlight the results.
 
-![figure12](http://bim42.com/wp-content/uploads/2016/04/figure12.jpg)
+![figure12](/assets/2016/04/figure12.jpg)
 
 This fairly simple example showcase the possibilities of Dynamo combined with the proper Revit objects library.
 

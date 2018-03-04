@@ -15,7 +15,7 @@ tags:
   - Automation
   - Digital Project
 ---
-![vbnet](http://bim42.com/wp-content/uploads/2012/07/vbnet.jpg)
+![vbnet](/assets/2012/07/vbnet.jpg)
 
 Aside from a lot of features, CATIA, and so Digital Project, comes with powerful automation tools.
 

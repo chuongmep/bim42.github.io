@@ -20,7 +20,7 @@ tags:
 ---
 Because of its industrial origins, Digital Project give all its power in pieces-oriented construction project where the building can be divided in a bunch of small parts easily manageable one by one. One of my current project is the design of a set of precast concrete pieces for a stone-covered looking facade.
 
-![facade](http://bim42.com/wp-content/uploads/2012/09/facade.jpg)
+![facade](/assets/2012/09/facade.jpg)
 
 We have something like 2000 unique pieces of glass fiber reinforced concrete to organize, model and design. We use Digital Project for modeling these pieces, insert them in a global model for coordination purpose and extract their production drawings.
 

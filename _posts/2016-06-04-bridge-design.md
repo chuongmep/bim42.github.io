@@ -30,7 +30,7 @@ This is why I create my alignment in Rhino, and use Grasshopper to create a list
 
 Once I have all my coordinates in an Excel file, I use a simple definition in Dynamo to create a series of reference points in a Mass family, and use these points to create a curve representing my alignment.
 
-![Alignement-2](http://bim42.com/wp-content/uploads/2016/06/Alignement-2.png)
+![Alignement-2](/assets/2016/06/Alignement-2.png)
 
 I also make sure that units in my Revit mass family are consistent with the unit of my alignment coordinates points.
 
@@ -40,36 +40,36 @@ To create the cross section shape of my bridge, I use an adaptive family with a 
 
 The keep our cross section properly aligned with our bridge axe, I use the "Orient to" parameter of the adaptive point. By setting it to "Global (z) the Host (xy)", I make sure than the X and Y axes (Red and Green) will follow my alignment, while the Z axe will stay vertical.
 
-![axes](http://bim42.com/wp-content/uploads/2016/06/axes.png)I make a few try before getting it right, but I was finally able to properly align my adaptive component with the divided path. Since the X (Red) axis will be tangent to the alignment, I had to draw my cross section in the "Center (Left/Right)" plane of the adaptive family.
+![axes](/assets/2016/06/axes.png)I make a few try before getting it right, but I was finally able to properly align my adaptive component with the divided path. Since the X (Red) axis will be tangent to the alignment, I had to draw my cross section in the "Center (Left/Right)" plane of the adaptive family.
 
-![adaptiveFamily](http://bim42.com/wp-content/uploads/2016/06/adaptiveFamily.png)
+![adaptiveFamily](/assets/2016/06/adaptiveFamily.png)
 
 # Modeling
 
 The rest of the modeling is pretty straightforward. After placing the first adaptive component on a divided path based on our alignment, just select Repeat to place one on every division point, then decompose the Repeat pattern and create a form.
 
-![repeat](http://bim42.com/wp-content/uploads/2016/06/repeat.png)
+![repeat](/assets/2016/06/repeat.png)
 
-![form](http://bim42.com/wp-content/uploads/2016/06/form.png)
+![form](/assets/2016/06/form.png)
 
 To create the cavity inside the bridge deck, I use the same divided path to place two cavity profiles (right and left) and create two void forms to cut into the bridge deck.
 
-![voidForms](http://bim42.com/wp-content/uploads/2016/06/voidForms.png)
+![voidForms](/assets/2016/06/voidForms.png)
 
 # Section View
 
 The main issue with this mass family is around dimensions. If you try to add dimensions directly on the Mass family in a section view, these dimensions will be anchored on the wrong point.
 
-![firstSection](http://bim42.com/wp-content/uploads/2016/06/firstSection.png)
+![firstSection](/assets/2016/06/firstSection.png)
 
 To be able to create section view anyway, I am using the adaptive component loaded in the Mass family. I make it visible in the project and draw a detail line along one of them. This detail line allows me to draw a section view perfectly aligned with my adaptive component
 
-![sectionView](http://bim42.com/wp-content/uploads/2016/06/sectionView.png)
+![sectionView](/assets/2016/06/sectionView.png)
 
 Since my section is perfectly aligned with my profile, it appears in the view and can be used as a reference for the dimensions. I temporary hide my mass family, place the necessary dimensions and show again the mass.
 
 With this workaround, I was able to create a simple section view, with the proper dimensions.
 
-![section](http://bim42.com/wp-content/uploads/2016/06/section.png)
+![section](/assets/2016/06/section.png)
 
 Matthias Stark also present in his class an entire detailing process using Dynamo, and that I still have to explore this part. But his approach to bridge modeling allows me to create a great first draft, and I will keep on digging this solution.

@@ -19,11 +19,11 @@ There is a handful of these classifications currently in use. The [Construction 
 
 Revit provides two built-in type parameters to manage such classification systems, the Assembly Code and the Assembly Description. These parameters allow us to link any Revit type to an existing classification system.
 
-![Assignement](http://bim42.com/wp-content/uploads/2015/06/Assignement.jpg)
+![Assignement](/assets/2015/06/Assignement.jpg)
 
 This classification system can be loaded in Revit through the Assembly Code interface.
 
-![Assemblycode](http://bim42.com/wp-content/uploads/2015/06/Assemblycode.jpg)
+![Assemblycode](/assets/2015/06/Assemblycode.jpg)
 
 Autodesk provides us with the Uniformat classification, through the UniformatClassifications.txt. This tab-separated values text file define the classification structure with four columns:
 

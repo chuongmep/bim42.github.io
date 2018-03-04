@@ -27,31 +27,31 @@ Grouping these clashes is generally a manual task, and the user have to run thro
 
 While trying to automate this tedious task, I run across the examples provided as part of the Autodesk Navisworks Software Development Kit. These examples include a nice Clash Grouper plugin for Navisworks, enabling various method for grouping clash results.
 
-![grouplashes](http://bim42.com/wp-content/uploads/2015/05/grouplashes.png)
+![grouplashes](/assets/2015/05/grouplashes.png)
 
 As an example, I run a clash detection between the blue Selection A and the green Selection B, and get seven clashes, shown here as red dot:
 
-![Ungrouped](http://bim42.com/wp-content/uploads/2015/05/Ungrouped.png)
+![Ungrouped](/assets/2015/05/Ungrouped.png)
 
 With the Clash Grouper, I can group these clashes by grid intersection:
 
-![groupByGrid](http://bim42.com/wp-content/uploads/2015/05/groupByGrid.png)
+![groupByGrid](/assets/2015/05/groupByGrid.png)
 
 I can also group them by cluster analysis, where we search for the optimum grouping solution given the expected number of groups:
 
-![groupByCluster](http://bim42.com/wp-content/uploads/2015/05/groupByCluster.png)
+![groupByCluster](/assets/2015/05/groupByCluster.png)
 
 I also add my own method for grouping clash against a specific set. I use this to group all clash belonging to a single element in one of the two selection sets.
 
-![grouplashesEdited](http://bim42.com/wp-content/uploads/2015/05/grouplashesEdited.png)
+![grouplashesEdited](/assets/2015/05/grouplashesEdited.png)
 
 Here, I group by element from the Selection A (blue)
 
-![groupBySelectionA](http://bim42.com/wp-content/uploads/2015/05/groupBySelectionA.png)
+![groupBySelectionA](/assets/2015/05/groupBySelectionA.png)
 
 Here, I group by elements from the selection B (green)
 
-![groupBySelectionB](http://bim42.com/wp-content/uploads/2015/05/groupBySelectionB.png)
+![groupBySelectionB](/assets/2015/05/groupBySelectionB.png)
 
 If elements from one set are more relevant for the end user, the final clash report is clearer for this user when clashes are grouped against this set.
 

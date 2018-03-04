@@ -19,40 +19,40 @@ This 3D sketching tool allow us to quickly create building concept in a web brow
 
 Autodesk Formit greets us with a nice introduction screen describing the main functionality.
 
-![ScreenClip](http://bim42.com/wp-content/uploads/2014/10/ScreenClip.png)
+![ScreenClip](/assets/2014/10/ScreenClip.png)
 
 I generally start by setting up the units to metrics.
 
-![ScreenClip-1](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-1.png)
+![ScreenClip-1](/assets/2014/10/ScreenClip-1.png)
 
 Afterward, everything is quite easy to use, and look pretty much like a web-based Sketchup. Let draw a little sketch of our main plan:
 
-![ScreenClip-2](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-2.png)
+![ScreenClip-2](/assets/2014/10/ScreenClip-2.png)
 
 Extruding this sketch give us the first draft of a building.
 
 We can define levels in our model to calculate gross area for our future building.
 
-![ScreenClip-3](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-3.png)
+![ScreenClip-3](/assets/2014/10/ScreenClip-3.png)
 
 These surfaces are updated as we edit the form of our mass:
 
-![FloorArea](http://bim42.com/wp-content/uploads/2014/10/FloorArea.png)
+![FloorArea](/assets/2014/10/FloorArea.png)
 
 Once our model is located, the shadow and Sun and Shadows tool allow us to create a small daylight analysis:
 
-![DaylightAnalysis](http://bim42.com/wp-content/uploads/2014/10/DaylightAnalysis.png)
+![DaylightAnalysis](/assets/2014/10/DaylightAnalysis.png)
 
 While we work, our model is saved to our Autodesk 360 account, in the Drive section. Along the Formit format .axm, a .rvt file appear. This rvt file is automatically converted from our Formit model to be used in Revit. We can download it to continue our design in Revit :
 
-![ScreenClip-9](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-9.png)
+![ScreenClip-9](/assets/2014/10/ScreenClip-9.png)
 
 The Formit model appear as an In-Place mass in Revit, which can be edited directly in Revit. Each previously defined levels are also integrated in our Revit model, along with corresponding Mass Floors.
 
-![ScreenClip-10](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-10.png)
+![ScreenClip-10](/assets/2014/10/ScreenClip-10.png)
 
 We can enhance our design by using this in place mass to create a Curtain System, some floor and interior divisions. Pretty quickly, we have a fully functional first sketch of our building, with elevation, floor plans and a nice rendering.
 
-![ScreenClip-11](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-11.png)
+![ScreenClip-11](/assets/2014/10/ScreenClip-11.png)
 
 My only regret is to have to use the Revit model provided by the Formit conversion. I think it would be more convenient to retrieve a Revit Mass family to be integrated in the Revit template of our choice. We would lose the levels creation, but gain more flexibility for an early stage workflow.

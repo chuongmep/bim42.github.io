@@ -31,17 +31,17 @@ While working on it, I also found some interesting property : [Computation Heigh
 
 Let's create three rooms on a given level:
 
-![ThreeRooms](http://bim42.com/wp-content/uploads/2015/08/ThreeRooms.png)
+![ThreeRooms](/assets/2015/08/ThreeRooms.png)
 
-But if we add some variation on the floor level, the room disappears with the following warning:![Warning](http://bim42.com/wp-content/uploads/2015/08/Warning.png)
+But if we add some variation on the floor level, the room disappears with the following warning:![Warning](/assets/2015/08/Warning.png)
 
-![ARoomDisappear-](http://bim42.com/wp-content/uploads/2015/08/ARoomDisappear-.png)
+![ARoomDisappear-](/assets/2015/08/ARoomDisappear-.png)
 
 By default, these rooms are calculated at the level elevation. Every wall at "0 m" above the level will be used as a room boundary.
 
 The Computation Height properties allows us to change the elevation where we calculate the room. In our example, we change the Computation Height of the Level 1 to 1 meter, and the room fit nicely between its boundaries.
 
-![ComputationHeight](http://bim42.com/wp-content/uploads/2015/08/ComputationHeight.png)
+![ComputationHeight](/assets/2015/08/ComputationHeight.png)
 
 Of course, this is also true for Spaces.
 

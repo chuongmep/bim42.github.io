@@ -21,38 +21,38 @@ I have to check it as a potential solution, so I will share my first thought her
 
 BIM 360 Glue work with a cloud-based repository, were we access from the web-browser admin page and the local client. As usual, everything is project-oriented.
 
-![GLUE](http://bim42.com/wp-content/uploads/2014/10/GLUE.png)
+![GLUE](/assets/2014/10/GLUE.png)
 
 The admin interface provide every basic tools for administrating your projects.
 
 Creating a project come in a few easy steps, were you name it and select user to be project administrators.
 
-![ScreenClip2](http://bim42.com/wp-content/uploads/2014/10/ScreenClip2.png)
+![ScreenClip2](/assets/2014/10/ScreenClip2.png)
 
 After this first step, every project admin can invite new members to the project, and define their permission level.
 
-![ScreenClip-23](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-23.png)
+![ScreenClip-23](/assets/2014/10/ScreenClip-23.png)
 
 Once you have been invited to a project, you will receive a nice invitation to download and install the client. The entire process is well thought, and no user should have any problem to download the client.
 
 This client provide everything you need to review your model, with properties, length and area measures, saved views, sections and markups.
 
-![ScreenClip-32](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-32.png)
+![ScreenClip-32](/assets/2014/10/ScreenClip-32.png)
 
 To upload content to the Glue platform, we use the Revit plugin. Once you are connected with your Autodesk account into Revit, you can upload view and sheet directly from the Revit interface.
 
 Just click the Glue button, select your project and the views you want to upload, and Glue will take care of everything else.
 
-![01_Process](http://bim42.com/wp-content/uploads/2014/10/01_Process.png)
+![01_Process](/assets/2014/10/01_Process.png)
 
 It also check if a given view has already be uploaded, and ask us if we want to update it, or create a new one.
 
 If we update one, a notification appear on the client. Hitting the refresh button give us the latest version.
 
-![ScreenClip-24](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-24.png)
+![ScreenClip-24](/assets/2014/10/ScreenClip-24.png)
 
 The activity panel show us every version of the uploaded view, and allow us to reload any previous version.
 
-![ScreenClip-41](http://bim42.com/wp-content/uploads/2014/10/ScreenClip-41.png)
+![ScreenClip-41](/assets/2014/10/ScreenClip-41.png)
 
 It seems than Autodesk BIM 360 Glue is a really interesting solution for project review. The integration with Revit and the versioning system add great features to an already nice viewer. The only missing thing here is the ability to print directly from the client.

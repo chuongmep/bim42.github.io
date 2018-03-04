@@ -19,13 +19,13 @@ I was talking on a [previous article](http://bim42.wordpress.com/2012/06/04/indu
 
 This set of tool for building modeling firstly came as a plugin for Rhino, implementing commands for designing structures and linking these models to structural analysis software.
 
-![structdrawrhino](http://bim42.com/wp-content/uploads/2012/07/structdrawrhino.jpg)
+![structdrawrhino](/assets/2012/07/structdrawrhino.jpg)
 
 These tools where integrated as commands in Grasshopper, allowing generating building elements parametrically, a very interesting feature at an early stage of the project.
 
 But for me, the most interesting part of this plugin is its ability to generate IFC files into Grasshopper. A large part of the IFC classes are implemented directly as Grasshopper functions.
 
-![buildingelements](http://bim42.com/wp-content/uploads/2012/07/buildingelements.jpg)
+![buildingelements](/assets/2012/07/buildingelements.jpg)
 
 By combining these functions, we generate the structure of our IFC file exactly as we want it, and if our favorite BIM software is known for missing some IFC classes, we can still use a workaround by designing yourself your IFC data structure.
 
@@ -37,7 +37,7 @@ Geometry Gym came also with various plugins used as bridges for other BIM softwa
 
 The plugin for Revit implement a new IFC Import module, especially design to import files generated in Grasshopper. This allows integrating native Revit element from an IFC file.
 
-![geometrygymrevit](http://bim42.com/wp-content/uploads/2012/07/geometrygymrevit.jpg)
+![geometrygymrevit](/assets/2012/07/geometrygymrevit.jpg)
 
 There is also a direct link with Tekla, use to generate native Tekla elements directly from the Grasshopper model.
 

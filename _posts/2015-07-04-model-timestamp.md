@@ -17,11 +17,11 @@ tags:
 ---
 As we receive models from subcontractors or partners, we need to integrate them in a coordination model.
 
-The coordination model files structure look like this.![filestructure](http://bim42.com/wp-content/uploads/2015/07/filestructure.jpg)
+The coordination model files structure look like this.![filestructure](/assets/2015/07/filestructure.jpg)
 
 In the coordination model, we use linked views and model specific overrides to fine tune model display. To keep these settings when a linked model is updated, we just override the previous liked file with its new version. This process implies to rename the file each time we receive a new version from a subcontractor. So when we receive a file named with a date or a version, we rename it along some quality control checks.
 
-![process](http://bim42.com/wp-content/uploads/2015/07/process.jpg)
+![process](/assets/2015/07/process.jpg)
 
 But we also have to follow which model version we are linking in our coordination model. Renaming files is great to keep the link alive, but we lost the original name in the process.
 
@@ -29,13 +29,13 @@ To keep track of the version of the linked file, I create some kind of timestamp
 
 Once in the coordination model, these shared parameters allows us to know from which version a given element came from.
 
-![IdentificationData](http://bim42.com/wp-content/uploads/2015/07/IdentificationData.jpg)
+![IdentificationData](/assets/2015/07/IdentificationData.jpg)
 
 They can also be used to create filters to highlight the origin of each element in a view.
 
 I also find some very interesting side effects. For example, I create a linked models schedule with a multi-category schedule displaying only the four shared parameters.
 
-![LinkedModelSchedules](http://bim42.com/wp-content/uploads/2015/07/LinkedModelSchedules.jpg)
+![LinkedModelSchedules](/assets/2015/07/LinkedModelSchedules.jpg)
 
 My only concern is the performance of such an application. I run it on the Revit MEP example file, and it take 31 seconds, regeneration included. It could easily handle a larger model, but the user will then need some patience as the application run.
 
