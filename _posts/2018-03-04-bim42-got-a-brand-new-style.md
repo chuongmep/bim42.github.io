@@ -1,7 +1,7 @@
 ---
 id: 1260
 title: BIM 42's got a brand new style
-date: 2018-03-04T21:00:00+00:00
+date: 2018-03-04T19:00:00+00:00
 author: Simon Moreau
 layout: post
 guid: http://bim42.com/?p=1260
