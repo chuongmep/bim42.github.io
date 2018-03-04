@@ -4,7 +4,7 @@ title: Modeling a neighborhood with Flux Site Extractor, GIS data and Revit
 date: 2017-02-11T20:47:17+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1131
+guid: https://www.bim42.com/?p=1131
 permalink: /2017/02/modeling-a-neighborhood-with-flux-site-extractor-gis-data-and-revit/
 categories:
   - Revit
@@ -14,7 +14,7 @@ tags:
   - Plugin
   - Revit
 ---
-Since [my last post](http://bim42.com/2017/01/modeling-paris-with-infraworks/), I kept on working on urban development. I particularly think about importing GIS data into our usual authoring tools. My experience with Infraworks was interesting, but it is still difficult to use this data in a Revit model.
+Since [my last post](https://www.bim42.com/2017/01/modeling-paris-with-infraworks/), I kept on working on urban development. I particularly think about importing GIS data into our usual authoring tools. My experience with Infraworks was interesting, but it is still difficult to use this data in a Revit model.
 
 The most promising resource out there for creating a context in a Revit model is the [Flux Site Extractor](https://labs.flux.io/extractor/). You select an area, add some features to extract and send them to a Flux project.
 

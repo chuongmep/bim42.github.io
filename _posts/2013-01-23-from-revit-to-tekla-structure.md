@@ -4,7 +4,7 @@ title: From Revit to Tekla Structure
 date: 2013-01-23T21:42:59+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=285
+guid: https://www.bim42.com/?p=285
 permalink: /2013/01/from-revit-to-tekla-structure/
 tagazine-media:
   - 'a:7:{s:7:"primary";s:64:"http://bim42.files.wordpress.com/2013/01/teklanativeelements.jpg";s:6:"images";a:3:{s:55:"http://bim42.files.wordpress.com/2013/01/revitwalls.jpg";a:6:{s:8:"file_url";s:55:"http://bim42.files.wordpress.com/2013/01/revitwalls.jpg";s:5:"width";i:954;s:6:"height";i:514;s:4:"type";s:5:"image";s:4:"area";i:490356;s:9:"file_path";b:0;}s:64:"http://bim42.files.wordpress.com/2013/01/teklanativeelements.jpg";a:6:{s:8:"file_url";s:64:"http://bim42.files.wordpress.com/2013/01/teklanativeelements.jpg";s:5:"width";i:1366;s:6:"height";i:598;s:4:"type";s:5:"image";s:4:"area";i:816868;s:9:"file_path";b:0;}s:53:"http://bim42.files.wordpress.com/2013/01/pluginui.jpg";a:6:{s:8:"file_url";s:53:"http://bim42.files.wordpress.com/2013/01/pluginui.jpg";s:5:"width";i:629;s:6:"height";i:390;s:4:"type";s:5:"image";s:4:"area";i:245310;s:9:"file_path";b:0;}}s:6:"videos";a:0:{}s:11:"image_count";i:3;s:6:"author";s:8:"11101104";s:7:"blog_id";s:8:"35202242";s:9:"mod_stamp";s:19:"2013-01-23 21:42:59";}'

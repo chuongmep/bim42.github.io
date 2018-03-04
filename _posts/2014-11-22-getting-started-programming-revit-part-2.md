@@ -4,7 +4,7 @@ title: 'Getting started programming Revit - Part 2'
 date: 2014-11-22T23:05:52+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=710
+guid: https://www.bim42.com/?p=710
 permalink: /2014/11/getting-started-programming-revit-part-2/
 categories:
   - Revit

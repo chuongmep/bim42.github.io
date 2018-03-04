@@ -4,7 +4,7 @@ title: The great mystery behind shared coordinates
 date: 2014-05-13T04:53:28+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=349
+guid: https://www.bim42.com/?p=349
 permalink: /2014/05/the-great-mystery-behind-shared-coordinates/
 publicize_linkedin_url:
   - 'http://www.linkedin.com/updates?discuss=&scope=45913264&stype=M&topic=5871844462954586112&type=U&a=xL68'

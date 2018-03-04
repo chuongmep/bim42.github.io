@@ -4,7 +4,7 @@ title: Bridge design
 date: 2016-06-04T11:20:21+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1040
+guid: https://www.bim42.com/?p=1040
 permalink: /2016/06/bridge-design/
 categories:
   - Revit

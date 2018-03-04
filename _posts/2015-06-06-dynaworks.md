@@ -4,7 +4,7 @@ title: DynaWorks
 date: 2015-06-06T11:19:46+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=864
+guid: https://www.bim42.com/?p=864
 permalink: /2015/06/dynaworks/
 categories:
   - Coordination

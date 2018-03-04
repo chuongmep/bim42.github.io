@@ -4,7 +4,7 @@ title: BCF Reader Update
 date: 2015-03-27T17:48:07+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=804
+guid: https://www.bim42.com/?p=804
 permalink: /2015/03/bcf-reader-update/
 categories:
   - Coordination

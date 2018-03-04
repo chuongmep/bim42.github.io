@@ -4,7 +4,7 @@ title: IfcPropertySet
 date: 2015-04-07T09:38:11+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=810
+guid: https://www.bim42.com/?p=810
 permalink: /2015/04/ifcpropertyset/
 categories:
   - IFC

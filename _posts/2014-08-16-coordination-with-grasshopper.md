@@ -4,7 +4,7 @@ title: Coordination with Grasshopper
 date: 2014-08-16T08:00:49+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=534
+guid: https://www.bim42.com/?p=534
 permalink: /2014/08/coordination-with-grasshopper/
 categories:
   - Grasshopper

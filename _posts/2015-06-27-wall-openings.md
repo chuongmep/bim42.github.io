@@ -4,7 +4,7 @@ title: Wall openings
 date: 2015-06-27T11:44:09+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=882
+guid: https://www.bim42.com/?p=882
 permalink: /2015/06/wall-openings/
 categories:
   - Revit
@@ -30,6 +30,6 @@ The entire process can be sum up like this:
 
 ![processComplete](/assets/2015/06/processComplete.jpg)
 
-The Dynamo definition use the wall bounding box and normal to create the section view coordinate system. I fumble around with Min and Max points to set the proper crop box for the final view. I also use a few nodes from [archi-lab.net](http://archi-lab.net/) package to retrieve walls from their ids. You can find the entire Dynamo definition [here](http://bim42.com/wp-content/uploads/2015/06/viewsection.zip).
+The Dynamo definition use the wall bounding box and normal to create the section view coordinate system. I fumble around with Min and Max points to set the proper crop box for the final view. I also use a few nodes from [archi-lab.net](http://archi-lab.net/) package to retrieve walls from their ids. You can find the entire Dynamo definition [here](https://www.bim42.com/wp-content/uploads/2015/06/viewsection.zip).
 
 "A problem well defined is a problem half solved", and displaying a view of each problem is my first step toward the solution, even if I haven't find yet any way to automate the entire wall opening thing.

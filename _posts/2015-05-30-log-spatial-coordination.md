@@ -4,7 +4,7 @@ title: Log spatial coordination
 date: 2015-05-30T15:58:25+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=854
+guid: https://www.bim42.com/?p=854
 permalink: /2015/05/log-spatial-coordination/
 categories:
   - Coordination

@@ -4,7 +4,7 @@ title: BFC Reader
 date: 2015-01-03T10:00:51+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=745
+guid: https://www.bim42.com/?p=745
 permalink: /2015/01/bfc-reader/
 categories:
   - Coordination
@@ -15,7 +15,7 @@ tags:
   - Open BIM
   - Tekla
 ---
-I was talking on [my previous post](http://bim42.com/2014/12/creating-a-report-from-a-bcf-file/) about creating a report from a Open BIM Collaboration Format. This format can be exported from Tekla BIMSight.
+I was talking on [my previous post](https://www.bim42.com/2014/12/creating-a-report-from-a-bcf-file/) about creating a report from a Open BIM Collaboration Format. This format can be exported from Tekla BIMSight.
 
 I am using the Open BIM Collaboration Format on a daily basis for taking notes during coordination meetings. I am using Tekla BIMSight to create these notes, but any model review solution could do the trick, as long as you can export BCF files from it.
 

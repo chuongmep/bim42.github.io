@@ -4,7 +4,7 @@ title: Invitation
 date: 2015-03-21T11:35:53+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=799
+guid: https://www.bim42.com/?p=799
 permalink: /2015/03/invitation/
 categories:
   - General BIM

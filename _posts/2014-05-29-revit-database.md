@@ -4,7 +4,7 @@ title: Revit Database
 date: 2014-05-29T13:34:40+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=368
+guid: https://www.bim42.com/?p=368
 permalink: /2014/05/revit-database/
 geo_public:
   - "0"

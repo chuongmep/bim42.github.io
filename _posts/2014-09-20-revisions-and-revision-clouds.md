@@ -4,7 +4,7 @@ title: Revisions and Revision Clouds
 date: 2014-09-20T10:49:34+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=584
+guid: https://www.bim42.com/?p=584
 permalink: /2014/09/revisions-and-revision-clouds/
 categories:
   - Revit

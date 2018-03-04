@@ -4,7 +4,7 @@ title: Revit categories and classification systems
 date: 2015-06-20T13:27:42+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=871
+guid: https://www.bim42.com/?p=871
 permalink: /2015/06/revit-categories-and-classification-systems/
 categories:
   - Revit
@@ -36,13 +36,13 @@ Classification Code - Description - Rank - Revit category Id
 * The Rank define the hierarchy of the item in the classification. This allows Revit to display any linked classification in a tree view.
 * Finally, the Revit category Id allows us to create a first mapping between classification items and Revit categories. This allow us to filter by Revit category while assigning Assembly Code.
 
-To create such a mapping, we need the list of Revit categories. To extract this, I run a small routine to write every built-in Revit category to a .csv file. Along the way, I find some interesting properties of these categories. For example, the IsCuttable property list cuttable categories, something I was talking about in a [previous post](http://bim42.com/2014/06/understanding-view-range/).
+To create such a mapping, we need the list of Revit categories. To extract this, I run a small routine to write every built-in Revit category to a .csv file. Along the way, I find some interesting properties of these categories. For example, the IsCuttable property list cuttable categories, something I was talking about in a [previous post](https://www.bim42.com/2014/06/understanding-view-range/).
 
 But most important here is an exhaustive list of all Revit categories, along with their Id, a prerequisite to create relations between Revit categories and classifications items.
 
 These relations allows us to filter by category while assigning Assembly Codes.
 
-You can find [here](http://bim42.com/wp-content/uploads/2015/06/categories.csv) the .csv file with all Revit categories, along with the code used to create it.
+You can find [here](https://www.bim42.com/wp-content/uploads/2015/06/categories.csv) the .csv file with all Revit categories, along with the code used to create it.
 
 {% highlight c# %}
 public void Categories()

@@ -4,7 +4,7 @@ title: Linked MEP systems
 date: 2015-09-12T15:28:55+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=940
+guid: https://www.bim42.com/?p=940
 permalink: /2015/09/linked-mep-systems/
 categories:
   - Revit

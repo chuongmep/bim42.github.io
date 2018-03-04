@@ -4,7 +4,7 @@ title: Using the Revit IFC Export in your own add-on
 date: 2017-09-17T19:47:26+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1234
+guid: https://www.bim42.com/?p=1234
 permalink: /2017/09/using-the-revit-ifc-export-in-your-own-add-on/
 categories:
   - IFC

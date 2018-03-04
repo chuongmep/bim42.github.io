@@ -4,7 +4,7 @@ title: Wall Openings (again)
 date: 2016-05-14T11:59:26+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1017
+guid: https://www.bim42.com/?p=1017
 permalink: /2016/05/wall-openings-again/
 categories:
   - Revit
@@ -17,7 +17,7 @@ tags:
 ---
 I am kind of obsessed with wall openings. The entire process of asking a structural engineer for holes in its beloved wall to let ducts and pipes goes through has always been a rather frustrating experience.
 
-After my first article about [a semi-automated way for placing an opening family](http://bim42.com/2015/06/wall-openings/), here is my latest attempt at creating the perfect opening family.
+After my first article about [a semi-automated way for placing an opening family](https://www.bim42.com/2015/06/wall-openings/), here is my latest attempt at creating the perfect opening family.
 
 A good opening family must have the following features:
 

@@ -4,7 +4,7 @@ title: BIMcollab
 date: 2015-02-07T17:21:01+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=762
+guid: https://www.bim42.com/?p=762
 permalink: /2015/02/bimcollab/
 categories:
   - General BIM

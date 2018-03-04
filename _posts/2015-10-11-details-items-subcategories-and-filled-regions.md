@@ -4,7 +4,7 @@ title: Details Items, subcategories and filled regions
 date: 2015-10-11T10:47:04+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=972
+guid: https://www.bim42.com/?p=972
 permalink: /2015/10/details-items-subcategories-and-filled-regions/
 categories:
   - Revit

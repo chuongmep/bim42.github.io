@@ -4,7 +4,7 @@ title: Navisworks Optimization
 date: 2012-07-24T17:12:43+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=171
+guid: https://www.bim42.com/?p=171
 permalink: /2012/07/navisworks-optimization/
 categories:
   - Coordination

@@ -4,7 +4,7 @@ title: Building a Forge Web Viewer
 date: 2017-03-11T09:10:00+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1148
+guid: https://www.bim42.com/?p=1148
 permalink: /2017/03/building-a-forge-web-viewer/
 categories:
   - Autodesk
@@ -33,7 +33,7 @@ I called the end-result Termite, and it is available [here](http://termiteviewer
 ![The-Termite-Web-Viewer](/assets/2017/03/The-Termite-Web-Viewer.png)
 The Termite Web Viewer
 
-By default, you see a model of my neighborhood from [my last post](http://bim42.com/2017/02/modeling-a-neighborhood-with-flux-site-extractor-gis-data-and-revit/), but you can also upload your own files. A word of caution, uploading and translating a large model can take quite some time, do not close the windows until your model is displayed on the screen.
+By default, you see a model of my neighborhood from [my last post](https://www.bim42.com/2017/02/modeling-a-neighborhood-with-flux-site-extractor-gis-data-and-revit/), but you can also upload your own files. A word of caution, uploading and translating a large model can take quite some time, do not close the windows until your model is displayed on the screen.
 
 I also add some features to the viewer. You can lock the rotation of the view by clicking on the lock icon. I also put in place a very basic section tool. To use the section, click on "Add a section" and select a face in the model to create your section.
 

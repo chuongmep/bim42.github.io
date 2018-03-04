@@ -4,7 +4,7 @@ title: A new version of Group Clashes
 date: 2017-05-15T09:56:12+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1177
+guid: https://www.bim42.com/?p=1177
 permalink: /2017/05/a-new-version-of-group-clashes/
 categories:
   - Coordination

@@ -4,7 +4,7 @@ title: Drawings in Navisworks
 date: 2014-08-02T08:00:03+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=515
+guid: https://www.bim42.com/?p=515
 permalink: /2014/08/drawings-in-navisworks/
 categories:
   - Coordination

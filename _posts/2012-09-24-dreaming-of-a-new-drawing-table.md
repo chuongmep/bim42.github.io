@@ -4,7 +4,7 @@ title: Dreaming of a new drawing table
 date: 2012-09-24T21:09:51+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=228
+guid: https://www.bim42.com/?p=228
 permalink: /2012/09/dreaming-of-a-new-drawing-table/
 categories:
   - General BIM

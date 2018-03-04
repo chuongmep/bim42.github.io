@@ -4,7 +4,7 @@ title: Parametric Bridge
 date: 2015-01-10T18:13:24+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=753
+guid: https://www.bim42.com/?p=753
 permalink: /2015/01/parametric-bridge/
 categories:
   - Grasshopper

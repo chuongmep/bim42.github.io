@@ -4,7 +4,7 @@ title: Level Of Development
 date: 2012-11-21T18:16:44+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=275
+guid: https://www.bim42.com/?p=275
 permalink: /2012/11/level-of-development/
 publicize_twitter_user:
   - bim42

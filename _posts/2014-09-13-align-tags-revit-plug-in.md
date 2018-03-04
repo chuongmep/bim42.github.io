@@ -4,7 +4,7 @@ title: Align Tags Revit Plug-In
 date: 2014-09-13T09:00:25+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=571
+guid: https://www.bim42.com/?p=571
 permalink: /2014/09/align-tags-revit-plug-in/
 categories:
   - Revit

@@ -4,7 +4,7 @@ title: Revit model management in Excel
 date: 2015-02-14T13:55:17+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=773
+guid: https://www.bim42.com/?p=773
 permalink: /2015/02/revit-model-management-in-excel/
 categories:
   - Revit

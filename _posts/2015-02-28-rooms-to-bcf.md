@@ -4,7 +4,7 @@ title: Rooms to BCF
 date: 2015-02-28T17:04:48+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=783
+guid: https://www.bim42.com/?p=783
 permalink: /2015/02/rooms-to-bcf/
 categories:
   - Coordination

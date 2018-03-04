@@ -4,7 +4,7 @@ title: Trying out Autodesk 360
 date: 2014-07-26T10:00:18+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=505
+guid: https://www.bim42.com/?p=505
 permalink: /2014/07/trying-out-autodesk-360/
 categories:
   - Autodesk

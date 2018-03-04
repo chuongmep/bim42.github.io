@@ -4,7 +4,7 @@ title: Group Clashes
 date: 2016-11-05T17:05:09+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1078
+guid: https://www.bim42.com/?p=1078
 permalink: /2016/11/group-clashes/
 categories:
   - Coordination

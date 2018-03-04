@@ -4,7 +4,7 @@ title: Shared family
 date: 2015-04-25T12:01:49+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=824
+guid: https://www.bim42.com/?p=824
 permalink: /2015/04/shared-family/
 categories:
   - Revit

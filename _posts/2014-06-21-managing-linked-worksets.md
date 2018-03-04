@@ -4,7 +4,7 @@ title: Managing linked worksets
 date: 2014-06-21T10:00:42+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=435
+guid: https://www.bim42.com/?p=435
 permalink: /2014/06/managing-linked-worksets/
 categories:
   - Revit

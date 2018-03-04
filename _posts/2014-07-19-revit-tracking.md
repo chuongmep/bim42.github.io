@@ -4,7 +4,7 @@ title: Revit Tracking
 date: 2014-07-19T08:00:17+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=493
+guid: https://www.bim42.com/?p=493
 permalink: /2014/07/revit-tracking/
 categories:
   - Revit

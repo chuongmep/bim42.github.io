@@ -4,7 +4,7 @@ title: Revit plugins updates and new features
 date: 2017-04-28T04:54:57+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1161
+guid: https://www.bim42.com/?p=1161
 permalink: /2017/04/revit-plugins-updates-and-new-features/
 categories:
   - Revit
@@ -64,7 +64,7 @@ You can also choose to keep or override an existing value, this should help you 
 
 A few bugs where corrected, making the creation of the four shared parameters far more reliable. Groups are now supported.
 
-[TimeStamp](http://bim42.com/wp-content/uploads/2017/04/TimeStamp.gif)
+[TimeStamp](https://www.bim42.com/wp-content/uploads/2017/04/TimeStamp.gif)
 Support for groups
 
 Time Stamper is now available [here](https://apps.autodesk.com/ACD/en/Detail/Index?id=232313135819866372&appLang=en&os=Win64).

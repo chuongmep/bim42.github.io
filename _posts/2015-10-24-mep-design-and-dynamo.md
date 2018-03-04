@@ -4,7 +4,7 @@ title: MEP design and Dynamo
 date: 2015-10-24T16:36:55+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=987
+guid: https://www.bim42.com/?p=987
 permalink: /2015/10/mep-design-and-dynamo/
 categories:
   - Dynamo

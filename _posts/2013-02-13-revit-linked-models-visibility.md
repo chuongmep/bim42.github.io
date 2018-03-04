@@ -4,7 +4,7 @@ title: Revit linked models visibility
 date: 2013-02-13T14:05:09+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=295
+guid: https://www.bim42.com/?p=295
 permalink: /2013/02/revit-linked-models-visibility/
 publicize_reach:
   - 'a:2:{s:7:"twitter";a:1:{i:278469;i:58;}s:2:"wp";a:1:{i:0;i:2;}}'

@@ -4,7 +4,7 @@ title: Use Grasshopper to produce fabrication drawings
 date: 2014-10-18T15:57:09+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=657
+guid: https://www.bim42.com/?p=657
 permalink: /2014/10/use-grasshopper-to-produce-fabrication-drawings/
 categories:
   - Grasshopper

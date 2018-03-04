@@ -4,7 +4,7 @@ title: Align Tags Update
 date: 2015-07-11T12:29:02+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=899
+guid: https://www.bim42.com/?p=899
 permalink: /2015/07/align-tags-update/
 categories:
   - Revit

@@ -4,7 +4,7 @@ title: Project Review with BIM 360 Glue
 date: 2014-10-25T12:44:25+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=671
+guid: https://www.bim42.com/?p=671
 permalink: /2014/10/project-review-with-bim-360-glue/
 categories:
   - Autodesk

@@ -4,7 +4,7 @@ title: Grouping clash results
 date: 2015-05-02T14:25:41+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=834
+guid: https://www.bim42.com/?p=834
 permalink: /2015/05/grouping-clash-results/
 categories:
   - Coordination

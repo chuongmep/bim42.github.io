@@ -4,7 +4,7 @@ title: Beam Annotations
 date: 2014-09-06T08:00:11+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=556
+guid: https://www.bim42.com/?p=556
 permalink: /2014/09/beam-annotations/
 categories:
   - Revit
@@ -46,7 +46,7 @@ In just a few click, I place a tag for every beam along with a nice Spot Elevati
 
 ![06_planeTags](/assets/2014/09/06_planeTags.png)
 
-This tool become extremely powerful when dealing with slopped beams. To showcase this feature, I create a set of beams aligned along a complex surface. To create quickly this kind of beam system, I use Grasshopper with the Hummingbird plug-in. I describe the complete procedure in [one of my older post](http://bim42.com/2012/09/parametric-modeling-in-revit/ "Parametric modeling in Revit").
+This tool become extremely powerful when dealing with slopped beams. To showcase this feature, I create a set of beams aligned along a complex surface. To create quickly this kind of beam system, I use Grasshopper with the Hummingbird plug-in. I describe the complete procedure in [one of my older post](https://www.bim42.com/2012/09/parametric-modeling-in-revit/ "Parametric modeling in Revit").
 
 ![07_ComplexeBeams](/assets/2014/09/07_ComplexeBeams.png)
 

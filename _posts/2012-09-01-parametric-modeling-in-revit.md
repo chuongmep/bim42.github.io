@@ -4,7 +4,7 @@ title: Parametric modeling in Revit
 date: 2012-09-01T16:46:42+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=207
+guid: https://www.bim42.com/?p=207
 permalink: /2012/09/parametric-modeling-in-revit/
 categories:
   - Grasshopper

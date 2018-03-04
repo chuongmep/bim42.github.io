@@ -4,7 +4,7 @@ title: Improve clash detection
 date: 2015-05-25T13:00:57+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=847
+guid: https://www.bim42.com/?p=847
 permalink: /2015/05/improve-clash-detection/
 categories:
   - Coordination

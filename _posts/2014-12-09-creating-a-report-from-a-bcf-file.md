@@ -4,7 +4,7 @@ title: Creating a report from a BCF file
 date: 2014-12-09T20:36:49+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=732
+guid: https://www.bim42.com/?p=732
 permalink: /2014/12/creating-a-report-from-a-bcf-file/
 categories:
   - Coordination

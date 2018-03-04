@@ -4,7 +4,7 @@ title: Use Navisworks Batch Utility to convert Revit files
 date: 2014-10-11T10:00:45+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=633
+guid: https://www.bim42.com/?p=633
 permalink: /2014/10/use-navisworks-batch-utility-to-convert-revit-files/
 categories:
   - Coordination

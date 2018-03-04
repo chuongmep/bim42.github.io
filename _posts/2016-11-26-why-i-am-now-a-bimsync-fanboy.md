@@ -4,7 +4,7 @@ title: Why I am now a bimsync fanboy
 date: 2016-11-26T13:37:21+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1091
+guid: https://www.bim42.com/?p=1091
 permalink: /2016/11/why-i-am-now-a-bimsync-fanboy/
 categories:
   - Coordination

@@ -4,7 +4,7 @@ title: Tekla BIMsight
 date: 2013-03-24T23:38:04+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=312
+guid: https://www.bim42.com/?p=312
 permalink: /2013/03/tekla-bimsight/
 publicize_twitter_user:
   - bim42

@@ -4,7 +4,7 @@ title: Walls in Geometry Gym
 date: 2012-10-15T20:31:01+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=248
+guid: https://www.bim42.com/?p=248
 permalink: /2012/10/walls-in-geometry-gym/
 categories:
   - Grasshopper

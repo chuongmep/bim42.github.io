@@ -4,7 +4,7 @@ title: Model Timestamp
 date: 2015-07-04T11:35:39+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=891
+guid: https://www.bim42.com/?p=891
 permalink: /2015/07/model-timestamp/
 categories:
   - Revit

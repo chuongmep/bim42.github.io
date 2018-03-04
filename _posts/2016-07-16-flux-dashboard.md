@@ -4,7 +4,7 @@ title: Flux Dashboard
 date: 2016-07-16T15:57:40+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1067
+guid: https://www.bim42.com/?p=1067
 permalink: /2016/07/flux-dashboard/
 categories:
   - Dynamo
@@ -13,7 +13,7 @@ tags:
   - Flux
   - Visualization
 ---
-Since [my last article](http://bim42.com/2015/09/flux/), [Flux](https://flux.io/) has made a lot of progress. Along with their plugins for Excel, Grasshopper and Dynamo, the Flux team has recently released their connectors for Revit and SketchUp. They are also developing [a series of tools](https://labs.flux.io/) that use the Flux platform for calculations or specific collaboration tasks.
+Since [my last article](https://www.bim42.com/2015/09/flux/), [Flux](https://flux.io/) has made a lot of progress. Along with their plugins for Excel, Grasshopper and Dynamo, the Flux team has recently released their connectors for Revit and SketchUp. They are also developing [a series of tools](https://labs.flux.io/) that use the Flux platform for calculations or specific collaboration tasks.
 
 Among these tools, [Thomas](https://twitter.com/thomastrinelle) points me to the Live Data Dashboard, a real-time visualization tool for your Flux data.
 

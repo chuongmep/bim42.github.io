@@ -4,7 +4,7 @@ title: 'Using Dynamo for MEP Design - Part 1'
 date: 2016-04-16T10:51:13+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=994
+guid: https://www.bim42.com/?p=994
 permalink: /2016/04/using-dynamo-for-mep-design-part-1/
 categories:
   - Dynamo

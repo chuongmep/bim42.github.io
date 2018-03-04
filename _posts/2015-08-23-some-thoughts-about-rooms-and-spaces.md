@@ -4,7 +4,7 @@ title: Some Thoughts About Rooms and Spaces
 date: 2015-08-23T13:31:29+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=918
+guid: https://www.bim42.com/?p=918
 permalink: /2015/08/some-thoughts-about-rooms-and-spaces/
 categories:
   - Revit

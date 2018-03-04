@@ -4,7 +4,7 @@ title: Modelling skirting boards
 date: 2014-02-09T16:01:10+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=328
+guid: https://www.bim42.com/?p=328
 permalink: /2014/02/modellingskirtingboards/
 publicize_linkedin_url:
   - 'http://www.linkedin.com/updates?discuss=&scope=45913264&stype=M&topic=5838310424743149568&type=U&a=uXcy'

@@ -4,7 +4,7 @@ title: AutoCAD Civil 3D to Revit
 date: 2014-11-08T16:22:16+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=684
+guid: https://www.bim42.com/?p=684
 permalink: /2014/11/autocad-civil-3d-to-revit/
 categories:
   - Autodesk

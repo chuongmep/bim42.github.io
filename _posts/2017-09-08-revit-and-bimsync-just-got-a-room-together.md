@@ -4,7 +4,7 @@ title: Revit and bimsync Just Got a Room Together!
 date: 2017-09-08T18:21:04+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1217
+guid: https://www.bim42.com/?p=1217
 permalink: /2017/09/revit-and-bimsync-just-got-a-room-together/
 categories:
   - Revit

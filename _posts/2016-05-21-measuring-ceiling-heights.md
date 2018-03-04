@@ -4,7 +4,7 @@ title: Measuring ceiling heights
 date: 2016-05-21T11:54:46+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1024
+guid: https://www.bim42.com/?p=1024
 permalink: /2016/05/measuring-ceiling-heights/
 categories:
   - Dynamo

@@ -4,7 +4,7 @@ title: CASE Design, Inc. Add-Ins
 date: 2014-06-28T09:05:53+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=455
+guid: https://www.bim42.com/?p=455
 permalink: /2014/06/case-design-inc-add-ins/
 categories:
   - Revit

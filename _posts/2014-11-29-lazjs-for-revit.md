@@ -4,7 +4,7 @@ title: LazJS for Revit
 date: 2014-11-29T10:00:13+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=724
+guid: https://www.bim42.com/?p=724
 permalink: /2014/11/lazjs-for-revit/
 categories:
   - Revit

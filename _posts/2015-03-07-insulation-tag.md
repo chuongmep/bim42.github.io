@@ -4,7 +4,7 @@ title: Insulation Tag
 date: 2015-03-07T17:27:07+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=792
+guid: https://www.bim42.com/?p=792
 permalink: /2015/03/insulation-tag/
 categories:
   - Revit

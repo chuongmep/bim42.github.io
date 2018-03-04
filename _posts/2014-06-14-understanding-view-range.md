@@ -4,7 +4,7 @@ title: Understanding View Range
 date: 2014-06-14T08:25:12+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=391
+guid: https://www.bim42.com/?p=391
 permalink: /2014/06/understanding-view-range/
 categories:
   - Revit

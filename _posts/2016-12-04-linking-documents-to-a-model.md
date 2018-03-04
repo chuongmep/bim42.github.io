@@ -4,7 +4,7 @@ title: Linking documents to a model
 date: 2016-12-04T18:52:33+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1100
+guid: https://www.bim42.com/?p=1100
 permalink: /2016/12/linking-documents-to-a-model/
 categories:
   - Coordination

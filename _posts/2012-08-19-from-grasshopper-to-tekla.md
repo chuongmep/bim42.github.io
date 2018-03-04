@@ -4,7 +4,7 @@ title: From Grasshopper to Tekla
 date: 2012-08-19T19:23:30+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=192
+guid: https://www.bim42.com/?p=192
 permalink: /2012/08/from-grasshopper-to-tekla/
 categories:
   - Grasshopper

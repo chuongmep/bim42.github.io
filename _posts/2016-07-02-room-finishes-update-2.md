@@ -4,7 +4,7 @@ title: Room Finishes Update
 date: 2016-07-02T11:58:29+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1061
+guid: https://www.bim42.com/?p=1061
 permalink: /2016/07/room-finishes-update-2/
 categories:
   - Revit

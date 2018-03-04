@@ -4,7 +4,7 @@ title: My version of the Living Cube
 date: 2014-03-02T16:43:32+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=339
+guid: https://www.bim42.com/?p=339
 permalink: /2014/03/my-version-of-the-living-cube/
 publicize_twitter_url:
   - http://t.co/BaniqmlueT

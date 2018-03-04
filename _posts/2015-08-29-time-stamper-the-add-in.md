@@ -4,7 +4,7 @@ title: Time Stamper, the Add-In
 date: 2015-08-29T11:29:46+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=929
+guid: https://www.bim42.com/?p=929
 permalink: /2015/08/time-stamper-the-add-in/
 categories:
   - Coordination
@@ -16,11 +16,11 @@ tags:
 ---
 There is no easy way to override the color of an entire Revit link. Since most of my work involves linking Revit model from various subcontractors, this is something I miss badly.
 
-Until recently, I was still using some [workset hack](http://bim42.com/2013/02/revit-linked-models-visibility/) to create filters on linked models. These filters were allowing me to display linked model with my color of choice.
+Until recently, I was still using some [workset hack](https://www.bim42.com/2013/02/revit-linked-models-visibility/) to create filters on linked models. These filters were allowing me to display linked model with my color of choice.
 
 But relying on workset leave much to be desired, and I have to find another solution.
 
-I recently came up with [a different solution](http://bim42.com/2015/07/model-timestamp/), where each model element know where they came from.
+I recently came up with [a different solution](https://www.bim42.com/2015/07/model-timestamp/), where each model element know where they came from.
 
 The idea is to add file name, date and version in shared parameters on every model element. I created the corresponding Revit Add-In, and it is now available on the [Autodesk App Exchange](https://apps.exchange.autodesk.com/RVT/en/Detail/Index?id=appstore.exchange.autodesk.com%3Atimestamps_windows64%3Aen).
 
@@ -44,6 +44,6 @@ You can create a linked models schedule, with date and version.
 
 ![LinkedFilesSchedule](/assets/2015/08/LinkedFilesSchedule.png)
 
-To help you create filters and tags with these parameters, you will find [here](http://bim42.com/wp-content/uploads/2015/08/BIM42_SharedParameters.txt) the shared parameter text file. Please also note that the application uses a list of categories to create the four shared parameters. You will find this list [here](http://bim42.com/wp-content/uploads/2015/08/categories.txt).
+To help you create filters and tags with these parameters, you will find [here](https://www.bim42.com/wp-content/uploads/2015/08/BIM42_SharedParameters.txt) the shared parameter text file. Please also note that the application uses a list of categories to create the four shared parameters. You will find this list [here](https://www.bim42.com/wp-content/uploads/2015/08/categories.txt).
 
 I hope this application will help you in your work, don't hesitate to share your suggestions in the comments.

@@ -4,7 +4,7 @@ title: VR for Revit
 date: 2017-06-18T18:22:32+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1191
+guid: https://www.bim42.com/?p=1191
 permalink: /2017/06/vr-for-revit/
 categories:
   - Visualization

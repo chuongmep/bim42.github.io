@@ -4,7 +4,7 @@ title: Automatic Modeling
 date: 2015-04-19T21:07:51+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=818
+guid: https://www.bim42.com/?p=818
 permalink: /2015/04/automatic-modeling/
 categories:
   - Revit
@@ -18,7 +18,7 @@ Most questions I encounter these days turn around using building information mod
 
 Lead by this thought, and a problem raised by one of my colleague, I started looking again toward slab insulations. Before BIM, slab insulation was simply annotated on the drawing, and taken into account when creating a building section. Now, for coordination purpose, we have to spend large amount of time modeling everywhere a fairly simple element like insulation, without real added value.
 
-There is nothing new with this problem, and I was already trying to find a solution for modeling insulation layers on the upper face of a series of spaces with [my latest version of RoomFinishes](http://bim42.com/2014/08/room-finishes-update/), without finding a decent solution.
+There is nothing new with this problem, and I was already trying to find a solution for modeling insulation layers on the upper face of a series of spaces with [my latest version of RoomFinishes](https://www.bim42.com/2014/08/room-finishes-update/), without finding a decent solution.
 
 But while looking for something totally different, I came across [this article in AUGI](https://www.augi.com/library/using-rooms-spaces-for-leverage-in-revit-mep) about room and spaces in Revit. So after five years working with Revit, I realized than by checking this small checkbox in the "Area and Volume Computations", the room continues up until it fit a room bounding element, a ceiling or a floor.
 

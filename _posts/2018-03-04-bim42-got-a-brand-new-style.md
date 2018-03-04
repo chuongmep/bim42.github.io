@@ -4,7 +4,7 @@ title: BIM 42's got a brand new style
 date: 2018-03-04T19:00:00+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1260
+guid: https://www.bim42.com/?p=1260
 permalink: /2018/03/bim42-got-a-brand-new-style/
 published: true
 categories:

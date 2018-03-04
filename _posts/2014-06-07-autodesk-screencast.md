@@ -4,7 +4,7 @@ title: Autodesk Screencast
 date: 2014-06-07T09:49:22+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=379
+guid: https://www.bim42.com/?p=379
 permalink: /2014/06/autodesk-screencast/
 image: https://bim42.com/wp-content/uploads/2014/06/Screencast.png
 categories:

@@ -4,7 +4,7 @@ title: Data visualization for bimsync
 date: 2018-02-10T22:47:10+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=1259
+guid: https://www.bim42.com/?p=1259
 permalink: /2018/02/data-visualization-for-bimsync/
 categories:
   - IFC

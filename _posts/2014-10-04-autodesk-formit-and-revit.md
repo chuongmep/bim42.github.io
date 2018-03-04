@@ -4,7 +4,7 @@ title: Autodesk Formit and Revit
 date: 2014-10-04T09:08:56+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=617
+guid: https://www.bim42.com/?p=617
 permalink: /2014/10/autodesk-formit-and-revit/
 categories:
   - Revit

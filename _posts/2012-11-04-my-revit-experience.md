@@ -4,7 +4,7 @@ title: My Revit experience
 date: 2012-11-04T21:34:00+00:00
 author: Simon Moreau
 layout: post
-guid: http://bim42.com/?p=263
+guid: https://www.bim42.com/?p=263
 permalink: /2012/11/my-revit-experience/
 publicize_twitter_user:
   - bim42
