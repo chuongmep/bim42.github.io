@@ -24,7 +24,7 @@ Inspired by all these great solutions, I created my own for bimsync. Since I was
 
 I was able to go from this, a bimsync project based on the [IFC sample files](http://www.nibs.org/?page=bsa_commonbimfiles):
 
-![bimsyncModel](https://bim42.com/wp-content/uploads/2018/02/bimsyncModel.png)
+![bimsyncModel](/assets/2018/02/bimsyncModel.png)
 
 To this interactive Power BI dashboard displaying data extracted from these models:
 
@@ -42,13 +42,13 @@ The [Global Dashboard](https://bimsyncmanager.firebaseapp.com/documentation#Glob
 
 As an example, we use it internally to manage BIM deployment across all our offices and understand usage and adoption of bimsync by my colleague and external partners. You can also use it retrieve all [IfcOwnerHistory](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcutilityresource/lexical/ifcownerhistory.htm) of uploaded IFC models.  As an example, we use it to understand the distribution of authoring software used on these projects.
 
-![softwareUsed](https://bim42.com/wp-content/uploads/2018/02/softwareUsed.png)
+![softwareUsed](/assets/2018/02/softwareUsed.png)
 
 For performance reason, you can't use it to extract more detailed information like quantities or issues. To do so, you must use the second dashboard.
 
 The [Project Dashboard](https://bimsyncmanager.firebaseapp.com/documentation#ProjectDashboard) allows you to extract all quantities for every IFC categories for every model uploaded to a specific bimsync project. A Relations table gives you all [IfcRelationship](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifckernel/lexical/ifcrelationship.htm) in your models, allowing you to retrieve relations between an element and its level, or between a space and its IfcZone.
 
-![powerbi-interface](https://bim42.com/wp-content/uploads/2018/02/powerbi-interface.png)
+![powerbi-interface](/assets/2018/02/powerbi-interface.png)
 
 Still for performance reason, you can only extract data from the 2 last revisions from each model. However, this can be easily modified by editing the GetElements function in Power BI.
 
@@ -58,11 +58,11 @@ These two dashboards are only starting points, you can use them to create your o
 
 Each Power BI file comes with all necessary queries to retrieve data from bimsync through its public API. Power BI send a request and retrieve all the elements of a given IFC category in Json. A second function parse these elements to fill a table. Columns are dynamically created based on the property sets available in the elements. These functions are written in M Query, the Power BI request language. They can be easily edited by clicking on "Edit Queries" in Power BI Desktop.
 
-![working1](https://bim42.com/wp-content/uploads/2018/02/working1.png)
+![working1](/assets/2018/02/working1.png)
 
 However, some mandatory functions, namely oAuth authentication and responses pagination cannot be handled with M Query alone. To be able to authenticate my queries in Power BI, I build a web service with two main functions. The first one is managing authentication, any call to it from Power BI give back an access token to be used by Power BI. The other one is handling pagination. A request to this service give back the number of item expected in the answer, which allows Power BI to know how many queries it will have to run to retrieve all elements. This service is hosted on bimsync Manager.
 
-![working2](https://bim42.com/wp-content/uploads/2018/02/working2.png)
+![working2](/assets/2018/02/working2.png)
 
 The entire solution is open source, and available across two Github repositories. The [bimsyncManager](https://github.com/simonmoreau/bimsyncManager) contains the bimsync Manager website, the front-end part of the service, written in Angular. This is also where you can find the two Power BI templates. The [bimsyncmanagerAPI](https://github.com/simonmoreau/bimsyncmanagerAPI) is the headless API used to manage user authentication and request pagination. This service is built with .Net Core.
 
