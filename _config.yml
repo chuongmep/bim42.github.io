@@ -21,7 +21,7 @@ description: >
   The Answer to the Great Question of BIM,
   the Universe and Everything
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "//www.bim42.com"
+url: "https//www.bim42.com"
 social_username: bim42
 github_username:  simonmoreau
 
@@ -32,6 +32,7 @@ markdown: kramdown
 theme: jekyll-swiss
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
