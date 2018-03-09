@@ -23,11 +23,11 @@ For the one who were fond of videos games in their youth, it’s pretty much lik
 
 I have tried two of these engines, with different results.
 
-![studio_logo3](/assets/2012/06/studio_logo3.jpg)
+![studio_logo3]({{ "/assets/2012/06/studio_logo3.jpg" | absolute_url }})
 
 3dVia Studio is the solution developped by Dassault System. It's really powerful, with a lot of features and possibilities, and can run _really_ large models. But on the other hand, its price reserves it for visualization professionals, and finding some support and examples on the web can be dreadful.
 
-![unity-logo](/assets/2012/06/unity-logo.jpg)
+![unity-logo]({{ "/assets/2012/06/unity-logo.jpg" | absolute_url }})
 
 The other solution is a broadly used game engine named Unity 3D. Its basic version is free, and you can pay for a professional version and specific features, like publication on portable devices (IOS and Android), or work in a collaborative environment.
 

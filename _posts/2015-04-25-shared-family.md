@@ -16,7 +16,7 @@ tags:
 ---
 The Shared checkbox in the Revit family editor allows us to use nested families just like the root one.
 
-![SharedCheckBox](/assets/2015/04/SharedCheckBox.jpg)
+![SharedCheckBox]({{ "/assets/2015/04/SharedCheckBox.jpg" | absolute_url }})
 
 Checking the Shared checkbox is only useful when this family is nested into another. When you load the root family into your project, Revit will also load the nested one. You will then be able to see it in the Project Browser and in schedules, and your shared family will behave just like any other families, except that it is nested into another.
 
@@ -24,11 +24,11 @@ This function is very useful to insert additional elements upon existing ones,
 
 As an example, I add a light switch to a door family. This light switch is wall-based, and will appear alongside of every doors in the project. As this light switch is a shared family, these instances appear on the electrical fixture schedule.
 
-![Visible](/assets/2015/04/Visible.jpg)
+![Visible]({{ "/assets/2015/04/Visible.jpg" | absolute_url }})
 
 Furthermore, these nested families only appear in schedules if they are visible in the project. I use this property to select on which door I want a light switch. I add a Yes/No parameter on my family to control the visibly of the switch. Once hidden in the project, the switch doesn't appear in the schedule either.
 
-![Hidden](/assets/2015/04/Hidden.jpg)
+![Hidden]({{ "/assets/2015/04/Hidden.jpg" | absolute_url }})
 
 Using shared families is a very efficient way to insert elements in a model, and is a good starting point for rule-based modeling.
 
@@ -36,7 +36,7 @@ But once every light switch families have been inserted in the model through the
 
 To do so, I wrote a few lines of code to create a copy of every nested light switch directly in the model. These new light switches are no longer nested, and can be easily modified to fit the local configuration. Furthermore, these elements are now electrical fixtures families, and can be added to an electrical circuit to perform load calculations.
 
-![Extracted](/assets/2015/04/Extracted.jpg)
+![Extracted]({{ "/assets/2015/04/Extracted.jpg" | absolute_url }})
 
 {% highlight c# %}
 public void ExtractNestedFamillies()

@@ -21,17 +21,17 @@ In a technical drawing, we generally represent insulation only on small parts of
 
 To adapt this method on Revit, I create two detail components, representing the insulation on a round and on a rectangular duct.
 
-![Annotations](/assets/2015/03/Annotations.jpg)
+![Annotations]({{ "/assets/2015/03/Annotations.jpg" | absolute_url }})
 
 This components have a "Width" instance parameter for setting their width regarding the thickness of the insulation.
 
-![Width](/assets/2015/03/Width.jpg)
+![Width]({{ "/assets/2015/03/Width.jpg" | absolute_url }})
 
 I also create a small piece of code to instantiate these components on selected ducts and pipes.
 
 The idea is to pick a series of duct and pipe, read their insulation thickness, and add a detail component with the corresponding thickness. Like this, we can control where we want to see an insulation, and improve the overall legibility of the drawing.
 
-![Animation](/assets/2015/03/Animation.gif)
+![Animation]({{ "/assets/2015/03/Animation.gif" | absolute_url }})
 
 This solution allow me to create quickly some annotations to represent the insulation without having to display it everywhere. However, this is more a workaround than a real solution. Nothing here is adaptive, and you have to restart the tool each time you edit or even move your duct.
 

@@ -20,11 +20,11 @@ There is a handful of these classifications currently in use. The [Construction 
 
 Revit provides two built-in type parameters to manage such classification systems, the Assembly Code and the Assembly Description. These parameters allow us to link any Revit type to an existing classification system.
 
-![Assignement](/assets/2015/06/Assignement.jpg)
+![Assignement]({{ "/assets/2015/06/Assignement.jpg" | absolute_url }})
 
 This classification system can be loaded in Revit through the Assembly Code interface.
 
-![Assemblycode](/assets/2015/06/Assemblycode.jpg)
+![Assemblycode]({{ "/assets/2015/06/Assemblycode.jpg" | absolute_url }})
 
 Autodesk provides us with the Uniformat classification, through the UniformatClassifications.txt. This tab-separated values text file define the classification structure with four columns:
 

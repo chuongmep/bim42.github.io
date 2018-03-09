@@ -25,7 +25,7 @@ Tekla comes with two plug-ins, one for exporting Revit models to Tekla, the othe
 
 I  quickly drew a few walls in Revit and exported them using the associated command.
 
-![revitwalls](/assets/2013/01/revitwalls.jpg)
+![revitwalls]({{ "/assets/2013/01/revitwalls.jpg" | absolute_url }})
 
 It created an .IFCZip file tailored for the Tekla IFC Import function.
 
@@ -33,7 +33,7 @@ I inserted it as a Reference Model in Tekla. The resulting geometry looks pretty
 
 In order to use this Tekla model for the production of structural drawings, native Tekla elements are needed, so I used the Tekla Macro Convert IFC element to generate them from this Reference Model.
 
-![teklanativeelements](/assets/2013/01/teklanativeelements.jpg)
+![teklanativeelements]({{ "/assets/2013/01/teklanativeelements.jpg" | absolute_url }})
 
 As you can see, some dimension were lost during the conversion process.
 
@@ -41,7 +41,7 @@ These limitations made me think of another kind of link between these two softwa
 
 Here is a first overview of this plug-in with an interface for mapping Revit families to Tekla profiles.
 
-![pluginui](/assets/2013/01/pluginui.jpg)
+![pluginui]({{ "/assets/2013/01/pluginui.jpg" | absolute_url }})
 
 I was able to import a few beams and some walls with my plug-in. The whole thing is in a very early stage, and still incredibly buggy, but I hope to be able to fix it and create something both stable and useful. By now I am trying to recreate walls with an edited profile or hosted openings.
 

@@ -17,13 +17,13 @@ tags:
 ---
 Since I have been using Navisworks for clash detection, I have tried to find out how to optimize my results, in order to avoid sorting manually thousands of irrelevant clashes, and export a proper final report.
 
-![image](/assets/2012/07/image.jpg)
+![image]({{ "/assets/2012/07/image.jpg" | absolute_url }})
 
 First of all, the model itself seems to be the most important part for clash detection. Modeling all openings in structural elements in order to avoid sorting all meaningless intersections with MEP features is a major prerequisite. But there are many other best practices for modeling in order to make the clash reviewing process easier, such as defining precise modeling rules for structural elements connections (joints between beams and columns, or intersections between columns and slabs).
 
 But still, even with the most carefully designed model, you will probably still have a lot of clashes to sort.
 
-![you-have-677-new-clashes](/assets/2012/07/you-have-677-new-clashes.jpg)
+![you-have-677-new-clashes]({{ "/assets/2012/07/you-have-677-new-clashes.jpg" | absolute_url }})
 
 This is when a good workflow for the whole team is important. Some plug-ins, like the Navisworks Keyboard Shortcuts found on [BIM Manager](http://bimmanager.blogspot.fr/2011/12/navisworks-keyboard-shortcuts-for.html), can be very useful at this point. For our part, we used to make a first sort by ourselves, eliminating obviously irrelevant clashes and roughly grouping other ones by location, then transfer to the coordination team for review.
 

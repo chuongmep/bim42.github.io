@@ -21,41 +21,41 @@ As Case Inc update their set of tools for Revit 2015, I write a few words about 
 
 These tools come with a nice installer, allowing us to add applications for Revit and Navisworks, in various version.
 
-![Installer](/assets/2014/06/Installer.jpg)
+![Installer]({{ "/assets/2014/06/Installer.jpg" | absolute_url }})
 
 It load a new ribbon bar in Revit, displaying all the available tools:
 
-![ribbon](/assets/2014/06/ribbon.jpg)
+![ribbon]({{ "/assets/2014/06/ribbon.jpg" | absolute_url }})
 
 I am not using all of them, so I will just present here my favorites.
 
 # View Duplicator
 
-![ViewDuplicator](/assets/2014/06/ViewDuplicator.jpg)
+![ViewDuplicator]({{ "/assets/2014/06/ViewDuplicator.jpg" | absolute_url }})
 
 This tool allows me to quickly duplicate a set a view, and create for example a set of view for publishing. You can add a prefix or a suffix on every one of them, and filter the existing view to quickly select which one you want to duplicate.
 
 # Param To Param
 
-![ParamToParam](/assets/2014/06/ParamToParam.jpg)
+![ParamToParam]({{ "/assets/2014/06/ParamToParam.jpg" | absolute_url }})
 
 Originally design to write down parameter values to be able to export them in schedules, I am also using it to refactor in a single place parameters values scattered in various locations. One of the most useful example is to write down the reference level name in a single shared parameter applied on multiple categories.
 
 # Door Mark renumbering
 
-![DoorMak](/assets/2014/06/DoorMak.jpg)
+![DoorMak]({{ "/assets/2014/06/DoorMak.jpg" | absolute_url }})
 
 This tools allow us to mark a door with its related room. This is a very fast solution for extracting Room-Door relation, for schedule or room plan.
 
 # Export Famillies to RFA
 
-![ExportFamillies](/assets/2014/06/ExportFamillies.jpg)
+![ExportFamillies]({{ "/assets/2014/06/ExportFamillies.jpg" | absolute_url }})
 
 Autodesk provide with Revit a very comprehensive set of families. But most of these families need to be sorted and renamed to fit the practice of our office. To do so, we add all of them in a Revit file, sort and rename them in this model, and finally, export all of them in nicely ordered folders for every draftsmen to use.
 
 # Shared Parameter Loader
 
-![SharedParamLoader](/assets/2014/06/SharedParamLoader.jpg)
+![SharedParamLoader]({{ "/assets/2014/06/SharedParamLoader.jpg" | absolute_url }})
 
 Finally, the Shared Parameter Loader allow me to quickly add large set of shared parameters on specific categories. This is especially useful when dealing with sheets parameters which have to be added to ever model in order to produce drawings.
 

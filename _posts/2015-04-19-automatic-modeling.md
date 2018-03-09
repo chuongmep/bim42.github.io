@@ -23,15 +23,15 @@ There is nothing new with this problem, and I was already trying to find a solut
 
 But while looking for something totally different, I came across [this article in AUGI](https://www.augi.com/library/using-rooms-spaces-for-leverage-in-revit-mep) about room and spaces in Revit. So after five years working with Revit, I realized than by checking this small checkbox in the "Area and Volume Computations", the room continues up until it fit a room bounding element, a ceiling or a floor.
 
-![VolumeComputation](/assets/2015/04/VolumeComputation.jpg)
+![VolumeComputation]({{ "/assets/2015/04/VolumeComputation.jpg" | absolute_url }})
 
 Energized by this nice discovery, I created a small application for automatically modeling insulation. This application retrieves every faces of a given room, and uses the higher ones as references for modeling floors and walls as insulations.
 
-![Insulation](/assets/2015/04/Insulation.jpg)
+![Insulation]({{ "/assets/2015/04/Insulation.jpg" | absolute_url }})
 
 The only problem here is framing. They are not room bounding elements, and the upper face of the room does not fit the shape of the beam. I solved temporary this problem by creating a small floor under the beam.
 
-![beam](/assets/2015/04/beam.jpg)
+![beam]({{ "/assets/2015/04/beam.jpg" | absolute_url }})
 
 While doing this, I realized there is a lot of tricky cases, where insulation have to be modeled as wall or slab regarding of the configuration.
 

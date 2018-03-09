@@ -24,31 +24,31 @@ Revit will be our software of choice here. The power of Revit resides in its ab
 
 After some trials and errors with the DWG export options of Rhino, I ended up exporting my surfaces as an ACIS (.sat) file, with the default Autocad export configuration.
 
-![satExport](/assets/2014/08/satExport.jpg)
+![satExport]({{ "/assets/2014/08/satExport.jpg" | absolute_url }})
 
 I import this .sat file in a new Conceptual Mass family in Revit. The positioning is set to Origin to Origin to place our ceiling in its correct position regarding the origin of the massing family.
 
-![MassingFamily](/assets/2014/08/MassingFamily.jpg)
+![MassingFamily]({{ "/assets/2014/08/MassingFamily.jpg" | absolute_url }})
 
 I insert this family in my Revit project, and use two dimensions to place it at the origin of the project.
 
-![ceilingPlan](/assets/2014/08/ceilingPlan.jpg)
+![ceilingPlan]({{ "/assets/2014/08/ceilingPlan.jpg" | absolute_url }})
 
 This massing family allow us to create a curtain system by face, by selecting every face of our mass. I use it to create two curtain system, each one with a specific purpose.
 
-![Command](/assets/2014/08/Command.jpg)
+![Command]({{ "/assets/2014/08/Command.jpg" | absolute_url }})
 
 The first one is populated only with curtain panel to represent the finish face of our ceiling. Since every panel fit a face of our massing family, we don't need to add any subdivision into this grid. Curtain panels are 100 mm thick, and have a 50 mm offset to place their finish face along the surface of the curtain system.
 
 I create another curtain system to model the structural element of our ceiling. This curtain system is populated with specifically designed mullion, and without any curtain panel. These mullions represent the supporting elements of our ceiling, and are modeled along the border line of each panel.
 
-![Profile](/assets/2014/08/Profile.jpg)
+![Profile]({{ "/assets/2014/08/Profile.jpg" | absolute_url }})
 
 Creating a specific curtain system to model mullions allows a greater control over the elements, and does not interfere with the previously created curtain panels.
 
 Once these panels and structure are modeled, Revit will gladly create any needed section view, with all required graphic styles and tags.
 
-![Ceilling](/assets/2014/08/Ceilling.jpg)
+![Ceilling]({{ "/assets/2014/08/Ceilling.jpg" | absolute_url }})
 
 Every element is also fully documented, and therefore schedulable, allowing us to extract information like the surface of every panel, or the length of the structural framing.
 

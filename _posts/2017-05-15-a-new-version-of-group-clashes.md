@@ -20,7 +20,7 @@ The main purpose of this update was to solve some issue encountered by early ado
 
 I also add some new features to the application, that I will showcase with this example. Detecting clashes in this simple layout of ducts (Selection A, in blue) and pipes (Selection B, in red) yield 8 clashes, spread like this:
 
-![1](/assets/2017/05/1.jpg)
+![1]({{ "/assets/2017/05/1.jpg" | absolute_url }})
 An example of a clash test
 
 # Creating subgroups
@@ -29,12 +29,12 @@ Grouping with two condition will now create a first group per the first rule. It
 
 If we group this example by Selection A (the ducts), we get the following groups, named after the item used to create the group. All clashes involving the same item from selection A are grouped together:
 
-![2](/assets/2017/05/2.jpg)
+![2]({{ "/assets/2017/05/2.jpg" | absolute_url }})
 Grouping by Selection A
 
 If we add a new group rule, say, by grid intersection, the plugin will break these groups into subgroup, according to this new rule. Here, it will rename the existing group by adding the nearest grid intersection name, and break the group {Clash 7, Clash 8} into two, each one belonging to a different grid intersection.
 
-![3](/assets/2017/05/3.jpg)
+![3]({{ "/assets/2017/05/3.jpg" | absolute_url }})
 Grouping by Selection A and Grids
 
 # Keep existing groups
@@ -45,19 +45,19 @@ For example, you can group by status, explode the "Active" group and keep this 
 
 Another example, if we create manually the following group in our previous clash test:
 
-![4](/assets/2017/05/4.jpg)
+![4]({{ "/assets/2017/05/4.jpg" | absolute_url }})
 An existing group
 
 We can then run a Group by Grid intersection on the remaining clashes to create the following groups for the remaining clashes, without disturbing the existing group.
 
-![5](/assets/2017/05/5.jpg)
+![5]({{ "/assets/2017/05/5.jpg" | absolute_url }})
 Remaining clashes are grouped
 
 # Batch grouping
 
 You can now select multiple clash tests to apply the same grouping rules to all of them
 
-![Batch](/assets/2017/05/Batch.gif)
+![Batch]({{ "/assets/2017/05/Batch.gif" | absolute_url }})
 
 Batch processing
 

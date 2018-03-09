@@ -25,7 +25,7 @@ The LOD (Level Of Development or Level Of Detail) was first described on the Mod
 
 In 2008, the American Institute of Architect  after further developments on this project, released their official version, the E-202 “Building Information Modeling Protocol Exhibit”.
 
-![aia_e202](/assets/2012/11/aia_e202.jpg)This paper divided the Levels Of Development in five categories, each one describing the elements expected in the model, the corresponding state of development of the project and the possibilities for producing construction documents and building analysis. They are defined as follows:
+![aia_e202]({{ "/assets/2012/11/aia_e202.jpg" | absolute_url }})This paper divided the Levels Of Development in five categories, each one describing the elements expected in the model, the corresponding state of development of the project and the possibilities for producing construction documents and building analysis. They are defined as follows:
 
 ### LOD 100: Conceptual design
 
@@ -61,7 +61,7 @@ These descriptions are indicative, and do not prevent the BIM Manager from descr
 
 (From [http://www.acec.org](http://www.acec.org/))
 
-![modelelementtable](/assets/2012/11/modelelementtable.jpg)
+![modelelementtable]({{ "/assets/2012/11/modelelementtable.jpg" | absolute_url }})
 
 This table defines the required level of detail for each element of a building model at each phase/LOD of the project.
 

@@ -24,7 +24,7 @@ Inspired by this idea, I displayed over time the results of a general clash dete
 
 To do so, we have to set up a general clash matrix, something like this:
 
-![matrix](/assets/2015/05/matrix.jpg)
+![matrix]({{ "/assets/2015/05/matrix.jpg" | absolute_url }})
 
 * A: Architecture
 * S: Structure
@@ -48,7 +48,7 @@ To do so, we create a single table (in .csv) listing every clash reported during
 
 We use to compile them through an HTML (tabular) report from Navisworks.
 
-![exportReport](/assets/2015/05/exportReport.jpg)
+![exportReport]({{ "/assets/2015/05/exportReport.jpg" | absolute_url }})
 
 Using the Data -> From Web Excel function, we create a large database of every clash, with its history.
 
@@ -56,6 +56,6 @@ We now have a custom application for extracting the same information from Navisw
 
 Once we have every clash in a handy (and pretty large) .csv file, we use [Tableau](http://www.tableau.com/) to create a nice visualization out of it, and let everyone in the office follow the progress of the coordination.
 
-![visualization](/assets/2015/05/visualization.jpg)
+![visualization]({{ "/assets/2015/05/visualization.jpg" | absolute_url }})
 
 "What gets measured improves", and we are now able to increase our efforts when we see the spatial coordination staggering. But with precise data about the coordination, I also hope to be able to better understand what makes a coordination process successful and how to reproduce it.

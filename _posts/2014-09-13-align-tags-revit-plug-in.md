@@ -18,13 +18,13 @@ I just release a new add-in for Revit on the Autodesk App Exchange for aligning 
 
 This tool is based on the Align command you probably already know from a large bunch of software, from PowerPoint to Adobe Illustrator. It is composed of a set of commands to align or distribute tags on a Revit view, and it is pretty easy to use:
 
-![Commands](/assets/2014/09/Commands.png)
+![Commands]({{ "/assets/2014/09/Commands.png" | absolute_url }})
 
 To align two or more of tags, just select them, and select one of the direction of the Align command.
 
 For example, with the Align Left command :
 
-![AlignBefore](/assets/2014/09/AlignBefore.jpg) ![AlignAfter](/assets/2014/09/AlignAfter.png)
+![AlignBefore]({{ "/assets/2014/09/AlignBefore.jpg" | absolute_url }}) ![AlignAfter]({{ "/assets/2014/09/AlignAfter.png" | absolute_url }})
 
 Every selected tag is aligned with the left one. The alignment reference point is the tag base point (where their reference planes intersect).
 
@@ -32,7 +32,7 @@ To distribute three or more tags along an axis, select them and specify the dir
 
 For example, with the Distribute Vertically command:
 
-![DistributeBefore](/assets/2014/09/DistributeBefore.jpg) ![DistributeAfter](/assets/2014/09/DistributeAfter.jpg)
+![DistributeBefore]({{ "/assets/2014/09/DistributeBefore.jpg" | absolute_url }}) ![DistributeAfter]({{ "/assets/2014/09/DistributeAfter.jpg" | absolute_url }})
 
 Vertical space between selected tags is distributed evenly among them. The position reference point is still the tag base point.
 

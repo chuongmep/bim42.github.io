@@ -23,7 +23,7 @@ Every Revit model contains two systems of coordinates, represented by two points
 
 Drawing something too far from this origin will display the following message:
 
-![error](/assets/2014/05/error.jpg)
+![error]({{ "/assets/2014/05/error.jpg" | absolute_url }})
 
 * A Survey Point (the triangle): This is the position of our project in the real world (yes, you know, the one outside Revit ... ).
 
@@ -31,39 +31,39 @@ The angle between these two systems of coordinate is called "Angle to True North
 
 There is three possibilities for automatically positioning a Revit linked model into another:
 
-![positionning](/assets/2014/05/positionning.jpg)
+![positionning]({{ "/assets/2014/05/positionning.jpg" | absolute_url }})
 
 The Center to Center option inserts the "center" of our linked model on the "center" of the host model. The center is not very well defined, and correspond more or less to the general geometric center of the elements drawn in the model. For example (the linked model is in blue):
 
-![centertocenter](/assets/2014/05/centertocenter.png)
+![centertocenter]({{ "/assets/2014/05/centertocenter.png" | absolute_url }})
 
 The Origin to Origin option inserts the linked model with its Project Base point aligned with the one of the host model.
 
-![origin-to-origin](/assets/2014/05/origin-to-origin.png)
+![origin-to-origin]({{ "/assets/2014/05/origin-to-origin.png" | absolute_url }})
 
 And finally, the By Shared Coordinates inserts the linked model with the Survey Points overlapping.
 
-![bysharedcoordinates](/assets/2014/05/bysharedcoordinates.png)
+![bysharedcoordinates]({{ "/assets/2014/05/bysharedcoordinates.png" | absolute_url }})
 
 This particular insertion method is especially useful when dealing with multiple buildings on a site.
 
 As an example, on this Site model, I have two implantations for two buildings (in magenta). My Survey Point is located on the origin point of the whole site.
 
-![sitemodel](/assets/2014/05/sitemodel.png)
+![sitemodel]({{ "/assets/2014/05/sitemodel.png" | absolute_url }})
 
 I create my first building, with the Project Base Point and the Survey Point basically at the center of the model.
 
-![building1](/assets/2014/05/building1.png)
+![building1]({{ "/assets/2014/05/building1.png" | absolute_url }})
 
 I insert roughly this building in my site model, and manually place it on its final location:
 
-![insertbuilding1](/assets/2014/05/insertbuilding1.png)
+![insertbuilding1]({{ "/assets/2014/05/insertbuilding1.png" | absolute_url }})
 
 I can know share the coordinates of my site model to my first building.
 
 This will change the position of the Survey Point in my Builnding1 model:
 
-![surveypointbuilding1](/assets/2014/05/surveypointbuilding1.png)
+![surveypointbuilding1]({{ "/assets/2014/05/surveypointbuilding1.png" | absolute_url }})
 
 If I repeat the whole process with my second building, the three models will share the same system of coordinates through their Survey Point. By selecting Auto - By Shared Coordinate on insertion, every model will be placed correctly regarding the others.
 
@@ -71,10 +71,10 @@ It is also possible to manually move the Project Origin Point or the Survey Poin
 
 In this case, the selected point will be moving:
 
-![pointmoving](/assets/2014/05/pointmoving.png)
+![pointmoving]({{ "/assets/2014/05/pointmoving.png" | absolute_url }})
 
 If so, the rest of the model will be moving around the selected point:
 
-![restmoving](/assets/2014/05/restmoving.png)
+![restmoving]({{ "/assets/2014/05/restmoving.png" | absolute_url }})
 
 The difference can be subtle, don't hesitate to play with it in order to understand how it works.

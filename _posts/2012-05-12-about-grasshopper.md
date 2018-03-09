@@ -21,29 +21,29 @@ Among these plugins, my favorite is Grasshopper. It's a graphical interface for 
 
 As an illustration, here is the interface of Grasshopper, alongside with Rhino. Pretty, isn't it? The red surface in Rhino is the visualization of what we are designing in Grasshopper by wiring these little boxes together.
 
-![intrograsshopper13](/assets/2012/05/intrograsshopper13.jpg)
+![intrograsshopper13]({{ "/assets/2012/05/intrograsshopper13.jpg" | absolute_url }})
 
 As an example, we can start by generating twenty points randomly:
 
-![intrograsshopper2_c](/assets/2012/05/intrograsshopper2_c.jpg)
+![intrograsshopper2_c]({{ "/assets/2012/05/intrograsshopper2_c.jpg" | absolute_url }})
 
 Then we use them to draw twenty circles:
 
-![intrograsshopper3_c](/assets/2012/05/intrograsshopper3_c.jpg)
+![intrograsshopper3_c]({{ "/assets/2012/05/intrograsshopper3_c.jpg" | absolute_url }})
 
 And finally, we extrude each circle to create cylinders:
 
-![intrograsshopper4_c](/assets/2012/05/intrograsshopper4_c.jpg)
+![intrograsshopper4_c]({{ "/assets/2012/05/intrograsshopper4_c.jpg" | absolute_url }})
 
 And the best part is that we can still edit anything you want.
 
 If you want fewer cylinders, just change the number of origin points:
 
-![intrograsshopper5_c](/assets/2012/05/intrograsshopper5_c.jpg)
+![intrograsshopper5_c]({{ "/assets/2012/05/intrograsshopper5_c.jpg" | absolute_url }})
 
 Or change the circle’s radius:
 
-![intrograsshopper6_c](/assets/2012/05/intrograsshopper6_c.jpg)
+![intrograsshopper6_c]({{ "/assets/2012/05/intrograsshopper6_c.jpg" | absolute_url }})
 
 The possibilities are almost endless, and, shame on me, I start to think that this little plugin can even be more powerful than the almighty CATIA. At least, it's far less expensive, since it came freely with a license for Rhino.
 

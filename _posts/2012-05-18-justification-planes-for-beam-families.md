@@ -24,21 +24,21 @@ As an example, I design a specific beam, using the “Metric Structural Framing 
 
 I draw a little extrusion, and constrain its length. I want have my beam centered on the red dot, so I set the central plane as Reference: Center (Elevation)
 
-![extrusion](/assets/2012/05/extrusion.jpg)
+![extrusion]({{ "/assets/2012/05/extrusion.jpg" | absolute_url }})
 
 Then I load it into my project and I try different values for the z-direction justification:
 
-![justification](/assets/2012/05/justification.jpg)
+![justification]({{ "/assets/2012/05/justification.jpg" | absolute_url }})
 
 As you can see, my beam isn’t centered on the plane set as Reference: Center (Elevation), but keep only its _geometrical_ Top, Center and Bottom as references.
 
 As a workaround, I found out that References Planes can overwrite these geometrical References, but only if they are place outside the geometry. So, I draw two reference planes, I set their References respectively as Top and Bottom, and I place then evenly around the Center Axis of my beam.
 
-![referencesplanes](/assets/2012/05/referencesplanes.jpg)
+![referencesplanes]({{ "/assets/2012/05/referencesplanes.jpg" | absolute_url }})
 
 Then, I load it back in project, and test again the z-direction justification of my beam:
 
-![justification2](/assets/2012/05/justification2.jpg)
+![justification2]({{ "/assets/2012/05/justification2.jpg" | absolute_url }})
 
 OK, it works!
 

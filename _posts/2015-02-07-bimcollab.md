@@ -24,28 +24,28 @@ A typical workflow with such a tool can be organized like this:
 
 Check you model in your favorite project review software. Clash detection and annotations come here in handy for creating a complete coordination report, as here in Tekla BIMSight
 
-![ScreenClip-1](/assets/2015/02/ScreenClip-1.jpg)
+![ScreenClip-1]({{ "/assets/2015/02/ScreenClip-1.jpg" | absolute_url }})
 
 One you have a nice list of issue in your design, save them as a BCF file and upload them on BIMCollab.
 
-![01-Project-Review](/assets/2015/02/01-Project-Review.png)
+![01-Project-Review]({{ "/assets/2015/02/01-Project-Review.png" | absolute_url }})
 
 Here, you can sort and dispatch these issues directly in BIMCollab. You can group them by area, assigned them to a specific user, add a priority and a deadline for solving it.
 
-![ScreenClip](/assets/2015/02/ScreenClip.jpg)
+![ScreenClip]({{ "/assets/2015/02/ScreenClip.jpg" | absolute_url }})
 
 Once every issues are assigned, someone responsible for solving can see them directly in his modeling software.
 
-![02-Modeling](/assets/2015/02/02-Modeling.png)
+![02-Modeling]({{ "/assets/2015/02/02-Modeling.png" | absolute_url }})
 I have only try the Revit plug-in, but I believe the others will look more or less the same. After connecting the plug-in to your BIMCollab account, it display every issue listed in the project, directly in the Revit interface.
 
-![ScreenClip-2](/assets/2015/02/ScreenClip-2.jpg)
+![ScreenClip-2]({{ "/assets/2015/02/ScreenClip-2.jpg" | absolute_url }})
 
 You can filter these issues to display only these assigned to you, and work to solve them. Once done, you can change the status of the issue directly within Revit, add a nice picture of your work and a comment for the record.
 
-![ScreenClip-4](/assets/2015/02/ScreenClip-4.jpg)
+![ScreenClip-4]({{ "/assets/2015/02/ScreenClip-4.jpg" | absolute_url }})
 
 This validation is send back to BIMCollab for everyone to see. A nice addition is the dashboard displaying the number of issue opened and solved, which create a overview of the work done and to be done.
 
-![ScreenClip-5](/assets/2015/02/ScreenClip-5.jpg)
+![ScreenClip-5]({{ "/assets/2015/02/ScreenClip-5.jpg" | absolute_url }})
 I see this platform as a great solution for a quantified online issue management workflow, like what we can find in software development for some time now, and a new step toward a more collaborative building design.

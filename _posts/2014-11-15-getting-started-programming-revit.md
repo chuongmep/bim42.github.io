@@ -22,15 +22,15 @@ This week, we will see how to create a macro and retrieve elements draw in our m
 
 Let's start it by clicking on the Macro Manager on the Manage tab:
 
-![01-MacroEditor](/assets/2014/11/01-MacroEditor.jpg)
+![01-MacroEditor]({{ "/assets/2014/11/01-MacroEditor.jpg" | absolute_url }})
 
 This is where you create new function in Revit, called "Macro". These macro are lines of code, conveniently stored in a "Module".
 
-![02-MacroEditor-Interface](/assets/2014/11/02-MacroEditor-Interface.jpg)
+![02-MacroEditor-Interface]({{ "/assets/2014/11/02-MacroEditor-Interface.jpg" | absolute_url }})
 
 After creating a new module, and creating a new macro in this module, Revit starts its embedded code editor, called SharpDevelop. This is where we are going to spend most of our time developing Revit macro.
 
-![03-SharpDevelop](/assets/2014/11/03-SharpDevelop.jpg)
+![03-SharpDevelop]({{ "/assets/2014/11/03-SharpDevelop.jpg" | absolute_url }})
 
 We can see the name of our macro just after "public void" and before a pair of brackets. We will write all our code between these brackets.
 
@@ -74,11 +74,11 @@ Before going any further, we try this. Back in Revit, we draw four walls and run
 
 If we pass our cursor on "myDocument", a hint appear, showing us than "myDocument" is actually a document.
 
-![05-ocument-Hint](/assets/2014/11/05-ocument-Hint.jpg)
+![05-ocument-Hint]({{ "/assets/2014/11/05-ocument-Hint.jpg" | absolute_url }})
 
 Let's hit "F11" a few time to pass the last line. Stop right after it. If we pass our cursor on "myWalls" and click on the small "+" in the highlight, we see the list of walls retrieved by our filter. Everything works as expected, so far.
 
-![06-Walls-Hint](/assets/2014/11/06-Walls-Hint.jpg)
+![06-Walls-Hint]({{ "/assets/2014/11/06-Walls-Hint.jpg" | absolute_url }})
 
 We hit "F5" to run in a single stroke the remaining line of code and go back into SharpDevelop.
 

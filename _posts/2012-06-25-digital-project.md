@@ -19,13 +19,13 @@ As Franck Gehry was designing is extraordinary museum in Bilbao, he had to use t
 
 Since CATIA is not made to design building, Franck Gehry had to use his own plugins, and created Gehry Technology to develop them. Integrated into CATIA, these plugins became the BIM software known as Digital Project.
 
-![gtcdigitalprojectsplash](/assets/2012/06/gtcdigitalprojectsplash.jpg)
+![gtcdigitalprojectsplash]({{ "/assets/2012/06/gtcdigitalprojectsplash.jpg" | absolute_url }})
 
 Just to make things clear, Digital Project is _the_ most powerful BIM software. When you start using it, you understand why the design of some of the most iconic buildings of our times involved Digital Project.
 
 It is able to deal with very complex shapes, _really_ large and complex models, and came with all the utilities embedded into CATIA, from PowerCopies to optimization algorithms. Buildings models can be exported in IFC, and it provides a complete set of tool to design basic architectural elements. It is not limited to buildings, but works also great with infrastructures like this footbridge:
 
-![screenshot](/assets/2012/06/screenshot.jpg)
+![screenshot]({{ "/assets/2012/06/screenshot.jpg" | absolute_url }})
 
 Automation can be easily done with .Net code, and open limitless possibilities for designing complex shapes and repetitive patterns.
 

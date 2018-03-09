@@ -17,4 +17,4 @@ BIM 42 is growing, and it has its very own name by now.
 
 You can now follow me at [bim42.com](https://www.bim42.com "bim42").
 
-![inbimwetrust](/assets/2012/07/inbimwetrust.jpg)
+![inbimwetrust]({{ "/assets/2012/07/inbimwetrust.jpg" | absolute_url }})

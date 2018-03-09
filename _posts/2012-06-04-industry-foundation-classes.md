@@ -19,7 +19,7 @@ tags:
 ---
 Anyone who has worked in the BIM field may have eared something about Industry Foundation Classes. Yes, you know, this little logo... 
 
-![ifclogo](/assets/2012/06/ifclogo.jpg)
+![ifclogo]({{ "/assets/2012/06/ifclogo.jpg" | absolute_url }})
 
 Generally, it appears when we try to export a building model from proprietary software to another. The IFC exchange format allows us to convert files and, with some luck, open them the other software.
 

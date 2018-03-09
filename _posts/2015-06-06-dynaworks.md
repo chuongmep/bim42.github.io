@@ -26,15 +26,15 @@ Along with the package, some examples are provided. The NavisClashesElementUpdat
 
 To use DynaWorks, you first have to create a Navisworks file, and prepare your clash detections. Here, I create a basic detection between Walls (First Clash Item, in Blue) and HVAC elements (Second Clash Item, in Red), and load the resulting NWF file in my Dynaworks definition.
 
-![TestSelection](/assets/2015/06/TestSelection.jpg)
+![TestSelection]({{ "/assets/2015/06/TestSelection.jpg" | absolute_url }})
 
 Basically, this definition retrieves every clash result in every clash test, selects one side of the clash detection, gets the involved element, extracts its id and uses it to update the Comment parameter in Revit.
 
-![process](/assets/2015/06/process.jpg)
+![process]({{ "/assets/2015/06/process.jpg" | absolute_url }})
 
 Simple, but the result is pretty impressive. Instead of painfully getting element Ids in the Navisworks report, DynaWorks retrieves them for us, and updates elements in Revit accordingly. When applying a filter in the Revit view, we get this:
 
-![result](/assets/2015/06/result.jpg)
+![result]({{ "/assets/2015/06/result.jpg" | absolute_url }})
 
 With some tweak to this initial definition, I was able to implement some king of dynamic clash detection, with a live update of the Navisworks file as we update the Revit model, but converting an entire Revit model in NWC is way too slow to implement this solution in a production environment. Please feel free to [use it](https://bitbucket.org/simonmoreau/clashdetective/downloads/NavisClashesElementUpdateDynamicaly.dyn) if you want to try it by yourself.
 

@@ -26,21 +26,21 @@ Here is a little demonstration of concept for designing intricate geometry and c
 
 Designing a specific part with the basic tool from the Revit family (extrusion and boolean operations) is not very difficult, and I quickly got the design of one of the arc over the door.
 
-![basic3dshape](/assets/2012/11/basic3dshape.jpg)
+![basic3dshape]({{ "/assets/2012/11/basic3dshape.jpg" | absolute_url }})
 
 Anyway, some limitations already appears. Due to the void form created as boolean, it is impossible to merge the arc with the superior part, and a join remains.
 
-![boolean](/assets/2012/11/boolean.jpg)
+![boolean]({{ "/assets/2012/11/boolean.jpg" | absolute_url }})
 
 Furthermore, there is at least one piece I was not able to draw properly a double-curved arch.
 
 I insert my Revit family in a new project, and add a few dimensions and a section line.
 
-![elevation](/assets/2012/11/elevation.jpg)
+![elevation]({{ "/assets/2012/11/elevation.jpg" | absolute_url }})
 
 A main problem appears when I am trying to extract a section of the curved part. If I get the section, I cannot add dimensions to it.
 
-![section2](/assets/2012/11/section2.jpg)
+![section2]({{ "/assets/2012/11/section2.jpg" | absolute_url }})
 
 Finally, there is no embedded tool for extracting the position of the center of gravity. This information can probably be extracted using another software or the API, but we are seeking for a process developed entirely with Revit.
 

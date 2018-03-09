@@ -17,7 +17,7 @@ tags:
 ---
 I recently coordinate a complex ceiling with the concrete structure and mechanical equipment. This ceiling is composed of flat panels, with no particular pattern or general repetitive shape. These panels are modeled as a set of surfaces in Rhinoceros 3D.
 
-![générale](/assets/2014/08/générale.png)
+![générale]({{ "/assets/2014/08/générale.png" | absolute_url }})
 
 For those who are not familiar with it, Rhinoceros is a 3D modeling software solution, develop by Mc Neel Associate, and broadly used by architects in the early stage of the design. It comes in handy for design complex free-form shapes.
 
@@ -31,20 +31,20 @@ With a layer pipeline, I extract every panel of the ceiling surface. I then appl
 
 For example, since every panel must be planar, I display every non-flat panel in red, and correct them as soon I see them in Rhino.
 
-![greenGH](/assets/2014/08/greenGH.jpg)
+![greenGH]({{ "/assets/2014/08/greenGH.jpg" | absolute_url }})
 
-![greenR3](/assets/2014/08/greenR3.jpg)
+![greenR3]({{ "/assets/2014/08/greenR3.jpg" | absolute_url }})
 
 I also display the naked edge curves of every panel to identify junction problems between two supposedly contiguous panels.
 
-![redGH](/assets/2014/08/redGH.jpg)
+![redGH]({{ "/assets/2014/08/redGH.jpg" | absolute_url }})
 
-![redR3](/assets/2014/08/redR3.jpg)
+![redR3]({{ "/assets/2014/08/redR3.jpg" | absolute_url }})
 
 Each ceiling panel needs also some space behind it for its supporting structure. The volume of this structure is modeled in real time using the offset command in Grasshopper. Another constrain is the angle of the panel vertices. After fighting with some angle measure in Grasshopper, I ending up by just counting the number of edge of a panel, displaying it as a color scheme in Rhino, and assuming that the smallest edges count was the better.
 
-![colorsGH](/assets/2014/08/colorsGH.jpg)
+![colorsGH]({{ "/assets/2014/08/colorsGH.jpg" | absolute_url }})
 
-![colors3D](/assets/2014/08/colors3D.jpg)
+![colors3D]({{ "/assets/2014/08/colors3D.jpg" | absolute_url }})
 
 Once these construction constrains are displayed in real time in the Rhino viewport, I can easily modified the ceiling surface while making sure it still constructible. These modifications are conducted here with basic surface modeling tools, and entirely by hand. But once you have immediate feedback on what you are doing thanks to Grasshopper, editing these surfaces become almost fun.

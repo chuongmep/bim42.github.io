@@ -23,7 +23,7 @@ This source code is now the built-in IFC engine for Revit, and I was told that t
 
 When the user clicks on Export to IFC, an even is triggered, and Revit catch this even to run the IFC exporter. This also works when the event is triggered by the Document.Export() used through the Revit API by a third-party add-on, like the one I built last week. This IFC Export engine will then read the Revit model, convert every element into its IFC counterpart, and write the resulting IFC file.
 
-![exportPrinciple](/assets/2017/09/exportPrinciple.jpg)
+![exportPrinciple]({{ "/assets/2017/09/exportPrinciple.jpg" | absolute_url }})
 How Revit export to IFC
 
 This IFC engine comes with a special UI, the IFCExporterUI, designed to tap into the capabilities of the open-source IFC exporter to give you more control over the configuration of your export.
@@ -39,7 +39,7 @@ At the time of writing, the landscape looks like this:
 
 If you want to know witch version you have, you can check it by opening an IFC file with a text editor and look among the first lines, the FILE_NAME one:
 
-![IFC-version](/assets/2017/09/IFC-version.jpg)
+![IFC-version]({{ "/assets/2017/09/IFC-version.jpg" | absolute_url }})
 Check you exporter version
 
 I didn't dig into the subtleties of the different flavors of each Revit version, like R2 and other exotic name, you get the picture.
@@ -79,7 +79,7 @@ You get the Id of the active view and use the UpdateOptions method of IFCExportC
 
 The IFC Export add-on also provide an IFCExportConfigurationsMap class to get the built-in configurations and store the new ones.
 
-![exportsetup](/assets/2017/09/exportsetup.jpg)
+![exportsetup]({{ "/assets/2017/09/exportsetup.jpg" | absolute_url }})
 The existing export setups
 
 But where find these IFCExportConfiguration and IFCExportConfigurationMaps classes ?
@@ -88,7 +88,7 @@ If the IFC for Revit add-on is installed, you can find these classes in the IFCE
 
 Running this on a Revit equipped with the add-on will work nicely, but it will fail miserably when the user doesn’t have the IFC for Revit add-on. In this case, the add-on can't find the IFCExporterUIOverride.dll containing the IFCExportConfiguration class:
 
-![fail](/assets/2017/09/fail.jpg)
+![fail]({{ "/assets/2017/09/fail.jpg" | absolute_url }})
 
 Using IFCExportConfiguration without the add-on
 
@@ -116,7 +116,7 @@ I also handle the vanilla Revit 2016 in my IFCExportConfigurationCustom class, w
 
 By managing the different possibilities of the Revit installation, I am able to make use of the best configuration available to export IFC. I am also able to use directly the Setup configuration interface available in the custom UI, and retrieve these user-defined export setups in my add-on.
 
-![editSetup](/assets/2017/09/editSetup.gif)
+![editSetup]({{ "/assets/2017/09/editSetup.gif" | absolute_url }})
 
 If you plan on building your own Revit add-on to upload IFC models to a cloud service, don't hesitate to look into the source code behind this article, the solution can be found on [bimsync4Revit](https://github.com/simonmoreau/bimsync4Revit).
 

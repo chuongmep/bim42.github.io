@@ -34,15 +34,15 @@ A final word, try these examples on small models before running them in producti
 
 Rooms and Spaces are essential for everything from room names and numbers to energy modeling. And before anything else, you have to retrieve any architectural room and convert it into an MEP Space to be able to work with it. You can of course use the "Place Spaces automatically" function of Revit, but this does not match exactly every architectural room with a MEP Space, and lack some basic functionalities. To improve on this, you can use a few Dynamo nodes to create a MEP Space for every room in a given linked file.
 
-![figure1](/assets/2016/04/figure1.jpg)
+![figure1]({{ "/assets/2016/04/figure1.jpg" | absolute_url }})
 
 The procedure focus on retrieving every room from the architectural linked file (with the Element.GetFromLinkedFile) and using these rooms to create a matching space using the Space.ByPoint node from DynamoMEP.
 
-![figure2](/assets/2016/04/figure2.jpg)
+![figure2]({{ "/assets/2016/04/figure2.jpg" | absolute_url }})
 
 You can also retrieve parameters values from these architectural rooms and paste them into your newly created Spaces using the Element.SetParameterByName node.
 
-![figure3](/assets/2016/04/figure3.jpg)
+![figure3]({{ "/assets/2016/04/figure3.jpg" | absolute_url }})
 
 As rooms evolve in the architectural model, you will be able to recreate on the fly the corresponding Spaces. However, be careful not to duplicate an existing space.
 
@@ -56,7 +56,7 @@ For the mechanical engineer, this provide the ability to add programmatic values
 
 We start with a path to an Excel file, and use it to feed the Excel.ReadFromFile node. This node read line by line the content of our Excel file. We remove the first line, the header, with the List.RestOfItems node, and use the Transpose node to convert our list of Excel rows into a list of Excel columns. By now, each list in our Dynamo node represent an Excel column.
 
-![figure4](/assets/2016/04/figure4.jpg)
+![figure4]({{ "/assets/2016/04/figure4.jpg" | absolute_url }})
 
 With the List.GetItemAtIndex, we retrieve a list containing all MEP Space number and a list with their associate airflow.
 
@@ -64,11 +64,11 @@ To feed the “Specified Supply Airflow” parameter of our modeled Spaces, we n
 
 The node List.FirstItemOf give us the row number of each of these Space Number in our Excel file. For each of our existing MEP Space in our model, we can now get the corresponding row in Excel.
 
-![figure5](/assets/2016/04/figure5.jpg)
+![figure5]({{ "/assets/2016/04/figure5.jpg" | absolute_url }})
 
 Using the List.GetItemAtIndex, we get the required Airflow value in the Excel Spreadsheet. Before pasting them into Revit with the Element.SetParameterByName, we convert them to cubic foot, since Dynamo always work in Feet.
 
-![figure6](/assets/2016/04/figure6.jpg)
+![figure6]({{ "/assets/2016/04/figure6.jpg" | absolute_url }})
 
 The entire business of retrieving values from Excel spreadsheet is generally only a matter of list, and nodes like Transpose, GetItemAtInded and FirstIndexOf are quite useful here. If this example only cover the specified airflow, it can of course be extended to every kind of data sorted in an Excel spreadsheet.
 

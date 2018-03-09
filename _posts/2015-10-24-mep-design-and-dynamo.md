@@ -25,21 +25,21 @@ To improve on this function, I start exploring space creation in Dynamo. There i
 
 So I create my own Dynamo package, called DynamoMEP. This package contains a set of nodes for creating and working with Room and MEP Space.
 
-![features](/assets/2015/10/features.jpg)
+![features]({{ "/assets/2015/10/features.jpg" | absolute_url }})
 
 I use these custom nodes to create an MEP Space from every Room in a linked architectural project.
 
 I start by retrieving linked rooms using SteamNodes, a great package from Juline Benoit. Using Element.GetFromLinkedFile gives me a list of rooms in the linked file (The Get Document came from the Grimshaw package).
 
-![RetriveRooms](/assets/2015/10/RetriveRooms.jpg)
+![RetriveRooms]({{ "/assets/2015/10/RetriveRooms.jpg" | absolute_url }})
 
 Using the Room.FromElement node, I convert these linked elements into Rooms. I can now get their location points, and create my MEP spaces based on these points.
 
-![CreateSpaces](/assets/2015/10/CreateSpaces.jpg)
+![CreateSpaces]({{ "/assets/2015/10/CreateSpaces.jpg" | absolute_url }})
 
 Still using the DynamoMEP package, I can retrieve basic properties from these spaces, like their origin point, their associated level and their bounding elements.
 
-![GetSpaceProperties](/assets/2015/10/GetSpaceProperties.jpg)
+![GetSpaceProperties]({{ "/assets/2015/10/GetSpaceProperties.jpg" | absolute_url }})
 
 My model has now a matching MEP Space for every room created in the linked model. Since we are using Dynamo, we can have a much more sophisticated workflow, and retrieve specific properties in the rooms to have them added to the newly created space.
 

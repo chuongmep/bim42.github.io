@@ -18,11 +18,11 @@ tags:
 ---
 A pretty powerful function in Revit is the ability to manage worksets in a linked Revit file.
 
-![LinkedFiles](/assets/2014/06/LinkedFiles.jpg)
+![LinkedFiles]({{ "/assets/2014/06/LinkedFiles.jpg" | absolute_url }})
 
 In the Manage Link window, selecting the Manage Worksets open a list of user worksets in the linked file. These linked worksets can be opened or closed through the same interface.
 
-![LinkedWorkset](/assets/2014/06/LinkedWorkset.jpg)
+![LinkedWorkset]({{ "/assets/2014/06/LinkedWorkset.jpg" | absolute_url }})
 
 It is a project setting, so elements in the closed workset will be hidden everywhere in our host model.
 
@@ -30,9 +30,9 @@ It allow us to load only the part of the linked project that really interesting 
 
 The most common application of this feature is to hide linked grids and references planes.When new workset are created, every level and grid goes into the "Shared Levels and Grids" default workset. This behavior should not be changed, since it allows us to easily hide linked levels and grids in our current model.
 
-![Before closing linked "Shared Levels and Grids" workset](/assets/2014/06/before.jpg)
+![Before closing linked "Shared Levels and Grids" workset]({{ "/assets/2014/06/before.jpg" | absolute_url }})
 
-![After closing linked "Shared Levels and Grids" workset](/assets/2014/06/After.PNG)
+![After closing linked "Shared Levels and Grids" workset]({{ "/assets/2014/06/After.PNG" | absolute_url }})
 
 I also place reference planes and scope boxes in this workset, to be able to hide them as easily. But selecting all reference planes and scope boxes of a model to place them in the correct workset can a tedious business. To change this, I wrote a few line of code for set up every Scope Box, and Reference plane to the correct workset :
 

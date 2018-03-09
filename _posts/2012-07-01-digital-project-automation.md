@@ -16,7 +16,7 @@ tags:
   - Automation
   - Digital Project
 ---
-![vbnet](/assets/2012/07/vbnet.jpg)
+![vbnet]({{ "/assets/2012/07/vbnet.jpg" | absolute_url }})
 
 Aside from a lot of features, CATIA, and so Digital Project, comes with powerful automation tools.
 
