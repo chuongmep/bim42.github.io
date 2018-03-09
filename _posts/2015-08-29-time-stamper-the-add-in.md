@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=929
 permalink: /2015/08/time-stamper-the-add-in/
 categories:
   - Coordination
-image: /assets/2015/08/ColorsByModel.png
+image: /assets/2015/08/ColorsByModel.jpg
 tags:
   - BIM Manager
   - Coordination
@@ -35,15 +35,15 @@ The code itself is pretty easy, but there is a lot of applications.
 
 First, it becomes easy to create filters on linked model. These filters allow us to display each linked model with a different color.
 
-![ColorsByModel](/assets/2015/08/ColorsByModel.png)
+![ColorsByModel](/assets/2015/08/ColorsByModel.jpg)
 
 But it also enables us to tag the origin of every element, like we can see in the following screenshot.
 
-![IdentifyElements](/assets/2015/08/IdentifyElements.png)
+![IdentifyElements](/assets/2015/08/IdentifyElements.jpg)
 
 You can create a linked models schedule, with date and version.
 
-![LinkedFilesSchedule](/assets/2015/08/LinkedFilesSchedule.png)
+![LinkedFilesSchedule](/assets/2015/08/LinkedFilesSchedule.jpg)
 
 To help you create filters and tags with these parameters, you will find [here](https://www.bim42.com/wp-content/uploads/2015/08/BIM42_SharedParameters.txt) the shared parameter text file. Please also note that the application uses a list of categories to create the four shared parameters. You will find this list [here](https://www.bim42.com/wp-content/uploads/2015/08/categories.txt).
 

@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=732
 permalink: /2014/12/creating-a-report-from-a-bcf-file/
 categories:
   - Coordination
-image: /assets/2014/12/ScreenClip.png
+image: /assets/2014/12/ScreenClip.jpg
 tags:
   - .NET
   - BIM Manager
@@ -24,7 +24,7 @@ The BCF format is currently supported by Tekla Structures, Tekla BIMsight, Archi
 
 I am using Tekla BIMSight on a daily basis as an advanced BIM notebook. Every problem is addressed during the daily coordination meeting, and documented using notes in Tekla BIMSight.
 
-![ScreenClip](/assets/2014/12/ScreenClip.png)
+![ScreenClip](/assets/2014/12/ScreenClip.jpg)
 
 But for documentation purpose, I also need a paper-based report, quite old fashioned, but handy when you have to work with people without Tekla BIMSight.
 
@@ -32,7 +32,7 @@ I created a little standalone program for converting BCF files to Word reports. 
 
 A BCF file is actually a compressed file, where every note is stored in its own folder, named with the note GUID:
 
-![ScreenClip-1](/assets/2014/12/ScreenClip-1.png)
+![ScreenClip-1](/assets/2014/12/ScreenClip-1.jpg)
 
 In each of these folder, there is three files:
 

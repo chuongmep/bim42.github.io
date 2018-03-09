@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=847
 permalink: /2015/05/improve-clash-detection/
 categories:
   - Coordination
-image: /assets/2015/05/clearHeadroom.png
+image: /assets/2015/05/clearHeadroom.jpg
 tags:
   - Autodesk
   - Coordination
@@ -25,13 +25,13 @@ Solving one problem at a time is of course the solution for an efficient clash 
 
 Checking required headroom is a good example of a useful clash detection. The idea here is to highlight every room where a structural framing end up below the vertical clearance set up by the architect. This example suppose than the "Limit Offset" property of the room is set to the required value by the architect.
 
-![clearHeadroom](/assets/2015/05/clearHeadroom.png)
+![clearHeadroom](/assets/2015/05/clearHeadroom.jpg)
 
 The entire process is based on running a clash test between selections sets created in Navisworks.
 
 My fist selection contains some of the room of the architectural model. The first condition retrieve every room, and the second remove technical area from our selection.
 
-![SelectionSets](/assets/2015/05/SelectionSets.png)
+![SelectionSets](/assets/2015/05/SelectionSets.jpg)
 
 The second selection set retrieve structural framing from the structural model.
 
@@ -45,6 +45,6 @@ I export the report in HTML (Tabular) to be able to import it in Excel afterward
 
 With some PivotTables, I get the Revit ID of every problematic room, and paste them in the Select By ID function of Revit. I can add a specific value on these rooms and highlight them with a Color Scheme in Revit.
 
-![RoomHightLight](/assets/2015/05/RoomHightLight.png)
+![RoomHightLight](/assets/2015/05/RoomHightLight.jpg)
 
 From thousands of meaningless clash point to a nice plan highlighting problematic area for a specific problem, I finally find some improvement over my traditional clash detection process. I'm still working on it, and hope to share my progress, as long as there is any to share.

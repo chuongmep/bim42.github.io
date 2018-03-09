@@ -9,7 +9,7 @@ permalink: /2014/07/revit-tracking/
 categories:
   - Revit
   - Uncategorized
-image: /assets/2014/07/Image.png
+image: /assets/2014/07/Image.jpg
 tags:
   - .NET
   - BIM Manager
@@ -77,6 +77,6 @@ Here, the LogReccord class allow us to store the information retrieved in the ev
 
 It is now possible to quickly create very precise graph displaying opening time of different model, compare them and show their evolution along time
 
-![Image](/assets/2014/07/Image.png)
+![Image](/assets/2014/07/Image.jpg)
 
 The next step should be to send these information to a shared SQL database in order to retrive data from every users. We should have this way a company-wide tool for keeping track of Revit performance.

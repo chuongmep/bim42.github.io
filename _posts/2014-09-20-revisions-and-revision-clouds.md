@@ -21,11 +21,11 @@ The workflow promoted here is to add a handful of revision clouds wherever they 
 
 In Revit, every revision cloud is associated with a revision, as we can see in the Properties panel of our revision cloud.
 
-![RevisionCloudProperties](/assets/2014/09/RevisionCloudProperties.png)
+![RevisionCloudProperties](/assets/2014/09/RevisionCloudProperties.jpg)
 
 These revisions are managed in the Sheets Issues/Revisions panel, and can be seen as issues to be addressed.
 
-![RevisionsPanel](/assets/2014/09/RevisionsPanel.png)
+![RevisionsPanel](/assets/2014/09/RevisionsPanel.jpg)
 
 These revisions are displayed in a revision schedule, a table added to the title block family during its creation.
 
@@ -39,7 +39,7 @@ I can also add a revision cloud directly on the view, its revision will also app
 
 These clouds can be hidden on a per revision basis, in the Revision panel. This command will hide every revision cloud associated with the selected revision. However, it does not remove this revision from the revision schedule.
 
-![HideCloud](/assets/2014/09/HideCloud.png)
+![HideCloud](/assets/2014/09/HideCloud.jpg)
 
 ![HideRevsion11](/assets/2014/09/HideRevsion11.png)
 
@@ -47,7 +47,7 @@ This allows us to keep some kind of history for every issue addressed and resolv
 
 The Per project/Per sheet numbering option allows us to define if we manage our revision numbers for the whole project, or on a per sheet basis.
 
-![Numbering](/assets/2014/09/Numbering.png)
+![Numbering](/assets/2014/09/Numbering.jpg)
 
 Look at the revision numbers on the following example to understand how this work:
 

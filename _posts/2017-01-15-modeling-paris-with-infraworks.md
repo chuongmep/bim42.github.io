@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=1113
 permalink: /2017/01/modeling-paris-with-infraworks/
 categories:
   - General BIM
-image: /assets/2017/01/ModelBuilder.png
+image: /assets/2017/01/ModelBuilder.jpg
 tags:
   - Civil 3D
   - Civil Engineering
@@ -19,7 +19,7 @@ It has been a while since I wanted to play with InfraWorks, but I never had the 
 
 When starting with InfraWorks, the easiest way to create a model is to use the Model Builder. This feature use data from OpenStreetMap and Microsoft Bing Maps to create fully featured models, with terrain, roads, orthophoto, and so on.
 
-![ModelBuilder](/assets/2017/01/ModelBuilder.png)
+![ModelBuilder](/assets/2017/01/ModelBuilder.jpg)
 The Model Builder interface
 
 Using this Model Builder, I quickly create a complete 3D model of Paris.
@@ -37,14 +37,14 @@ Their "EMPRISE BATIE PARIS" dataset contains every building in Paris in Shapefil
 
 To do so, it is necessary to map the information contained in the dataset to the property of building objects in InfraWorks.
 
-![DataSourceConfiguration](/assets/2017/01/DataSourceConfiguration.png)
+![DataSourceConfiguration](/assets/2017/01/DataSourceConfiguration.jpg)
 Configuring the dataset
 
 Some properties, like Roof Height, can be easily filled with data coming from the APUR dataset. However, this dataset is far richer than that, and I wanted some specific information, like construction date, to be imported in InfraWorks as custom properties.
 
 To create these custom fields, I have to edit the "im.schema.json" file located in "%USERPROFILE%\Documents\Autodesk InfraWorks Models\Autodesk 360\modelNumber\modelName.files\unver. Using the indications found [here](https://knowledge.autodesk.com/support/infraworks-360/learn-explore/caas/simplecontent/content/custom-properties-infraworks-360.html), I edit this JSON file to create five custom fields for the "Building" class in InfraWorks: Construction Date, Refurbishment Date, IHG (Hight-Rise Building), Roof Height Standard Deviation and Roof Type. These fields are then mapped to the corresponding values found in the APUR dataset, using the Table tab in "Data Source Configuration".
 
-![DataSourceConfigurationTable](/assets/2017/01/DataSourceConfigurationTable.png)
+![DataSourceConfigurationTable](/assets/2017/01/DataSourceConfigurationTable.jpg)
 Mapping custom fields
 
 Since my data contains the type of roofing material of the building, I create a rule to match the appearance of the building with my dataset. These Roof Type values are integers defining a roofing material for every building.
@@ -78,14 +78,14 @@ Typical Parisian roofs
 
 Using the style palette, I create my own zinc material from a picture and a few settings.
 
-![ZincMaterial](/assets/2017/01/ZincMaterial.png)
+![ZincMaterial](/assets/2017/01/ZincMaterial.jpg)
 Creating a custom "Zinc" material
 
 My final experiment was to use the Feature Themes tab to display construction dates for Parisian buildings.
 
 This function allows me to add a color scheme to my buildings to display values, here the construction date.
 
-![FeatureThemes](/assets/2017/01/FeatureThemes.png)
+![FeatureThemes](/assets/2017/01/FeatureThemes.jpg)
 
 The result in quite compelling, every building is displayed in color per its construction date.
 

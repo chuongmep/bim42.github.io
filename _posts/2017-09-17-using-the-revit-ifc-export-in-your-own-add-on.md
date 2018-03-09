@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=1234
 permalink: /2017/09/using-the-revit-ifc-export-in-your-own-add-on/
 categories:
   - IFC
-image: /assets/2017/09/exportPrinciple.png
+image: /assets/2017/09/exportPrinciple.jpg
 tags:
   - .NET
   - IFC
@@ -23,7 +23,7 @@ This source code is now the built-in IFC engine for Revit, and I was told that t
 
 When the user clicks on Export to IFC, an even is triggered, and Revit catch this even to run the IFC exporter. This also works when the event is triggered by the Document.Export() used through the Revit API by a third-party add-on, like the one I built last week. This IFC Export engine will then read the Revit model, convert every element into its IFC counterpart, and write the resulting IFC file.
 
-![exportPrinciple](/assets/2017/09/exportPrinciple.png)
+![exportPrinciple](/assets/2017/09/exportPrinciple.jpg)
 How Revit export to IFC
 
 This IFC engine comes with a special UI, the IFCExporterUI, designed to tap into the capabilities of the open-source IFC exporter to give you more control over the configuration of your export.
@@ -39,7 +39,7 @@ At the time of writing, the landscape looks like this:
 
 If you want to know witch version you have, you can check it by opening an IFC file with a text editor and look among the first lines, the FILE_NAME one:
 
-![IFC-version](/assets/2017/09/IFC-version.png)
+![IFC-version](/assets/2017/09/IFC-version.jpg)
 Check you exporter version
 
 I didn't dig into the subtleties of the different flavors of each Revit version, like R2 and other exotic name, you get the picture.
@@ -79,7 +79,7 @@ You get the Id of the active view and use the UpdateOptions method of IFCExportC
 
 The IFC Export add-on also provide an IFCExportConfigurationsMap class to get the built-in configurations and store the new ones.
 
-![exportsetup](/assets/2017/09/exportsetup.png)
+![exportsetup](/assets/2017/09/exportsetup.jpg)
 The existing export setups
 
 But where find these IFCExportConfiguration and IFCExportConfigurationMaps classes ?

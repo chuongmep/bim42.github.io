@@ -21,7 +21,7 @@ These panel were modeled in Rhino 3D, so I decide to extract their boundary curv
 
 I build here an example by extruding a surface between two symmetrical splines.
 
-![1_BaseSurface](/assets/2014/10/1_BaseSurface.png)
+![1_BaseSurface](/assets/2014/10/1_BaseSurface.jpg)
 
 This construction method create a single curved surface, which is the easiest to cover with plane panel, here with the “Quad Panels” component from the LunchBox plugin.
 

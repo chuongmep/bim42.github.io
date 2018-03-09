@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=710
 permalink: /2014/11/getting-started-programming-revit-part-2/
 categories:
   - Revit
-image: /assets/2014/11/ScreenClip-22.png
+image: /assets/2014/11/ScreenClip-22.jpg
 tags:
   - .NET
   - Automation
@@ -67,13 +67,13 @@ To try this, we need to draw some walls, and load in our model a Wall. We hit F8
 
 But if we run it, we get the following error:
 
-![ScreenClip](/assets/2014/11/ScreenClip.png)
+![ScreenClip](/assets/2014/11/ScreenClip.jpg)
 
 Its means that we are trying to modifying something inside our model without starting what is called a transaction.
 
 Every modification of our model has to be done within a transaction, a group of modifications that can be discarded. If you remember the list of actions we can cancel in the Revit user interface, each one of them is a transaction that had to be started be before modifying anything in our model.
 
-![ScreenClip-1](/assets/2014/11/ScreenClip-1.png)
+![ScreenClip-1](/assets/2014/11/ScreenClip-1.jpg)
 
 So let create a transaction:
 
@@ -124,4 +124,4 @@ Now our transaction is created, we can start it, execute our code, and commit th
 
 We run it and every walls are tagged.
 
-![ScreenClip-22](/assets/2014/11/ScreenClip-22.png)
+![ScreenClip-22](/assets/2014/11/ScreenClip-22.jpg)

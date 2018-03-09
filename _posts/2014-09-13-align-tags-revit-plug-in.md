@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=571
 permalink: /2014/09/align-tags-revit-plug-in/
 categories:
   - Revit
-image: /assets/2014/09/DistributeAfter.png
+image: /assets/2014/09/DistributeAfter.jpg
 tags:
   - .NET
   - BIM Manager
@@ -24,7 +24,7 @@ To align two or more of tags, just select them, and select one of the direction 
 
 For example, with the Align Left command :
 
-![AlignBefore](/assets/2014/09/AlignBefore.png) ![AlignAfter](/assets/2014/09/AlignAfter.png)
+![AlignBefore](/assets/2014/09/AlignBefore.jpg) ![AlignAfter](/assets/2014/09/AlignAfter.png)
 
 Every selected tag is aligned with the left one. The alignment reference point is the tag base point (where their reference planes intersect).
 
@@ -32,7 +32,7 @@ To distribute three or more tags along an axis, select them and specify the dir
 
 For example, with the Distribute Vertically command:
 
-![DistributeBefore](/assets/2014/09/DistributeBefore.png) ![DistributeAfter](/assets/2014/09/DistributeAfter.png)
+![DistributeBefore](/assets/2014/09/DistributeBefore.jpg) ![DistributeAfter](/assets/2014/09/DistributeAfter.jpg)
 
 Vertical space between selected tags is distributed evenly among them. The position reference point is still the tag base point.
 

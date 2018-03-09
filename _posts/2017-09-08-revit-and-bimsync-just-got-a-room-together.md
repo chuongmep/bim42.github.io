@@ -33,7 +33,7 @@ The Setup drop down allows you to select the IFC Export configuration. You can c
 
 After the first export, bimsync project and model ids will be saved in your Revit model, so you won't have to select them again the next time. If you are curious, you can find these ids in your Project Information:
 
-![projectInfo](/assets/2017/09/projectInfo.png)
+![projectInfo](/assets/2017/09/projectInfo.jpg)
 Your Project information
 
 To create your own IFC Export setup, you can use the usual IFC Setup Dialog. Select File -> Export -> IFC to open the "Export IFC" dialog. Select "Modify Setup" to open the "Modify Setup" windows, and click on "New" to create a new configuration. You can now set everything in this new configuration before selecting OK to close the "Modify Setup" windows. You can now safely close the IFC Export dialog without exporting anything, and open again the Upload dialog in the bimsync plugin. Your new configuration will be available in the drop-down.
@@ -45,7 +45,7 @@ You can also go directly to your bimsync account from Revit by clicking on "Prof
 
 Under the hood, the system is quite simple. The plugin will look at your selected IFC Setup and use them to export your Revit model in an IFC file. This file is then zipped and uploaded to bimsync.
 
-![Process](/assets/2017/09/Process.png)
+![Process](/assets/2017/09/Process.jpg)
 
 Between exporting to IFC, compressing the file and uploading it to bimsync, the entire process can be rather long. Depending on your model size, computing power and Internet bandwidth, the Upload command can take a few minutes to complete. I am thinking on using the Autodesk service Forge to convert Revit model to IFC online, freeing your computer from this tedious task.
 

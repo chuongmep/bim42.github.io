@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=1061
 permalink: /2016/07/room-finishes-update-2/
 categories:
   - Revit
-image: /assets/2016/07/join.png
+image: /assets/2016/07/join.jpg
 tags:
   - Plugin
   - Revit
@@ -18,7 +18,7 @@ I keep on working on my Revit add-ins. After Align, it is now Room Finishes who 
 
 First of all, Room Finishes now support all kind of units. You just have to type your dimension with its unit symbol, and the plugin will convert it in a floor height or a skirting board height. The plug-in will now also use the default length unit of your model.
 
-![interface](/assets/2016/07/interface.png)
+![interface](/assets/2016/07/interface.jpg)
 
 I have to thanks [Brian Winterscheidt](https://www.linkedin.com/in/brianwinterscheidt) for this update, who was kind enough to contribute to my plug-in on Github, and point me to the Revit unit conversion system available in the API.
 
@@ -26,7 +26,7 @@ The other major update is the ability to join skirting board with their supporti
 
 Just select "Join geometry" before running the command, and every skirting board will be joined with its host wall.
 
-![join](/assets/2016/07/join.png)
+![join](/assets/2016/07/join.jpg)
 
 This feature could generate its fair share of warning, so I have remove every related error message. You will now be able to run this command without having to dismiss every warning that come up.
 

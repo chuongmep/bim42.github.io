@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=810
 permalink: /2015/04/ifcpropertyset/
 categories:
   - IFC
-image: /assets/2015/04/IFCExportProperties.png
+image: /assets/2015/04/IFCExportProperties.jpg
 tags:
   - IFC
   - Open BIM
@@ -20,7 +20,7 @@ Since the IFC exporter for Revit is accessible as open source code, [a new expor
 
 The default option only export common IFC properties, but you can also export the entire set of Revit properties, or just selected ones, through user-defined property sets.
 
-![IFCExportProperties](/assets/2015/04/IFCExportProperties.png)
+![IFCExportProperties](/assets/2015/04/IFCExportProperties.jpg)
 
 To create one, I download [one of the example](http://sourceforge.net/p/ifcexporter/wiki/Notes%20on%20support%20for%20Extended%20FMHandOverView/) coming along with the source code of the new exporter.
 
@@ -42,10 +42,10 @@ We add this file in the IFC Export configuration, and export our IFC file. We ca
 
 Before :
 
-![Before](/assets/2015/04/Before.png)
+![Before](/assets/2015/04/Before.jpg)
 
 After :
 
-![After](/assets/2015/04/After.png)
+![After](/assets/2015/04/After.jpg)
 
 If IFC export and import is still not powerfull enought in many software solutions to enable geometrical modifications directly in the IFC file, there are plenty of opportunities to add metadata to the element, directly in IFC.

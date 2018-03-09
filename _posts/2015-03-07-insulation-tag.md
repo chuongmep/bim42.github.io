@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=792
 permalink: /2015/03/insulation-tag/
 categories:
   - Revit
-image: /assets/2015/03/Annotations.png
+image: /assets/2015/03/Annotations.jpg
 tags:
   - .NET
   - Automation
@@ -21,11 +21,11 @@ In a technical drawing, we generally represent insulation only on small parts of
 
 To adapt this method on Revit, I create two detail components, representing the insulation on a round and on a rectangular duct.
 
-![Annotations](/assets/2015/03/Annotations.png)
+![Annotations](/assets/2015/03/Annotations.jpg)
 
 This components have a "Width" instance parameter for setting their width regarding the thickness of the insulation.
 
-![Width](/assets/2015/03/Width.png)
+![Width](/assets/2015/03/Width.jpg)
 
 I also create a small piece of code to instantiate these components on selected ducts and pipes.
 

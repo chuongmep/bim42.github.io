@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=515
 permalink: /2014/08/drawings-in-navisworks/
 categories:
   - Coordination
-image: /assets/2014/08/example.png
+image: /assets/2014/08/example.jpg
 tags:
   - Autodesk
   - BIM Manager
@@ -23,24 +23,24 @@ I recently discover a solution for combining the best of these two applications 
 
 To showcase this function, I create a new Navisworks model and append a Revit model in it.
 
-![example](/assets/2014/08/example.png)
+![example](/assets/2014/08/example.jpg)
 
 To be able to see sheets produced within the Revit model, I export them in a new DWF file from Revit:
 
-![dwf](/assets/2014/08/dwf.png)
+![dwf](/assets/2014/08/dwf.jpg)
 
 This DWF file can be loaded into Navisworks through the Broject Browser menu. Just hit the Import Sheets & Models button to load the content of this DWF file. We can see its sheets displayed in the Project Browser window:
 
-![projectBrowser](/assets/2014/08/projectBrowser.png)
+![projectBrowser](/assets/2014/08/projectBrowser.jpg)
 
 After a right-click -> Prepare All Sheets/Models, we can display these drawings in Navisworks just like in Design Review:
 
-![sheets](/assets/2014/08/sheets.png)
+![sheets](/assets/2014/08/sheets.jpg)
 
 Every element in these views is selectable, and its properties are displayed as well.
 
 An interesting feature is the ability to select an element and display it in another view. Just select the element, right-click and hit Find Item in Other Sheets and Models. Navisworks display every views were we can find the selected element.
 
-![find](/assets/2014/08/find.png)
+![find](/assets/2014/08/find.jpg)
 
 This feature present in Revit was missing in Design Review and allows for a quick review of elements from the drawings to the 3D view. On the other hand, some markup tools present in Design Review are not available in Navisworks, and we don't have the ability to import these markup back in Revit.

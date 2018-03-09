@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=171
 permalink: /2012/07/navisworks-optimization/
 categories:
   - Coordination
-image: /assets/2012/07/image.png
+image: /assets/2012/07/image.jpg
 tags:
   - Autodesk
   - Automation
@@ -17,7 +17,7 @@ tags:
 ---
 Since I have been using Navisworks for clash detection, I have tried to find out how to optimize my results, in order to avoid sorting manually thousands of irrelevant clashes, and export a proper final report.
 
-![image](/assets/2012/07/image.png)
+![image](/assets/2012/07/image.jpg)
 
 First of all, the model itself seems to be the most important part for clash detection. Modeling all openings in structural elements in order to avoid sorting all meaningless intersections with MEP features is a major prerequisite. But there are many other best practices for modeling in order to make the clash reviewing process easier, such as defining precise modeling rules for structural elements connections (joints between beams and columns, or intersections between columns and slabs).
 

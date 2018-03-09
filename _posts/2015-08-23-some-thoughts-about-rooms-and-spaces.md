@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=918
 permalink: /2015/08/some-thoughts-about-rooms-and-spaces/
 categories:
   - Revit
-image: /assets/2015/08/ThreeRooms.png
+image: /assets/2015/08/ThreeRooms.jpg
 tags:
   - .NET
   - Automation
@@ -32,17 +32,17 @@ While working on it, I also found some interesting property : [Computation Heigh
 
 Let's create three rooms on a given level:
 
-![ThreeRooms](/assets/2015/08/ThreeRooms.png)
+![ThreeRooms](/assets/2015/08/ThreeRooms.jpg)
 
-But if we add some variation on the floor level, the room disappears with the following warning:![Warning](/assets/2015/08/Warning.png)
+But if we add some variation on the floor level, the room disappears with the following warning:![Warning](/assets/2015/08/Warning.jpg)
 
-![ARoomDisappear-](/assets/2015/08/ARoomDisappear-.png)
+![ARoomDisappear-](/assets/2015/08/ARoomDisappear-.jpg)
 
 By default, these rooms are calculated at the level elevation. Every wall at "0 m" above the level will be used as a room boundary.
 
 The Computation Height properties allows us to change the elevation where we calculate the room. In our example, we change the Computation Height of the Level 1 to 1 meter, and the room fit nicely between its boundaries.
 
-![ComputationHeight](/assets/2015/08/ComputationHeight.png)
+![ComputationHeight](/assets/2015/08/ComputationHeight.jpg)
 
 Of course, this is also true for Spaces.
 

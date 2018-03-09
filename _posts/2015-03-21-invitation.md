@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=799
 permalink: /2015/03/invitation/
 categories:
   - General BIM
-image: /assets/2015/03/bimworld.png
+image: /assets/2015/03/bimworld.jpg
 tags:
   - General
   - News
@@ -17,7 +17,7 @@ Today, it will not be a blog post but an invitation.
 
 Next week, the [BIM World event](http://www.bim-w.com/?lang=en) will be held in Paris. This event will gather a large panel of architects, engineers, contractors, manufacturers, and software developers, all interested in Building Information Modeling and related technologies.
 
-![bimworld](/assets/2015/03/bimworld.png)
+![bimworld](/assets/2015/03/bimworld.jpg)
 
 I will be representing my company [Ingérop](http://www.ingerop.com/) here, and will present our last projects using BIM.
 

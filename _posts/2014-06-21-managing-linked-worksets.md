@@ -18,11 +18,11 @@ tags:
 ---
 A pretty powerful function in Revit is the ability to manage worksets in a linked Revit file.
 
-![LinkedFiles](/assets/2014/06/LinkedFiles.png)
+![LinkedFiles](/assets/2014/06/LinkedFiles.jpg)
 
 In the Manage Link window, selecting the Manage Worksets open a list of user worksets in the linked file. These linked worksets can be opened or closed through the same interface.
 
-![LinkedWorkset](/assets/2014/06/LinkedWorkset.png)
+![LinkedWorkset](/assets/2014/06/LinkedWorkset.jpg)
 
 It is a project setting, so elements in the closed workset will be hidden everywhere in our host model.
 
@@ -30,7 +30,7 @@ It allow us to load only the part of the linked project that really interesting 
 
 The most common application of this feature is to hide linked grids and references planes.When new workset are created, every level and grid goes into the "Shared Levels and Grids" default workset. This behavior should not be changed, since it allows us to easily hide linked levels and grids in our current model.
 
-![Before closing linked "Shared Levels and Grids" workset](/assets/2014/06/before.png)
+![Before closing linked "Shared Levels and Grids" workset](/assets/2014/06/before.jpg)
 
 ![After closing linked "Shared Levels and Grids" workset](/assets/2014/06/After.PNG)
 

@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=1055
 permalink: /2016/06/align-tag-update/
 categories:
   - Revit
-image: /assets/2016/06/icons1.png
+image: /assets/2016/06/icons1.jpg
 tags:
   - .NET
   - Documentation
@@ -21,11 +21,11 @@ However, there is more in this than a simple version update, and this new releas
 
 The main change reside in the alignment method. In the previous version of Align Tag, I was using the center point of a given tag as a reference to align tag (either left or right). To improve on the alignment of tags of various sizes, I now use the bounding box of the tag.
 
-![AlignSolution](/assets/2016/06/AlignSolution.png)
+![AlignSolution](/assets/2016/06/AlignSolution.jpg)
 
 Tags will now properly align themselves along their right or left side, regardless of their size or origin point.
 
-![Align](/assets/2016/06/Align.png)
+![Align](/assets/2016/06/Align.jpg)
 
 However, if you want something similar to the older version, you can use the new Align Center and Align Midlle commands, which will use the center of the tag as a reference.
 
@@ -43,7 +43,7 @@ Aligned tags are now kept selected after running the command so you can align th
 
 Your Align commands are also one click closer to you! The interface have been artfully arranged in a new tab to keep every icon directly accessible in the ribbon.
 
-![icons1](/assets/2016/06/icons1.png)
+![icons1](/assets/2016/06/icons1.jpg)
 
 Under the hood, I have rewrote a large part of the code to support more types of annotation elements, and I hope to be able to use this new framework for more complex manipulations, including in the Arrange Tags function.
 

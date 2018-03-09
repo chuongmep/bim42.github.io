@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=339
 permalink: /2014/03/my-version-of-the-living-cube/
 categories:
   - Uncategorized
-image: /assets/2014/03/finam.png
+image: /assets/2014/03/finam.jpg
 tags:
   - Furniture
   - General
@@ -25,14 +25,14 @@ I'm not using Tekla Structure on a regular basis, but I know its power for produ
 
 I started with a first sketch on Tekla Structure, trying to find the best proportion for my needs. I came up with a first version, and used 3D Max to render it.
 
-![finam](/assets/2014/03/finam.png)
+![finam](/assets/2014/03/finam.jpg)
 
 I then used the Tekla model to produce general drawings of my project, and submitted this first version to someone who is used to design and build pieces of wooden furniture to get some feedback. His very precious advice helped me to draw a second, more constructible version of my loft bed. These drawings are also available [here](http://www.scribd.com/doc/210099736/Living-Cube-Drawings).
 
-![version](/assets/2014/03/version.png)
+![version](/assets/2014/03/version.jpg)
 
 I was then able to create a detailed shop drawing for each part of my assembly.
 
-![part](/assets/2014/03/part.png)
+![part](/assets/2014/03/part.jpg)
 
 Sadly, this project is still in its development phase, mostly due to my lack of knowledge in furniture design and joinery work. I hope to be able to restart it someday, when I will have time to draw some new version.

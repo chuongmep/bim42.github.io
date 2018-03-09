@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=328
 permalink: /2014/02/modellingskirtingboards/
 categories:
   - Revit
-image: /assets/2014/02/workaround.png
+image: /assets/2014/02/workaround.jpg
 tags:
   - .NET
   - Automation
@@ -23,15 +23,15 @@ So I came up with this idea for modeling details quickly and created a small app
 
 My application uses a user-created wall type on a specific height to model a skirting board all around a previously selected room.
 
-![interface](/assets/2014/02/interface.png)
+![interface](/assets/2014/02/interface.jpg)
 
 The development of this application was pretty straightforward, except when it came to placing correctly the skirting board baseline against the finish face of the main wall. Indeed, Revit API does not allow to set up a wall baseline before creating it. And changing it after the creating doesn’t move the wall, only the baseline.
 
-![wallbaseline](/assets/2014/02/wallbaseline.png)
+![wallbaseline](/assets/2014/02/wallbaseline.jpg)
 
 My workaround was to create a larger wall, change its baseline, then change its wall type to the skirting board type, and finally, change back the wall baseline.
 
-![workaround](/assets/2014/02/workaround.png)
+![workaround](/assets/2014/02/workaround.jpg)
 
 This method allows me to place the skirting board baseline along the finish face of the wall.
 

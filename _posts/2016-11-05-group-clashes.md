@@ -25,29 +25,29 @@ To do so, I tend to focus on specific subjects. Instead of running useless clash
 
 For example, instead of running a clash detection between an architectural and a structural model, and end up with thousand of clashes, we can run a clash detection only between architectural rooms and structural concrete beams. As we know which type of element are involved in the clash detection, we can understand what a "clash" mean. Here, it means that there is a beam below the ceiling height. Furthermore, we can also group these clashes by room, and immediately highlight the problematic area where we can focus our efforts.
 
-![clearHeadroom](/assets/2016/11/clearHeadroom.png)
+![clearHeadroom](/assets/2016/11/clearHeadroom.jpg)
 
 To help in this regards, I created a plugin for Navisworks Manage to automatically group these clashes. After a beta version published last year, I finally take the time to properly develop a full-fledged application and publish it on the [Autodesk App Store](https://apps.autodesk.com/NAVIS/en/Detail/Index?id=7544208847822212204&appLang=en&os=Win64). It is a fully redesigned Group Clashes Navisworks plugin, with a new interface that integrates seamlessly into the Navisworks interface.
 
-![Interface](/assets/2016/11/Interface.png)
+![Interface](/assets/2016/11/Interface.jpg)
 
 The grouping rules have also been redesigned, and now include the following methods :
 
   * Group by Level: This rule will group clashes according to their nearest level, and name the group after the level.
 
-![ByLevels](/assets/2016/11/ByLevels.png)
+![ByLevels](/assets/2016/11/ByLevels.jpg)
 
   * Group by Grid Intersection: This rule will group clashes according to their nearest grid intersection, and name the group after these grids.
 
-![ByGrids](/assets/2016/11/ByGrids.png)
+![ByGrids](/assets/2016/11/ByGrids.jpg)
 
   * Group by Selection A: This rule will group all clashes belonging to an element of the selection A, and name the group after this element. As an example, if a room in Selection A has many clashes with beams in Selection B, all these clashes will be grouped.
 
-![BySelectionA](/assets/2016/11/BySelectionA.png)
+![BySelectionA](/assets/2016/11/BySelectionA.jpg)
 
   * Group by Selection B: This rule will group all clashes belonging to an element of the selection B, and name the group after this element.
 
-![BySelectionB](/assets/2016/11/BySelectionB.png)
+![BySelectionB](/assets/2016/11/BySelectionB.jpg)
 
   * Group by Assigned To, Approved By, and Status: These three rules will use various properties of the clash to group them. As an example, you can use this rule to group all clashes assigned to you.
 

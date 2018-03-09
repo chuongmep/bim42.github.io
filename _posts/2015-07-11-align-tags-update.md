@@ -19,7 +19,7 @@ This is a long overdue update, but I finally take the time to prepare my Align T
 
 Along with the annual clean up and bug fixes, I also add a new feature called Arrange Tags. This will automatically arrange all tags with a leader all around the active view.
 
-![Buttons](/assets/2015/07/Buttons.png)
+![Buttons](/assets/2015/07/Buttons.jpg)
 
 This function is slightly different from the previous ones since you don't need to select any tags before running it. Just click on Arrange Tags, and every tag will be neatly placed on each side of the active view.
 

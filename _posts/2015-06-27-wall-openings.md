@@ -21,7 +21,7 @@ His point of view give me some ideas to feed my current obsession, wall openings
 
 Modeling opening where ducts, pipes, cable trays or conduits intersect walls or floors can be a tedious business. Anyway, it always relies on the same underlining principle: we place a face-base opening family on the wall at the intersection with the duct, the pipe or the cable tray. We also respect a few rules of thumb when placing these openings to keep a structurally sound wall.
 
-![Concrete-Formwork](/assets/2015/06/Concrete-Formwork.png)
+![Concrete-Formwork](/assets/2015/06/Concrete-Formwork.jpg)
 
 There is a handful of plug-in for placing them automatically but they all need a fair amount of work to replace them properly afterward, so I decide to stick to a more "manual" solution.
 

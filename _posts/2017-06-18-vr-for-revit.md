@@ -25,7 +25,7 @@ Installing Prospect is pretty straightforward, and you end up with the Prospect 
 
 I run the Revit plugin, select a 3D view, and export my model to the Prospect application.
 
-![export](/assets/2017/06/export.png)
+![export](/assets/2017/06/export.jpg)
 Export your Revit model to a VR scene
 
 The resulting virtual visit is saved in my Prospect library. I can also save this scene as an external file, to open it in another computer running Prospect and a Vive headset.

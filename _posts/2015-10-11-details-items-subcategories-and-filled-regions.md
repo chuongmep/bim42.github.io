@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=972
 permalink: /2015/10/details-items-subcategories-and-filled-regions/
 categories:
   - Revit
-image: /assets/2015/10/03-OverideByMaterial.png
+image: /assets/2015/10/03-OverideByMaterial.jpg
 tags:
   - .NET
   - Automation
@@ -23,13 +23,13 @@ To implement these requirements, I define a set of subcategories for these detai
 
 These detail items already contain various subcategories, and I can control the color, weight and patterns of their lines in Visibility Overrides. Here Medium Lines are blue and Light Lines are red. Interesting, but not quite enough.
 
-![02-LineTypeOverrride](/assets/2015/10/02-LineTypeOverrride.png)
+![02-LineTypeOverrride](/assets/2015/10/02-LineTypeOverrride.jpg)
 
 I open these two detail items, go to Object Styles, and create four new subcategories: Wood, Glass, Sealant and Steel. I also remove the previous subcategories. I can now select all lines in the detail item, and assign corresponding subcategories to these lines. Once these detail items are loaded back in the model, the four Detail Item subcategories are visible in the Graphic Overrides window.
 
 I can now control line color, weight and pattern directly in my model, in the Graphic Overrides window for the current view, or in the Object Styles window to apply these colors to every details in the model.
 
-![03-OverideByMaterial](/assets/2015/10/03-OverideByMaterial.png)
+![03-OverideByMaterial](/assets/2015/10/03-OverideByMaterial.jpg)
 
 Sadly, there is no corresponding feature for managing filled region. As you can see in the picture above, the wood pattern is still in black.
 
@@ -37,11 +37,11 @@ In order to change pattern or color in a filled region, you have to edit the det
 
 To fix this, and be able to edit directly filled region style for every detail item, I create a small piece of code. This function matches model filled region types with those inside the detail item. So if I have a filled region in my Detail Item family with the same name than one in my Revit project, this filled region will take the properties of the one in the project.
 
-![matchProperties](/assets/2015/10/matchProperties.png)
+![matchProperties](/assets/2015/10/matchProperties.jpg)
 
 After running this function, I end up with nicely matching wood pattern, all set up directly in my Revit project.
 
-![04-OverideFilledRegion](/assets/2015/10/04-OverideFilledRegion.png)
+![04-OverideFilledRegion](/assets/2015/10/04-OverideFilledRegion.jpg)
 
 As usual, you will find the source code for this solution below, I hope it will help you solve your filled region issues.
 

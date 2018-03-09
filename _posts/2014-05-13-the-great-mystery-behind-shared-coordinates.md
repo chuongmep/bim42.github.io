@@ -23,7 +23,7 @@ Every Revit model contains two systems of coordinates, represented by two points
 
 Drawing something too far from this origin will display the following message:
 
-![error](/assets/2014/05/error.png)
+![error](/assets/2014/05/error.jpg)
 
 * A Survey Point (the triangle): This is the position of our project in the real world (yes, you know, the one outside Revit ... ).
 
@@ -31,7 +31,7 @@ The angle between these two systems of coordinate is called "Angle to True North
 
 There is three possibilities for automatically positioning a Revit linked model into another:
 
-![positionning](/assets/2014/05/positionning.png)
+![positionning](/assets/2014/05/positionning.jpg)
 
 The Center to Center option inserts the "center" of our linked model on the "center" of the host model. The center is not very well defined, and correspond more or less to the general geometric center of the elements drawn in the model. For example (the linked model is in blue):
 

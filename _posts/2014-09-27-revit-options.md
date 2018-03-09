@@ -23,7 +23,7 @@ To do so, let's model a small house, nothing fancy, but enough to have some poss
 
 Now let say I want to _try_ something. I put try on emphasis, because, it's really what Design Options are useful for. I open the Design Options editor, and create a new option set, which is automatically populated with a first option. I rename it like this:
 
-![CreateOptions](/assets/2014/09/CreateOptions.png)
+![CreateOptions](/assets/2014/09/CreateOptions.jpg)
 
 I select this new option as the current one using the Option drop-down menu on the bottom of the Revit screen, and start modeling a duct layout.
 
@@ -31,7 +31,7 @@ I select this new option as the current one using the Option drop-down menu on t
 
 To create a second routing option, I duplicate the first one, and rename it. Every elements of my First Routing Option are now duplicated in my Secondary Routing Option.
 
-![CreateSecondOption](/assets/2014/09/CreateSecondOption.png)
+![CreateSecondOption](/assets/2014/09/CreateSecondOption.jpg)
 
 I edit these duplicated elements to create a second duct layout. In the process, I realize than families edited during option editing are actually edited for the whole model, so this kind of change will impact every other option.
 
@@ -41,7 +41,7 @@ I have now two different duct layouts in my model, which are displayed when I se
 
 But these options can also be displayed on a per view basis. As you created some design options, a new panel appear on your Visibility Override, allowing you to select an option to be displayed.
 
-![OverrideOptions](/assets/2014/09/OverrideOptions.png)
+![OverrideOptions](/assets/2014/09/OverrideOptions.jpg)
 
 This can be used to display our two options on the same sheets:
 

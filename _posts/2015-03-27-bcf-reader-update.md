@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=804
 permalink: /2015/03/bcf-reader-update/
 categories:
   - Coordination
-image: /assets/2015/03/BCFReader-Logo_small.png
+image: /assets/2015/03/BCFReader-Logo_small.jpg
 tags:
   - .NET
   - BIM Manager
@@ -17,7 +17,7 @@ tags:
 ---
 This post is long overdue, but I finally take the time to update my BCF Reader.
 
-![BCFReader-Logo_small](/assets/2015/03/BCFReader-Logo_small.png)
+![BCFReader-Logo_small](/assets/2015/03/BCFReader-Logo_small.jpg)
 
 First of all, I have tested it on a larger set of BCF files, and I hope these will make it more robust, especially if something is wrong within the BCF file. My experiences include files coming from [Tekla BIMSight](http://www.teklabimsight.com/), [Matteo Cominetti's BCFier](http://matteocominetti.com/bcfier/) and [Kubus BIM Collab.](http://www.bimcollab.com/en/default.aspx)
 

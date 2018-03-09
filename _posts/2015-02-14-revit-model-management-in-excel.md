@@ -22,7 +22,7 @@ Here come the BIM Manager, who spend two tedious days sorting these views and ca
 
 To help address this problem, I create a small piece of code for exporting every view, template and filter to three CSV files.
 
-![csvFiles](/assets/2015/02/csvFiles.png)
+![csvFiles](/assets/2015/02/csvFiles.jpg)
 
 To read these files in a meaningful way, I use PowerPivot in Excel to create some kind of a small database, with two relationships :
 
@@ -30,9 +30,9 @@ To read these files in a meaningful way, I use PowerPivot in Excel to create som
 
 We can then create tables displaying how filters and views are used, like how many filters are used, or where the templates are applied.
 
-![filtersUsage](/assets/2015/02/filtersUsage.png)
+![filtersUsage](/assets/2015/02/filtersUsage.jpg)
 
-![templateUsage](/assets/2015/02/templateUsage.png)
+![templateUsage](/assets/2015/02/templateUsage.jpg)
 
 Once loaded in the PowerPivot tool, this data allows us to quickly identify which template or filter are used and delete the unwanted ones.
 
