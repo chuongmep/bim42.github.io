@@ -5,10 +5,10 @@ date: 2017-06-18T18:22:32+00:00
 author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=1191
-permalink: /assets/2017/06/Teleport.gif
+permalink: /2017/06/vr-for-revit/
 categories:
   - Visualization
-image: /assets/bim42_header.jpg
+image: /assets/2017/06/Teleport.gif
 tags:
   - Revit
   - Visualization
