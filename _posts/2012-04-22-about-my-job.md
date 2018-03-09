@@ -8,6 +8,7 @@ guid: https://bim42.wordpress.com/?p=14
 permalink: /2012/04/about-my-job/
 categories:
   - General BIM
+image: /assets/bim42_header.jpg
 tags:
   - BIM Manager
   - General

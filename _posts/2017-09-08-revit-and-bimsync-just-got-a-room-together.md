@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1217
 permalink: /2017/09/revit-and-bimsync-just-got-a-room-together/
 categories:
   - Revit
+image: /assets/2017/09/authorize.gif
 tags:
   - bimsync
   - IFC

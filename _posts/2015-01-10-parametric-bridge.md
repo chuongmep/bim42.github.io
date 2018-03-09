@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=753
 permalink: /2015/01/parametric-bridge/
 categories:
   - Grasshopper
+image: /assets/2015/01/FinalModel.png
 tags:
   - BIM Manager
   - Civil Engineering

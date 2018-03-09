@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=192
 permalink: /2012/08/from-grasshopper-to-tekla/
 categories:
   - Grasshopper
+image: /assets/bim42_header.jpg
 tags:
   - Geometry Gym
   - Grasshopper

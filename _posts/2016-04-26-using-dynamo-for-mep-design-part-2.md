@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1010
 permalink: /2016/04/using-dynamo-for-mep-design-part-2/
 categories:
   - Dynamo
+image: /assets/2016/04/figure7.png
 tags:
   - Autodesk
   - Automation

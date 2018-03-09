@@ -9,6 +9,7 @@ permalink: /2012/06/digital-project/
 categories:
   - Digital Project
   - General BIM
+image: /assets/bim42_header.jpg
 tags:
   - Digital Project
   - General

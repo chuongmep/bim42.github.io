@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=918
 permalink: /2015/08/some-thoughts-about-rooms-and-spaces/
 categories:
   - Revit
+image: /assets/2015/08/ThreeRooms.png
 tags:
   - .NET
   - Automation

@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=783
 permalink: /2015/02/rooms-to-bcf/
 categories:
   - Coordination
+image: /assets/2015/02/Evernote-Snapshot-20150228-174718.png
 tags:
   - .NET
   - Coordination

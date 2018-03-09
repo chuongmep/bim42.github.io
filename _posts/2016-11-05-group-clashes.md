@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1078
 permalink: /2016/11/group-clashes/
 categories:
   - Coordination
+image: /assets/2016/11/neuro.gif
 tags:
   - Autodesk
   - Automation

@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=467
 permalink: /2014/07/revit-phases/
 categories:
   - Revit
+image: /assets/bim42_header.jpg
 tags:
   - Autodesk
   - BIM Manager

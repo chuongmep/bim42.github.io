@@ -14,6 +14,7 @@ publicize_twitter_user:
   - bim42
 categories:
   - Uncategorized
+image: /assets/bim42_header.jpg
 tags:
   - Furniture
   - General

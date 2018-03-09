@@ -8,6 +8,7 @@ guid: http://bim42.wordpress.com/?p=18
 permalink: /2012/04/but-what-the-hell-bim-is/
 categories:
   - General BIM
+image: /assets/bim42_header.jpg
 tags:
   - General
   - Pretty Pictures

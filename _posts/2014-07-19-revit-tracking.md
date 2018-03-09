@@ -9,6 +9,7 @@ permalink: /2014/07/revit-tracking/
 categories:
   - Revit
   - Uncategorized
+image: /assets/2014/07/Image.png
 tags:
   - .NET
   - BIM Manager

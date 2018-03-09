@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=527
 permalink: /2014/08/room-finishes-update/
 categories:
   - Revit
+image: /assets/2014/08/RoomHeight.png
 tags:
   - .NET
   - Automation

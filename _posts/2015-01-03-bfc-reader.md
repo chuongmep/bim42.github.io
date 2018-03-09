@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=745
 permalink: /2015/01/bfc-reader/
 categories:
   - Coordination
+image: /assets/2015/01/ScreenClip3.png
 tags:
   - .NET
   - BIM Manager

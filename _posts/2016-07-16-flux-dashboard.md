@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1067
 permalink: /2016/07/flux-dashboard/
 categories:
   - Dynamo
+image: /assets/2016/07/Image-3.png
 tags:
   - Dynamo
   - Flux

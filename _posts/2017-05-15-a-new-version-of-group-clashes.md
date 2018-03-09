@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1177
 permalink: /2017/05/a-new-version-of-group-clashes/
 categories:
   - Coordination
+image: /assets/2017/05/1.png
 tags:
   - Automation
   - Coordination

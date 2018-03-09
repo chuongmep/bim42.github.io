@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=854
 permalink: /2015/05/log-spatial-coordination/
 categories:
   - Coordination
+image: /assets/2015/05/visualization.jpg
 tags:
   - Autodesk
   - Coordination

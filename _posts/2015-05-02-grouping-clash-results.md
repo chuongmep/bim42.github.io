@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=834
 permalink: /2015/05/grouping-clash-results/
 categories:
   - Coordination
+image: /assets/2015/05/groupByGrid.png
 tags:
   - .NET
   - Autodesk

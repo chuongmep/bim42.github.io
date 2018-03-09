@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=847
 permalink: /2015/05/improve-clash-detection/
 categories:
   - Coordination
+image: /assets/2015/05/clearHeadroom.png
 tags:
   - Autodesk
   - Coordination

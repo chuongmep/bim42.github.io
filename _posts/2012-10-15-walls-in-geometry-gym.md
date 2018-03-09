@@ -9,6 +9,7 @@ permalink: /2012/10/walls-in-geometry-gym/
 categories:
   - Grasshopper
   - IFC
+image: /assets/bim42_header.jpg
 tags:
   - Geometry Gym
   - Grasshopper

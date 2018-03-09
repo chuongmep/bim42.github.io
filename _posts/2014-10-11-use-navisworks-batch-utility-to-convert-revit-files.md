@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=633
 permalink: /2014/10/use-navisworks-batch-utility-to-convert-revit-files/
 categories:
   - Coordination
+image: /assets/2014/10/Project.jpg
 tags:
   - Automation
   - BIM Manager

@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=391
 permalink: /2014/06/understanding-view-range/
 categories:
   - Revit
+image: /assets/bim42_header.jpg
 tags:
   - Autodesk
   - BIM Manager

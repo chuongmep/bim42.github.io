@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=792
 permalink: /2015/03/insulation-tag/
 categories:
   - Revit
+image: /assets/2015/03/Annotations.png
 tags:
   - .NET
   - Automation

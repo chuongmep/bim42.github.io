@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=684
 permalink: /2014/11/autocad-civil-3d-to-revit/
 categories:
   - Autodesk
+image: /assets/2014/11/ImportPoints.png
 tags:
   - Autodesk
   - Civil 3D

@@ -11,6 +11,7 @@ publicize_results:
 categories:
   - General BIM
   - IFC
+image: /assets/bim42_header.jpg
 tags:
   - General
   - IFC

@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1131
 permalink: /2017/02/modeling-a-neighborhood-with-flux-site-extractor-gis-data-and-revit/
 categories:
   - Revit
+image: /assets/2017/02/01-Flux-Site-EXtractor.png
 tags:
   - Flux
   - GIS

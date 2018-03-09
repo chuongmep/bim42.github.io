@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1113
 permalink: /2017/01/modeling-paris-with-infraworks/
 categories:
   - General BIM
+image: /assets/2017/01/ModelBuilder.png
 tags:
   - Civil 3D
   - Civil Engineering

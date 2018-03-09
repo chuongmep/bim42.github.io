@@ -10,6 +10,7 @@ tagazine-media:
   - 'a:7:{s:7:"primary";s:0:"";s:6:"images";a:1:{s:50:"http://bim42.files.wordpress.com/2012/07/vbnet.jpg";a:6:{s:8:"file_url";s:50:"http://bim42.files.wordpress.com/2012/07/vbnet.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"156";s:4:"type";s:5:"image";s:4:"area";s:5:"46800";s:9:"file_path";s:0:"";}}s:6:"videos";a:0:{}s:11:"image_count";s:1:"1";s:6:"author";s:8:"11101104";s:7:"blog_id";s:8:"35202242";s:9:"mod_stamp";s:19:"2012-07-01 20:35:58";}'
 categories:
   - Digital Project
+image: /assets/bim42_header.jpg
 tags:
   - .NET
   - Automation

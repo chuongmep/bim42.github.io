@@ -12,6 +12,7 @@ publicize_twitter_user:
   - bim42
 categories:
   - Revit
+image: /assets/bim42_header.jpg
 tags:
   - .NET
   - IFC

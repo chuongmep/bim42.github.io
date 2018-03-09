@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=534
 permalink: /2014/08/coordination-with-grasshopper/
 categories:
   - Grasshopper
+image: /assets/2014/08/générale.png
 tags:
   - Coordination
   - Grasshopper

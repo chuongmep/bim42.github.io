@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1091
 permalink: /2016/11/why-i-am-now-a-bimsync-fanboy/
 categories:
   - Coordination
+image: /assets/2016/11/OniPad2.png
 tags:
   - Coordination
   - IFC

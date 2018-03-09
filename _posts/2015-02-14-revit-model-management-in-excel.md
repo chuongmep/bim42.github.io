@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=773
 permalink: /2015/02/revit-model-management-in-excel/
 categories:
   - Revit
+image: /assets/2015/02/relationships.png
 tags:
   - .NET
   - BIM Manager

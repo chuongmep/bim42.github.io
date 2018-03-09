@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1040
 permalink: /2016/06/bridge-design/
 categories:
   - Revit
+image: /assets/2016/06/repeat.png
 tags:
   - Autodesk
   - Civil 3D

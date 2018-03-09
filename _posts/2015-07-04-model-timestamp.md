@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=891
 permalink: /2015/07/model-timestamp/
 categories:
   - Revit
+image: /assets/2015/07/process.jpg
 tags:
   - .NET
   - Coordination

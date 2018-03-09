@@ -16,6 +16,7 @@ publicize_linkedin_url:
   - 'http://www.linkedin.com/updates?discuss=&scope=45913264&stype=M&topic=5877773838359490560&type=U&a=z1uM'
 categories:
   - Revit
+image: /assets/bim42_header.jpg
 tags:
   - BIM Manager
   - Revit

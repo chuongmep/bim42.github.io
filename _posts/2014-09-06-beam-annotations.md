@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=556
 permalink: /2014/09/beam-annotations/
 categories:
   - Revit
+image: /assets/2014/09/11_ComplexeBeamsAnnotatedDetail.png
 tags:
   - Autodesk
   - BIM Manager

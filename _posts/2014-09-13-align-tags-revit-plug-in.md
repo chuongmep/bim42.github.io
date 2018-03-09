@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=571
 permalink: /2014/09/align-tags-revit-plug-in/
 categories:
   - Revit
+image: /assets/2014/09/DistributeAfter.png
 tags:
   - .NET
   - BIM Manager

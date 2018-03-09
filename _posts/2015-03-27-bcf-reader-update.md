@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=804
 permalink: /2015/03/bcf-reader-update/
 categories:
   - Coordination
+image: /assets/2015/03/BCFReader-Logo_small.png
 tags:
   - .NET
   - BIM Manager

@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1061
 permalink: /2016/07/room-finishes-update-2/
 categories:
   - Revit
+image: /assets/2016/07/join.png
 tags:
   - Plugin
   - Revit

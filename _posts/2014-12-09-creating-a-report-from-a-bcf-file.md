@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=732
 permalink: /2014/12/creating-a-report-from-a-bcf-file/
 categories:
   - Coordination
+image: /assets/2014/12/ScreenClip.png
 tags:
   - .NET
   - BIM Manager

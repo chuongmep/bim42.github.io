@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=799
 permalink: /2015/03/invitation/
 categories:
   - General BIM
+image: /assets/2015/03/bimworld.png
 tags:
   - General
   - News

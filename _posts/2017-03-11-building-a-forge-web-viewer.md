@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1148
 permalink: /2017/03/building-a-forge-web-viewer/
 categories:
   - Autodesk
+image: /assets/2017/03/The-Termite-Web-Viewer.png
 tags:
   - .NET
   - Autodesk

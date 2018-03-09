@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=546
 permalink: /2014/08/from-rhino-to-revit/
 categories:
   - Revit
+image: /assets/2014/08/Ceilling.png
 tags:
   - Autodesk
   - Grasshopper

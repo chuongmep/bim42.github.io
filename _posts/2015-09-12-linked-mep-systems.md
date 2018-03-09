@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=940
 permalink: /2015/09/linked-mep-systems/
 categories:
   - Revit
+image: /assets/2015/09/models.png
 tags:
   - MEP
   - Revit

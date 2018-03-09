@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=671
 permalink: /2014/10/project-review-with-bim-360-glue/
 categories:
   - Autodesk
+image: /assets/2014/10/GLUE.png
 tags:
   - Autodesk
   - Coordination

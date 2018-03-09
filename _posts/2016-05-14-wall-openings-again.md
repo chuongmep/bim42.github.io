@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1017
 permalink: /2016/05/wall-openings-again/
 categories:
   - Revit
+image: /assets/2016/05/3D-View.png
 tags:
   - BIM Manager
   - Coordination

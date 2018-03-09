@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=435
 permalink: /2014/06/managing-linked-worksets/
 categories:
   - Revit
+image: /assets/bim42_header.jpg
 tags:
   - .NET
   - Autodesk

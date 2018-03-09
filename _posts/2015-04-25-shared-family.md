@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=824
 permalink: /2015/04/shared-family/
 categories:
   - Revit
+image: /assets/2015/04/Visible.png
 tags:
   - .NET
   - Furniture

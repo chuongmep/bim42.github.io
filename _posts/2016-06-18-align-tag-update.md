@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1055
 permalink: /2016/06/align-tag-update/
 categories:
   - Revit
+image: /assets/2016/06/icons1.png
 tags:
   - .NET
   - Documentation

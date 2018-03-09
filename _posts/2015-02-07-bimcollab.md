@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=762
 permalink: /2015/02/bimcollab/
 categories:
   - General BIM
+image: /assets/2015/02/01-Project-Review.png
 tags:
   - Coordination
   - Open BIM

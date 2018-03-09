@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=603
 permalink: /2014/09/revit-options/
 categories:
   - Revit
+image: /assets/2014/09/FirstLayoutOption.jpg
 tags:
   - BIM Manager
   - Documentation

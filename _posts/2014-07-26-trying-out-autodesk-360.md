@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=505
 permalink: /2014/07/trying-out-autodesk-360/
 categories:
   - Autodesk
+image: /assets/2014/07/3DModelViewer.png
 tags:
   - Autodesk
   - BIM Manager

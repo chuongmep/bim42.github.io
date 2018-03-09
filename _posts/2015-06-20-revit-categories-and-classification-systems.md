@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=871
 permalink: /2015/06/revit-categories-and-classification-systems/
 categories:
   - Revit
+image: /assets/2015/06/Assemblycode.jpg
 tags:
   - .NET
   - Normalization

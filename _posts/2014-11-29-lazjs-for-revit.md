@@ -9,6 +9,7 @@ permalink: /2014/11/lazjs-for-revit/
 categories:
   - Revit
   - Uncategorized
+image: /assets/2014/11/ScreenClip-3.png
 tags:
   - Automation
   - Javascript

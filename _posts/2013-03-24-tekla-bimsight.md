@@ -12,6 +12,7 @@ publicize_reach:
   - 'a:2:{s:7:"twitter";a:1:{i:278469;i:65;}s:2:"wp";a:1:{i:0;i:4;}}'
 categories:
   - Coordination
+image: /assets/bim42_header.jpg
 tags:
   - BIM Manager
   - Coordination

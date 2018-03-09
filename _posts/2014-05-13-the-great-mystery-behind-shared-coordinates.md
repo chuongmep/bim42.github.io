@@ -14,6 +14,7 @@ publicize_twitter_url:
   - http://t.co/7BreB1ivzB
 categories:
   - Revit
+image: /assets/bim42_header.jpg
 tags:
   - BIM Manager
   - Revit

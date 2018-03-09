@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=818
 permalink: /2015/04/automatic-modeling/
 categories:
   - Revit
+image: /assets/2015/04/beam.png
 tags:
   - Automation
   - Coordination

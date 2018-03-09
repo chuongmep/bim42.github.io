@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=987
 permalink: /2015/10/mep-design-and-dynamo/
 categories:
   - Dynamo
+image: /assets/2015/10/features.jpg
 tags:
   - Automation
   - Dynamo

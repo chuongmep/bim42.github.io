@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=810
 permalink: /2015/04/ifcpropertyset/
 categories:
   - IFC
+image: /assets/2015/04/IFCExportProperties.png
 tags:
   - IFC
   - Open BIM

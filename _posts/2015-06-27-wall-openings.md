@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=882
 permalink: /2015/06/wall-openings/
 categories:
   - Revit
+image: /assets/2015/06/processComplete.jpg
 tags:
   - Automation
   - Civil Engineering

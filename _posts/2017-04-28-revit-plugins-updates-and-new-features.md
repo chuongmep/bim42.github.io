@@ -9,6 +9,7 @@ permalink: /2017/04/revit-plugins-updates-and-new-features/
 categories:
   - Revit
   - Uncategorized
+image: /assets/2017/04/AlignAirTerminal.gif
 tags:
   - .NET
   - Documentation

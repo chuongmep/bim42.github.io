@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=171
 permalink: /2012/07/navisworks-optimization/
 categories:
   - Coordination
+image: /assets/bim42_header.jpg
 tags:
   - Autodesk
   - Automation

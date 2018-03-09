@@ -36,12 +36,6 @@ social:
 
 google_site_verification: baah2F6uiIss8lnsCZ6v8iDGR7UV7fgECOUjcLlLwZU
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /assets/bim42_header.jpg
-
 # Build settings
 markdown: kramdown
 # theme: minima

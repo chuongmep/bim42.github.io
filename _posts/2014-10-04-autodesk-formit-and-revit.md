@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=617
 permalink: /2014/10/autodesk-formit-and-revit/
 categories:
   - Revit
+image: /assets/2014/10/ScreenClip.png
 tags:
   - Autodesk
   - Revit

@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=515
 permalink: /2014/08/drawings-in-navisworks/
 categories:
   - Coordination
+image: /assets/2014/08/example.png
 tags:
   - Autodesk
   - BIM Manager

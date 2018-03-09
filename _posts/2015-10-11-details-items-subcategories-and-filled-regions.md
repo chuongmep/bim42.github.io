@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=972
 permalink: /2015/10/details-items-subcategories-and-filled-regions/
 categories:
   - Revit
+image: /assets/2015/10/03-OverideByMaterial.png
 tags:
   - .NET
   - Automation

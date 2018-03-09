@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=657
 permalink: /2014/10/use-grasshopper-to-produce-fabrication-drawings/
 categories:
   - Grasshopper
+image: /assets/2014/10/7_FinalDrawing.jpg
 tags:
   - .NET
   - Automation

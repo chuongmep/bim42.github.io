@@ -11,6 +11,7 @@ tagazine-media:
 categories:
   - Coordination
   - Digital Project
+image: /assets/bim42_header.jpg
 tags:
   - .NET
   - BIM Manager

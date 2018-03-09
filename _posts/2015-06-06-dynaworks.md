@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=864
 permalink: /2015/06/dynaworks/
 categories:
   - Coordination
+image: /assets/2015/06/TestSelection.jpg
 tags:
   - Automation
   - Coordination

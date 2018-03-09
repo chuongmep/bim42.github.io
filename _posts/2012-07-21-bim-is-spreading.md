@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=165
 permalink: /2012/07/bim-is-spreading/
 categories:
   - Uncategorized
+image: /assets/bim42_header.jpg
 tags:
   - General
   - Pretty Pictures

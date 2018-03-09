@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=694
 permalink: /2014/11/getting-started-programming-revit/
 categories:
   - Revit
+image: /assets/2014/11/02-MacroEditor-Interface.png
 tags:
   - .NET
   - BIM Manager

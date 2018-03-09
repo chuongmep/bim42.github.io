@@ -9,6 +9,7 @@ permalink: /2012/09/dreaming-of-a-new-drawing-table/
 categories:
   - General BIM
   - Visualization
+image: /assets/bim42_header.jpg
 tags:
   - Dream
   - Pretty Pictures

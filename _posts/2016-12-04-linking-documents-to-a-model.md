@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1100
 permalink: /2016/12/linking-documents-to-a-model/
 categories:
   - Coordination
+image: /assets/2016/12/openTechnicalSheet.png
 tags:
   - Autodesk
   - Documentation

@@ -9,6 +9,7 @@ permalink: /2018/03/bim42-got-a-brand-new-style/
 published: true
 categories:
   - Uncategorized
+image: /assets/bim42_header.jpg
 tags:
   - General
   - Pretty Pictures

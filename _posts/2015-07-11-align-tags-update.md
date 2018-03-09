@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=899
 permalink: /2015/07/align-tags-update/
 categories:
   - Revit
+image: /assets/2015/07/arrangeTaganimation1.gif
 tags:
   - Autodesk
   - Plugin

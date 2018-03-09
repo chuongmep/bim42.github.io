@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=584
 permalink: /2014/09/revisions-and-revision-clouds/
 categories:
   - Revit
+image: /assets/2014/09/Revision21.png
 tags:
   - Autodesk
   - Coordination
@@ -30,13 +31,19 @@ These revisions are displayed in a revision schedule, a table added to the title
 
 Every revision cloud visible in a sheet have its associated revision displayed in the revision schedule embedded in the tittle bloc. Here, I had a revision cloud on the sheet, its associated revision appears in the revision schedule of the sheet.
 
-![OneRevisions2](/assets/2014/09/OneRevisions2.png)I can also add a revision cloud directly on the view, its revision will also appear on the revision schedule.
+![OneRevisions2](/assets/2014/09/OneRevisions2.png)
 
-![Revision21](/assets/2014/09/Revision21.png) These clouds can be hidden on a per revision basis, in the Revision panel. This command will hide every revision cloud associated with the selected revision. However, it does not remove this revision from the revision schedule.
+I can also add a revision cloud directly on the view, its revision will also appear on the revision schedule.
+
+![Revision21](/assets/2014/09/Revision21.png)
+
+These clouds can be hidden on a per revision basis, in the Revision panel. This command will hide every revision cloud associated with the selected revision. However, it does not remove this revision from the revision schedule.
 
 ![HideCloud](/assets/2014/09/HideCloud.png)
 
-![HideRevsion11](/assets/2014/09/HideRevsion11.png) This allows us to keep some kind of history for every issue addressed and resolved, along with their revision cloud, without having our views obscured with outdated revision clouds.
+![HideRevsion11](/assets/2014/09/HideRevsion11.png)
+
+This allows us to keep some kind of history for every issue addressed and resolved, along with their revision cloud, without having our views obscured with outdated revision clouds.
 
 The Per project/Per sheet numbering option allows us to define if we manage our revision numbers for the whole project, or on a per sheet basis.
 

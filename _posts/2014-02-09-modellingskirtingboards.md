@@ -14,6 +14,7 @@ publicize_twitter_url:
   - http://t.co/TdylsOzoAE
 categories:
   - Revit
+image: /assets/bim42_header.jpg
 tags:
   - .NET
   - Automation

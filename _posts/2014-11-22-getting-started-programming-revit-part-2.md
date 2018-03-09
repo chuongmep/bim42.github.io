@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=710
 permalink: /2014/11/getting-started-programming-revit-part-2/
 categories:
   - Revit
+image: /assets/2014/11/ScreenClip-22.png
 tags:
   - .NET
   - Automation

@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=929
 permalink: /2015/08/time-stamper-the-add-in/
 categories:
   - Coordination
+image: /assets/2015/08/ColorsByModel.png
 tags:
   - BIM Manager
   - Coordination

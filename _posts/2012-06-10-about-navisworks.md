@@ -9,6 +9,7 @@ permalink: /2012/06/about-navisworks/
 categories:
   - Coordination
   - General BIM
+image: /assets/bim42_header.jpg
 tags:
   - Autodesk
   - BIM Manager

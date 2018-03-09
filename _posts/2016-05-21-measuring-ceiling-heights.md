@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=1024
 permalink: /2016/05/measuring-ceiling-heights/
 categories:
   - Dynamo
+image: /assets/2016/05/Points.png
 tags:
   - Automation
   - Dynamo

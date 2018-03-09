@@ -11,6 +11,7 @@ publicize_twitter_user:
 categories:
   - General BIM
   - Revit
+image: /assets/bim42_header.jpg
 tags:
   - Autodesk
   - Digital Project

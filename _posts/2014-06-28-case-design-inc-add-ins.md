@@ -8,6 +8,7 @@ guid: https://www.bim42.com/?p=455
 permalink: /2014/06/case-design-inc-add-ins/
 categories:
   - Revit
+image: /assets/bim42_header.jpg
 tags:
   - BIM Manager
   - Plugin
