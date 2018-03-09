@@ -9,7 +9,7 @@ permalink: /2018/03/bim42-got-a-brand-new-style/
 published: true
 categories:
   - Uncategorized
-image: /assets/bim42_header.jpg
+image: /assets/2018/03/newStyle.jpg
 tags:
   - General
   - Pretty Pictures
@@ -19,6 +19,8 @@ BIM 42 will be 6 years old in a few months and started to look its age.
 I was using WordPress to publish BIM 42 posts, but the otherwise excellent CMS was starting to feel too cumbersome for my taste. I wanted something more mobile-friendly and my growing interest into web technologies had me questioned the technology stack of this blog.
 
 After some thoughts, I decided to rebuild BIM 42 as a static website, without any database or server-side code. Do to so, I use the static site generator [Jekyll](https://jekyllrb.com/), who to transform simple plain text files into a website. I host the resulting website on [Github Pages](https://pages.github.com/).
+
+![bimsyncModel](/assets/2018/03/newStyle.jpg)
 
 The only feature that requires a server are comments, I am using the third-party service [Just-Comments](https://just-comments.com/) to manage them.
 
