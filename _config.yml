@@ -16,14 +16,25 @@
 # in the templates via {{ site.myvariable }}.
 name: BIM 42
 title: BIM 42
-email: your-email@example.com
-description: >
-  The Answer to the Great Question of BIM,
-  the Universe and Everything
+email: simon@bim42.com
+description: The Answer to the Great Question of BIM, the Universe and Everything
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.bim42.com"
 social_username: bim42
+twitter:
+  username: bim42
 github_username:  simonmoreau
+image: /assets/bim42_header.jpg
+logo: /assets/bim42_logo.png
+social:
+  name: Simon Moreau
+  links:
+    - https://twitter.com/bim42
+    - https://www.linkedin.com/in/moreausimon/
+    - https://plus.google.com/u/0/100379875338424134221
+    - https://github.com/simonmoreau
+
+google_site_verification: baah2F6uiIss8lnsCZ6v8iDGR7UV7fgECOUjcLlLwZU
 
 # Build settings
 markdown: kramdown
@@ -33,10 +44,8 @@ theme: jekyll-swiss
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
-# config for jekyll-tagging
-tag_page_layout: tag_page
-tag_page_dir: tag
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
