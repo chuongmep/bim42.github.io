@@ -6,6 +6,7 @@ author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=1259
 permalink: /2018/02/data-visualization-for-bimsync/
+image: /assets/2018/02/powerbi-interface.png
 categories:
   - IFC
 tags:
