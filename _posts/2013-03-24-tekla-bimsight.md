@@ -6,13 +6,9 @@ author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=312
 permalink: /2013/03/tekla-bimsight/
-publicize_twitter_user:
-  - bim42
-publicize_reach:
-  - 'a:2:{s:7:"twitter";a:1:{i:278469;i:65;}s:2:"wp";a:1:{i:0;i:4;}}'
 categories:
   - Coordination
-image: /assets/bim42_header.jpg
+image: /assets/2013/03/notes1.jpg
 tags:
   - BIM Manager
   - Coordination

@@ -6,13 +6,9 @@ author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=275
 permalink: /2012/11/level-of-development/
-publicize_twitter_user:
-  - bim42
-publicize_reach:
-  - 'a:3:{s:7:"twitter";a:1:{i:278469;i:33;}s:2:"fb";a:1:{i:278468;i:130;}s:2:"wp";a:1:{i:0;i:2;}}'
 categories:
   - General BIM
-image: /assets/bim42_header.jpg
+image: /assets/2012/11/modelelementtable.jpg
 tags:
   - BIM Manager
   - Coordination

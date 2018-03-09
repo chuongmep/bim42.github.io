@@ -6,12 +6,10 @@ author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=263
 permalink: /2012/11/my-revit-experience/
-publicize_twitter_user:
-  - bim42
 categories:
   - General BIM
   - Revit
-image: /assets/bim42_header.jpg
+image: /assets/2012/11/basic3dshape.png
 tags:
   - Autodesk
   - Digital Project

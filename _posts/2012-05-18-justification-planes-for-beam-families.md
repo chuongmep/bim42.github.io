@@ -10,7 +10,7 @@ publicize_results:
   - 'a:2:{s:7:"twitter";a:1:{i:578219192;a:2:{s:7:"user_id";s:5:"bim42";s:7:"post_id";s:18:"203503994520346624";}}s:2:"fb";a:1:{i:589116337;a:2:{s:7:"user_id";s:9:"589116337";s:7:"post_id";s:17:"10150816506111338";}}}'
 categories:
   - Revit
-image: /assets/bim42_header.jpg
+image: /assets/2012/05/referencesplanes.jpg
 tags:
   - BIM Manager
   - Revit

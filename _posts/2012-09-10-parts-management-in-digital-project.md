@@ -6,12 +6,10 @@ author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=220
 permalink: /2012/09/parts-management-in-digital-project/
-tagazine-media:
-  - 'a:7:{s:7:"primary";s:51:"http://bim42.files.wordpress.com/2012/09/facade.jpg";s:6:"images";a:1:{s:51:"http://bim42.files.wordpress.com/2012/09/facade.jpg";a:6:{s:8:"file_url";s:51:"http://bim42.files.wordpress.com/2012/09/facade.jpg";s:5:"width";i:552;s:6:"height";i:264;s:4:"type";s:5:"image";s:4:"area";i:145728;s:9:"file_path";b:0;}}s:6:"videos";a:0:{}s:11:"image_count";i:1;s:6:"author";s:8:"11101104";s:7:"blog_id";s:8:"35202242";s:9:"mod_stamp";s:19:"2012-09-10 20:08:17";}'
 categories:
   - Coordination
   - Digital Project
-image: /assets/bim42_header.jpg
+image: /assets/2012/09/facade.jpg
 tags:
   - .NET
   - BIM Manager

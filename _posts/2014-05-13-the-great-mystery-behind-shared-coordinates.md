@@ -6,15 +6,9 @@ author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=349
 permalink: /2014/05/the-great-mystery-behind-shared-coordinates/
-publicize_linkedin_url:
-  - 'http://www.linkedin.com/updates?discuss=&scope=45913264&stype=M&topic=5871844462954586112&type=U&a=xL68'
-publicize_twitter_user:
-  - bim42
-publicize_twitter_url:
-  - http://t.co/7BreB1ivzB
 categories:
   - Revit
-image: /assets/bim42_header.jpg
+image: /assets/2014/05/sitemodel.png
 tags:
   - BIM Manager
   - Revit

@@ -8,7 +8,7 @@ guid: http://bim42.wordpress.com/?p=158
 permalink: /2012/07/geometry-gym/
 categories:
   - Grasshopper
-image: /assets/bim42_header.jpg
+image: /assets/2012/07/buildingelements.jpg
 tags:
   - Geometry Gym
   - Grasshopper

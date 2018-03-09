@@ -8,7 +8,7 @@ guid: http://bim42.wordpress.com/?p=47
 permalink: /2012/05/about-grasshopper/
 categories:
   - Grasshopper
-image: /assets/bim42_header.jpg
+image: /assets/2012/05/intrograsshopper13.jpg
 tags:
   - Grasshopper
   - Rhino

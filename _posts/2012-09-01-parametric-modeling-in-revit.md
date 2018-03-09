@@ -9,7 +9,7 @@ permalink: /2012/09/parametric-modeling-in-revit/
 categories:
   - Grasshopper
   - Revit
-image: /assets/bim42_header.jpg
+image: /assets/2012/09/revitbeams.jpg
 tags:
   - Grasshopper
   - Plugin

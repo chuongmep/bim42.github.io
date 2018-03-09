@@ -8,7 +8,7 @@ guid: https://www.bim42.com/?p=481
 permalink: /2014/07/revit-performance-tips/
 categories:
   - Revit
-image: /assets/bim42_header.jpg
+image: /assets/2014/07/StartingView.png
 tags:
   - Autodesk
   - BIM Manager

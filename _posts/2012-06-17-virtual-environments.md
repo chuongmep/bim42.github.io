@@ -9,7 +9,7 @@ permalink: /2012/06/virtual-environments/
 categories:
   - General BIM
   - Visualization
-image: /assets/bim42_header.jpg
+image: /assets/2012/06/unity-logo.jpg
 tags:
   - Pretty Pictures
   - Unity3D

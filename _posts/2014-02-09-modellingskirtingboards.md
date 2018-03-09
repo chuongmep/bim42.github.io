@@ -6,15 +6,9 @@ author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=328
 permalink: /2014/02/modellingskirtingboards/
-publicize_linkedin_url:
-  - 'http://www.linkedin.com/updates?discuss=&scope=45913264&stype=M&topic=5838310424743149568&type=U&a=uXcy'
-publicize_twitter_user:
-  - bim42
-publicize_twitter_url:
-  - http://t.co/TdylsOzoAE
 categories:
   - Revit
-image: /assets/bim42_header.jpg
+image: /assets/2014/02/workaround.png
 tags:
   - .NET
   - Automation

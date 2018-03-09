@@ -9,7 +9,7 @@ permalink: /2012/09/dreaming-of-a-new-drawing-table/
 categories:
   - General BIM
   - Visualization
-image: /assets/bim42_header.jpg
+image: /assets/2012/09/tonystark.jpg
 tags:
   - Dream
   - Pretty Pictures
@@ -27,7 +27,7 @@ One of my biggest hope in this field is the Leap Motion, a new device includin
 
 The presentation video features an incredibly precise motion detector, which can “see” the individual position of each of your fingers in a three cubic feet workspace.
 
-<span class="embed-youtube" style="text-align:center; display: block;"></span> 
+<span class="embed-youtube" style="text-align:center; display: block;"></span>
 
 Possibilities for this kind of devices are almost endless, especially in any 3D models related domain. I already imagine myself casually sculpting a whole building with just a few intuitive hand movements.
 

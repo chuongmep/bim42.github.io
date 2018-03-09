@@ -11,7 +11,7 @@ publicize_results:
 categories:
   - General BIM
   - IFC
-image: /assets/bim42_header.jpg
+image: /assets/2012/05/referencesplanes.jpg
 tags:
   - General
   - IFC

@@ -6,17 +6,9 @@ author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=368
 permalink: /2014/05/revit-database/
-geo_public:
-  - "0"
-publicize_twitter_user:
-  - bim42
-publicize_twitter_url:
-  - http://t.co/lU3OLlU7GE
-publicize_linkedin_url:
-  - 'http://www.linkedin.com/updates?discuss=&scope=45913264&stype=M&topic=5877773838359490560&type=U&a=z1uM'
 categories:
   - Revit
-image: /assets/bim42_header.jpg
+image: /assets/2014/05/sqledit.png
 tags:
   - BIM Manager
   - Revit

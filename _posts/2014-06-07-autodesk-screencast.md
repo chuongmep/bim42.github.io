@@ -9,7 +9,7 @@ permalink: /2014/06/autodesk-screencast/
 image: https://bim42.com/wp-content/uploads/2014/06/Screencast.png
 categories:
   - Visualization
-image: /assets/bim42_header.jpg
+image: /assets/2014/06/Interface.png
 tags:
   - Autodesk
   - BIM Manager

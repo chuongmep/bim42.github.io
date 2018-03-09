@@ -32,7 +32,7 @@ The most common application of this feature is to hide linked grids and referenc
 
 ![Before closing linked "Shared Levels and Grids" workset](/assets/2014/06/before.png)
 
-![After closing linked "Shared Levels and Grids" workset](/assets/2014/06/After\t.png)
+![After closing linked "Shared Levels and Grids" workset](/assets/2014/06/After.PNG)
 
 I also place reference planes and scope boxes in this workset, to be able to hide them as easily. But selecting all reference planes and scope boxes of a model to place them in the correct workset can a tedious business. To change this, I wrote a few line of code for set up every Scope Box, and Reference plane to the correct workset :
 

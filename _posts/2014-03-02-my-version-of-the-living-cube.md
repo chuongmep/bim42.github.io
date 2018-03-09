@@ -6,15 +6,9 @@ author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=339
 permalink: /2014/03/my-version-of-the-living-cube/
-publicize_twitter_url:
-  - http://t.co/BaniqmlueT
-publicize_linkedin_url:
-  - 'http://www.linkedin.com/updates?discuss=&scope=45913264&stype=M&topic=5845931219367665664&type=U&a=7DD4'
-publicize_twitter_user:
-  - bim42
 categories:
   - Uncategorized
-image: /assets/bim42_header.jpg
+image: /assets/2014/03/finam.png
 tags:
   - Furniture
   - General
