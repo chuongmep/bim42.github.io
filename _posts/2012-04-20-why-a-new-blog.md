@@ -6,6 +6,7 @@ author: Simon Moreau
 layout: post
 guid: http://bim42.wordpress.com/?p=5
 permalink: /2012/04/why-a-new-blog/
+image: /assets/bim42_header.jpg
 categories:
   - Uncategorized
 ---
