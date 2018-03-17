@@ -1,10 +1,10 @@
 ---
-id: 1261
+id: 1262
 title: IFC from Revit - Part 2
 date: 2018-03-24T19:00:00+00:00
 author: Simon Moreau
 layout: post
-guid: https://www.bim42.com/?p=1261
+guid: https://www.bim42.com/?p=1262
 permalink: /2018/03/ifc-for-revit-2/
 published: false
 categories:
