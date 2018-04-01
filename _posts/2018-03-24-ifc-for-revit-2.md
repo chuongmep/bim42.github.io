@@ -1,12 +1,12 @@
 ---
 id: 1262
 title: IFC from Revit - Part 2
-date: 2018-03-24T19:00:00+00:00
+date: 2018-03-31T19:00:00+00:00
 author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=1262
 permalink: /2018/03/ifc-for-revit-2/
-published: false
+published: true
 categories:
   - IFC
 image: /assets/2018/03/10 - ParameterInIFCParametersGroup.jpg
@@ -17,7 +17,7 @@ tags:
 description: All the features I wish I knew about before I started exporting IFC from Revit
 ---
 
-*This is the second part my post about exporting IFC from Revit.*
+*In this second part of my post about exporting IFC from Revit, we will see how to export classifications, how to override the default export class and how to use the IFC Parameter group.*
 
 # Parameters under the IFC Parameter group
 
@@ -48,7 +48,7 @@ You can also use the Exporter UI to specify the name and other information about
 
 ![Naming the classification]({{ "/assets/2018/03/13 - MyOwnClassification.jpg" | absolute_url }})
 
-You can also type in a description associated with you Reference code, in the following format:
+You can also add a description associated with your Reference code by typing it with the following format:
 
 {% highlight text %}
 <Classification_Code>:<Description_Of_The_Code>
