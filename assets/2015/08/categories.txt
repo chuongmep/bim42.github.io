@@ -1,0 +1,86 @@
+Air Terminals
+Areas
+Cable Tray Fittings
+Cable Tray Runs
+Cable Trays
+Casework
+Ceilings
+Columns
+Communication Devices
+Conduit Fittings
+Conduit Runs
+Conduits
+Curtain Panels
+Curtain Systems
+Curtain Wall Mullions
+Data Devices
+Detail Items
+Doors
+Duct Accessories
+Duct Fittings
+Duct Insulations
+Duct Linings
+Duct Placeholders
+Duct Systems
+Ducts
+Electrical Equipment
+Electrical Fixtures
+Entourage
+Fabrication Parts
+Fire Alarm Devices
+Flex Ducts
+Flex Pipes
+Floors
+Furniture
+Furniture Systems
+Generic Models
+HVAC Zones
+Lighting Devices
+Lighting Fixtures
+Mass
+Materials
+Mechanical Equipment
+Nurse Call Devices
+Parking
+Parts
+Pipe Accessories
+Pipe Fittings
+Pipe Insulations
+Pipe Placeholders
+Pipes
+Piping Systems
+Planting
+Plumbing Fixtures
+Project Information
+Railings
+Ramps
+Rebar Shape
+Roads
+Roofs
+Rooms
+Security Devices
+Shaft Openings
+Sheets
+Site
+Spaces
+Specialty Equipment
+Sprinklers
+Stairs
+Structural Area Reinforcement
+Structural Beam Systems
+Structural Columns
+Structural Connections
+Structural Fabric Areas
+Structural Fabric Reinforcement
+Structural Foundations
+Structural Framing
+Structural Path Reinforcement
+Structural Rebar
+Structural Stiffeners
+Structural Trusses
+Switch System
+Telephone Devices
+Topography
+Walls
+Windows
+Wires

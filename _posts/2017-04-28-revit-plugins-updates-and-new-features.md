@@ -65,7 +65,7 @@ You can also choose to keep or override an existing value, this should help you 
 
 A few bugs where corrected, making the creation of the four shared parameters far more reliable. Groups are now supported.
 
-[TimeStamp](https://www.bim42.com/wp-content/uploads/2017/04/TimeStamp.gif)
+![TimeStamp]({{ "/assets/2017/04/TimeStamp.gif" | absolute_url }})
 Support for groups
 
 Time Stamper is now available [here](https://apps.autodesk.com/ACD/en/Detail/Index?id=232313135819866372&appLang=en&os=Win64).

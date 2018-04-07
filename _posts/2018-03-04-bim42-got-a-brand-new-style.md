@@ -25,5 +25,5 @@ After some thoughts, I decided to rebuild BIM 42 as a static website, without an
 The only feature that requires a server are comments, I am using the third-party service [Just-Comments](https://just-comments.com/) to manage them.
 
 The migration is now almost complete, but you might still encounter a few mistakes here and then, I hope to correct them in the next few days.
-Along with the infrastructure change, I also change a few things, like a new, more modern design and a refreshed [About](about.md) page
+Along with the infrastructure change, I also change a few things, like a new, more modern design and a refreshed [About]({{ site.baseurl }}{% link about.md %}) page
 Don’t hesitate to share your thoughts about this new version, I would be happy to hear your advices.

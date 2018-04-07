@@ -6,7 +6,6 @@ author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=379
 permalink: /2014/06/autodesk-screencast/
-image: https://bim42.com/wp-content/uploads/2014/06/Screencast.png
 categories:
   - Visualization
 image: /assets/2014/06/Interface.jpg

@@ -73,7 +73,7 @@ default: BUILDINGS.ROOF_MATERIAL = "Material/Roofing/Spanish Tile Brown";
 
 Most of Paris buildings have a very characteristic zinc roof, a material that is not available by default in InfraWorks.
 
-[ParisRoofs](https://www.bim42.com/wp-content/uploads/2017/01/ParisRoofs.png)
+![ParisRoofs]({{ "/assets/2017/01/ParisRoofs.jpg" | absolute_url }})
 Typical Parisian roofs
 
 Using the style palette, I create my own zinc material from a picture and a few settings.

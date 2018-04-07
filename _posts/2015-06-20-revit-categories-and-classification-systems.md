@@ -43,7 +43,7 @@ But most important here is an exhaustive list of all Revit categories, along wit
 
 These relations allows us to filter by category while assigning Assembly Codes.
 
-You can find [here](https://www.bim42.com/wp-content/uploads/2015/06/categories.csv) the .csv file with all Revit categories, along with the code used to create it.
+You can find [here]({{ "/assets/2015/06/categories.csv" | absolute_url }}) the .csv file with all Revit categories, along with the code used to create it.
 
 {% highlight c# %}
 public void Categories()

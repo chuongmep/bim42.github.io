@@ -45,6 +45,6 @@ You can create a linked models schedule, with date and version.
 
 ![LinkedFilesSchedule]({{ "/assets/2015/08/LinkedFilesSchedule.jpg" | absolute_url }})
 
-To help you create filters and tags with these parameters, you will find [here](https://www.bim42.com/wp-content/uploads/2015/08/BIM42_SharedParameters.txt) the shared parameter text file. Please also note that the application uses a list of categories to create the four shared parameters. You will find this list [here](https://www.bim42.com/wp-content/uploads/2015/08/categories.txt).
+To help you create filters and tags with these parameters, you will find [here]({{ "/assets/2015/08/BIM42_SharedParameters.txt" | absolute_url }}) the shared parameter text file. Please also note that the application uses a list of categories to create the four shared parameters. You will find this list [here]({{ "/assets/2015/08/categories.txt" | absolute_url }}).
 
 I hope this application will help you in your work, don't hesitate to share your suggestions in the comments.

@@ -1,0 +1,586 @@
+Rank;CategoryType;Name;Id;IsSubCategory;IsCuttable;IsTagCategory
+1;Annotation;Part Tags;-2000270;;False;True
+1;Annotation;Pipe Insulation Tags;-2008155;;False;True
+1;AnalyticalModel;Analytical Floors;-2009639;;False;False
+2;AnalyticalModel;Local Coordinate System;-2000975;Analytical Floors;False;False
+1;Annotation;Mechanical Equipment Tags;-2005009;;False;True
+1;Model;Ramps;-2000180;;True;False
+2;Model;Stringers;-2003303;Ramps;False;False
+2;Model;Up Arrow;-2003307;Ramps;False;False
+2;Model;Stringers Beyond Cut Line;-2003304;Ramps;False;False
+2;Model;UP text;-2003305;Ramps;False;False
+2;Model;Ramps Beyond Cut Line;-2003302;Ramps;False;False
+2;Model;DOWN text;-2003306;Ramps;False;False
+2;Model;Hidden Lines;-2009509;Ramps;False;False
+2;Model;Down Arrow;-2003308;Ramps;False;False
+1;Model;Cable Tray Fittings;-2008126;;False;False
+2;Model;Center line;-2008140;Cable Tray Fittings;False;False
+1;Annotation;Foundation Span Direction Symbol;-2005111;;False;True
+1;Annotation;Communication Device Tags;-2008082;;False;True
+1;Annotation;Analytical Wall Tags;-2009653;;False;True
+1;Model;Structural Connections;-2009030;;True;False
+2;Model;Hidden Lines;-2009032;Structural Connections;False;False
+1;Model;Planting;-2001360;;False;False
+2;Model;Hidden Lines;-2009528;Planting;False;False
+1;Annotation;Ceiling Tags;-2005002;;False;True
+1;AnalyticalModel;Analytical Wall Foundations;-2009642;;False;False
+1;Annotation;Furniture Tags;-2005006;;False;True
+1;Model;Mass;-2003400;;True;False
+2;Model;Pattern Lines;-2003326;Mass;False;False
+2;Model;Mass Interior Wall;-2003412;Mass;True;False
+2;Model;Mass Zone;-2003411;Mass;True;False
+2;Model;Pattern Fill;-2003327;Mass;False;False
+2;Model;Mass Roof;-2003414;Mass;True;False
+2;Model;Mass Exterior Wall;-2003413;Mass;True;False
+2;Model;Mass Floor;-2003403;Mass;True;False
+2;Model;Mass Glazing;-2003415;Mass;True;False
+2;Model;Mass Skylight;-2003416;Mass;True;False
+2;Model;Nodes;-2003324;Mass;False;False
+2;Model;Mass Opening;-2003417;Mass;True;False
+2;Model;Gridlines;-2003325;Mass;False;False
+2;Model;Hidden Lines;-2009532;Mass;False;False
+2;Model;Form;-2003404;Mass;False;False
+2;Model;Mass Shade;-2003418;Mass;False;False
+1;Model;Air Terminals;-2008013;;False;False
+1;Annotation;Pipe Accessory Tags;-2008056;;False;True
+1;Annotation;Security Device Tags;-2008080;;False;True
+1;Annotation;Window Tags;-2000450;;False;True
+1;Annotation;Stair Tread/Riser Numbers;-2000944;;False;False
+1;Model;Communication Devices;-2008081;;False;False
+1;Model;Piping Systems;-2008043;;False;False
+2;Model;Reference Lines;-2008159;Piping Systems;False;False
+1;Annotation;Panel Schedule Graphics;-2008151;;False;False
+1;Annotation;Detail Item Tags;-2005028;;False;True
+1;Annotation;Reference Lines;-2000083;;False;False
+1;AnalyticalModel;Analytical Spaces;-2008185;;False;False
+1;Model;Plumbing Fixtures;-2001160;;False;False
+2;Model;Hidden Lines;-2009521;Plumbing Fixtures;False;False
+1;Annotation;Structural Framing Tags;-2005015;;False;True
+1;Model;Ceilings;-2000038;;True;False
+2;Model;Substrate [2];-2000613;Ceilings;False;False
+2;Model;Finish 2 [5];-2000615;Ceilings;False;False
+2;Model;Finish 1 [4];-2000614;Ceilings;False;False
+2;Model;Common Edges;-2000616;Ceilings;False;False
+2;Model;Surface Pattern;-2000543;Ceilings;False;False
+2;Model;Cut Pattern;-2000617;Ceilings;False;False
+2;Model;Membrane Layer;-2000610;Ceilings;False;False
+2;Model;Thermal/Air Layer [3];-2000612;Ceilings;False;False
+2;Model;Hidden Lines;-2009503;Ceilings;False;False
+2;Model;Structure [1];-2000611;Ceilings;False;False
+1;Annotation;Section Boxes;-2000301;;False;False
+1;Annotation;Elevation Marks;-2006045;;False;True
+1;Annotation;Data Device Tags;-2008084;;False;True
+1;Model;Pipe Segments;-2008163;;False;False
+1;Model;Conduit Fittings;-2008128;;False;False
+2;Model;Center line;-2008141;Conduit Fittings;False;False
+1;Model;Sprinklers;-2008099;;False;False
+1;Model;Doors;-2000023;;True;False
+2;Model;Panel;-2000025;Doors;False;False
+2;Model;Architrave;21117;Doors;False;False
+2;Model;Frame/Mullion;-2000029;Doors;False;False
+2;Model;Glass;-2000031;Doors;False;False
+2;Model;Opening;-2000027;Doors;False;False
+2;Model;Elevation Swing;1952;Doors;False;False
+2;Model;Moulding/Architrave;6876;Doors;False;False
+2;Model;Structural Opening;21274;Doors;False;False
+2;Model;Ironmongery;21120;Doors;False;False
+2;Model;Hidden Lines;-2009501;Doors;False;False
+2;Model;Plan Swing;1951;Doors;False;False
+1;Annotation;Lighting Fixture Tags;-2005008;;False;True
+1;Model;Lighting Devices;-2008087;;False;False
+1;Annotation;Assembly Tags;-2000268;;False;True
+1;Annotation;Duct Tags;-2008003;;False;True
+1;Model;Curtain Systems;-2000340;;True;False
+2;Model;Curtain System Grids;-2000323;Curtain Systems;False;False
+2;Model;Hidden Lines;-2009531;Curtain Systems;False;False
+1;Annotation;Structural Rebar Tags;-2009020;;False;True
+1;Model;Parking;-2001180;;False;False
+2;Model;Reference Line;9199;Parking;False;False
+2;Model;Stripe;9195;Parking;False;False
+2;Model;Parking Layout;9197;Parking;False;False
+2;Model;Hidden Lines;-2009522;Parking;False;False
+1;Model;Ducts;-2008000;;False;False
+2;Model;Drop;-2008062;Ducts;False;False
+2;Model;Rise;-2008036;Ducts;False;False
+2;Model;Center line;-2008001;Ducts;False;False
+1;Annotation;Door Tags;-2000460;;False;True
+2;Annotation;Medium Line;8616;Door Tags;False;False
+2;Annotation;Enter new name here;88900;Door Tags;False;False
+2;Annotation;Thin Line;8618;Door Tags;False;False
+2;Annotation;North Line;8612;Door Tags;False;False
+1;Annotation;Internal Area Load Tags;-2005255;;False;True
+1;Annotation;Revision Clouds;-2006060;;False;False
+1;Model;Imports in Families;-2000196;;False;False
+1;Model;Conduits;-2008132;;False;False
+2;Model;Drop;-2008138;Conduits;False;False
+2;Model;Rise;-2008137;Conduits;False;False
+2;Model;Center line;-2008139;Conduits;False;False
+1;Annotation;Multi-Category Tags;-2005022;;False;False
+1;AnalyticalModel;Analytical Isolated Foundations;-2009641;;False;False
+1;Model;Flex Pipes;-2008050;;False;False
+2;Model;Center Line;-2008051;Flex Pipes;False;False
+2;Model;Pattern;-2008053;Flex Pipes;False;False
+1;Annotation;Property Line Segment Tags;-2001269;;False;True
+1;Annotation;Curtain Panel Tags;-2005012;;False;True
+1;AnalyticalModel;Analytical Links;-2009657;;False;False
+1;Model;Structural Trusses;-2001336;;False;False
+2;Annotation;Stick Symbols;-2009608;Structural Trusses;False;False
+1;Model;HVAC Zones;-2008107;;False;False
+2;Model;Color Fill;-2008116;HVAC Zones;False;False
+2;Model;Boundary;-2008108;HVAC Zones;False;False
+2;Model;Reference Lines;-2008118;HVAC Zones;False;False
+2;Model;Interior Fill;-2008117;HVAC Zones;False;False
+1;Annotation;Mass Floor Tags;-2003410;;False;True
+1;Model;Site;-2001260;;True;False
+2;Model;Utilities;18811;Site;False;False
+2;Model;Pads;-2001263;Site;False;False
+2;Model;Survey Point;-2001272;Site;False;False
+2;Model;Property Lines;-2001265;Site;True;False
+2;Model;Project Base Point;-2001271;Site;False;False
+2;Model;Stripe;21874;Site;False;False
+2;Internal;Property Line Segments;-2001268;Site;True;False
+2;Model;Hidden Lines;-2009524;Site;False;False
+2;Model;Landscape;19788;Site;False;False
+1;AnalyticalModel;Analytical Columns;-2009636;;False;False
+2;AnalyticalModel;Local Coordinate System;-2000972;Analytical Columns;False;False
+2;AnalyticalModel;Base Segment;-2009637;Analytical Columns;False;False
+2;AnalyticalModel;Top Segment;-2009638;Analytical Columns;False;False
+1;Model;Duct Systems;-2008015;;False;False
+2;Model;Reference Lines;-2008157;Duct Systems;False;False
+1;Annotation;Zone Tags;-2008115;;False;True
+1;Model;Duct Placeholders;-2008160;;False;False
+1;Annotation;Reference Planes;-2000530;;False;False
+1;Annotation;Cable Tray Tags;-2008131;;False;True
+1;Annotation;Multi-Rebar Annotations;-2000970;;False;False
+1;Annotation;Matchline;-2000193;;False;False
+1;Annotation;Specialty Equipment Tags;-2005014;;False;True
+1;Model;Duct Accessories;-2008016;;False;False
+1;Annotation;Duct Fitting Tags;-2008061;;False;True
+1;Annotation;Furniture System Tags;-2005007;;False;True
+1;Annotation;Callout Heads;-2000538;;False;True
+1;Model;Furniture Systems;-2001100;;False;False
+2;Model;Hidden Lines;-2009518;Furniture Systems;False;False
+1;Model;Telephone Devices;-2008075;;False;False
+1;Model;Lines;-2000051;;False;False
+2;Model;<Demolished>;-2000285;Lines;False;False
+2;Model;<Beyond>;-2000287;Lines;False;False
+2;Model;<Centerline>;-2000288;Lines;False;False
+2;Model;<Space Separation>;-2000831;Lines;False;False
+2;Model;Wide Lines;-2000044;Lines;False;False
+2;Model;<Area Boundary>;-2000079;Lines;False;False
+2;Model;Lines;-2000078;Lines;False;False
+2;Model;MEP Hidden;142457;Lines;False;False
+2;Model;<Fabric Sheets>;-2009019;Lines;False;False
+2;Model;<Sketch>;-2000045;Lines;False;False
+2;Model;Thin Lines;-2000042;Lines;False;False
+2;Model;Insulation Batting Lines;-2000077;Lines;False;False
+2;Model;<Room Separation>;-2000066;Lines;False;False
+2;Model;<Hidden>;-2000286;Lines;False;False
+2;Model;<Overhead>;-2000284;Lines;False;False
+2;Model;<Fabric Envelope>;-2009018;Lines;False;False
+2;Model;Axis of Rotation;-2000065;Lines;False;False
+2;Model;Medium Lines;-2000043;Lines;False;False
+2;Model;Hidden Lines;-2009504;Lines;False;False
+1;Model;Wires;-2008039;;False;False
+2;Model;Home Run Arrows;-2008089;Wires;False;False
+2;Annotation;Wire Tick Marks;-2008074;Wires;False;False
+1;Model;Pipes;-2008044;;False;False
+2;Model;Center Line;-2008045;Pipes;False;False
+2;Model;Drop;-2008069;Pipes;False;False
+2;Model;Rise;-2008054;Pipes;False;False
+1;Annotation;Structural Stiffener Tags;-2001355;;False;True
+1;Model;Topography;-2001340;;True;False
+2;Model;Boundary Point;-2001266;Topography;False;False
+2;Model;Triangulation Edges;-2001341;Topography;False;False
+2;Model;Interior Point;-2001262;Topography;False;False
+2;Model;Primary Contours;-2001342;Topography;False;False
+2;Model;Secondary Contours;-2001343;Topography;False;False
+2;Model;Hidden Lines;-2009526;Topography;False;False
+1;Annotation;Casework Tags;-2005001;;False;True
+1;Model;Project Information;-2003101;;False;False
+1;Annotation;Wall Tags;-2005011;;False;True
+1;Annotation;Cable Tray Fitting Tags;-2008127;;False;True
+1;Model;Fabrication Parts;-2008193;;False;False
+2;Model;Center Line;-2008196;Fabrication Parts;False;False
+1;AnalyticalModel;Structural Internal Loads;-2005204;;False;False
+2;AnalyticalModel;Internal Line Loads;-2005206;Structural Internal Loads;True;False
+2;AnalyticalModel;Internal Point Loads;-2005205;Structural Internal Loads;True;False
+2;AnalyticalModel;Internal Area Loads;-2005207;Structural Internal Loads;True;False
+1;Model;Analysis Display Style;-2000304;;False;False
+1;Model;Pipe Insulations;-2008122;;False;False
+1;Model;Flex Ducts;-2008020;;False;False
+2;Model;Center line;-2008021;Flex Ducts;False;False
+2;Model;Pattern;-2008023;Flex Ducts;False;False
+1;Annotation;Duct Insulation Tags;-2008153;;False;True
+1;Annotation;Rebar Cover References;-2009015;;False;False
+1;Internal;Assemblies;-2000267;;True;False
+1;AnalyticalModel;Structural Load Cases;-2005210;;False;False
+2;AnalyticalModel;Snow Loads;-2005214;Structural Load Cases;False;False
+2;AnalyticalModel;Roof Live Loads;-2005215;Structural Load Cases;False;False
+2;AnalyticalModel;Wind Loads;-2005213;Structural Load Cases;False;False
+2;AnalyticalModel;Dead Loads;-2005211;Structural Load Cases;False;False
+2;AnalyticalModel;Accidental Loads;-2005216;Structural Load Cases;False;False
+2;AnalyticalModel;Live Loads;-2005212;Structural Load Cases;False;False
+2;AnalyticalModel;Seismic Loads;-2005218;Structural Load Cases;False;False
+2;AnalyticalModel;Temperature Loads;-2005217;Structural Load Cases;False;False
+1;Annotation;Stair Support Tags;-2000942;;False;True
+1;Model;Structural Area Reinforcement;-2009003;;True;False
+2;Model;Boundary;-2009006;Structural Area Reinforcement;False;False
+1;Annotation;Structural Truss Tags;-2005030;;False;True
+1;Annotation;Analytical Slab Foundation Tags;-2009656;;False;True
+1;Annotation;Plan Region;-2000191;;False;False
+1;Model;Structural Framing;-2001320;;True;False
+2;Model;Horizontal Bracing;-2001325;Structural Framing;False;False
+2;Model;Kicker Bracing;-2001328;Structural Framing;False;False
+2;Model;Rigid Links;-2001333;Structural Framing;False;False
+2;Model;Web;-2009605;Structural Framing;False;False
+2;Model;Girder;-2001322;Structural Framing;False;False
+2;Model;Stick Symbols;11799;Structural Framing;False;False
+2;Model;Other;-2001321;Structural Framing;False;False
+2;Model;Joist;-2001323;Structural Framing;False;False
+2;Model;Vertical Bracing;-2001326;Structural Framing;False;False
+2;Model;Chord;-2009606;Structural Framing;False;False
+2;Model;Hidden Lines;-2001329;Structural Framing;False;False
+2;Model;Location Lines;-2001356;Structural Framing;False;False
+2;Model;Purlin;-2001324;Structural Framing;False;False
+2;Model;Hidden Faces;11802;Structural Framing;False;False
+1;Model;Electrical Fixtures;-2001060;;False;False
+2;Model;Hidden Lines;-2009517;Electrical Fixtures;False;False
+1;Annotation;Air Terminal Tags;-2008014;;False;True
+1;Model;Data Devices;-2008083;;False;False
+1;Annotation;Structural Annotations;-2006090;;False;False
+1;Model;Lighting Fixtures;-2001120;;False;False
+2;Model;Light Source;-2001121;Lighting Fixtures;False;False
+2;Model;Hidden Lines;-2009519;Lighting Fixtures;False;False
+1;Model;Duct Insulations;-2008123;;False;False
+1;Annotation;Span Direction Symbol;-2005110;;False;True
+1;Annotation;Section Line;-2000201;;False;False
+2;Annotation;Broken Section Line;-2000202;Section Line;False;False
+1;Model;Cable Tray Runs;-2008150;;False;False
+1;Annotation;Section Marks;-2000400;;False;True
+2;Annotation;Wide Lines;-2000404;Section Marks;False;False
+2;Annotation;Thin Lines;-2000401;Section Marks;False;False
+2;Annotation;Medium Lines;-2000403;Section Marks;False;False
+1;Annotation;Pipe Color Fill;-2008059;;False;False
+1;Model;Generic Models;-2000151;;True;False
+2;Model;Hidden Lines;-2009512;Generic Models;False;False
+1;Annotation;Lighting Device Tags;-2008088;;False;True
+1;Annotation;Floor Tags;-2005026;;False;True
+1;Annotation;Sprinkler Tags;-2008100;;False;True
+1;Model;Analysis Results;-2000303;;False;False
+1;Annotation;Scope Boxes;-2006000;;False;False
+1;Annotation;Line Load Tags;-2005251;;False;True
+1;Annotation;Render Regions;-2000302;;False;False
+1;Annotation;Structural Path Reinforcement Symbols;-2009010;;False;True
+1;Model;Electrical Equipment;-2001040;;False;False
+2;Model;Hidden Lines;-2009516;Electrical Equipment;False;False
+1;Annotation;Stair Landing Tags;-2000941;;False;True
+1;Model;Curtain Panels;-2000170;;True;False
+2;Model;Glass;3621;Curtain Panels;False;False
+2;Model;Hidden Lines;-2009510;Curtain Panels;False;False
+1;Model;Fire Alarm Devices;-2008085;;False;False
+1;AnalyticalModel;Analytical Braces;-2009633;;False;False
+2;AnalyticalModel;Local Coordinate System;-2000973;Analytical Braces;False;False
+2;AnalyticalModel;Start Segment;-2009634;Analytical Braces;False;False
+2;AnalyticalModel;End Segment;-2009635;Analytical Braces;False;False
+1;Annotation;Displacement Path;-2000223;;False;False
+1;Model;Roads;-2001220;;True;False
+2;Model;Hidden Lines;-2009523;Roads;False;False
+1;Annotation;Duct Lining Tags;-2008154;;False;True
+1;Model;Floors;-2000032;;True;False
+2;Model;Interior Edges;-2000609;Floors;False;False
+2;Model;Substrate [2];-2000603;Floors;False;False
+2;Model;Finish 2 [5];-2000605;Floors;False;False
+2;Model;Finish 1 [4];-2000604;Floors;False;False
+2;Model;Common Edges;-2000606;Floors;False;False
+2;Model;Surface Pattern;-2000541;Floors;False;False
+2;Model;Slab Edges;-2001392;Floors;False;False
+2;Model;Cut Pattern;-2000608;Floors;False;False
+2;Model;Membrane Layer;-2000600;Floors;False;False
+2;Model;Thermal/Air Layer [3];-2000602;Floors;False;False
+2;Model;Hidden Lines;-2000607;Floors;False;False
+2;Model;Structure [1];-2000601;Floors;False;False
+1;Annotation;Flex Duct Tags;-2008004;;False;True
+1;Model;Point Clouds;-2010001;;False;False
+1;Annotation;Analytical Wall Foundation Tags;-2009655;;False;True
+1;AnalyticalModel;Analytical Foundation Slabs;-2009643;;False;False
+2;AnalyticalModel;Local Coordinate System;-2000976;Analytical Foundation Slabs;False;False
+1;Model;Windows;-2000014;;True;False
+2;Model;Trim;7000;Windows;False;False
+2;Model;Frame/Mullion;-2000018;Windows;False;False
+2;Model;Glass;-2000016;Windows;False;False
+2;Model;Opening;-2000022;Windows;False;False
+2;Model;Elevation Swing;2467;Windows;False;False
+2;Model;Sill/Head;-2000020;Windows;False;False
+2;Model;Moulding;2489;Windows;False;False
+2;Model;Hidden Lines;-2009500;Windows;False;False
+2;Model;Plan Swing;2466;Windows;False;False
+1;Annotation;Structural Area Reinforcement Tags;-2009021;;False;True
+1;Model;Structural Path Reinforcement;-2009009;;True;False
+2;Model;Boundary;-2009012;Structural Path Reinforcement;False;False
+1;Annotation;Stair Run Tags;-2000940;;False;True
+1;Model;Rebar Shape;-2009013;;True;False
+1;Model;Parts;-2000269;;True;False
+2;Model;Hidden Lines;-2000271;Parts;False;False
+1;Annotation;Nurse Call Device Tags;-2008078;;False;True
+1;Model;Columns;-2000100;;True;False
+2;Model;Hidden Lines;-2009506;Columns;False;False
+1;Annotation;Area Load Tags;-2005252;;False;True
+1;Model;Routing Preferences;-2008125;;False;False
+1;Annotation;Generic Annotations;-2000150;;False;False
+2;Annotation;Centerline;18403;Generic Annotations;False;False
+1;Annotation;Area Tags;-2005020;;False;True
+1;Annotation;View Reference;-2000197;;False;True
+1;Model;Filled region;-2000190;;False;False
+1;Annotation;Analytical Column Tags;-2009651;;False;True
+1;Model;Structural Fabric Reinforcement;-2009016;;True;False
+2;Model;Boundary;-2009026;Structural Fabric Reinforcement;False;False
+2;Model;Fabric Wire;-2009027;Structural Fabric Reinforcement;False;False
+1;Annotation;Connection Symbols;-2006100;;False;False
+1;Annotation;Conduit Fitting Tags;-2008129;;False;True
+1;Model;Raster Images;-2000560;;False;False
+1;Annotation;Structural Column Tags;-2005018;;False;True
+1;Annotation;Analytical Beam Tags;-2009649;;False;True
+1;Annotation;Adaptive Points;-2000900;;False;False
+2;Annotation;Lines;-2000903;Adaptive Points;False;False
+2;Annotation;Planes;-2000902;Adaptive Points;False;False
+2;Annotation;Points;-2000901;Adaptive Points;False;False
+1;Annotation;Fabrication Part Tags;-2008194;;False;True
+1;Annotation;Grid Heads;-2006040;;False;True
+1;Annotation;Sections;-2000200;;False;False
+1;Annotation;Room Tags;-2000480;;False;True
+1;Model;Curtain Wall Mullions;-2000171;;True;False
+2;Model;Hidden Lines;-2009511;Curtain Wall Mullions;False;False
+1;Annotation;Stair Tags;-2005023;;False;True
+1;AnalyticalModel;Structural Loads;-2005200;;False;False
+2;AnalyticalModel;Area Loads;-2005203;Structural Loads;True;False
+2;AnalyticalModel;Point Loads;-2005201;Structural Loads;True;False
+2;AnalyticalModel;Line Loads;-2005202;Structural Loads;True;False
+1;Annotation;Revision Cloud Tags;-2006080;;False;True
+1;Model;Walls;-2000011;;True;False
+2;Model;Substrate [2];-2000583;Walls;False;False
+2;Model;Finish 2 [5];-2000585;Walls;False;False
+2;Model;Wall Sweep - Cornice;19858;Walls;False;False
+2;Model;Finish 1 [4];-2000584;Walls;False;False
+2;Model;Common Edges;-2000586;Walls;False;False
+2;Model;Surface Pattern;-2000540;Walls;False;False
+2;Model;Curtain Wall Grids;-2000321;Walls;False;False
+2;Model;Wall Sweeps;-2000181;Walls;False;False
+2;Model;Cut Pattern;-2000588;Walls;False;False
+2;Model;Membrane Layer;-2000580;Walls;False;False
+2;Model;Thermal/Air Layer [3];-2000582;Walls;False;False
+2;Model;Hidden Lines;-2000587;Walls;False;False
+2;Model;Structure [1];-2000581;Walls;False;False
+1;Model;Conduit Runs;-2008149;;False;False
+1;Annotation;Duct Accessory Tags;-2008017;;False;True
+1;Annotation;Spot Slopes;-2000265;;False;False
+1;Annotation;Keynote Tags;-2005029;;False;False
+1;Annotation;Space Tags;-2000485;;False;True
+1;Annotation;Rebar Set Toggle;-2009025;;False;False
+1;Annotation;Pipe Color Fill Legends;-2008058;;False;False
+1;Model;Pipe Fittings;-2008049;;False;False
+2;Model;Center line;-2008072;Pipe Fittings;False;False
+1;Model;Structural Columns;-2001330;;True;False
+2;Model;Rigid Links;-2001344;Structural Columns;False;False
+2;Model;Stick Symbols;-2001335;Structural Columns;False;False
+2;Model;Hidden Lines;-2001334;Structural Columns;False;False
+2;Model;Location Lines;-2001357;Structural Columns;False;False
+2;Model;Hidden Faces;12099;Structural Columns;False;False
+1;Model;Pipe Placeholders;-2008161;;False;False
+1;Annotation;Guide Grid;-2000107;;False;False
+1;Annotation;Grids;-2000220;;False;False
+1;Annotation;Fire Alarm Device Tags;-2008086;;False;True
+1;Annotation;Planting Tags;-2005021;;False;True
+1;Annotation;Callouts;-2000537;;False;False
+1;Annotation;Schedule Graphics;-2000570;;False;False
+1;Annotation;Electrical Fixture Tags;-2005004;;False;True
+1;Annotation;Telephone Device Tags;-2008076;;False;True
+1;Model;Cable Trays;-2008130;;False;False
+2;Model;Drop;-2008135;Cable Trays;False;False
+2;Model;Rise;-2008134;Cable Trays;False;False
+2;Model;Center line;-2008136;Cable Trays;False;False
+1;Annotation;Curtain System Tags;-2005025;;False;False
+1;Model;Structural Stiffeners;-2001354;;True;False
+2;Model;Hidden Lines;-2001358;Structural Stiffeners;False;False
+1;Model;Entourage;-2001370;;False;False
+2;Model;Hidden Lines;-2009529;Entourage;False;False
+1;Annotation;Internal Line Load Tags;-2005254;;False;True
+1;Annotation;Structural Fabric Reinforcement Symbols;-2009028;;False;True
+1;Annotation;Mass Tags;-2003405;;False;True
+1;Annotation;Analytical Node Tags;-2000956;;False;True
+1;Annotation;Property Tags;-2001267;;False;True
+1;Annotation;Structural Path Reinforcement Tags;-2009011;;False;True
+1;Annotation;Callout Boundary;-2000539;;False;False
+2;Annotation;Callout Leader Line;-2000544;Callout Boundary;False;False
+1;Annotation;Structural Area Reinforcement Symbols;-2009005;;False;True
+1;Annotation;Contour Labels;-2000350;;False;False
+1;Model;Nurse Call Devices;-2008077;;False;False
+1;Model;Areas;-2003200;;False;False
+2;Model;Color Fill;-2000165;Areas;False;False
+2;Model;Reference;-2000164;Areas;False;False
+2;Model;Interior Fill;-2000163;Areas;False;False
+1;Model;Materials;-2000700;;False;False
+1;Model;Roofs;-2000035;;True;False
+2;Model;Interior Edges;-2000598;Roofs;False;False
+2;Model;Substrate [2];-2000593;Roofs;False;False
+2;Model;Roof Soffits;-2001393;Roofs;False;False
+2;Model;Finish 2 [5];-2000595;Roofs;False;False
+2;Model;Curtain Roof Grids;-2000320;Roofs;False;False
+2;Model;Finish 1 [4];-2000594;Roofs;False;False
+2;Model;Common Edges;-2000596;Roofs;False;False
+2;Model;Surface Pattern;-2000542;Roofs;False;False
+2;Model;Fascias;-2001390;Roofs;False;False
+2;Model;Cut Pattern;-2000597;Roofs;False;False
+2;Model;Gutters;-2001391;Roofs;False;False
+2;Model;Membrane Layer;-2000590;Roofs;False;False
+2;Model;Thermal/Air Layer [3];-2000592;Roofs;False;False
+2;Model;Hidden Lines;-2009502;Roofs;False;False
+2;Model;Structure [1];-2000591;Roofs;False;False
+1;Model;Structural Fabric Areas;-2009017;;True;False
+2;Model;Boundary;-2009029;Structural Fabric Areas;False;False
+1;Model;Structural Rebar;-2009000;;True;False
+2;Model;Hidden Lines;-2009050;Structural Rebar;False;False
+1;Annotation;Reference Points;-2000710;;False;False
+2;Annotation;Lines;-2000713;Reference Points;False;False
+2;Annotation;Planes;-2000712;Reference Points;False;False
+2;Annotation;Points;-2000711;Reference Points;False;False
+1;Model;Shaft Openings;-2000996;;False;False
+2;Model;Hidden Lines;-2009513;Shaft Openings;False;False
+1;Annotation;Spot Elevation Symbols;-2005100;;False;True
+1;Annotation;Internal Point Load Tags;-2005253;;False;True
+1;Annotation;Analytical Isolated Foundation Tags;-2009654;;False;True
+1;Annotation;Flex Pipe Tags;-2008048;;False;True
+1;Model;Duct Fittings;-2008010;;False;False
+2;Model;Contour;151826;Duct Fittings;False;False
+2;Model;Center line;-2008066;Duct Fittings;False;False
+1;Annotation;Cameras;-2000501;;False;False
+1;Annotation;Elevations;-2000535;;False;False
+1;Model;Specialty Equipment;-2001350;;False;False
+2;Model;Hidden Lines;-2009527;Specialty Equipment;False;False
+1;Annotation;Analytical Floor Tags;-2009652;;False;True
+1;Model;Pipe Accessories;-2008055;;False;False
+1;Annotation;Structural Connection Tags;-2009040;;False;True
+1;Model;Masking Region;-2000194;;False;False
+1;Model;Structural Foundations;-2001300;;True;False
+2;Model;Hidden Lines;-2001302;Structural Foundations;False;False
+1;Annotation;Level Heads;-2006020;;False;True
+1;Annotation;Duct Color Fill Legends;-2007004;;False;False
+1;AnalyticalModel;Analytical Beams;-2009630;;False;False
+2;AnalyticalModel;Local Coordinate System;-2000971;Analytical Beams;False;False
+2;AnalyticalModel;Start Segment;-2009631;Analytical Beams;False;False
+2;AnalyticalModel;End Segment;-2009632;Analytical Beams;False;False
+1;Model;Curtain Grids;-2000173;;False;False
+1;Annotation;Levels;-2000240;;False;False
+1;Annotation;Brace in Plan View Symbols;-2006110;;False;False
+1;Annotation;Railing Tags;-2000133;;False;True
+1;Internal;Structural Connection Handlers;-2000978;;True;False
+1;Annotation;Structural Foundation Tags;-2005019;;False;True
+1;Annotation;Wire Tags;-2008057;;False;True
+1;Model;Security Devices;-2008079;;False;False
+1;Annotation;Site Tags;-2005016;;False;True
+1;Annotation;Pipe Tags;-2008047;;False;True
+1;Annotation;Analytical Link Tags;-2000955;;False;True
+1;Annotation;Spot Coordinates;-2000264;;False;False
+1;Model;Railings;-2000126;;True;False
+2;Model;Terminations;-2000949;Railings;True;False
+2;Model;<Above> Handrails;-2000951;Railings;False;False
+2;Model;Balusters;-2000127;Railings;True;False
+2;Model;Top Rails;-2000946;Railings;True;False
+2;Model;<Above> Railings Cut Line;-2000132;Railings;False;False
+2;Model;<Above> Top Rails;-2000950;Railings;False;False
+2;Model;Rails;-2000128;Railings;False;False
+2;Model;Supports;-2000948;Railings;True;False
+2;Model;Handrails;-2000947;Railings;True;False
+2;Model;Hidden Lines;-2009508;Railings;False;False
+1;Annotation;Viewports;-2000510;;False;False
+1;Annotation;Title Blocks;-2000280;;False;True
+2;Annotation;Wide Lines;-2000283;Title Blocks;False;False
+2;Annotation;Thin Lines;-2000281;Title Blocks;False;False
+2;Annotation;Medium Lines;-2000282;Title Blocks;False;False
+1;Annotation;Plumbing Fixture Tags;-2005010;;False;True
+1;Annotation;Pipe Fitting Tags;-2008060;;False;True
+1;Annotation;Duct Color Fill;-2008005;;False;False
+1;Annotation;Stair Paths;-2000938;;False;False
+2;Annotation;UP Text;-2000125;Stair Paths;False;False
+2;Annotation;DOWN Text;-2000129;Stair Paths;False;False
+2;Annotation;Down Arrows;-2000131;Stair Paths;False;False
+2;Annotation;<Above> Up Arrows;-2000939;Stair Paths;False;False
+2;Annotation;Up Arrows;-2000130;Stair Paths;False;False
+1;Model;Duct Linings;-2008124;;False;False
+1;Model;Structural Beam Systems;-2001327;;False;False
+1;Annotation;Roof Tags;-2000266;;False;True
+1;Internal;Views;-2000279;;False;False
+1;Model;Sheets;-2003100;;False;False
+1;Model;Casework;-2001000;;True;False
+2;Model;Hidden Lines;-2009515;Casework;False;False
+1;Annotation;Conduit Tags;-2008133;;False;True
+1;Annotation;Point Load Tags;-2005250;;False;True
+1;AnalyticalModel;Analytical Surfaces;-2008186;;False;False
+2;AnalyticalModel;Operable Skylights;-2008181;Analytical Surfaces;False;False
+2;AnalyticalModel;Operable Windows;-2008179;Analytical Surfaces;False;False
+2;AnalyticalModel;Underground Walls;-2008175;Analytical Surfaces;False;False
+2;AnalyticalModel;Ceilings;-2008173;Analytical Surfaces;False;False
+2;AnalyticalModel;Exterior Walls;-2008167;Analytical Surfaces;False;False
+2;AnalyticalModel;Sliding Doors;-2008182;Analytical Surfaces;False;False
+2;AnalyticalModel;Underground Ceilings;-2008177;Analytical Surfaces;False;False
+2;AnalyticalModel;Underground Slabs;-2008176;Analytical Surfaces;False;False
+2;AnalyticalModel;Interior Floors;-2008172;Analytical Surfaces;False;False
+2;AnalyticalModel;Fixed Windows;-2008178;Analytical Surfaces;False;False
+2;AnalyticalModel;Air Openings;-2008184;Analytical Surfaces;False;False
+2;AnalyticalModel;Roofs;-2008168;Analytical Surfaces;False;False
+2;AnalyticalModel;Raised Floors;-2008169;Analytical Surfaces;False;False
+2;AnalyticalModel;Fixed Skylights;-2008180;Analytical Surfaces;False;False
+2;AnalyticalModel;Slabs on Grade;-2008170;Analytical Surfaces;False;False
+2;AnalyticalModel;Shades;-2008187;Analytical Surfaces;False;False
+2;AnalyticalModel;Air Surfaces;-2008174;Analytical Surfaces;False;False
+2;AnalyticalModel;Interior Walls;-2008171;Analytical Surfaces;False;False
+2;AnalyticalModel;Non-sliding Doors;-2008183;Analytical Surfaces;False;False
+1;Annotation;Structural Fabric Reinforcement Tags;-2009022;;False;True
+1;Annotation;Material Tags;-2005027;;False;False
+1;Annotation;View Titles;-2000515;;False;True
+1;Model;Mechanical Equipment;-2001140;;False;False
+2;Model;Hidden Lines;-2009520;Mechanical Equipment;False;False
+1;Annotation;Parking Tags;-2005017;;False;True
+1;Annotation;Structural Beam System Tags;-2005130;;False;True
+1;Annotation;Analytical Brace Tags;-2009650;;False;True
+1;Annotation;Electrical Equipment Tags;-2005003;;False;True
+1;Annotation;Generic Model Tags;-2005013;;False;True
+1;Model;Switch System;-2008101;;False;False
+1;Model;Furniture;-2000080;;False;False
+2;Model;Overhead Lines;1647;Furniture;False;False
+1;Model;Rooms;-2000160;;False;False
+2;Model;Color Fill;-2000551;Rooms;False;False
+2;Model;Reference;-2000162;Rooms;False;False
+2;Model;Interior Fill;-2000161;Rooms;False;False
+1;AnalyticalModel;Analytical Walls;-2009640;;False;False
+2;AnalyticalModel;Local Coordinate System;-2000974;Analytical Walls;False;False
+1;Model;Stairs;-2000120;;True;False
+2;Model;Outlines;-2000934;Stairs;False;False
+2;Model;Cut Marks;-2000930;Stairs;False;False
+2;Model;<Above> Outlines;-2000935;Stairs;False;False
+2;Model;Nosing Lines;-2000932;Stairs;False;False
+2;Model;Riser Lines;-2000936;Stairs;False;False
+2;Model;Treads/Risers;-2000921;Stairs;False;False
+2;Model;Landings;-2000920;Stairs;True;False
+2;Model;<Above> Nosing Lines;-2000933;Stairs;False;False
+2;Model;Runs;-2000919;Stairs;True;False
+2;Model;<Above> Supports;-2000124;Stairs;False;False
+2;Model;<Above> Cut Marks;-2000931;Stairs;False;False
+2;Model;<Above> Riser Lines;-2000937;Stairs;False;False
+2;Model;Hidden Lines;-2009507;Stairs;False;False
+1;Annotation;Text Notes;-2000300;;False;False
+1;Model;Detail Items;-2002000;;False;False
+2;Model;Heavy Lines;20184;Detail Items;False;False
+2;Model;Medium Lines;3443;Detail Items;False;False
+2;Model;Hidden Lines;-2009514;Detail Items;False;False
+2;Model;Light Lines;41944;Detail Items;False;False
+1;Annotation;Spot Elevations;-2000263;;False;False
+1;AnalyticalModel;Analytical Nodes;-2009645;;False;False
+1;AnalyticalModel;Boundary Conditions;-2005301;;False;False
+1;Annotation;Color Fill Legends;-2000550;;False;False
+1;Model;Spaces;-2003600;;False;False
+2;Model;Color Fill;-2003605;Spaces;False;False
+2;Model;Reference;-2003602;Spaces;False;False
+2;Model;Interior;-2003601;Spaces;False;False
+1;Annotation;Dimensions;-2000260;;False;False
+2;Annotation;Automatic Sketch Dimensions;-2000261;Dimensions;False;False
