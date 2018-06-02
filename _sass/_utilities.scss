@@ -179,7 +179,8 @@
 .link-primary {
   font-weight: bold;
   text-decoration: none;
-
+  color: inherit;
+  
   &:hover {
     color: $color-primary-link;
     text-decoration: none;
