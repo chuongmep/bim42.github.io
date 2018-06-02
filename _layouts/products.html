@@ -3,9 +3,5 @@ layout: page
 ---
 {{ content }}
 <div class="container mx-auto">
-  {% for item in site.products %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  {{item.content}}
-{% endfor %}
+  {% for product in site.products %}{% include product_block.html %}{% endfor %}
 </div>
