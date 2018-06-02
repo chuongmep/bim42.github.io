@@ -1,5 +1,5 @@
 <!-- Renders product date, title, and snippet of text. -->
-<div class="py-2 mb-2 prose">
+<div class="py-2 mb-2 prose left col-4 sm-width-full">
   <a class="no-underline h5 bold text-accent" title="{{ product.url | prepend: site.baseurl }}" href="{{ product.url | prepend: site.baseurl }}">{{ product.date | date: "%b %-d, %Y" }}</a>
   <h2 class="h1 lh-condensed col-9 mt-0">
     <a class="link-primary" title="{{ product.url | prepend: site.baseurl }}" href="{{ product.url | prepend: site.baseurl }}">{{ product.title }}</a>
