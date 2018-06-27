@@ -32,8 +32,6 @@ However, you must follow the name and value type defined in the IFC specificatio
 
 The IFC specification describe the [Classification](http://www.buildingsmart-tech.org/ifc/IFC2x4/rc2/html/schema/ifcexternalreferenceresource/lexical/ifcclassification.htm) concept, a way of integrating into the IFC file a reference to an existing classification. You can use this to add a broadly known classification like Uniclass or Uniformat, or even integrate your own.
 
-![The Compartmentation property]({{ "/assets/2018/03/10 - ParameterInIFCParametersGroup.jpg" | absolute_url }})
-
 Every element in your IFC file can then be linked to an instance of this classification, called a Reference. The easiest way to create such a classification is to select an Assembly Code for a given type in Revit. The IFC Exporter will then use this code to create a new classification and assign a classification reference to the instance of this type.
 
 ![The default classification]({{ "/assets/2018/03/11 - ClassificationDefault.jpg" | absolute_url }})
