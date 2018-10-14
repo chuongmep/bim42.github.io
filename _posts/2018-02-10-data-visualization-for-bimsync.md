@@ -29,7 +29,7 @@ I was able to go from this, a bimsync project based on the [IFC sample files](ht
 
 To this interactive Power BI dashboard displaying data extracted from these models:
 
-<iframe width="800" height="400" src="https://app.powerbi.com/view?r=eyJrIjoiZGY2ZDU2YTktOTE0Zi00NDgzLTk1NGItYjg2Y2QwOTc4MTQ4IiwidCI6IjRiZGExYzA1LTc3ZTgtNDM4OS1iNjliLTA1N2EzNzBlNjY1YSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiN2ZjNjc1MzktOWJlMi00ZjZlLTk1NmMtYWZmY2NkMzIyMTBiIiwidCI6IjRiZGExYzA1LTc3ZTgtNDM4OS1iNjliLTA1N2EzNzBlNjY1YSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
 
 After some time as an internal product, I finally take the time to package this into a coherent solution, which is now available here: [bimsync Manager](https://bimsyncmanager.firebaseapp.com/home)
 
