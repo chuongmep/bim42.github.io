@@ -4,6 +4,7 @@ title: About
 date: 2012-04-20T19:56:30+00:00
 author: Simon Moreau
 layout: page
+header: true
 guid: http://bim42.wordpress.com/?page_id=2
 ---
 
