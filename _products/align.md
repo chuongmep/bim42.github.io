@@ -3,7 +3,7 @@ id: 2003
 title: Align
 date: 2018-06-02T08:00:+00:00
 author: Simon Moreau
-layout: post
+layout: product
 description: some random plugin 0
 categories:
   - General BIM
@@ -12,4 +12,8 @@ tags:
   - BIM Manager
   - General
 ---
+
+test
 Align plug in Revit
+
+fsdqs
