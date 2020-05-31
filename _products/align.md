@@ -3,7 +3,7 @@ title: Align
 author: Simon Moreau
 layout: product
 description: A Revit plugin to align, distibute and arrange te postion of your model elements
-image: /assets/bim42_header.jpg
+image: assets/products/align-icon-large.png
 category: Revit
 ---
 
