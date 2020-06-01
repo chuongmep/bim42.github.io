@@ -3,8 +3,8 @@ title: Time Stamper
 author: Simon Moreau
 layout: product
 description: Add a time stamp to every element of your model.
-image: /assets/bim42_header.jpg
-category: Navisworks
+image: /assets/products/time-stamper-icon-large.png
+category: Revit
 ---
 
 Keep track and manage the origin and authoring date of every Autodesk® Revit® element.

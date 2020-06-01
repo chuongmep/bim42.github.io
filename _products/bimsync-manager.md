@@ -3,7 +3,7 @@ title: Bimsync Manager
 author: Simon Moreau
 layout: product
 description: Extract quantities from your Bimsync models
-image: /assets/bim42_header.jpg
+image: /assets/products/bimsync-manager-icon-large.png
 category: Bimsync
 ---
 

@@ -3,7 +3,7 @@ title: Group Clashes
 author: Simon Moreau
 layout: product
 description: A Revit plugin to group and organize your clash results.
-image: /assets/bim42_header.jpg
+image: /assets/products/group-clashes-icon-large.png
 category: Navisworks
 ---
 
@@ -17,3 +17,4 @@ With Group Clashes, you can group clashes by:
 * Nearest grid intersection
 * Element belonging to a model
 * Status, approval or assignment
+

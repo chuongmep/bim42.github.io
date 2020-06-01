@@ -3,7 +3,7 @@ title: Room Finishing
 author: Simon Moreau
 layout: product
 description: A Revit plugin to create skirting boards and floor finishes
-image: /assets/bim42_header.jpg
+image: /assets/products/room-finishes-icon-large.png
 category: Revit
 ---
 
