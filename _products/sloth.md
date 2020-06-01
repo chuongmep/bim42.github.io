@@ -5,6 +5,7 @@ layout: product
 description: Create Word and Excel reports from BCF
 image: /assets/products/sloth-icon-large.png
 category: BCF
+link: https://slothbcf.azurewebsites.net/
 ---
 
 You can upload a BCF file and see the resulting report in your browser, showing the main information in your issue: Tittle, author and creation date, along with the first screenshot in your issue.

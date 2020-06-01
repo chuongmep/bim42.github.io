@@ -5,6 +5,7 @@ layout: product
 description: A Revit plugin to create skirting boards and floor finishes
 image: /assets/products/room-finishes-icon-large.png
 category: Revit
+link: https://apps.autodesk.com/RVT/en/Detail/Index?id=5641957956279354474&appLang=en&os=Win64
 ---
 
 Creating architectural details for shop drawings can be particularly long and tedious when it comes to modeling every detail in a room.
