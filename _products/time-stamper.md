@@ -6,6 +6,8 @@ description: Add a time stamp to every element of your model.
 image: /assets/products/time-stamper-icon-large.png
 category: Revit
 link: https://apps.autodesk.com/RVT/en/Detail/Index?id=232313135819866372&appLang=en&os=Win64
+tags:
+  - time-stamper
 ---
 
 Keep track and manage the origin and authoring date of every Autodesk® Revit® element.
