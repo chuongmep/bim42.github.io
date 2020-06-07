@@ -1,11 +1,11 @@
 ---
 id: 1273
 title: The Bimsync Revit plugin
-date: 2020-05-09T10:00:00+00:00
+date: 2020-06-07T05:00:00+00:00
 author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=1273
-permalink: /2020/05/bimsync-revit-plugin
+permalink: /2020/06/bimsync-revit-plugin
 published: true
 categories:
   - bimsync
@@ -15,7 +15,7 @@ tags:
 description: The new Revit plugin for Bimsync
 ---
 
-A new Bimsync Revit plugin has been published on the Autodesk App Store. I am still a [big fan of Bimsync](https://bim42.com/2016/11/why-i-am-now-a-bimsync-fanboy/) and use it daily to review models and exchange documents and questions. But the lack of integration with Revit was making it difficult for designer to create and answer issues when working within Revit. This is now a problem solved thank to this new plugin.
+A new [Bimsync Revit plugin](https://apps.autodesk.com/RVT/fr/Detail/Index?id=5228240205072385032&appLang=en&os=Win64) has been published on the Autodesk App Store. I have always been a [big fan](https://bim42.com/2016/11/why-i-am-now-a-bimsync-fanboy/) of [Bimsync](https://bimsync.com/) and use it daily to review models and exchange documents and questions. But the lack of integration with Revit was making it difficult for designer to create and answer issues when working within Revit. This is now a problem solved thank to this new plugin.
 
 Made by yours truly, it allows you to use all the features of the Bimsync issues without leaving the Revit interface.
 
