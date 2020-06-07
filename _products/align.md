@@ -8,6 +8,7 @@ category: Revit
 link: https://apps.autodesk.com/RVT/en/Detail/Index?id=2903508825431715905&appLang=en&os=Win64
 tags:
   - align
+github: https://github.com/simonmoreau/align-tag
 ---
 
 The Align tool allows you to align, distribute or organize selected elements, annotations, tags and text along the axis you specify. Furthermore, the Arrange feature will automatically neatly place your tags around the current view.

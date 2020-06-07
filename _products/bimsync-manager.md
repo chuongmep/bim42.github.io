@@ -8,6 +8,7 @@ category: Bimsync
 link: https://bimsyncmanager.firebaseapp.com/home
 tags:
   - bimsync-manager
+github: https://github.com/simonmoreau/bimsyncManager
 ---
 
 Consistently create your Bimsync® projects from a template. Automatically create and configure your models and issue boards.

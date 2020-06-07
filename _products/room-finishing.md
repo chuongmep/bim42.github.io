@@ -8,6 +8,7 @@ category: Revit
 link: https://apps.autodesk.com/RVT/en/Detail/Index?id=5641957956279354474&appLang=en&os=Win64
 tags:
   - room-finishing
+github: https://github.com/simonmoreau/RoomFinishes
 ---
 
 Creating architectural details for shop drawings can be particularly long and tedious when it comes to modeling every detail in a room.
