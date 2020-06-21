@@ -1,7 +1,7 @@
 ---
 id: 1274
 title: Five Dynamo list nodes
-date: 2020-06-07T05:00:00+00:00
+date: 2020-06-20T10:00:00+00:00
 author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=1274
@@ -15,9 +15,9 @@ tags:
 description: Five list nodes for Dynamo
 ---
 
-The following nodes where quite mysterious to me and I had never used them, preferring to fall back on C# code when list manipulations where becoming too complex. While I was working on a curriculum for teaching Dynamo, I had to look harder at them and realized how powerful they can be.
+The following nodes were quite mysterious to me and I had never used them, preferring to fall back on C# code when list manipulations were becoming too complex. While I was working on a curriculum for teaching Dynamo, I had to look harder at them and realized how powerful they can be.
 
-So here are Five list nodes that I can’t live without by now
+So here are five list nodes that I can’t live without by now
 
 * [List.SortByKey](#listsortbykey)
 * [List.GroupByKey](#listgroupbykey)
