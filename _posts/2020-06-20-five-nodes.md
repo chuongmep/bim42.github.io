@@ -9,7 +9,7 @@ permalink: /2020/06/five-list-nodes
 published: true
 categories:
   - Dynamo
-image: /assets/2020/05/bimsyncPLugin.png
+image: /assets/2020/06/01 - Circles.png
 tags:
   - Dynamo
 description: Five list nodes for Dynamo
