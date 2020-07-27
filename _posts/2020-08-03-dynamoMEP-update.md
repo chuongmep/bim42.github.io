@@ -91,6 +91,6 @@ Space separations lines works like their counterpart for rooms. Just make sure y
 
 The structure of the plugin has be modified, it will not be compatible with the previous version. If one of your Dynamo definitions relies on the previous version of DynamoMEP, you will need to update it for the new version.
 
-In this release, I updated every node to make sure that they integrate nicely with the out of the box function of Dynamo for Revit. I also removed some redundant nodes. I updated the icons to be more consistent both inside the package and with the Revit icons. By the way, if you are looking some guidance on how to design icons for Revit or Dynamo, you can look into the Revit icon guideline. This document was of great help to me.
+In this release, I updated every node to make sure that they integrate nicely with the out of the box nodes of Dynamo for Revit. I also removed some redundant nodes. I updated the icons to be more consistent both inside the package and with the Revit icons. By the way, if you are looking for some guidance on how to design icons for Revit or Dynamo, you can look into the Revit icon guideline in the [Revit SDK](https://www.autodesk.com/developer-network/platform-technologies/revit). This document was of great help to me.
 
 I hope these new functionalities will be useful to you. Don't hesitate to comment below if you see new way to expand this package, I would love to have your feedback.
