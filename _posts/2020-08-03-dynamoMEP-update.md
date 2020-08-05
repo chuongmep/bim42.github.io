@@ -1,11 +1,11 @@
 ---
 id: 1277
 title: DynamoMEP update
-date: 2020-07-26T10:00:00+00:00
+date: 2020-08-05T10:00:00+00:00
 author: Simon Moreau
 layout: post
 guid: https://www.bim42.com/?p=1277
-permalink: /2020/07/dynamomep-update
+permalink: /2020/08/dynamomep-update
 published: true
 categories:
   - Dynamo
