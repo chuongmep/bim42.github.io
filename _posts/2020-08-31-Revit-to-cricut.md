@@ -61,5 +61,5 @@ There is a lot of possibilities with this kind of machine. I only tried the stan
 I also love the "hand draw" feeling I get with this plotter. My next productions with this machine will probably be more experiences with different pens. I will also need to find a way to get the shadows out of the Revit view.
 
 ---
-*It seems that Cricut is known for selling its products through online blogger. I just want to emphasise that I was not paid by Cricut nor receive the Cricut Maker as gift in exchange for this blog post. I just append to kind of like this machine!*
+*I just want to emphasise that I was not paid by Cricut nor receive the Cricut Maker as gift in exchange for this blog post. I just append to kind of like this machine!*
 
